@@ -187,6 +187,12 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 0, "", "", "", "" },
 		{ 18704, "INV_Misc_Bandage_04", "=q4=Mature Blue Dragon Sinew", "=ds=#m3#", "51.56%" },
 		{ 18714, "INV_Misc_Quiver_03", "=q4=Ancient Sinew Wrapped Lamina", "=q1=#m4# =ds=#e9# #m12# =q14=#c2#" },
+		{ 0, "", "", "", "" },
+		{ 0, "", "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 0, "", "", "", "" },
+		{ 26019, "inv_misc_cape_05", "=q4=Shroud of the Supreme", "=ds=#s4#", "" },
+		{ 26021, "INV_Misc_Note_01", "=q3=Formula: Enchant Gloves - Arcane Power", "=ds=#p4# (300)", "" },
 	};
 	ASpiritA = {
 		{ 20949, "INV_Letter_16", "=q1=Magical Ledger", "=ds=#m2#", "" },

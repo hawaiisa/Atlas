@@ -697,7 +697,7 @@ AtlasLoot_Data["AtlasLootCrafting"] = {
 		{ "s9954", "inv_gauntlets_29", "=q3=Truesilver Gauntlets", "=ds=#sr# =so1=225 =so2=245 =so3=255 =so4=265" },
 		{ "s9974", "inv_chest_plate04", "=q3=Truesilver Breastplate", "=ds=#sr# =so1=245 =so2=265 =so3=275 =so4=285" },
 		{ "s16650", "inv_chest_chain_12", "=q3=Wildthorn Mail", "=ds=#sr# =so1=270 =so2=290 =so3=300 =so4=310" },
-		{ "s16667", "inv_chest_plate06", "=q3=Demon Forged Breastplate", "=ds=#sr# =so1=285 =so2=305 =so3=315 =so4=325" },
+		{ "12628", "inv_chest_plate06", "=q3=Demon Forged Breastplate", "=ds=#sr# =so1=285 =so2=305 =so3=315 =so4=325" },
 		{ "s15296", "inv_chest_plate08", "=q3=Dark Iron Plate", "=ds=#sr# =so1=285 =so2=305 =so3=315 =so4=325" },
 		{ "s16655", "inv_gauntlets_03", "=q3=Fiery Plate Gauntlets", "=ds=#sr# =so1=290 =so2=310 =so3=320 =so4=330" },
 		{ "s16661", "inv_gauntlets_30", "=q3=Storm Gauntlets", "=ds=#sr# =so1=295 =so2=315 =so3=325 =so4=335" },

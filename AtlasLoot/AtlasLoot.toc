@@ -1,14 +1,13 @@
 ﻿## Interface: 11200
-## Title: AtlasLoot Enhanced
+## Title: AtlasLoot Enhanced for Vanilla+
 ## Notes: Shows the possible loot from the bosses
 ## Notes-ruRU: Показывает возможную добычу с боссов
 ## Notes-esES: Muestra el botín de los jefes
-## Author: Daviesh, laytya, Lichery
-## Version: 4.07.01
-## X-Date: 01.04.2017
-## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery
-## X-Email: loglow@gmail.com
-## X-Website: https://github.com/laytya/Atlas
+## Author: Takeitboy, Hawaiisa
+## Version: 4.08.00
+## X-Date: 10.11.2020
+## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery, Takeitboy, Hawaiisa
+## X-Website: https://github.com/hawaiisa/Atlas
 ## X-Category: Map
 ## X-OptionsFrame: AtlasLootOptionsFrame
 ## SavedVariablesPerCharacter: AtlasLootCharDB

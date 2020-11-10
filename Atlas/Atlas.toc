@@ -9,9 +9,8 @@
 ## Notes-ruRU: Обозреватель подземелий
 ## Version: 1.13.0
 ## X-Date: 01.04.2017
-## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery
-## X-Email: loglow@gmail.com
-## X-Website: https://github.com/laytya/Atlas
+## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery, Takeitboy, Hawaiisa
+## X-Website: https://github.com/hawaiisa/Atlas
 ## X-Category: Map
 ## X-OptionsFrame: AtlasOptionsFrame
 ## SavedVariables: AtlasOptions
