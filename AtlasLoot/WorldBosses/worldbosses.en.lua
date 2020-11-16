@@ -16,6 +16,9 @@ AtlasLootWBBossButtons = {
 		"AAzuregos";
 		"ASpiritA";
 	};
+	Kurinnaxx = {
+		"KKurinnaxx";
+	}
 	LordKazzak = {
 		"KKazzak";
 	};
@@ -39,6 +42,10 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 18608, "INV_Staff_30", "=q4=Benediction", "=q1=#m4# =ds=#w9# =q9=#c5#" },
 		{ 18609, "INV_Staff_12", "=q4=Anathema", "=q1=#m4# =ds=#w9# =q9=#c5#" },
 	};
+	KKurinnaxx = {
+		{ 21651, "INV_Pants_Mail_10", "=q4=Scaled Sand Reaver Leggings", "=ds=#s11#, #a3#",},
+		{ 26022, "INV_Shoulder_03","=q4=Spiked Carapace Fragment","=ds=#s3#, #a3#",}
+	}
 	DTaerar = {
 		{ 20633, "INV_Shoulder_29", "=q4=Unnatural Leather Spaulders", "=ds=#s3#, #a2#", "11.30%" },
 		{ 20631, "INV_Boots_Cloth_05", "=q4=Mendicant's Slippers", "=ds=#s12#, #a1#", "13.14%" },

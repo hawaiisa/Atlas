@@ -2799,6 +2799,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Taerar"], "DTaerar" },
 		{ BB["Ysondre"], "DYsondre" },
 		{ BB["Lord Kazzak"], "KKazzak"},
+		{ BB["Kurinnaxx"], "KKurinnaxx"},
 	},
 	["AbyssalCouncil1"] = {
 		{ AL["Abyssal Council"].." - "..AL["Templars"], "AbyssalTemplars" },
