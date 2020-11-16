@@ -91,7 +91,7 @@ AL:RegisterTranslations("enUS", function() return {
 	[" added to the WishList."] = true;
 	[" already in the WishList!"] = true;
 	[" deleted from the WishList."] = true;
-	[" not listed in loot table registry, please report this message to the https://github.com/laytya/Atlas"] = true;
+	[" not listed in loot table registry, please report this message to the https://github.com/hawaiisa/Atlas"] = true;
 	["Options"] = true;
 	["Collections"] = true;
 	["Factions"] = true;
@@ -102,12 +102,11 @@ AL:RegisterTranslations("enUS", function() return {
 	["Crafted Sets - Tailoring"] = true;
 	["Crafted Sets - Leatherworking"] = true;
 	["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = true;
-	["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."] = true;
-	["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."] = true;
-	["New feature in 4.06.00: All professions are now included in the AtlasLoot_Crafting module."] = true;
+	["Welcome to Atlasloot Enhanced for Vanilla+.  Please take a moment to set your preferences."] = true;
+	["New feature in 5.00.00: Kurinnaxx added to world bosses."] = true;
 	["Setup"] = true;
 	["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = true;
-	[").  Depending on changes, there may be the occasional error, so please visit https://github.com/laytya/Atlas as soon as possible to update."] = true;
+	[").  Depending on changes, there may be the occasional error, so please visit https://github.com/hawaiisa/Atlas as soon as possible to update."] = true;
 	["OK"] = true;
 	["Professions"] = true;
 	["Battlegrounds"] = true;		

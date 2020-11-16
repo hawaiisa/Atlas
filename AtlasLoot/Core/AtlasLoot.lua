@@ -73,10 +73,10 @@ local BF = AceLibrary("Babble-Faction-2.2")
 local BIS = AceLibrary("Babble-ItemSet-2.2")
 
 --Establish version number and compatible version of Atlas
-local VERSION_MAJOR = "4";
-local VERSION_MINOR = "07";
-local VERSION_BOSSES = "01";
-ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
+local VERSION_MAJOR = "5";
+local VERSION_MINOR = "00";
+local VERSION_BOSSES = "00";
+ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.13.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.12.1";
 
@@ -124,7 +124,7 @@ AtlasLoot:RegisterDB("AtlasLootDB");
 
 --Popup Box for first time users
 StaticPopupDialogs["ATLASLOOT_SETUP"] = {
-	text = AL["Welcome to Atlasloot Enhanced.  Please take a moment to set your preferences."].."\n\n"..AL["New feature in 4.06.00: All professions are now included in the AtlasLoot_Crafting module."].."\n\n"..AL["New feature in 4.05.00: Advanced searching functionality is now available. You can type in a partial item name, for example typing 'elixir' gives all items in the database with 'elixir' in the name.  Big thanks to Kurax for his help."].."\n",
+	text = AL["Welcome to Atlasloot Enhanced for Vanilla+.  Please take a moment to set your preferences."].."\n\n"..AL["New feature in 5.00.00: Kurinnaxx added to world bosses."].."\n",
 	button1 = AL["Setup"],
 	OnAccept = function()
 		AtlasLootOptions_Toggle();
@@ -136,7 +136,7 @@ StaticPopupDialogs["ATLASLOOT_SETUP"] = {
 
 --Popup Box for an old version of Atlas
 StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
-	text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS..AL[").  Depending on changes, there may be the occasional error, so please visit https://github.com/laytya/Atlas as soon as possible to update."],
+	text = AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("]..ATLASLOOT_CURRENT_ATLAS..AL[").  Depending on changes, there may be the occasional error, so please visit https://github.com/hawaiisa/Atlas as soon as possible to update."],
 	button1 = AL["OK"],
 	OnAccept = function()
 		DEFAULT_CHAT_FRAME:AddMessage(BLUE.."AtlasLoot"..": "..RED..AL["Incompatible Atlas Detected"]);
@@ -1861,7 +1861,7 @@ function AtlasLoot_IsLootTableAvailable(dataID)
 		return true;
 	else
 		if not AtlasLoot_TableNames[dataID] then
-			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..WHITE..dataID..AL[" not listed in loot table registry, please report this message to the  https://github.com/laytya/Atlas"]);
+			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..WHITE..dataID..AL[" not listed in loot table registry, please report this message to the  https://github.com/hawaiisa/Atlas"]);
 			return false;
 		end
 
@@ -2799,7 +2799,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Taerar"], "DTaerar" },
 		{ BB["Ysondre"], "DYsondre" },
 		{ BB["Lord Kazzak"], "KKazzak"},
-		{ BB["Kurinnaxx"], "KKurinnaxx"},
+		{ BB["Kurinnaxx"], "WBKurinnaxx"},
 	},
 	["AbyssalCouncil1"] = {
 		{ AL["Abyssal Council"].." - "..AL["Templars"], "AbyssalTemplars" },
