@@ -103,7 +103,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Crafted Sets - Leatherworking"] = true;
 	["This is a loot browser only.  To view maps as well, install either Atlas or Alphamap."] = true;
 	["Welcome to Atlasloot Enhanced for Vanilla+.  Please take a moment to set your preferences."] = true;
-	["New feature in 5.00.00: Kurinnaxx added to world bosses."] = true;
+	["Version specific changelogs will be posted to https://github.com/hawaiisa/Atlas"] = true;
 	["Setup"] = true;
 	["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = true;
 	[").  Depending on changes, there may be the occasional error, so please visit https://github.com/hawaiisa/Atlas as soon as possible to update."] = true;
