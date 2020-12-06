@@ -45,6 +45,7 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 	WBKurinnaxx = {
 		{ 21651, "INV_Pants_Mail_10", "=q4=Scaled Sand Reaver Leggings", "=ds=#s11#, #a3#",},
 		{ 26022, "INV_Shoulder_03","=q4=Spiked Carapace Fragment","=ds=#s3#, #a3#",},
+		{ 21685, "INV_Misc_AhnQirajTrinket_01", "=q4=Petrified Scarab","=ds=#s14#",},
 	};
 	DTaerar = {
 		{ 20633, "INV_Shoulder_29", "=q4=Unnatural Leather Spaulders", "=ds=#s3#, #a2#", "11.30%" },
