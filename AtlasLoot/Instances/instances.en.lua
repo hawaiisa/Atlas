@@ -4398,6 +4398,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16666,"INV_Chest_Chain_11","=q3=Vest of Elements", "=ds=#s5#, #a3# (Т0, =q15=#c7#=ds=)", "3.03%" },
 		{ 16726,"INV_Chest_Plate03","=q3=Lightforge Breastplate","=ds=#s5#, #a4# (Т0, =q16=#c4#=ds=)", "3.76%" },
 		{ 16730,"INV_Chest_Plate03","=q3=Breastplate of Valor", "=ds=#s5#, #a4# (Т0, =q17=#c9#=ds=)", "5.83%" },
+		
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 13516,"INV_Scroll_06","=q2=Recipe: Flask of Indomitable Might", "=ds=#p1# (300)" },
 	};
 	UBRSTrash = {
 		{ 24102, "INV_Misc_Book_14", "=q3=Manual of Eviscerate IX", "=ds=#e20# =q12=#c6# =q7=#x60#", "0.94%" },

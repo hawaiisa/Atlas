@@ -290,6 +290,7 @@ AtlasLoot_Data["AtlasLootCrafting"] = {
 		{ "s22732", "inv_potion_47", "=q1=Major Rejuvenation Potion", "=ds=#sr# =so1=300 =so2=310 =so3=320 =so4=330" },
 		{ "s17638", "inv_potion_48", "=q1=Flask of Chromatic Resistance", "=ds=#sr# =so1=300 =so2=315 =so3=322 =so4=330" },
 		{ "s17636", "inv_potion_97", "=q1=Flask of Distilled Wisdom", "=ds=#sr# =so1=300 =so2=315 =so3=322 =so4=330" },
+		{ "s34324", "inv_potion_21", "=q1=Flask of Indomitable Might", "=ds=#sr# =so1=300 =so2=315 =so3=322 =so4=330" },
 		{ "s17634", "inv_potion_26", "=q1=Flask of Petrification", "=ds=#sr# =so1=300 =so2=315 =so3=322 =so4=330" },
 		{ "s17637", "inv_potion_41", "=q1=Flask of Supreme Power", "=ds=#sr# =so1=300 =so2=315 =so3=322 =so4=330" },
 		{ "s17635", "inv_potion_62", "=q1=Flask of the Titans", "=ds=#sr# =so1=300 =so2=315 =so3=322 =so4=330" },
