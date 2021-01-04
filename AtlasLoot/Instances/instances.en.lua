@@ -4810,6 +4810,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0,"","","" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
+		{ 0, "inv_gauntlets_04", "=q3=T0 Hands", "=ds=#s9#", "" },
 		{ 26035, "INV_Weapon_ShortBlade_11", "=q3=Smolderthorn Scalper", "=ds=#h1#, #w4#", "" },
 		{ 0, "", "", "", "" },
 		{ 16665, "INV_Misc_Book_11", "=q2=Tome of Tranquilizing Shot", "=ds=#e20# =q14=#c2#", "100%" },
