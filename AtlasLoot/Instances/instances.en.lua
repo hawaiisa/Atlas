@@ -4315,8 +4315,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_shoulder_07", "=q3=T0 Shoulders", "=ds=#s3#", "" },
-		{ 0, "", "", "", "" },
 		{ 26049, "INV_Gauntlets_26", "=q3=Horde Grips", "=ds=#s9#, #a4#", "" },
 
 	};
@@ -4358,7 +4356,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_boots_01", "=q3=T0 Boots", "=ds=#s12#", "" },
 		{ 0, "", "", "", "" },
 		{ 26046, "INV_Boots_05", "=q3=Tristam Boots", "=ds=#s12#, #a3#", "" },
 	};
@@ -4725,6 +4722,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16668, "INV_Pants_03", "=q3=Kilt of Elements", "=ds=#s11#, #a3# (Т0, =q15=#c7#=ds=)", "3.02%" },
 		{ 16728, "INV_Pants_04", "=q3=Lightforge Legplates", "=ds=#s11#, #a4# (Т0, =q16=#c4#=ds=)", "4.20%" },
 		{ 16732, "INV_Pants_04", "=q3=Legplates of Valor", "=ds=#s11#, #a4# (Т0, =q17=#c9#=ds=)", "5.74%" },
+		{ 0, "", "", "", "" },
+		{ 0, "inv_gauntlets_04", "=q3=T0 Hands", "=ds=#s9#", "" },
 	};
 	STRATPostmaster = {
 		{ 13390, "INV_Misc_Bandage_15", "=q3=The Postmaster's Band", "=ds=#s1#, #a1#", "18.58%" },
@@ -4787,8 +4786,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_bracer_03", "=q3=T0 Bracers", "=ds=#s8#", "" },
-		{ 0, "", "", "", "" },
 		{ 26045, "Spell_nature_bloodlust", "=q3=Talisman of Bloodlust", "=ds=#s14#", "" },
 	};
 	LBRSSpirestoneBattleLord = {
@@ -4812,8 +4809,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0,"","","" },
 		{ 0,"","","" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 0, "", "", "", "" },
-		{ 0, "inv_bracer_03", "=q3=T0 Bracers", "=ds=#s8#", "" },
 		{ 0, "", "", "", "" },
 		{ 26035, "INV_Weapon_ShortBlade_11", "=q3=Smolderthorn Scalper", "=ds=#h1#, #w4#", "" },
 		{ 0, "", "", "", "" },
@@ -4839,8 +4834,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 0, "", "", "", "" },
-		{ 0, "inv_bracer_03", "=q3=T0 Bracers", "=ds=#s8#", "" },
 		{ 0, "", "", "", "" },
 		{ 26041, "inv_shoulder_23","=q3=Wild Shoulderguards","=ds=#s3#, #a2#" },
 		{ 0, "", "", "", "" },
@@ -4910,7 +4903,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_belt_03", "=q3=T0 Belts", "=ds=#s10#", "" },
+		{ 0, "inv_boots_01", "=q3=T0 Boots", "=ds=#s12#", "" },
 		{ 0, "", "", "", "" },
 		{ 26025, "INV_boots_01", "=q3=Old Foundry Boots", "=ds=#s12#, #a3#", "" },
 	};
@@ -4932,8 +4925,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_belt_03", "=q3=T0 Belts", "=ds=#s10#", "" },
-		{ 0, "", "", "", "" },
 		{ 26037, "Ability_Mount_WhiteDireWolf", "=q3=Mask of the Predator", "=ds=#s1#, #a2#", "" },
 	};
 	LBRSHalycon = {
@@ -4954,7 +4945,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_belt_03", "=q3=T0 Belts", "=ds=#s10#", "" },
 	};
 	LBRSWyrmthalak = {
 		{ 13143, "INV_Jewelry_Ring_17", "=q4=Mark of the Dragon Lord", "=ds=#s13#", "1.11%" },
@@ -4974,8 +4964,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 13965, "INV_Misc_ArmorKit_09", "=q3=Blackhand's Breadth", "=q1=#m4# =ds=#s14#" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 0, "inv_gauntlets_04", "=q3=T0 Hands", "=ds=#s9#", "" },
-		{ 0, "", "", "", "" },
+		{ 0, "INV_Helmet_04", "=q3=T0 Head", "=ds=#s12#", "" },
 		{ 26040, "inv_helmet_20", "=q3=Blackrock Warhelm", "=ds=#s1#, #a4#", "" },
 		{ 13519,"INV_Scroll_06","=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)", "8%" }
 	};
