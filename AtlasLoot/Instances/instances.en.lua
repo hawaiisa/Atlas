@@ -1146,15 +1146,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16837, "INV_Boots_Plate_06", "=q4=Earthfury Boots", "=ds=#s12#, #a3# =q15=#c7#", "4.16%" },
 		{ 16859, "INV_Boots_Plate_09", "=q4=Lawbringer Boots", "=ds=#s12#, #a4# =q16=#c4# ", "7.20%" },
 		{ 16863, "INV_Gauntlets_10", "=q4=Gauntlets of Might", "=ds=#s9#, #a4# =q17=#c9#", "16.40%" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
 		{ 18870, "INV_Helmet_18", "=q4=Helm of the Lifegiver", "=ds=#s1#, #a3#", "1.09%" },
 		{ 17109, "INV_Jewelry_Necklace_10", "=q4=Choker of Enlightenment", "=ds=#s2#", "12.61%" },
 		{ 19145, "INV_Chest_Cloth_18", "=q4=Robe of Volatile Power", "=ds=#s5#, #a1#", "1.84%" },
@@ -1166,9 +1157,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19147, "INV_Jewelry_Ring_38", "=q4=Ring of Spell Power", "=ds=#s13#", "2.23%" },
 		{ 17077, "INV_Staff_13", "=q4=Crimson Shocker", "=ds=#w12#", "1.60%" },
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "2.23%" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
 		{ 16665, "INV_Misc_Book_11", "=q2=Tome of Tranquilizing Shot", "=ds=#e20# =q14=#c2#", "100%" },
 	};
 	MCMagmadar = {
@@ -1181,12 +1169,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16843, "INV_Pants_03", "=q4=Earthfury Legguards", "=ds=#s11#, #a3# =q15=#c7#", "4.73%" },
 		{ 16855, "INV_Pants_04", "=q4=Lawbringer Legplates", "=ds=#s11#, #a4# =q16=#c4#", "8.54%" },
 		{ 16867, "INV_Pants_04", "=q4=Legplates of Might", "=ds=#s11#, #a4# =q17=#c9#", "13.97%" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
 		{ 17065, "INV_Jewelry_Amulet_03", "=q4=Medallion of Steadfast Might", "=ds=#s2#", "14.05%" },
 		{ 18829, "INV_Shoulder_04", "=q4=Deep Earth Spaulders", "=ds=#s3#, #a3#", "2.10%" },
 		{ 18823, "INV_Gauntlets_23", "=q4=Aged Core Leather Gloves", "=ds=#s9#, #a2#", "6.18%" },
@@ -1202,6 +1184,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18203, "INV_Misc_MonsterClaw_04", "=q4=Eskhandar's Right Claw", "=ds=#h3#, #w13#", "17.82%" },
 		{ 17073, "INV_Hammer_04", "=q4=Earthshaker", "=ds=#h2#, #w6#", "16.75%" },
 		{ 18822, "INV_Sword_28", "=q4=Obsidian Edged Blade", "=ds=#h2#, #w10#", "5.68%" },
+		{ 0,"","","" },
 	};
 	MCGehennas = {
 		{ 16812, "INV_Gauntlets_14", "=q4=Gloves of Prophecy", "=ds=#s9#, #a1# =q9=#c5#", "18.65%" },
@@ -1210,15 +1193,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16839, "INV_Gauntlets_11", "=q4=Earthfury Gauntlets", "=ds=#s9#, #a3# =q15=#c7#", "7.38%" },
 		{ 16860, "INV_Gauntlets_29", "=q4=Lawbringer Gauntlets", "=ds=#s9#, #a4# =q16=#c4#", "11.77%" },
 		{ 16862, "INV_Boots_Plate_04", "=q4=Sabatons of Might", "=ds=#s12#, #a4# =q17=#c9#", "14.48%" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
-		{ 0,"","","" },
 		{ 18870, "INV_Helmet_18", "=q4=Helm of the Lifegiver", "=ds=#s1#, #a3#", "1.77%" },
 		{ 19145, "INV_Chest_Cloth_18", "=q4=Robe of Volatile Power", "=ds=#s5#, #a1#", "3.83%" },
 		{ 19146, "INV_Bracer_04", "=q4=Wristguards of Stability", "=ds=#s8#, #a2#", "3.53%" },
@@ -1229,6 +1203,10 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19147, "INV_Jewelry_Ring_38", "=q4=Ring of Spell Power", "=ds=#s13#", "3.78%" },
 		{ 17077, "INV_Staff_13", "=q4=Crimson Shocker", "=ds=#w12#", "3.34%" },
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "3.79%" },
+		{ 0,"","","" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26058, "INV_Helmet_41", "=q4=Mask of Whispered Secrets", "=ds=#s1#, #a1#" },
+
 	};
 	MCGarr = {
 		{ 16813, "INV_Helmet_34", "=q4=Circlet of Prophecy", "=ds=#s1#, #a1# =q9=#c5#", "11.36%" },
@@ -1460,6 +1438,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16861, "INV_Bracer_19", "=q4=Bracers of Might", "=ds=#s8#, #a4# =q17=#c9#", "0.16%" },
 	};
 	MCRANDOMBOSSDROPS = {
+		{ 0, "INV_Misc_MC_MailBelt", "=q4=T1 Tokens","" },
+		{ 0,"","","" },
 		{ 18264, "INV_Scroll_05", "=q3=Plans: Elemental Sharpening Stone", "=ds=#p2# (300)", "1.02%" },
 		{ 18262, "INV_Stone_02", "=q2=Elemental Sharpening Stone", "=ds=#e12#" },
 		{ 0,"","","" },
