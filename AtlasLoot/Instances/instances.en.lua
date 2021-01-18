@@ -1436,6 +1436,10 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16840, "INV_Bracer_16", "=q4=Earthfury Bracers", "=ds=#s8#, #a3# =q15=#c7#", "0.06%" },
 		{ 16857, "INV_Bracer_18", "=q4=Lawbringer Bracers", "=ds=#s8#, #a4# =q16=#c4#", "0.11%" },
 		{ 16861, "INV_Bracer_19", "=q4=Bracers of Might", "=ds=#s8#, #a4# =q17=#c9#", "0.16%" },
+		{ 0,"","","" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26065, "INV_Shield_07", "=q4=Dark Iron Nugget", "=ds=#w8#", },
+		{ 26064, "INV_Axe_04", "=q4=Scabrite Axe", "=ds=#h1#, #w1#", },
 	};
 	MCRANDOMBOSSDROPS = {
 		{ 0, "INV_Misc_MC_MailBelt", "=q4=T1 Tokens","" },
