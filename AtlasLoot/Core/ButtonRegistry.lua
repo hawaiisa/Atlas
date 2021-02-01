@@ -438,8 +438,17 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "T0SET";
 		Back_Title = AL["Tier 0/0.5 Sets"];
 	};
-	["T1Druid"] = {
+	["T1Druid1"] = {
 		Title = BC["Druid"];
+		Next_Page = "T1Druid2";
+		Next_Title = BC["Druid"];
+		Back_Page = "T1SET";
+		Back_Title = AL["Tier 1 Sets"];
+	};
+	["T1Druid2"] = {
+		Title = BC["Druid"];
+		Prev_Page = "T1Druid1";
+		Prev_Title = BC["Druid"];
 		Back_Page = "T1SET";
 		Back_Title = AL["Tier 1 Sets"];
 	};
@@ -453,8 +462,17 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "T1SET";
 		Back_Title = AL["Tier 1 Sets"];
 	};
-	["T1Paladin"] = {
+	["T1Paladin1"] = {
 		Title = BC["Paladin"];
+		Next_Page = "T1Paladin2";
+		Next_Title = BC["Paladin"];
+		Back_Page = "T1SET";
+		Back_Title = AL["Tier 1 Sets"];
+	};
+	["T1Paladin2"] = {
+		Title = BC["Paladin"];
+		Prev_Page = "T1Paladin1";
+		Prev_Title = BC["Paladin"];
 		Back_Page = "T1SET";
 		Back_Title = AL["Tier 1 Sets"];
 	};
@@ -468,8 +486,17 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "T1SET";
 		Back_Title = AL["Tier 1 Sets"];
 	};
-	["T1Shaman"] = {
+	["T1Shaman1"] = {
 		Title = BC["Shaman"];
+		Next_Page = "T1Shaman2";
+		Next_Title = BC["Shaman"];
+		Back_Page = "T1SET";
+		Back_Title = AL["Tier 1 Sets"];
+	};
+	["T1Shaman2"] = {
+		Title = BC["Shaman"];
+		Prev_Page = "T1Shaman1";
+		Prev_Title = BC["Shaman"];
 		Back_Page = "T1SET";
 		Back_Title = AL["Tier 1 Sets"];
 	};

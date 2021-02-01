@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "00";
-local VERSION_BOSSES = "05";
+local VERSION_BOSSES = "06";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "1.13.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.12.1";
@@ -2882,10 +2882,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ "|cff68ccef"..BC["Mage"], "T1Mage" },
 		{ "|cff9382c9"..BC["Warlock"], "T1Warlock" },
 		{ "|cfffff468"..BC["Rogue"], "T1Rogue" },
-		{ "|cffff7c0a"..BC["Druid"], "T1Druid" },
+		{ "|cffff7c0a"..BC["Druid"], "T1Druid1" },
 		{ "|cffaad372"..BC["Hunter"], "T1Hunter" },
-		{ "|cff2773ff"..BC["Shaman"], "T1Shaman" },
-		{ "|cfff48cba"..BC["Paladin"], "T1Paladin" },
+		{ "|cff2773ff"..BC["Shaman"], "T1Shaman1" },
+		{ "|cfff48cba"..BC["Paladin"], "T1Paladin1" },
 		{ "|cffc69b6d"..BC["Warrior"], "T1Warrior" },
 	},
 	["T2Sets"] = {

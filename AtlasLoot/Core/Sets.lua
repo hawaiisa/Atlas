@@ -623,7 +623,7 @@ function AtlasLootT1SetMenu()
 	AtlasLootMenuItem_7_Name:SetText("|cffff7c0a"..BC["Druid"]);
 	AtlasLootMenuItem_7_Extra:SetText("");
 	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\Spell_Nature_Regeneration");
-	AtlasLootMenuItem_7.lootpage="T1Druid";
+	AtlasLootMenuItem_7.lootpage="T1Druid1";
 	AtlasLootMenuItem_7:Show();
 	--Hunter
 	AtlasLootMenuItem_18_Name:SetText("|cffaad372"..BC["Hunter"]);
