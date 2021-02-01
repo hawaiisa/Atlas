@@ -635,13 +635,13 @@ function AtlasLootT1SetMenu()
 	AtlasLootMenuItem_19_Name:SetText("|cff2773ff"..BC["Shaman"]);
 	AtlasLootMenuItem_19_Extra:SetText("");
 	AtlasLootMenuItem_19_Icon:SetTexture("Interface\\Icons\\Spell_FireResistanceTotem_01");
-	AtlasLootMenuItem_19.lootpage="T1Shaman";
+	AtlasLootMenuItem_19.lootpage="T1Shaman1";
 	AtlasLootMenuItem_19:Show();
 	--Paladin
 	AtlasLootMenuItem_20_Name:SetText("|cfff48cba"..BC["Paladin"]);
 	AtlasLootMenuItem_20_Extra:SetText("");
 	AtlasLootMenuItem_20_Icon:SetTexture("Interface\\Icons\\Spell_Holy_SealOfMight");
-	AtlasLootMenuItem_20.lootpage="T1Paladin";
+	AtlasLootMenuItem_20.lootpage="T1Paladin1";
 	AtlasLootMenuItem_20:Show();
 	--Warrior
 	AtlasLootMenuItem_21_Name:SetText("|cffc69b6d"..BC["Warrior"]);
