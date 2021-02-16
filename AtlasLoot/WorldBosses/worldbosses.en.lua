@@ -46,6 +46,9 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 21651, "INV_Pants_Mail_10", "=q4=Scaled Sand Reaver Leggings", "=ds=#s11#, #a3#",},
 		{ 26022, "INV_Shoulder_03","=q4=Spiked Carapace Fragment","=ds=#s3#, #a3#",},
 		{ 21685, "INV_Misc_AhnQirajTrinket_01", "=q4=Petrified Scarab","=ds=#s14#",},
+		{ 21635, "INV_Weapon_Halberd_AhnQiraj", "=q4=Barb of the Sand Reaver", "=ds=#w7#", },
+		{ 21647, "INV_Misc_AhnQirajTrinket_03", "=q4=Fetish of the Sand Reaver", "=ds=#s14#", },
+		{ 21467, "INV_Chest_Leather_07", "=q4=Thick Silithid Chestguard", "=ds=#s5#, #a2#", },
 	};
 	DTaerar = {
 		{ 20633, "INV_Shoulder_29", "=q4=Unnatural Leather Spaulders", "=ds=#s3#, #a2#", "11.30%" },
