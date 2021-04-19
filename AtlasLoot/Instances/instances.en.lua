@@ -1402,7 +1402,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0,"","","" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0,"","","" },
-		{ 17982, "INV_Jewelry_Ring_25", "=q4=Ragnaros Core of the Tiger", "=ds=#s13#" }
+		{ 17982, "INV_Jewelry_Ring_25", "=q4=Ragnaros Core", "=ds=#s13#, #e23#" }
 	};
 	MCTrashMobs = {
 		{ 17011,"Spell_Nature_Earthquake","=q3=Lava Core","=ds=#m26#", "21.29%" },
