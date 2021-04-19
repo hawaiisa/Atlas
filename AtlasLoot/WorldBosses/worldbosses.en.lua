@@ -41,6 +41,10 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 18665, "Spell_Shadow_UnholyFrenzy", "=q4=The Eye of Shadow", "=ds=#s14#", "29.98%" },
 		{ 18608, "INV_Staff_30", "=q4=Benediction", "=q1=#m4# =ds=#w9# =q9=#c5#" },
 		{ 18609, "INV_Staff_12", "=q4=Anathema", "=q1=#m4# =ds=#w9# =q9=#c5#" },
+		{ 0, "", "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 0, "", "", "", "" },
+		{ 26017, "INV_Sword_02", "=q4=World Breaker", "=ds=#h2#, #w10#", "" },
 	};
 	WBKurinnaxx = {
 		{ 21651, "INV_Pants_Mail_10", "=q4=Scaled Sand Reaver Leggings", "=ds=#s11#, #a3#",},
@@ -48,7 +52,9 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 21685, "INV_Misc_AhnQirajTrinket_01", "=q4=Petrified Scarab","=ds=#s14#",},
 		{ 21635, "INV_Weapon_Halberd_AhnQiraj", "=q4=Barb of the Sand Reaver", "=ds=#w7#", },
 		{ 21647, "INV_Misc_AhnQirajTrinket_03", "=q4=Fetish of the Sand Reaver", "=ds=#s14#", },
+		{ 21488, "INV_Misc_AhnQirajTrinket_02", "=q3=Fetish of Chitinous Spikes", "=ds=#s14#", },
 		{ 21467, "INV_Chest_Leather_07", "=q4=Thick Silithid Chestguard", "=ds=#s5#, #a2#", },
+		{ 21664, "INV_Jewelry_Necklace_AhnQiraj_02", "=q4=Barbed Choker", "=ds=#s2#", },
 	};
 	DTaerar = {
 		{ 20633, "INV_Shoulder_29", "=q4=Unnatural Leather Spaulders", "=ds=#s3#, #a2#", "11.30%" },
