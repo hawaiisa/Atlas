@@ -3989,6 +3989,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18507, "INV_Boots_05", "=q3=Boots of the Full Moon", "=ds=#s12#, #a1#", "18.75%" },
 		{ 18502, "INV_Weapon_Halberd_09", "=q3=Monstrous Glaive", "=ds=#w7#", "21.47%" },
 		{ 0, "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26068, "INV_Misc_Cape_01", "=q3=Mantle of the Enforcer", "=ds=#s4#" },
+		{ 26067, "INV_Belt_12", "=q3=Gordok Execution Ring", "=ds=#s13#" },
 	};
 	DMNKingGordok = {
 		{ 18526, "INV_Crown_01", "=q3=Crown of the Ogre King", "=ds=#s1#, #a1#", "17.17%" },
