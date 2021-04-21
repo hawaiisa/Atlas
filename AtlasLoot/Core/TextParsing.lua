@@ -19,7 +19,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#s1#", AL["Head"]);
     text = gsub(text, "#s2#", AL["Neck"]);
     text = gsub(text, "#s3#", AL["Shoulder"]);
-    text = gsub(text, "#s4#", AL["Back1"]);
+    text = gsub(text, "#s4#", AL["Back"]);
     text = gsub(text, "#s5#", AL["Chest"]);
     text = gsub(text, "#s6#", AL["Shirt"]);
     text = gsub(text, "#s7#", AL["Tabard"]);
