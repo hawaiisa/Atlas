@@ -208,8 +208,9 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 26019, "inv_misc_cape_05", "=q4=Shroud of the Supreme", "=ds=#s4#", "" },
-		{ 26021, "INV_Misc_Note_01", "=q3=Formula: Enchant Gloves - Arcane Power", "=ds=#p4# (300)", "" },
+		{ 26018, "INV_Misc_Cape_13", "=q4=Grizzly Fur Pelerine", "=ds=#s4#" }
+		{ 26019, "inv_misc_cape_05", "=q4=Shroud of the Supreme", "=ds=#s4#" },
+		{ 26021, "INV_Misc_Note_01", "=q3=Formula: Enchant Gloves - Arcane Power", "=ds=#p4# (300)" },
 	};
 	ASpiritA = {
 		{ 20949, "INV_Letter_16", "=q1=Magical Ledger", "=ds=#m2#", "" },
