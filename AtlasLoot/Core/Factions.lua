@@ -81,6 +81,12 @@ function AtlasLootRepMenu()
 	AtlasLootMenuItem_20_Icon:SetTexture("Interface\\Icons\\INV_Misc_Head_Centaur_01");
 	AtlasLootMenuItem_20.lootpage="MagramClan1";
 	AtlasLootMenuItem_20:Show();
+	--Shen'dralar
+	AtlasLootMenuItem_24_Name:SetText(BF["Shen\'dralar"]);
+	AtlasLootMenuItem_24_Extra:SetText("");
+	AtlasLootMenuItem_24_Icon:SetTexture("spell_nature_wispsplode")
+	AtlasLootMenuItem_24_lootpage="ShenDalar1";
+	AtlasLootMenuItem_24_Show();
 	--Stormpike Guard
 	AtlasLootMenuItem_11_Name:SetText(BF["Stormpike Guard"]);
 	AtlasLootMenuItem_11_Extra:SetText("|cff2773ff"..BF["Alliance"]);

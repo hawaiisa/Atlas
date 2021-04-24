@@ -642,6 +642,8 @@ AtlasLoot_TableNames = {
 	["LeagueofArathor"] = { BF["The League of Arathor"], "AtlasLootRepItems" },
 	--Magram Clan Centaur
 	["MagramClan1"] = { BF["Magram Clan Centaur"], "AtlasLootRepItems" },
+	--Shen'dralar
+	["Shendralar1"] = { BF["Shen\'dralar"], "AtlasLootRepItems" },
 	--Stormpike Guard
 	["Stormpike1"] = { BF["Stormpike Guard"], "AtlasLootRepItems" },
 	--Thorium Brotherhood
@@ -1512,6 +1514,8 @@ AtlasLoot_TableNamesBoss = {
 		["LeagueofArathor"] = { BF["The League of Arathor"], "AtlasLootRepItems" },
 		--Magram Clan Centaur
 		["MagramClan1"] = { BF["Magram Clan Centaur"], "AtlasLootRepItems" },
+		--Shen'dralar
+		["Shendralar1"] = { BF["Shen\'dralar"], "AtlasLootRepItems" },
 		--Stormpike Guard
 		["Stormpike1"] = { BF["Stormpike Guard"], "AtlasLootRepItems" },
 		--Thorium Brotherhood

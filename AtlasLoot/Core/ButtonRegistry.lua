@@ -118,6 +118,11 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "REPMENU";
 		Back_Title = AL["Factions"];;
 	};
+	["Shendralar1"] = {
+		Title = BF["Shen\'dralar"];
+		Back_Page = "REPMENU";
+		Back_Title = AL["Factions"];
+	};
 	["Stormpike1"] = {
 		Title = BF["Stormpike Guard"];
 		Back_Page = "REPMENU";
