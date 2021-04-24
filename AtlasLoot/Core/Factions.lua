@@ -82,11 +82,11 @@ function AtlasLootRepMenu()
 	AtlasLootMenuItem_20.lootpage="MagramClan1";
 	AtlasLootMenuItem_20:Show();
 	--Shen'dralar
-	AtlasLootMenuItem_24_Name:SetText(BF["Shen\'dralar"]);
-	AtlasLootMenuItem_24_Extra:SetText("");
-	AtlasLootMenuItem_24_Icon:SetTexture("spell_nature_wispsplode")
-	AtlasLootMenuItem_24_lootpage="ShenDalar1";
-	AtlasLootMenuItem_24_Show();
+	AtlasLootMenuItem_21_Name:SetText(BF["Shen\'dralar"]);
+	AtlasLootMenuItem_21_Extra:SetText("");
+	AtlasLootMenuItem_21_Icon:SetTexture("Interface\\Icons\\INV_Jewelry_Talisman_09")
+	AtlasLootMenuItem_21.lootpage="Shendralar1";
+	AtlasLootMenuItem_21:Show();
 	--Stormpike Guard
 	AtlasLootMenuItem_11_Name:SetText(BF["Stormpike Guard"]);
 	AtlasLootMenuItem_11_Extra:SetText("|cff2773ff"..BF["Alliance"]);
@@ -100,11 +100,11 @@ function AtlasLootRepMenu()
 	AtlasLootMenuItem_6.lootpage="Thorium1";
 	AtlasLootMenuItem_6:Show();
 	--Timbermaw Hold
-	AtlasLootMenuItem_21_Name:SetText(BF["Timbermaw Hold"]);
-	AtlasLootMenuItem_21_Extra:SetText("");
-	AtlasLootMenuItem_21_Icon:SetTexture("Interface\\Icons\\INV_Misc_Horn_01");
-	AtlasLootMenuItem_21.lootpage="Timbermaw";
-	AtlasLootMenuItem_21:Show();
+	AtlasLootMenuItem_22_Name:SetText(BF["Timbermaw Hold"]);
+	AtlasLootMenuItem_22_Extra:SetText("");
+	AtlasLootMenuItem_22_Icon:SetTexture("Interface\\Icons\\INV_Misc_Horn_01");
+	AtlasLootMenuItem_22.lootpage="Timbermaw";
+	AtlasLootMenuItem_22:Show();
 	--The Wintersaber Trainers
 	AtlasLootMenuItem_7_Name:SetText(BF["Wintersaber Trainers"]);
 	AtlasLootMenuItem_7_Extra:SetText("|cff2773ff"..BF["Alliance"]);
@@ -112,11 +112,11 @@ function AtlasLootRepMenu()
 	AtlasLootMenuItem_7.lootpage="Wintersaber1";
 	AtlasLootMenuItem_7:Show();
 	--Zandalar Tribe
-	AtlasLootMenuItem_22_Name:SetText(BF["Zandalar Tribe"]);
-	AtlasLootMenuItem_22_Extra:SetText("");
-	AtlasLootMenuItem_22_Icon:SetTexture("Interface\\Icons\\INV_Misc_Coin_08");
-	AtlasLootMenuItem_22.lootpage="Zandalar1";
-	AtlasLootMenuItem_22:Show();
+	AtlasLootMenuItem_23_Name:SetText(BF["Zandalar Tribe"]);
+	AtlasLootMenuItem_23_Extra:SetText("");
+	AtlasLootMenuItem_23_Icon:SetTexture("Interface\\Icons\\INV_Misc_Coin_08");
+	AtlasLootMenuItem_23.lootpage="Zandalar1";
+	AtlasLootMenuItem_23:Show();
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
