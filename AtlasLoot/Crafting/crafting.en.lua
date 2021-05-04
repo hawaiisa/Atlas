@@ -474,6 +474,12 @@ AtlasLoot_Data["AtlasLootCrafting"] = {
 		{ "e23803", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Mighty Spirit", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
 		{ "e22749", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Spell Power", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
 		{ "e20031", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Superior Striking", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
+		{ "", "", "", "" },
+		{ "", "Trade_Engineering", "=ds=New Enchants", "" },
+		{ "e34347", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Living Power", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
+		{ "e34350", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Arcane Power", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
+		{ "e34628", "Spell_Holy_GreaterHeal", "=ds=Enchant 2H Weapon - Savagery", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
+		{ "e34632", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Spellblasting", "=ds=#sr# =so1=300 =so2=320 =so3=340 =so4=360" },
 	};
 
 ---------------------

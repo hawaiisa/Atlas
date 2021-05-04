@@ -587,6 +587,22 @@ GetSpellInfoVanillaDB = {
 			["name"] = "Enchant Cloak - Dodge",
 			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
 		},
+		[34347] = {
+			["name"] = "Enchant Gloves - Living Power",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[34350] = {
+			["name"] = "Enchant Gloves - Arcane Power",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[34628] = {
+			["name"] = "Enchant 2H Weapon - Savagery",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
+		[34632] = {
+			["name"] = "Enchant Weapon - Spellblasting",
+			["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+		},
 		[25124] = {
 			["name"] = "Minor Wizard Oil",
 			["icon"] = "Interface\\Icons\\INV_Poison_MindNumbing",
