@@ -76,10 +76,10 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "01";
-local VERSION_BOSSES = "02";
+local VERSION_BOSSES = "03";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "1.13.0";
-ATLASLOOT_PREVIEW_ATLAS = "1.12.1";
+ATLASLOOT_CURRENT_ATLAS = "2.0.0";
+ATLASLOOT_PREVIEW_ATLAS = "1.13.0";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];

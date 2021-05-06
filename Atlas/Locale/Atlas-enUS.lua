@@ -140,6 +140,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Scourge Invasion"] = true;		
 	["Lunar Festival"] = true;
 	--Other
+	["counterclockwise"] = true;
 	["East"] = true;
 	["North"] = true;
 	["South"] = true;
@@ -174,6 +175,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Neutral"] = true; -- NPC reaction
 	["Optional"] = true;
 	["Outside"] = true;
+	["Patrol path"] = true;
 	["Portal"] = true;
 	["Random"] = true;
 	["Reputation"] = true;
@@ -184,6 +186,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["through "] = true;
 	["Trash Mobs"] = true;
 	["Unknown"] = true;
+	["vendor"] = true;
 	["Varies"] = true;
 	["Various"] = true;
 	["Wanders"] = true;
@@ -349,6 +352,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Field Repair Bot 74A"] = true;
 	["The Grim Guzzler"] = true;
 	["Lokhtos Darkbargainer"] = true;
+	["Brohtos the armorer"] = true;
 	["Mistress Nagmara"] = true;
 	["Plugger Spazzring"] = true;
 	["Private Rocknot"] = true;

@@ -1445,7 +1445,7 @@ AtlasLoot_TableNamesBoss = {
 	[AL["World Bosses"]] = {
 		["AAzuregos"] = { BB["Azuregos"], "AtlasLootWBItems" },
 		["ASpiritA"] = { AL["Spirit of Azuregos"], "AtlasLootWBItems" },
-		[""] = { BB["Lord Kazzak"], "AtlasLootWBItems" },
+		["KKazzak"] = { BB["Lord Kazzak"], "AtlasLootWBItems" },
 		["WBKurinnaxx"] = { BB["Kurinnaxx"], "AtlasLootWBItems"},
 		--Emrald Dragons
 		["DEmeriss"] = { BB["Emeriss"], "AtlasLootWBItems" },
@@ -1453,7 +1453,7 @@ AtlasLoot_TableNamesBoss = {
 		["DTaerar"] = { BB["Taerar"], "AtlasLootWBItems" },
 		["DYsondre"] = { BB["Ysondre"], "AtlasLootWBItems" },
 		["DTrash"] = { AL["Trash Mobs"].." ("..AL["Emerald Dragons"]..")", "AtlasLootWBItems" },
-		},
+	},
 	
 	--------------
 	--- Events ---

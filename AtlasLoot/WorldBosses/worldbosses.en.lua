@@ -16,11 +16,11 @@ AtlasLootWBBossButtons = {
 		"AAzuregos";
 		"ASpiritA";
 	};
-	Kurinnaxx = {
-		"WBKurinnaxx";
-	};
 	LordKazzak = {
 		"KKazzak";
+	};
+	SiliKurinnaxx = {
+		"WBKurinnaxx";
 	};
 };
 
@@ -52,7 +52,7 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 21685, "INV_Misc_AhnQirajTrinket_01", "=q4=Petrified Scarab","=ds=#s14#",},
 		{ 21635, "INV_Weapon_Halberd_AhnQiraj", "=q4=Barb of the Sand Reaver", "=ds=#w7#", },
 		{ 21647, "INV_Misc_AhnQirajTrinket_03", "=q4=Fetish of the Sand Reaver", "=ds=#s14#", },
-		{ 21488, "INV_Misc_AhnQirajTrinket_02", "=q3=Fetish of Chitinous Spikes", "=ds=#s14#", },
+		{ 21488, "INV_Misc_AhnQirajTrinket_02", "=q4=Fetish of Chitinous Spikes", "=ds=#s14#", },
 		{ 21467, "INV_Chest_Leather_07", "=q4=Thick Silithid Chestguard", "=ds=#s5#, #a2#", },
 		{ 21664, "INV_Jewelry_Necklace_AhnQiraj_02", "=q4=Barbed Choker", "=ds=#s2#", },
 	};

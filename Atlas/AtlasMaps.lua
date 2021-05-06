@@ -495,6 +495,7 @@ AtlasMaps = {
 		{ GREY.."15) "..AL["The Grim Guzzler"] };
 		{ GREY..INDENT..BB["Hurley Blackbreath"], NPC, 9537 };
 		{ GREY..INDENT..AL["Lokhtos Darkbargainer"], NPC, 12944 };
+		{ GREY..INDENT..AL["Brohtos the armorer"].." ("..AL["Tier 1 Sets"].." "..AL["vendor"]..")", NPC, 22000 };
 		{ GREY..INDENT..AL["Mistress Nagmara"], NPC, 9500 };
 		{ GREY..INDENT..BB["Phalanx"], NPC, 9502 };
 		{ GREY..INDENT..BB["Plugger Spazzring"], NPC, 9499 };
@@ -1342,6 +1343,37 @@ AtlasMaps = {
 		{ "" };
 		{ "" };
 		{ ORNG..AL["Damage: "]..AL["Shadow"] };
+	};
+	SiliKurinnaxx = {
+		ZoneName = { BB["Kurinnaxx"], NPC, 15348 };
+		Location = { BZ["Silithus"], ZONE, 1377 };
+		LevelRange = "60+";
+		MinLevel = "--";
+		PlayerLimit = "40";
+		{ GREY..BB["Kurinnaxx"], NPC, 15348 };
+		{ GREY..AL["Patrol path"].." ("..AL["counterclockwise"]..")" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ ORNG..AL["Damage: "]..AL["Nature"] };
 	};
 	AlteracValleyNorth = {
 		ZoneName = { BZ["Alterac Valley"].." ("..AL["North"]..")", 2597 };
