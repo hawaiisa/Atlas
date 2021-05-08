@@ -74,6 +74,7 @@ AtlasLootBossButtons = {
 		"";
 		"";
 		"";
+		"";
 		"BRDFlamelash";
 		"BRDPanzor";
 		"";
