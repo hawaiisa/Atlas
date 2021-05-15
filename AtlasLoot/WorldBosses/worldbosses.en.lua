@@ -55,6 +55,7 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 21488, "INV_Misc_AhnQirajTrinket_02", "=q4=Fetish of Chitinous Spikes", "=ds=#s14#", },
 		{ 21467, "INV_Chest_Leather_07", "=q4=Thick Silithid Chestguard", "=ds=#s5#, #a2#", },
 		{ 21664, "INV_Jewelry_Necklace_AhnQiraj_02", "=q4=Barbed Choker", "=ds=#s2#", },
+		{ 21673, "INV_Misc_MonsterClaw_03", "=q4=Silithid Claw", "=ds=#h3#, #w13#" },
 	};
 	DTaerar = {
 		{ 20633, "INV_Shoulder_29", "=q4=Unnatural Leather Spaulders", "=ds=#s3#, #a2#", "11.30%" },
