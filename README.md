@@ -17,4 +17,4 @@ wowfolder\
             ├── AtlasLoot.toc
             └── other AtlasLoot folders and files
 ```
-3. Restart your client and start gearing.
+3. Restart your client and start gearing. (If you're patching an older version /run ReloadUI() should be sufficient in most cases)
