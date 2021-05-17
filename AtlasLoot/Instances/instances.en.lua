@@ -4123,6 +4123,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 18352, "INV_Shield_18", "=q2=Petrified Bark Shield", "=ds=#w8#", "21.67%" },
 		{ 18353, "INV_Staff_08", "=q2=Stoneflower Staff", "=ds=#w9#", "23.46%" },
+		{ 0, "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26070, "INV_Misc_Herb_10", "=q3=Ironbark Tea Leaf", "=ds=#s14#, #m8#"},
 	};
 	DMWIllyannaRavenoak = {
 		{ 18383, "INV_Gauntlets_09", "=q3=Force Imbued Gauntlets", "=ds=#s9#, #a4#", "20.11%" },
