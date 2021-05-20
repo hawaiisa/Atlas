@@ -4196,7 +4196,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26075, "INV_Misc_Gem_02", "=q3=Greater Arcanum of Avoidance", "" },
 		{ 26074, "INV_Misc_Gem_02", "=q3=Greater Arcanum of Concentration", "" },
 		{ 26073, "INV_Misc_Gem_02", "=q3=Greater Arcanum of Accuracy", "" },
-		{ 23689, "INV_Misc_Book_03", "=q1=Manual: Magic Infused Bandage", "=ds=#p6# (300)" },
+		{ 23684, "INV_Misc_Book_03", "=q1=Manual: Magic Infused Bandage", "=ds=#p6# (300)" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 26082, "INV_Bracer_12", "=q3=Amazing Halo", "=ds=#s8#, #a1#" },
