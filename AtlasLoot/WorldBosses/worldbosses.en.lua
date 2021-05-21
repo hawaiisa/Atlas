@@ -56,6 +56,7 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 21467, "INV_Chest_Leather_07", "=q4=Thick Silithid Chestguard", "=ds=#s5#, #a2#", },
 		{ 21664, "INV_Jewelry_Necklace_AhnQiraj_02", "=q4=Barbed Choker", "=ds=#s2#", },
 		{ 21673, "INV_Misc_MonsterClaw_03", "=q4=Silithid Claw", "=ds=#h3#, #w13#" },
+		{ 21688, "INV_Boots_Plate_01", "=q4=Boots of the Fallen Hero", "=ds=#s12#, #a4# =q7=Vem" },
 	};
 	DTaerar = {
 		{ 20633, "INV_Shoulder_29", "=q4=Unnatural Leather Spaulders", "=ds=#s3#, #a2#", "11.30%" },
