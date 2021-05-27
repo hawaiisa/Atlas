@@ -515,6 +515,11 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "T1SET";
 		Back_Title = AL["Tier 1 Sets"];
 	};
+	["BRDBrohtos"] = {
+		Title = AL["Tier 1 Token Exchange"];
+		Back_Page = "T1SET";
+		Back_Title = AL["Tier 1 Sets"];
+	};
 	["T2Druid"] = {
 		Title = BC["Druid"];
 		Back_Page = "T2SET";

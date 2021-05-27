@@ -219,6 +219,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Tier 0.5 Summonable"] = true;
 	["Tier 0/0.5 Sets"] = true;
 	["Tier 1 Sets"] = true;
+	["Tier 1 Token Exchange"] = true;
 	["Tier 2 Sets"] = true;
 	["Tier 3 Sets"] = true;
 	["Zul'Gurub Ring Sets"] = true;
@@ -394,6 +395,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Chest of The Seven"] = true;
 	["Prince Skaldrenox"] = true;
 	["Lokhtos Darkbargainer"] = true;
+	["Brohtos the Armorer"] = true;
 	["Lord Skwol"] = true;
 	["High Marshal Whirlaxis"] = true;
 	["Baron Kazum"] = true;

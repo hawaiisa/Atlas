@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "01";
-local VERSION_BOSSES = "08";
+local VERSION_BOSSES = "09";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.0.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.13.0";
@@ -2294,7 +2294,18 @@ AtlasLoot_DewDropDown = {
 				{ AL["Zul'Gurub Sets"], "ZGSets", "Submenu" },
 			},
 			[6] = { 
-				{ AL["Tier 1 Sets"], "T1Sets", "Submenu" },
+				[AL["Tier 1 Sets"]] = {
+					{ ("|cffffffff"..BC["Priest"]), "T1Priest", "Table" },
+					{ ("|cff68ccef"..BC["Mage"]), "T1Mage", "Table" },
+					{ ("|cff9382c9"..BC["Warlock"]), "T1Warlock", "Table" },
+					{ ("|cfffff468"..BC["Rogue"]), "T1Rogue", "Table" },
+					{ ("|cffff7c0a"..BC["Druid"]), "T1Druid1", "Table" },
+					{ ("|cffaad372"..BC["Hunter"]), "T1Hunter", "Table" },
+					{ ("|cff2773ff"..BC["Shaman"]), "T1Shaman1", "Table" },
+					{ ("|cfff48cba"..BC["Paladin"]), "T1Paladin1", "Table" },
+					{ ("|cffc69b6d"..BC["Warrior"]), "T1Warrior", "Table" },
+					{ (AL["Tier 1 Token Exchange"]), "BRDBrohtos", "Table" },
+				},
 			},
 			[7] = { 
 				{ AL["Tier 2 Sets"], "T2Sets", "Submenu" },

@@ -649,6 +649,12 @@ function AtlasLootT1SetMenu()
 	AtlasLootMenuItem_21_Icon:SetTexture("Interface\\Icons\\INV_Shield_05");
 	AtlasLootMenuItem_21.lootpage="T1Warrior";
 	AtlasLootMenuItem_21:Show();
+	--Token exchange
+	AtlasLootMenuItem_22_Name:SetText(AL["Tier 1 Token Exchange"]);
+	AtlasLootMenuItem_22_Extra:SetText("");
+	AtlasLootMenuItem_22_Icon:SetTexture("Interface\\Icons\\INV_Misc_MC_MailBelt");
+	AtlasLootMenuItem_22.lootpage="BRDBrohtos";
+	AtlasLootMenuItem_22:Show();
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end

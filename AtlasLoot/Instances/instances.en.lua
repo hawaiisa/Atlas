@@ -69,7 +69,7 @@ AtlasLootBossButtons = {
 		"BRDGuzzler";
 		"";
 		"";
-		"";
+		"BRDBrohtos";
 		"";
 		"";
 		"";
@@ -3656,6 +3656,30 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 15759, "INV_Scroll_03", "=q1=Pattern: Black Dragonscale Breastplate", "=ds=#p7# (290) =q2=#m29#" },
 		{ 11325, "INV_Drink_04", "=q1=Dark Iron Ale Mug", "=ds=#e3#, #m3# =q2=#m29#" },
 		{ 11602, "INV_Misc_Key_03", "=q1=Grim Guzzler Key", "=ds=#e14# =q7=#m28#" },
+	};
+	BRDBrohtos = {
+		{ 0, "INV_Ingot_Mithril", "=q6=#r2#", "" },
+		{ 34350, "INV_Misc_MC_LeatherBelt", "=q4=Burnt Bindings", "=ds=#s8#/#s10#", "", "1", "#dragonbreath#", "2", "#mooncloth#", "3", "#diamond#" },
+		{ 34342, "INV_Misc_MC_MailBelt", "=q4=Charred Bindings", "=ds=#s8#/#s10#", "", "1", "#dragonbreath#", "2", "#hide#", "3", "#emerald#" },
+		{ 34334, "INV_Misc_MC_PlateBindings", "=q4=Melted Bindings", "=ds=#s8#/#s10#", "", "1", "#dragonbreath#", "2", "#arcanite#", "3", "#opal#" },
+		{ 0, "", "", "" },
+		{ 0, "INV_Ingot_Mithril", "=q6=#r3#", "" },
+		{ 34348, "INV_Misc_MC_Clothhelm", "=q4=Burnt Hood", "=ds=#s1#", "", "3", "#dragonbreath#", "3", "#mooncloth#", "5", "#diamond#" },
+		{ 34340, "INV_Misc_MC_MailHelm", "=q4=Charred Headpiece", "=ds=#s1#", "", "3", "#dragonbreath#", "3", "#hide#", "5", "#emerald#" },
+		{ 34332, "INV_Misc_MC_PlateHelm", "=q4=Melted Helmet", "=ds=#s1#", "", "3", "#dragonbreath#", "3", "#arcanite#", "5", "#opal#" },
+		{ 34349, "INV_Misc_MC_ClothShoulder", "=q4=Burnt Shoulderpads", "=ds=#s3#", "", "2", "#dragonbreath#", "3", "#mooncloth#", "4", "#diamond#" },
+		{ 34341, "INV_Misc_MC_MailShoulder", "=q4=Charred Spaulders", "=ds=#s3#", "", "2", "#dragonbreath#", "3", "#hide#", "4", "#emerald#" },
+		{ 34333, "INV_Misc_MC_PlateShoulder", "=q4=Melted Pauldrons", "=ds=#s3#", "", "2", "#dragonbreath#", "3", "#arcanite#", "4", "#opal#" },
+		{ 34352, "inv_gauntlets_08", "=q4=Hot Claws", "=ds=#s9#/#s12#", "", "2", "#dragonbreath#", "2", "#mooncloth#", "3", "#diamond#" },
+		{ 34344, "inv_misc_monsterclaw_03", "=q4=Fiery Claws", "=ds=#s9#/#s12#", "", "2", "#dragonbreath#", "2", "#hide#", "3", "#emerald#" },
+		{ 34336, "inv_gauntlets_03", "=q4=Molten Grips", "=ds=#s9#/#s12#", "", "2", "#dragonbreath#", "2", "#arcanite#", "3", "#opal#" },
+		{ 0, "INV_Ingot_Mithril", "=q6=#r4#", "" },
+		{ 34346, "INV_Misc_MC_ClothChest", "=q4=Burnt Robe", "=ds=#s5#", "", "3", "#topaz#", "8", "#mooncloth#", "7", "#diamond#" },
+		{ 34338, "INV_Misc_MC_MailChest", "=q4=Charred Tunic", "=ds=#s5#", "", "3", "#topaz#", "8", "#hide#", "7", "#emerald#" },
+		{ 34330, "INV_Misc_MC_PlateChest", "=q4=Melted Breastplate", "=ds=#s5#", "", "3", "#topaz#", "8", "#arcanite#", "7", "#opal#" },
+		{ 34347, "INV_Misc_MC_ClothPants", "=q4=Burnt Leggings", "=ds=#s11#", "", "3", "#topaz#", "6", "#mooncloth#", "5", "#diamond#" },
+		{ 34339, "INV_Misc_MC_MailPants", "=q4=Charred Legguards", "=ds=#s11#", "", "3", "#topaz#", "6", "#hide#", "5", "#emerald#" },
+		{ 34331, "INV_Misc_MC_PlatePants", "=q4=Melted Legplates", "=ds=#s11#", "", "3", "#topaz#", "6", "#arcanite#", "5", "#opal#" },
 	};
 	BRDFlamelash = {
 		{ 11808, "Spell_Fire_Fire", "=q4=Circle of Flame", "=ds=#s1#, #a1#", "0.84%" },
