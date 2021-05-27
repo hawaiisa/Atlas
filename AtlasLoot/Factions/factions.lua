@@ -148,6 +148,7 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 		{ 17025, "INV_Scroll_03", "=q1=Pattern: Black Dragonscale Boots", "=ds=#p7# (300)" },
 		{ 19206, "INV_Scroll_03", "=q1=Plans: Dark Iron Helm", "=ds=#p2# (300)" },
 		{ 19448, "INV_Misc_Note_01", "=q1=Formula: Enchant Weapon - Mighty Spirit", "=ds=#p4# (300)" },  
+		{ 20761, "INV_Scroll_03", "=q1=Recipe: Transmute Elemental Fire", "=ds=#p1# (300)" },
 	};
 	Thorium2 = {
 		{ 0, "", "", "" },
@@ -163,7 +164,7 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 		{ 19208, "INV_Scroll_03", "=q1=Plans: Black Amnesty", "=ds=#p2# (300)" },
 		{ 19209, "INV_Scroll_03", "=q1=Plans: Blackfury", "=ds=#p2# (300)" },		
 		{ 19449, "INV_Scroll_03", "=q1=Formula: Enchant Weapon - Mighty Intellect", "=ds=#p4# (300)" },
-		{ 20761, "INV_Scroll_03", "=q1=Recipe: Transmute Elemental Fire", "=ds=#p1# (300)" },
+		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "INV_Ingot_Mithril", "=q6=#r5#", "" },
