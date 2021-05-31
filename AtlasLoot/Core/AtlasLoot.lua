@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "01";
-local VERSION_BOSSES = "09";
+local VERSION_BOSSES = "10";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.0.0";
 ATLASLOOT_PREVIEW_ATLAS = "1.13.0";
@@ -467,6 +467,7 @@ function AtlasLootOptions_Init()
 	AtlasLootOptionsFrameOpaque:SetChecked(AtlasLootCharDB.Opaque);
 	AtlasLootOptionsFrameItemID:SetChecked(AtlasLootCharDB.ItemIDs);
 	AtlasLootOptionsFrameItemSpam:SetChecked(AtlasLootCharDB.ItemSpam);
+	AtlasLootOptionsFrameWishlistInstanced:SetChecked(AtlasLootCharDB.WishlistInstanced);
 	AtlasLootOptionsFrameHidePanel:SetChecked(AtlasLootCharDB.HidePanel);
 	AtlasLootOptionsFrameMinimap:SetChecked(AtlasLootCharDB.MinimapButton);
 	AtlasLootOptionsFrameSliderButtonPos:SetValue(AtlasLootCharDB.MinimapButtonPosition);
@@ -492,6 +493,7 @@ function AtlasLootOptions_Fresh()
 	AtlasLootCharDB.ItemSyncTT = false;
 	AtlasLootCharDB.EquipCompare = false;
 	AtlasLootCharDB.Opaque = false;
+	AtlasLootCharDB.WishlistInstanced = false;
 	AtlasLootCharDB.ItemIDs = false;
 	AtlasLootCharDB.FirstTime = true;
 	AtlasLootCharDB.ItemSpam = true;
@@ -1008,6 +1010,19 @@ function AtlasLootOptions_OpaqueToggle()
 		AtlasLootItemsFrame_Back:SetTexture(0, 0, 0, 1);
 	else
 		AtlasLootItemsFrame_Back:SetTexture(0, 0, 0, 0.65);
+	end
+	AtlasLootOptions_Init();
+end
+
+--[[
+AtlasLootOptions_WishlistInstanced()
+Toggles whether wishlist items should be grouped by instance or boss.
+]]
+function AtlasLootOptions_WishlistInstanced()
+	if (AtlasLootCharDB.WishlistInstanced) then
+		AtlasLootCharDB.WishlistInstanced = false;
+	else
+		AtlasLootCharDB.WishlistInstanced = true;
 	end
 	AtlasLootOptions_Init();
 end
@@ -2073,6 +2088,7 @@ function AtlasLootOptions_DefaultSettings()
 	AtlasLootCharDB.ItemSyncTT = false;
 	AtlasLootCharDB.EquipCompare = false;
 	AtlasLootCharDB.Opaque = false;
+	AtlasLootCharDB.WishlistInstanced = false;
 	AtlasLootCharDB.ItemIDs = false;
 	AtlasLootCharDB.ItemSpam = true;
 	AtlasLootCharDB.MinimapButton = true;

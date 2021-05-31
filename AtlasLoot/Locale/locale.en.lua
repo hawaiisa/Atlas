@@ -531,4 +531,5 @@ AL:RegisterTranslations("enUS", function() return {
 	["Honored Rewards"] = true;
 	["Revered Rewards"] = true;
 	["Exalted Rewards"] = true;
+	["Group wishlist items by instance"] = true;
 	} end)	
