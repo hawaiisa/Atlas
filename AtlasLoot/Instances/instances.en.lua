@@ -1299,7 +1299,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0,"","","" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 26060,"INV_Jewelry_Necklace_AhnQiraj_01","=q4=Everhot Choker","=ds=#s2#" },
-		{ 0,"","","" },
+		{ 26059,"INV_Misc_Gem_Bloodstone_02","=q4=Ashes of Destruction","=ds=#s14#, #m8#" },
 		{ 0,"","","" },
 		{ 0,"","","" },
 		{ 0,"","","" },
