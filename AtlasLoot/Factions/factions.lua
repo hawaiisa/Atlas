@@ -264,9 +264,10 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		{ 21188, "INV_Hammer_23", "=q4=Fist of Cenarius", "=ds=#h2#, #w6#", "", "", "", "15", "#ccombat#", "20", "#clogistics#", "20", "#ctactical#", "1", "#ccenarius#" },
 		{ 21190, "INV_Jewelry_Ring_40", "=q4=Wrath of Cenarius", "=ds=#s13#", "", "", "", "15", "#ccombat#", "20", "#clogistics#", "20", "#ctactical#", "1", "#ccenarius#" },
 		{ 21180, "Spell_Nature_AbolishMagic", "=q4=Earthstrike", "=ds=#s14#", "", "", "", "15", "#ccombat#", "20", "#clogistics#", "20", "#ctactical#", "1", "#ccenarius#" },
-		{ 21188, "INV_Hammer_23", "=q4=Fist of Cenarius", "=ds=#h2#, #w6#", "", "", "", "15", "#ccombat#", "20", "#clogistics#", "20", "#ctactical#", "1", "#ccenarius#" },		
+		{ 26054, "INV_Belt_24", "=q4=Deeprock Belt", "=ds=#h2#, #w6#", "", "", "", "15", "#ccombat#", "20", "#clogistics#", "20", "#ctactical#", "1", "#ccenarius#" },		
 	};
 	Darkmoon = {
 		{ 0, "", "", "" },
