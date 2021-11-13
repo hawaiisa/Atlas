@@ -44,7 +44,8 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 0, "", "", "", "" },
-		{ 26017, "INV_Sword_02", "=q4=World Breaker", "=ds=#h2#, #w10#", "" },
+		{ 26017, "INV_Sword_02", "=q4=World Breaker", "=ds=#h2#, #w10#", },
+		{ 21891, "INV_Misc_AhnQirajTrinket_04", "=q4=Shard of the Fallen Star", "=ds=#s14#" },
 	};
 	WBKurinnaxx = {
 		{ 21651, "INV_Pants_Mail_10", "=q4=Scaled Sand Reaver Leggings", "=ds=#s11#, #a3#",},

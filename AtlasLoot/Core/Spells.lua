@@ -2455,20 +2455,6 @@ GetSpellInfoVanillaDB = {
 				[2] = {2321},
 			},
 		},
-		[12046] = {
-			["name"] = "Tailoring: Simple Kilt",
-			["requires"] = "",
-			["tools"] = "",
-			["castTime"] = 5.125,
-			["text"] = "",
-			["craftItem"] = 10047,
-			["craftQuantityMin"] = "",
-			["craftQuantityMax"] = "",
-			["reagents"] = {
-				[1] = {2996, 4},
-				[2] = {2321},
-			},
-		},
 		[2402] = {
 			["name"] = "Tailoring: Woolen Cape",
 			["requires"] = "",
@@ -2630,21 +2616,6 @@ GetSpellInfoVanillaDB = {
 				[1] = {2997, 4},
 				[2] = {2321, 2},
 				[3] = {6260, 2},
-			},
-		},
-		[3844] = {
-			["name"] = "Tailoring: Heavy Woolen Cloak",
-			["requires"] = "",
-			["tools"] = "",
-			["castTime"] = 12.5,
-			["text"] = "",
-			["craftItem"] = 4311,
-			["craftQuantityMin"] = "",
-			["craftQuantityMax"] = "",
-			["reagents"] = {
-				[1] = {2997, 3},
-				[2] = {2321, 2},
-				[3] = {5498, 2},
 			},
 		},
 		[3844] = {
@@ -5918,21 +5889,6 @@ GetSpellInfoVanillaDB = {
 			["reagents"] = {
 				[1] = {2452},
 				[2] = {765},
-				[3] = {3371},
-			},
-		},
-		[2334] = {
-			["name"] = "Alchemy: Elixir of Minor Fortitude",
-			["requires"] = "",
-			["tools"] = "",
-			["castTime"] = 3,
-			["text"] = "",
-			["craftItem"] = 2458,
-			["craftQuantityMin"] = "",
-			["craftQuantityMax"] = "",
-			["reagents"] = {
-				[1] = {2449},
-				[2] = {2447},
 				[3] = {3371},
 			},
 		},
@@ -11269,7 +11225,7 @@ GetSpellInfoVanillaDB = {
 			["tools"] = {5956},
 			["castTime"] = 12.5,
 			["text"] = "",
-			["craftItem"] = 2849,
+			["craftItem"] = 2850,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
@@ -11513,7 +11469,7 @@ GetSpellInfoVanillaDB = {
 			["tools"] = {5956},
 			["castTime"] = 25,
 			["text"] = "",
-			["craftItem"] = 3484,
+			["craftItem"] = 3492,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
@@ -11829,7 +11785,7 @@ GetSpellInfoVanillaDB = {
 			["tools"] = {5956},
 			["castTime"] = 60,
 			["text"] = "",
-			["craftItem"] = 12624,
+			["craftItem"] = 12628,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
@@ -12624,7 +12580,7 @@ GetSpellInfoVanillaDB = {
 			["tools"] = "",
 			["castTime"] = 5.125,
 			["text"] = "",
-			["craftItem"] = 7964,
+			["craftItem"] = 7965,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
@@ -13757,7 +13713,7 @@ GetSpellInfoVanillaDB = {
 			["craftQuantityMax"] = "",
 			["reagents"] = {
 				[1] = {12359, 18},
-				[2] = {7910, 4},
+				[2] = {7077, 4},
 			},
 		},
 		[22757] = {
@@ -13944,7 +13900,7 @@ GetSpellInfoVanillaDB = {
 			["tools"] = {5956},
 			["castTime"] = 60,
 			["text"] = "",
-			["craftItem"] = 19691,
+			["craftItem"] = 19692,
 			["craftQuantityMin"] = "",
 			["craftQuantityMax"] = "",
 			["reagents"] = {
@@ -16772,23 +16728,6 @@ GetSpellInfoVanillaDB = {
 				[2] = {20498, 30},
 				[3] = {7078, 2},
 				[4] = {15407},
-			},
-		},
-		[26279] = {
-			["name"] = "Leatherworking: Stormshroud Gloves",
-			["requires"] = "",
-			["tools"] = "",
-			["castTime"] = 60,
-			["text"] = "",
-			["craftItem"] = 21278,
-			["craftQuantityMin"] = "",
-			["craftQuantityMax"] = "",
-			["reagents"] = {
-				[1] = {12810, 6},
-				[2] = {7080, 4},
-				[3] = {7082, 4},
-				[4] = {15407, 2},
-				[5] = {14227, 2},
 			},
 		},
 		[22923] = {
