@@ -4705,6 +4705,13 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 13531, "INV_Pants_09", "=q2=Crypt Stalker Leggings", "=ds=#s11#, #a2#", "10.17%" },
 		{ 13530, "INV_Boots_05", "=q2=Fangdrip Runners", "=ds=#s12#, #a1#", "8.49%" },
 		{ 13508, "INV_Misc_Eye_01", "=q2=Eye of Arachnida", "=ds=#m8#", "7.39%" },
+		{ 0, "", "", "", "" },
+		{ 0, "", "", "", "" },
+		{ 0, "", "", "", "" },
+		{ 0, "", "", "", "" },
+		{ 0, "", "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26042, "INV_Crown_01", "=q3=Chitinous Husk Coif", "=ds=#s1#, #a3#" },
 	};
 	STRATMalekithePallid = {
 		{ 18734, "INV_Misc_Cape_11", "=q3=Pale Moon Cloak", "=ds=#s4#", "13.42%" },
