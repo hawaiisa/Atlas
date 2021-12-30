@@ -44,19 +44,19 @@ AtlasLoot_ButtonRegistry = {
 	["Bloodsail1"] = {
 		Title = BF["Bloodsail Buccaneers"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["AQBroodRings"] = {
 		Title = BF["Brood of Nozdormu"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Cenarion1"] = {
 		Title = BF["Cenarion Circle"]..": "..BF["Friendly"];
 		Next_Page = "Cenarion2";
 		Next_Title = BF["Cenarion Circle"]..": "..BF["Honored"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Cenarion2"] = {
 		Title = BF["Cenarion Circle"]..": "..BF["Honored"];
@@ -65,7 +65,7 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "Cenarion1";
 		Prev_Title = BF["Cenarion Circle"]..": "..BF["Friendly"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Cenarion3"] = {
 		Title = BF["Cenarion Circle"]..": "..BF["Revered"];
@@ -74,49 +74,49 @@ AtlasLoot_ButtonRegistry = {
 		Prev_Page = "Cenarion2";
 		Prev_Title = BF["Cenarion Circle"]..": "..BF["Honored"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Cenarion4"] = {
 		Title = BF["Cenarion Circle"]..": "..BF["Exalted"];
 		Prev_Page = "Cenarion3";
 		Prev_Title = BF["Cenarion Circle"]..": "..BF["Revered"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Darkmoon"] = {
 		Title = BF["Darkmoon Faire"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Defilers"] = {
 		Title = BF["The Defilers"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Frostwolf1"] = {
 		Title = BF["Frostwolf Clan"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["GelkisClan1"] = {
 		Title = BF["Gelkis Clan Centaur"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["WaterLords1"] = {
 		Title = BF["Hydraxian Waterlords"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["LeagueofArathor"] = {
 		Title = BF["The League of Arathor"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["MagramClan1"] = {
 		Title = BF["Magram Clan Centaur"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Shendralar1"] = {
 		Title = BF["Shen\'dralar"];
@@ -126,45 +126,45 @@ AtlasLoot_ButtonRegistry = {
 	["Stormpike1"] = {
 		Title = BF["Stormpike Guard"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Thorium1"] = {
 		Title = BF["Thorium Brotherhood"]..": "..BF["Friendly"].."/"..BF["Honored"];
 		Next_Page = "Thorium2";
 		Next_Title = BF["Thorium Brotherhood"]..": "..BF["Revered"].."/"..BF["Exalted"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Thorium2"] = {
 		Title = BF["Thorium Brotherhood"]..": "..BF["Revered"].."/"..BF["Exalted"];
 		Prev_Page = "Thorium1";
 		Prev_Title = BF["Thorium Brotherhood"]..": "..BF["Friendly"].."/"..BF["Honored"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Timbermaw"] = {
 		Title = BF["Timbermaw Hold"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Wintersaber1"] = {
 		Title = BF["Wintersaber Trainers"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Zandalar1"] = {
 		Title = BF["Zandalar Tribe"]..": "..BF["Friendly"].."/"..BF["Honored"];
 		Next_Page = "Zandalar2";
 		Next_Title = BF["Zandalar Tribe"]..": "..BF["Revered"].."/"..BF["Exalted"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["Zandalar2"] = {
 		Title = BF["Zandalar Tribe"]..": "..BF["Revered"].."/"..BF["Exalted"];
 		Prev_Page = "Zandalar1";
 		Prev_Title = BF["Zandalar Tribe"]..": "..BF["Friendly"].."/"..BF["Honored"];
 		Back_Page = "REPMENU";
-		Back_Title = AL["Factions"];;
+		Back_Title = AL["Factions"];
 	};
 	["WSGRepFriendly"] = {
 		Title = AL["Friendly Reputation Rewards"];
