@@ -147,6 +147,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Blacksmithing Plans"] = true;
 	["Consumable"] = true;
 	["Needed to purchase rewards"] = true;
+	["Tier set hand-ins"] = true;
 	["World Bosses"] = true;
 	["Reputation Factions"] = true;
 	["Sets/Collections"] = true;

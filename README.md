@@ -10,7 +10,7 @@ This branch will be kept updated for the Vanilla+ server, https://www.vanillaplu
 wowfolder\
 └── Interface\
     └── AddOns\
-        └── Atlas\
+        ├── Atlas\
         │   ├── Atlas.toc
         │   └── other Atlas folders and files
         └── AtlasLoot\
