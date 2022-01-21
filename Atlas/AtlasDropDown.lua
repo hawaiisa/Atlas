@@ -122,6 +122,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
 			"FourDragons",
+			"LadyHederine",
 			"SiliKurinnaxx",
 			"LordKazzak",
 		},
@@ -199,6 +200,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
 			"FourDragons",
+			"LadyHederine",
 			"SiliKurinnaxx",
 			"LordKazzak",
 		},
@@ -272,6 +274,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
 			"FourDragons",
+			"LadyHederine",
 			"SiliKurinnaxx",
 			"LordKazzak",
 		},
@@ -345,6 +348,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
 			"FourDragons",
+			"LadyHederine",
 			"SiliKurinnaxx",
 			"LordKazzak",
 		},
@@ -487,6 +491,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
 			"FourDragons",
+			"LadyHederine",
 			"SiliKurinnaxx",
 			"LordKazzak",
 		},

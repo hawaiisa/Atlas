@@ -7,7 +7,7 @@
 ## Notes-zhCN: 副本地图浏览器
 ## Notes-esES: Navegador de Mapas de Mazmorras
 ## Notes-ruRU: Обозреватель подземелий
-## Version: 2.0.0
+## Version: 2.1.0
 ## X-Date: 06.05.2021
 ## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery, Takeitboy, Hawaiisa
 ## X-Website: https://github.com/hawaiisa/Atlas

@@ -1313,6 +1313,37 @@ AtlasMaps = {
 		{ "" };
 		{ ORNG..AL["Damage: "]..AL["Nature"]..", "..AL["Shadow"] };
 	};
+	LadyHederine = {
+		ZoneName = { BB["Lady Hederine"], NPC, 10201 };
+		Location = { BZ["Winterspring"], ZONE, 21 };
+		LevelRange = "60+";
+		MinLevel = "--";
+		PlayerLimit = "40";
+		{ GREY.."1) "..BB["Lady Hederine"], NPC, 10201 };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ "" };
+		{ ORNG..AL["Damage: "]..AL["Shadow"] };
+	};
 	LordKazzak = {
 		ZoneName = { BB["Lord Kazzak"], NPC, 18728 };
 		Location = { BZ["Blasted Lands"], ZONE, 4 };

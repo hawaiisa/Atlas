@@ -67,7 +67,7 @@ local DefaultAtlasOptions = {
 --entrance maps to instance maps
 Atlas_EntToInstMatches = {
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockMountainEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
+	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
 	["GnomereganEnt"] =				{"Gnomeregan"};
 	["MaraudonEnt"] =				{"Maraudon"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};

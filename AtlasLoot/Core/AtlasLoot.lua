@@ -75,11 +75,11 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
-local VERSION_MINOR = "01";
-local VERSION_BOSSES = "17";
+local VERSION_MINOR = "02";
+local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "2.0.0";
-ATLASLOOT_PREVIEW_ATLAS = "1.13.0";
+ATLASLOOT_CURRENT_ATLAS = "2.1.0";
+ATLASLOOT_PREVIEW_ATLAS = "2.0.0";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];
@@ -2826,6 +2826,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Lethon"], "DLethon"},
 		{ BB["Taerar"], "DTaerar" },
 		{ BB["Ysondre"], "DYsondre" },
+		{ BB["Lady Hederine"], "Hederine" },
 		{ BB["Lord Kazzak"], "KKazzak"},
 		{ BB["Kurinnaxx"], "WBKurinnaxx"},
 	},

@@ -16,6 +16,9 @@ AtlasLootWBBossButtons = {
 		"AAzuregos";
 		"ASpiritA";
 	};
+	LadyHederine = {
+		"Hederine";
+	};
 	LordKazzak = {
 		"KKazzak";
 	};
@@ -26,6 +29,9 @@ AtlasLootWBBossButtons = {
 
 AtlasLoot_Data["AtlasLootWBItems"] = {
 	EmptyInstance = {};
+	Hederine = {
+		{ 0, "Spell_Shadow_SummonSuccubus", "=q4=Loads of pain and suffering", "=ds=Launching January 26th, 2022" },
+	};
 	KKazzak = {
 		{ 18546, "INV_Helmet_18", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "9.39%" },
 		{ 17111, "INV_Jewelry_Talisman_01", "=q4=Blazefury Medallion", "=ds=#s2#", "10.95%" },
@@ -43,7 +49,6 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 18609, "INV_Staff_12", "=q4=Anathema", "=q1=#m4# =ds=#w9# =q9=#c5#" },
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 0, "", "", "", "" },
 		{ 26017, "INV_Sword_02", "=q4=World Breaker", "=ds=#h2#, #w10#", },
 		{ 21891, "INV_Misc_AhnQirajTrinket_04", "=q4=Shard of the Fallen Star", "=ds=#s14#" },
 	};
@@ -217,7 +222,6 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 0, "", "", "", "" },
 		{ 0, "", "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 0, "", "", "", "" },
 		{ 26018, "INV_Misc_Cape_13", "=q4=Grizzly Fur Pelerine", "=ds=#s4#" },
 		{ 26019, "inv_misc_cape_05", "=q4=Shroud of the Supreme", "=ds=#s4#" },
 		{ 26021, "INV_Misc_Note_01", "=q3=Formula: Enchant Gloves - Arcane Power", "=ds=#p4# (300)" },

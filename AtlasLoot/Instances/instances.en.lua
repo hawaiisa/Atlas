@@ -1413,7 +1413,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 17982, "INV_Jewelry_Ring_25", "=q4=Ragnaros Core", "=ds=#s13#, #e23#" },
-		{ 0, "", "", "" },
+		{ 26105, "INV_Weapon_Hand_14", "=q4=Claw of Molten Fury", "=ds=#w13#, #h3#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
