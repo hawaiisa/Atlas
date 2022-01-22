@@ -49,7 +49,7 @@ function AtlasLootPvPMenu()
 	-- Azshara Crater Rewards
 	AtlasLootMenuItem_17_Name:SetText(BZ["Azshara Crater"]);
 	AtlasLootMenuItem_17_Extra:SetText("");
-	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
 	AtlasLootMenuItem_17.lootpage="AZCRepMenu";
 	AtlasLootMenuItem_17:Show();
 	-- Warsong Gulch Rewards
@@ -218,25 +218,25 @@ function AtlasLootAZCRepMenu()
 	--Friendly
 	AtlasLootMenuItem_2_Name:SetText(AL["Friendly Reputation Rewards"]);
 	AtlasLootMenuItem_2_Extra:SetText("");
-	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
 	AtlasLootMenuItem_2.lootpage="AZCRepFriendly";
 	AtlasLootMenuItem_2:Show();
 	--Honored
 	AtlasLootMenuItem_3_Name:SetText(AL["Honored Reputation Rewards"]);
 	AtlasLootMenuItem_3_Extra:SetText("");
-	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
 	AtlasLootMenuItem_3.lootpage="AZCRepHonored";
 	AtlasLootMenuItem_3:Show();
 	--Revered
 	AtlasLootMenuItem_4_Name:SetText(AL["Revered Reputation Rewards"]);
 	AtlasLootMenuItem_4_Extra:SetText("");
-	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
 	AtlasLootMenuItem_4.lootpage="AZCRepRevered";
 	AtlasLootMenuItem_4:Show();
 	--Exalted
 	AtlasLootMenuItem_5_Name:SetText(AL["Exalted Reputation Rewards"]);
 	AtlasLootMenuItem_5_Extra:SetText("");
-	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
 	AtlasLootMenuItem_5.lootpage="AZCRepExalted";
 	AtlasLootMenuItem_5:Show();
 	for i = 1, 30, 1 do
