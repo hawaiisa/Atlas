@@ -1161,7 +1161,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	elseif(dataID=="AVRepMenu") then
 		AtlasLootAVRepMenu();
 	elseif(dataID=="AZCRepMenu") then
-		AtlasLootAZCRepMenu()
+		AtlasLootAZCRepMenu();
 	elseif(dataID=="PVPSET") then
 		AtlasLootPVPSetMenu();
 	elseif(dataID=="REPMENU") then

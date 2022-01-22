@@ -295,16 +295,12 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 19323, "INV_Hammer_13", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#" },
 	};
 	AZCRepFriendly = {
-		{ 0, "", "", "" },
 	};
 	AZCRepHonored = {
-		{ 0, "", "", "" },
 	};
 	AZCRepRevered = {
-		{ 0, "", "", "" },
 	};
 	AZCRepExalted = {
-		{ 0, "", "", "" },
 	};
 	ABRepFriendly = {
 		{ 0, "", "", "" },
