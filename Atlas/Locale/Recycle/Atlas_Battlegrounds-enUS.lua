@@ -43,6 +43,7 @@ AtlasBGLocale = {
 	["Alterac Mountains"] = "Alterac Mountains";
 	["Alterac Valley"] = "Alterac Valley"; ["AV"] = "AV";
 	["Arathi Basin"] = "Arathi Basin"; ["AB"] = "AB";
+	["Azshara Crater"] = "Azshara Crater"; ["AZC"] = "AZC";
 	["Arathi Highlands"] = "Arathi Highlands";
 	["Ashenvale"] = "Ashenvale";
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
@@ -158,6 +159,10 @@ AtlasBGLocale = {
 	["Smithy"] = "Smithy";
 	["Lumber Mill"] = "Lumber Mill";
 	["Farm"] = "Farm";
+
+	--Azshara Crater
+	["Operation Rattlesnake"] = "Operation Rattlesnake";
+	["Firebird Corps"] = "Firebird Corps";
 
 	--Warsong Gulch
 	["Warsong Outriders"] = "Warsong Outriders";

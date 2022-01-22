@@ -46,12 +46,18 @@ function AtlasLootPvPMenu()
 	AtlasLootMenuItem_9_Icon:SetTexture("Interface\\Icons\\INV_Jewelry_Talisman_09");
 	AtlasLootMenuItem_9.lootpage="PvP60Accessories1";
 	AtlasLootMenuItem_9:Show();
-	-- Warsong Gulch Rewards
-	AtlasLootMenuItem_17_Name:SetText(BZ["Warsong Gulch"]);
+	-- Azshara Crater Rewards
+	AtlasLootMenuItem_17_Name:SetText(BZ["Azshara Crater"]);
 	AtlasLootMenuItem_17_Extra:SetText("");
 	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
-	AtlasLootMenuItem_17.lootpage="WSGRepMenu";
+	AtlasLootMenuItem_17.lootpage="AZCRepMenu";
 	AtlasLootMenuItem_17:Show();
+	-- Warsong Gulch Rewards
+	AtlasLootMenuItem_18_Name:SetText(BZ["Warsong Gulch"]);
+	AtlasLootMenuItem_18_Extra:SetText("");
+	AtlasLootMenuItem_18_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_18.lootpage="WSGRepMenu";
+	AtlasLootMenuItem_18:Show();
 	--Weapons
 	AtlasLootMenuItem_23_Name:SetText(AL["Rank 14 Weapons"]);
 	AtlasLootMenuItem_23_Extra:SetText("|cffFF8400"..AL["Level 60"]);
@@ -85,7 +91,7 @@ function AtlasLootWSGRepMenu()
 	AtlasLootMenuItem_2.lootpage="WSGRepFriendly";
 	AtlasLootMenuItem_2:Show();
 	--Honored
-AtlasLootMenuItem_3_Name:SetText(AL["Honored Reputation Rewards"]);
+	AtlasLootMenuItem_3_Name:SetText(AL["Honored Reputation Rewards"]);
 	AtlasLootMenuItem_3_Extra:SetText("");
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
 	AtlasLootMenuItem_3.lootpage="WSGRepHonored5059";
@@ -196,7 +202,49 @@ function AtlasLootAVRepMenu()
 	AtlasLoot_BossName:SetText("|cffFFFFFF"..BZ["Alterac Valley"]);
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
-
+function AtlasLootAZCRepMenu()
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootItem_"..i):Hide();
+	end
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootMenuItem_"..i):Hide();
+		getglobal("AtlasLootMenuItem_"..i).isheader = false;
+	end
+	getglobal("AtlasLootItemsFrame_BACK"):Show();
+	getglobal("AtlasLootItemsFrame_BACK").lootpage = "PVPMENU";
+	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
+	getglobal("AtlasLootItemsFrame_PREV"):Hide();
+	getglobal("AtlasLootServerQueryButton"):Hide();
+	--Friendly
+	AtlasLootMenuItem_2_Name:SetText(AL["Friendly Reputation Rewards"]);
+	AtlasLootMenuItem_2_Extra:SetText("");
+	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_2.lootpage="AZCRepFriendly";
+	AtlasLootMenuItem_2:Show();
+	--Honored
+	AtlasLootMenuItem_3_Name:SetText(AL["Honored Reputation Rewards"]);
+	AtlasLootMenuItem_3_Extra:SetText("");
+	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_3.lootpage="AZCRepHonored";
+	AtlasLootMenuItem_3:Show();
+	--Revered
+	AtlasLootMenuItem_4_Name:SetText(AL["Revered Reputation Rewards"]);
+	AtlasLootMenuItem_4_Extra:SetText("");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_4.lootpage="AZCRepRevered";
+	AtlasLootMenuItem_4:Show();
+	--Exalted
+	AtlasLootMenuItem_5_Name:SetText(AL["Exalted Reputation Rewards"]);
+	AtlasLootMenuItem_5_Extra:SetText("");
+	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Rune_07");
+	AtlasLootMenuItem_5.lootpage="AZCRepExalted";
+	AtlasLootMenuItem_5:Show();
+	for i = 1, 30, 1 do
+		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
+	end
+	AtlasLoot_BossName:SetText("|cffFFFFFF"..BZ["Azshara Crater"]);
+	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
+end
 function AtlasLootPVPSetMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootItem_"..i):Hide();

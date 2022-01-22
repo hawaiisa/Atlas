@@ -146,6 +146,22 @@ AtlasLootBattlegrounds = {
 		"ABRepRevered5059";
 		"ABRepExalted";
 	};
+	AzsharaCrater = {
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"";
+		"AZCRepFriendly";
+		"AZCRepHonored";
+		"AZCRepRevered";
+		"AZCRepExalted";
+	};
 	WarsongGulch = {
 		"";
 		"";
@@ -277,6 +293,18 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 19321, "Spell_Frost_ChillingArmor", "=q4=The Immovable Object", "=ds=#w8#" },
 		{ 19324, "INV_Sword_29", "=q4=The Lobotomizer", "=ds=#h1#, #w4#" },
 		{ 19323, "INV_Hammer_13", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#" },
+	};
+	AZCRepFriendly = {
+		{ 0, "", "", "" },
+	};
+	AZCRepHonored = {
+		{ 0, "", "", "" },
+	};
+	AZCRepRevered = {
+		{ 0, "", "", "" },
+	};
+	AZCRepExalted = {
+		{ 0, "", "", "" },
 	};
 	ABRepFriendly = {
 		{ 0, "", "", "" },

@@ -710,6 +710,10 @@ AL:RegisterTranslations("enUS", function() return {
 	["Blacksmith"] = true;
 	["Lumber Mill"] = true;
 	["Farm"] = true;
+
+	--Azshara Crater
+	["Operation Rattlesnake"] = true;
+	["Firebird Corps"] = true;
 	
 	--Warsong Gulch
 	["Warsong Outriders"] = true;

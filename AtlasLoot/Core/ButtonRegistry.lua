@@ -316,6 +316,28 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "AVRepMenu";
 		Prev_Page = "AVRepRevered";
 	};
+	["AZCRepFriendly"] = {
+		Title = AL["Friendly Reputation Rewards"];
+		Back_Page = "AZCRepMenu";
+		Next_Page = "AZCRepHonored";
+	};
+	["AZCRepHonored"] = {
+		Title = AL["Honored Reputation Rewards"];
+		Back_Page = "AZCRepMenu";
+		Next_Page = "AZCRepRevered";
+		Prev_Page = "AZCRepFriendly";
+	};
+	["AZCRepRevered"] = {
+		Title = AL["Revered Reputation Rewards"];
+		Back_Page = "AZCRepMenu";
+		Next_Page = "AZCRepExalted";
+		Prev_Page = "AZCRepHonored";
+	};
+	["AZCRepExalted"] = {
+		Title = AL["Exalted Reputation Rewards"];
+		Back_Page = "AZCRepMenu";
+		Prev_Page = "AZCRepRevered";
+	};
 	["PvP60Accessories1"] = {
 		Title = AL["PvP Trinkets"];
 		Next_Page = "PvP60Accessories2";

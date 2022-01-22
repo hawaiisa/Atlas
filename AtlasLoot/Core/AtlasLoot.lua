@@ -76,10 +76,10 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "02";
-local VERSION_BOSSES = "00";
+local VERSION_BOSSES = "01";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "2.1.0";
-ATLASLOOT_PREVIEW_ATLAS = "2.0.0";
+ATLASLOOT_CURRENT_ATLAS = "2.1.1";
+ATLASLOOT_PREVIEW_ATLAS = "2.1.0";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];
@@ -176,6 +176,7 @@ AtlasLoot_MenuList = {
 	"PVPMENU",
 	"ABRepMenu",
 	"AVRepMenu",
+	"AZCRepMenu",
 	"WSGRepMenu",
 	"PVPSET",
 	"SETMENU",
@@ -1159,6 +1160,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLootABRepMenu();
 	elseif(dataID=="AVRepMenu") then
 		AtlasLootAVRepMenu();
+	elseif(dataID=="AZCRepMenu") then
+		AtlasLootAZCRepMenu()
 	elseif(dataID=="PVPSET") then
 		AtlasLootPVPSetMenu();
 	elseif(dataID=="REPMENU") then
@@ -2287,7 +2290,10 @@ AtlasLoot_DewDropDown = {
 			[6] = { 
 				{ BZ["Arathi Basin"], "ABRewards", "Submenu" },
 			},
-			[7] = { 
+			[7] = {
+				{ BZ["Azshara Crater"], "AZCRewards", "Submenu" },
+			},
+			[8] = { 
 				{ BZ["Warsong Gulch"], "WSGRewards", "Submenu" },
 			},
 		},
@@ -2987,6 +2993,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Revered Reputation Rewards"], "AVRepRevered" },
 		{ AL["Honored Reputation Rewards"], "AVRepHonored" },
 		{ AL["Friendly Reputation Rewards"], "AVRepFriendly" },
+	},
+	["AZCRewards"] = {
+		{ AL["Exalted Reputation Rewards"], "AZCRepExalted" },
+		{ AL["Revered Reputation Rewards"], "AZCRepRevered" },
+		{ AL["Honored Reputation Rewards"], "AZCRepHonored" },
+		{ AL["Friendly Reputation Rewards"], "AZCRepFriendly" },
 	},
 	["PvPArmorSets"] = {
 		{ BC["Priest"], "PVPPriest" },

@@ -142,6 +142,7 @@ Atlas_DropDownLayouts = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
+			"AzsharaCrater",
 			"WarsongGulch",
 		},
 		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {
@@ -220,6 +221,7 @@ Atlas_DropDownLayouts = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
+			"AzsharaCrater",
 			"WarsongGulch",
 		},
 		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {
@@ -294,6 +296,7 @@ Atlas_DropDownLayouts = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
+			"AzsharaCrater",
 			"WarsongGulch",
 		},
 		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {
@@ -368,6 +371,7 @@ Atlas_DropDownLayouts = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
+			"AzsharaCrater",
 			"WarsongGulch",
 		},
 		[ATLAS_DDL_LEVELING_GUIDE_ALLIANCE1] = {
@@ -511,6 +515,7 @@ Atlas_DropDownLayouts = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
+			"AzsharaCrater",
 			"WarsongGulch",
 		},
 		[GREN..ATLAS_DDL_DUNGEON_LOCATIONS] = {

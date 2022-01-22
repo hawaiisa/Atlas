@@ -36,6 +36,7 @@ AtlasDLLocale = {
 	["Alterac Valley"] = "Alterac Valley";
 	["Arathi Basin"] = "Arathi Basin";
 	["Arathi Highlands"] = "Arathi Highlands";
+	["Azshara Crater"] = "Azshara Crater";
 	["Ashenvale"] = "Ashenvale";
 	["Auchenai Crypts"] = "Auchenai Crypts";
 	["Auchindoun"] = "Auchindoun";
