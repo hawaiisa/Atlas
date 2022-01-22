@@ -1380,6 +1380,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "2.53%" },
 		{ 17074, "INV_Spear_08", "=q4=Shadowstrike", "=ds=#w7#", "23.50%" },
 		{ 17223, "INV_Spear_08", "=q4=Thunderstrike", "=ds=#w7#" },
+		{ 26099, "INV_Spear_08", "=q4=Magmastrike", "=ds=#w7#", },
+		{ 26100, "INV_Spear_08", "=q4=Aquastrike", "=ds=#w7#" },
 	};
 	MCMajordomo = {
 		{ 19139, "INV_Shoulder_23", "=q4=Fireguard Shoulders", "=ds=#s3#, #a2#", "15.87%" },
