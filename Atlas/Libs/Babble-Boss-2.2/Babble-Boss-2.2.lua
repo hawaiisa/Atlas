@@ -370,8 +370,6 @@ BabbleBoss:RegisterTranslations("enUS", function()
                 ["Elder Mottled Boar"] = true,
 		["Ancient Core Hound"] = true,
 		["Sorcerer Ashcrombe"] = true,
-		--Vanilla Plus
-		["Lady Hederine"] = true,
 	}
 end)
 

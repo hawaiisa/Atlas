@@ -588,6 +588,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Spirit of Azuregos"] = true;
 	["Emerald Dragons Trash"] = true;
 	["Nethergarde Keep"] = true;
+	["Lady Hederine"] = true;
 	
 	--Battlegrounds
 	

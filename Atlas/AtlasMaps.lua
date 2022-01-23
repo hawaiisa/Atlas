@@ -1314,12 +1314,12 @@ AtlasMaps = {
 		{ ORNG..AL["Damage: "]..AL["Nature"]..", "..AL["Shadow"] };
 	};
 	LadyHederine = {
-		ZoneName = { BB["Lady Hederine"], NPC, 10201 };
+		ZoneName = { AL["Lady Hederine"], NPC, 10201 };
 		Location = { BZ["Winterspring"], ZONE, 21 };
 		LevelRange = "60+";
 		MinLevel = "--";
 		PlayerLimit = "40";
-		{ GREY.."1) "..BB["Lady Hederine"], NPC, 10201 };
+		{ GREY.."1) "..AL["Lady Hederine"], NPC, 10201 };
 		{ "" };
 		{ "" };
 		{ "" };

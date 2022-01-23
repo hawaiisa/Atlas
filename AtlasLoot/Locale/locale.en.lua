@@ -147,7 +147,6 @@ AL:RegisterTranslations("enUS", function() return {
 	["Blacksmithing Plans"] = true;
 	["Consumable"] = true;
 	["Needed to purchase rewards"] = true;
-	["Tier set hand-ins"] = true;
 	["World Bosses"] = true;
 	["Reputation Factions"] = true;
 	["Sets/Collections"] = true;
@@ -535,6 +534,8 @@ AL:RegisterTranslations("enUS", function() return {
 	["Group wishlist items by instance"] = true;
 	--VanillaPlus
 	["Azshara Crater"] = true;
-	["Operation Rattlesnake"] = true;
 	["Firebird corps"] = true;
+	["Operation Rattlesnake"] = true;
+	["Lady Hederine"] = true;
+	["Tier set hand-ins"] = true;
 	} end)	
