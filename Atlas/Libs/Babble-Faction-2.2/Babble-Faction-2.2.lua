@@ -65,10 +65,6 @@ BabbleFaction:RegisterTranslations("enUS", function()
 	["Wintersaber Trainers"] = true,
 	["Zandalar Tribe"] = true,
 
-	--VanillaPlus Factions
-	["Operation Rattlesnake"] = true,
-	["Firebird Corps"] = true,
-
 	--Rep Levels
 	["Neutral"] = true,
 	["Friendly"] = true,

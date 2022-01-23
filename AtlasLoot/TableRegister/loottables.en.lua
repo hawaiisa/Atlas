@@ -763,10 +763,10 @@ AtlasLoot_TableNames = {
 	["ABRepRevered5059"] = { BZ["Arathi Basin"].." 50-59 "..AL["Revered Rewards"], "AtlasLootBGItems" },
 	["ABRepExalted"] = { BZ["Arathi Basin"].." 60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
  	--Azshara Crater
-	["AZCRepFriendly"] = { BZ["Azshara Crater"].." 51-60 "..AL["Friendly Rewards"], "AtlasLootBGItems" },
-	["AZCRepHonored"] = { BZ["Azshara Crater"].." 51-60 "..AL["Honored Rewards"], "AtlasLootBGItems" },
-	["AZCRepRevered"] = { BZ["Azshara Crater"].." 51-60 "..AL["Revered Rewards"], "AtlasLootBGItems" },
-	["AZCRepExalted"] = { BZ["Azshara Crater"].." 51-60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
+	["AZCRepFriendly"] = { AL["Azshara Crater"].." 51-60 "..AL["Friendly Rewards"], "AtlasLootBGItems" },
+	["AZCRepHonored"] = { AL["Azshara Crater"].." 51-60 "..AL["Honored Rewards"], "AtlasLootBGItems" },
+	["AZCRepRevered"] = { AL["Azshara Crater"].." 51-60 "..AL["Revered Rewards"], "AtlasLootBGItems" },
+	["AZCRepExalted"] = { AL["Azshara Crater"].." 51-60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
 	--Warsong Gulch
 	["WSGRepFriendly"] = { BZ["Warsong Gulch"].." "..AL["Friendly Rewards"], "AtlasLootBGItems" },
 	["WSGRepHonored1019"] = { BZ["Warsong Gulch"].." 10-19 "..AL["Honored Rewards"], "AtlasLootBGItems" },
@@ -1646,10 +1646,10 @@ AtlasLoot_TableNamesBoss = {
 		["ABRepRevered5059"] = { BZ["Arathi Basin"].." 50-59 "..AL["Revered Rewards"], "AtlasLootBGItems" },
 		["ABRepExalted"] = { BZ["Arathi Basin"].." 60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
 		--Azshara Crater
-		["AZCRepFriendly"] = { BZ["Azshara Crater"].." 51-60 "..AL["Friendly Rewards"], "AtlasLootBGItems" },
-		["AZCRepHonored"] = { BZ["Azshara Crater"].." 51-60 "..AL["Honored Rewards"], "AtlasLootBGItems" },
-		["AZCRepRevered"] = { BZ["Azshara Crater"].." 51-60 "..AL["Revered Rewards"], "AtlasLootBGItems" },
-		["AZCRepExalted"] = { BZ["Azshara Crater"].." 51-60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
+		["AZCRepFriendly"] = { AL["Azshara Crater"].." 51-60 "..AL["Friendly Rewards"], "AtlasLootBGItems" },
+		["AZCRepHonored"] = { AL["Azshara Crater"].." 51-60 "..AL["Honored Rewards"], "AtlasLootBGItems" },
+		["AZCRepRevered"] = { AL["Azshara Crater"].." 51-60 "..AL["Revered Rewards"], "AtlasLootBGItems" },
+		["AZCRepExalted"] = { AL["Azshara Crater"].." 51-60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
 		--Warsong Gulch
 		["WSGRepFriendly"] = { BZ["Warsong Gulch"].." Friendly Rewards", "AtlasLootBGItems" },
 		["WSGRepHonored1019"] = { BZ["Warsong Gulch"].." 10-19 "..AL["Honored Rewards"], "AtlasLootBGItems" },

@@ -36,7 +36,6 @@ BabbleZone:RegisterTranslations("enUS", function()
 		["Ashenvale"] = true,
 		["Auberdine"] = true,
 		["Azshara"] = true,
-		["Azshara Crater"] = true,
 		["Badlands"] = true,
 		["The Barrens"] = true,
 		["Blackfathom Deeps"] = true,

@@ -533,4 +533,8 @@ AL:RegisterTranslations("enUS", function() return {
 	["Revered Rewards"] = true;
 	["Exalted Rewards"] = true;
 	["Group wishlist items by instance"] = true;
+	--VanillaPlus
+	["Azshara Crater"] = true;
+	["Operation Rattlesnake"] = true;
+	["Firebird corps"] = true;
 	} end)	

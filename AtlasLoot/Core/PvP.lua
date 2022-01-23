@@ -47,7 +47,7 @@ function AtlasLootPvPMenu()
 	AtlasLootMenuItem_9.lootpage="PvP60Accessories1";
 	AtlasLootMenuItem_9:Show();
 	-- Azshara Crater Rewards
-	AtlasLootMenuItem_17_Name:SetText(BZ["Azshara Crater"]);
+	AtlasLootMenuItem_17_Name:SetText(AL["Azshara Crater"]);
 	AtlasLootMenuItem_17_Extra:SetText("");
 	AtlasLootMenuItem_17_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
 	AtlasLootMenuItem_17.lootpage="AZCRepMenu";
@@ -242,7 +242,7 @@ function AtlasLootAZCRepMenu()
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end
-	AtlasLoot_BossName:SetText("|cffFFFFFF"..BZ["Azshara Crater"]);
+	AtlasLoot_BossName:SetText("|cffFFFFFF"..AL["Azshara Crater"]);
 	AtlasLoot_SetItemInfoFrame(AtlasLoot_AnchorFrame);
 end
 function AtlasLootPVPSetMenu()

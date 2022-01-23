@@ -712,6 +712,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Farm"] = true;
 
 	--Azshara Crater
+	["Azshara Crater"] = true;
 	["Operation Rattlesnake"] = true;
 	["Firebird Corps"] = true;
 	

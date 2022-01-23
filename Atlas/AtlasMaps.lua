@@ -1572,15 +1572,15 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Exalted Reputation Rewards"] };
 	};
 	AzsharaCrater = {
-		ZoneName = { BZ["Azshara Crater"], 2 };
+		ZoneName = { AL["Azshara Crater"], 2 };
 		Acronym = "AZC";
 		Location = { BZ["Azshara"], 2 };
 		LevelRange = "60";
 		MinLevel = "51";
 		PlayerLimit = "40";
 		Continent = BZ["Kalimdor"];
-		{ ORNG..AL["Reputation"]..": "..BF["Operation Rattlesnake"].." ("..BF["Horde"]..")", FACTION, 0 };
-		{ ORNG..AL["Reputation"]..": "..BF["Firebird Corps"].." ("..BF["Alliance"]..")", FACTION, 0 };
+		{ ORNG..AL["Reputation"]..": "..AL["Operation Rattlesnake"].." ("..BF["Horde"]..")", FACTION, 0 };
+		{ ORNG..AL["Reputation"]..": "..AL["Firebird Corps"].." ("..BF["Alliance"]..")", FACTION, 0 };
 	};
 	WarsongGulch = {
 		ZoneName = { BZ["Warsong Gulch"], 3277 };
