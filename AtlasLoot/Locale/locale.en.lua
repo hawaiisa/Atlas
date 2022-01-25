@@ -534,7 +534,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Group wishlist items by instance"] = true;
 	--VanillaPlus
 	["Azshara Crater"] = true;
-	["Firebird corps"] = true;
+	["Firebird Corps"] = true;
 	["Operation Rattlesnake"] = true;
 	["Lady Hederine"] = true;
 	["Tier set hand-ins"] = true;

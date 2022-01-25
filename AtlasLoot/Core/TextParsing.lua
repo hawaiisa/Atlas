@@ -131,7 +131,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#b4#", BF["Warsong Outriders"]);
     text = gsub(text, "#b5#", BF["The League of Arathor"]);
     text = gsub(text, "#b6#", BF["The Defilers"]);
-    text = gsub(text, "#b7#", AL["Firebird corps"]); --VanillaPlus
+    text = gsub(text, "#b7#", AL["Firebird Corps"]); --VanillaPlus
     text = gsub(text, "#b8#", AL["Operation Rattlesnake"]); --VanillaPlus
     
     --BRDArena
