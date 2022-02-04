@@ -3499,7 +3499,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 11730, "INV_Gauntlets_04", "=q3=Savage Gladiator Grips", "=ds=#s9#, #a3#", "13.56%" },
 		{ 11686, "INV_Belt_12", "=q3=Girdle of Beastial Fury", "=ds=#s10#, #a2#", "15.85%" },
 	};	
-	
 	BRDGorosh = {
 		{ 11726, "INV_Chest_Chain_15", "=q4=Savage Gladiator Chain", "=ds=#s5#, #a3#", "15.34%" },
 		{ 22271, "INV_Pants_Leather_21", "=q3=Leggings of Frenzied Magic", "=ds=#s11#, #a2#", "23.24%" },
@@ -3760,6 +3759,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 11932, "INV_Staff_30", "=q3=Guiding Stave of Wisdom", "=ds=#w9#", "15.01%" },
 		{ 0, "", "", "" },
 		{ 12033, "INV_Misc_Bag_17", "=q1=Thaurissan Family Jewels", "=ds=#m23#. #p13# (275)", "2.87%" },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#"},
 	};
 	BRDPrincess = {
 		{ 12557, "INV_Shoulder_25", "=q3=Ebonsteel Spaulders", "=ds=#s3#, #a4#", "12.11%" },
@@ -4096,6 +4096,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18780, "INV_Misc_Note_06", "=q3=Top Half of Advanced Armorsmithing: Volume I", "=ds=#m8#", "6.00%" },
 		{ 12727, "INV_Scroll_05", "=q3=Plans: Enchanted Thorium Breastplate", "=q1=#m4# =ds=#p2# (300)" },
 		{ 12618,"INV_Chest_Plate10","=q3=Enchanted Thorium Breastplate","=ds=#s5#, #a4#" },
+		{ 0, "", "", "" },
+		{ 26069, "INV_Misc_Note_01", "=q3=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (300)"},
 	};
 	DMNChoRush = {
 		{ 18490, "INV_Helmet_41", "=q3=Insightful Hood", "=ds=#s1#, #a2#", "21.46%" },

@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "02";
-local VERSION_BOSSES = "05";
+local VERSION_BOSSES = "06";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.3";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.0";
@@ -2972,7 +2972,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BIS["Spider's Kiss"], "SpiderKiss" },
 		{ BIS["Spirit of Eskhandar"], "SpiritofEskhandar" },
 		{ BIS["The Gladiator"], "BLACKROCKD" },
-		{ BIS["The Postmaster"], "SCARLET" },
+		{ BIS["The Postmaster"], "STRAT" },
 		{ BIS["The Twin Blades of Hakkari"], "HakkariBlades" },
 		{ AL["Zul'Gurub Rings"], "ZGRings" },
 	},
