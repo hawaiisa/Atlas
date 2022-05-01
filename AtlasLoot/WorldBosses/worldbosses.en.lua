@@ -30,7 +30,8 @@ AtlasLootWBBossButtons = {
 AtlasLoot_Data["AtlasLootWBItems"] = {
 	EmptyInstance = {};
 	Hederine = {
-		{ 0, "Spell_Shadow_SummonSuccubus", "=q4=Loads of pain and suffering", "=ds=Launching January 26th, 2022" },
+		{ 26129, "INV_Helmet_16", "=q4=Helm of the Fallen Hero", "=ds=#s1#, #a4#" },
+		{ 26133, "INV_Jewelry_Ring_AhnQiraj_04", "=q4=Ring of Suffering", "=ds=#s13#, #m8#"}
 	};
 	KKazzak = {
 		{ 18546, "INV_Helmet_18", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "9.39%" },

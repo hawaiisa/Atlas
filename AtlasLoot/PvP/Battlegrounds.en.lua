@@ -149,18 +149,14 @@ AtlasLootBattlegrounds = {
 	AzsharaCrater = {
 		"";
 		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
-		"";
 		"AZCRepFriendly";
 		"AZCRepHonored";
 		"AZCRepRevered";
 		"AZCRepExalted";
+		"";
+		"";
+		"";
+		"";
 	};
 	WarsongGulch = {
 		"";
@@ -321,10 +317,10 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 	};
 	AZCRepHonored = {
 		{ 0, "INV_BannerPVP_02", "=q8=#m7#", "=q7=#b7#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26139, "INV_Misc_Cape_16", "=q3=Rough Tactical Cloak", "=ds=#s4#" },
+		{ 26140, "INV_Misc_Cape_16", "=q3=Soft Tactical Poncho", "=ds=#s4#" },
+		{ 26143, "INV_Jewelry_Talisman_06", "=q3=Battle Healer's Token", "=ds=#s2#" },
+		{ 26144, "INV_Belt_12", "=q3=Infantry Good Luck Token", "=ds=#s2#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -336,20 +332,20 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b8#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26141, "INV_Misc_Cape_18", "=q3=Rough Tactical Cloak", "=ds=#s4#" },
+		{ 26142, "INV_Misc_Cape_18", "=q3=Soft Tactical Poncho", "=ds=#s4#" },
+		{ 26145, "INV_Jewelry_Talisman_06", "=q3=Battle Healer's Token", "=ds=#s2#" },
+		{ 26146, "INV_Belt_12", "=q3=Infantry Good Luck Token", "=ds=#s2#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 	};
 	AZCRepRevered = {
 		{ 0, "INV_BannerPVP_02", "=q8=#m7#", "=q7=#b7#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26147, "INV_Mace_16", "=q3=Battle Healer's Hammer", "=ds=#h1#, #w6#" },
+		{ 26148, "INV_Weapon_ShortBlade_05", "=q3=Battle Mage's Golden Wand", "=ds=#h1#, #w4#" },
+		{ 26149, "INV_Staff_08", "=q3=Naturalist Staff", "=ds=#h2#, #w9#" },
+		{ 26150, "INV_Weapon_Rifle_07", "=q3=Firebird's Kiss", "=ds=#w5#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -361,38 +357,42 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b8#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26151, "INV_Mace_11", "=ds=Battle Healer's Totem", "=ds=#h1#, #w6#" },
+		{ 26152, "INV_Weapon_ShortBlade_12", "=q3=Battle Mage's Rod", "=ds=#h1#, #w4#" },
+		{ 26153, "INV_Staff_14", "=q3=Stick of the Shapeshifter", "=ds=#h2#, #w9#" },
+		{ 26154, "INV_Weapon_Rifle_03", "=q3=Rattlesnake Storm Bolter", "=ds=#w5#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 	};
 	AZCRepExalted = {
 		{ 0, "INV_BannerPVP_02", "=q8=#m7#", "=q7=#b7#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26155, "INV_Sword_35", "=q4=Sawblade", "=ds=#h2#, #w10#" },
+		{ 26157, "INV_Wand_06", "=q4=Hand of Pacifist", "=ds=#w12#" },
+		{ 26159, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q17=#c9#" },
+		{ 26160, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q16=#c4#" },
+		{ 26162, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q14=#c2#" },
+		{ 26163, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q13=#c1#" },
+		{ 26164, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q12=#c6#" },
+		{ 26165, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q10=#c3#" },
+		{ 26166, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q9=#c5#" },
+		{ 26167, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q11=#c8#" },
+		{ 26137, "INV_Shirt_GuildTabard_01", "=q1=Firebird Battle Tabard", "=ds=#s7#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b8#" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26156, "INV_Axe_18", "=q4=The Bite", "=ds=#h2#, #w1#" },
+		{ 26158, "INV_Wand_06", "=q4=Hand of Pacifist", "=ds=#w12#" },
+		{ 26168, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q17=#c9#" },
+		{ 26170, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q15=#c7#" },
+		{ 26171, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q14=#c2#" },
+		{ 26172, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q13=#c1#" },
+		{ 26173, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q12=#c6#" },
+		{ 26174, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q10=#c3#" },
+		{ 26175, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q9=#c5#" },
+		{ 26176, "INV_Jewelry_Necklace_12", "=q4=Mark of the Veteran", "=ds=#s14#, #m8#, =q11=#c8#" },
+		{ 26138, "INV_Shirt_GuildTabard_01", "=q1=Rattlesnake Battle Tabard", "=ds=#s7#" },
 	};
 	ABRepFriendly = {
 		{ 0, "", "", "" },

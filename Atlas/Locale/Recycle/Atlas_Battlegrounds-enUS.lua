@@ -43,7 +43,7 @@ AtlasBGLocale = {
 	["Alterac Mountains"] = "Alterac Mountains";
 	["Alterac Valley"] = "Alterac Valley"; ["AV"] = "AV";
 	["Arathi Basin"] = "Arathi Basin"; ["AB"] = "AB";
-	["Azshara Crater"] = "Azshara Crater"; ["AZC"] = "AZC";
+	["Azshara Crater"] = "Azshara Crater"; ["AZC"] = "AC";
 	["Arathi Highlands"] = "Arathi Highlands";
 	["Ashenvale"] = "Ashenvale";
 	["Eastern Kingdoms"] = "Eastern Kingdoms";
