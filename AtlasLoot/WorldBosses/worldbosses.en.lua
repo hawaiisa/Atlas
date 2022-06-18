@@ -30,12 +30,14 @@ AtlasLootWBBossButtons = {
 AtlasLoot_Data["AtlasLootWBItems"] = {
 	EmptyInstance = {};
 	Hederine = {
+		{ 26127, "INV_Misc_Gem_Amethyst_02", "=q4=Soul Shard Pendant", "=ds=#s2#" },
 		{ 26128, "INV_Belt_11", "=q4=Hederine Whipping Belt", "=ds=#s10#, #a2#" },
 		{ 26129, "INV_Helmet_16", "=q4=Helm of the Fallen Hero", "=ds=#s1#, #a4#" },
 		{ 26130, "INV_Belt_18", "=q4=Hederine Shackles", "=ds=#s14#" },
+		{ 26131, "INV_Bracer_07", "=q4=Gyves of Perdition", "=ds=#s8#, #a1#" },
 		{ 26132, "INV_Misc_Cape_20", "=q4=Sayaad Wings", "=ds=#s4#" },
 		{ 26133, "INV_Jewelry_Ring_AhnQiraj_04", "=q4=Ring of Suffering", "=ds=#s13#, #m8#" },
-		{ 26134, "INV_Weapon_ShortBlade_27", "=q4=Demonic Claw", "=ds=#h4#, #w13#" },
+		{ 26134, "INV_Weapon_ShortBlade_27", "=q4=Demonic Claw", "=ds=#w13#, #h4#" },
 	};
 	KKazzak = {
 		{ 18546, "INV_Helmet_18", "=q4=Infernal Headcage", "=ds=#s1#, #a3#", "9.39%" },

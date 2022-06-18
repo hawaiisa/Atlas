@@ -1572,9 +1572,9 @@ AtlasMaps = {
 		{ GREN..INDENT..AL["Exalted Reputation Rewards"] };
 	};
 	AzsharaCrater = {
-		ZoneName = { AL["Azshara Crater"], 2 };
+		ZoneName = { AL["Azshara Crater"], 268 };
 		Acronym = "AC";
-		Location = { BZ["Azshara"], 2 };
+		Location = { BZ["Azshara"], 16 };
 		LevelRange = "60";
 		MinLevel = "55";
 		PlayerLimit = "40";

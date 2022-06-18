@@ -1291,6 +1291,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19147, "INV_Jewelry_Ring_38", "=q4=Ring of Spell Power", "=ds=#s13#", "1.99%" },
 		{ 17077, "INV_Staff_13", "=q4=Crimson Shocker", "=ds=#w12#", "3.32%" },
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "2.27%" },
+		{ 0, "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26061,"INV_Jewelry_Ring_31","=q4=Signet of Unlimited Power","=ds=#s13#, #m8#" },
 	};
 	MCGeddon = {
 		{ 34349, "INV_Misc_MC_ClothShoulder", "=q4=Burnt Shoulderpads", "=ds=#s3#, =q9=#c5# =q10=#c3# =q11=#c8#" },
