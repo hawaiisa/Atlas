@@ -20,6 +20,6 @@ wowfolder\
 3. Restart your client and start gearing. (If you're patching an older version /run ReloadUI() should be sufficient in most cases)
 
 ## How can I contribute?
-If you find errors in loot table or recipes or discover a missing item from a loot table, feel free to contact me via the V+ Discord, submitting an issue, or make a pull request.
+If you find errors in loot tables and/or recipes or discover a missing item from a loot table, feel free to contact me via the V+ Discord, submitting an issue, or make a pull request.
 
 The info I need for new items is the item name, where it drops, and preferably its ItemID.
