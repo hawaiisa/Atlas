@@ -4,8 +4,8 @@
 ## Notes-ruRU: Показывает возможную добычу с боссов
 ## Notes-esES: Muestra el botín de los jefes
 ## Author: Hawaiisa
-## Version: 5.03.03
-## X-Date: 17.06.2022
+## Version: 5.03.04
+## X-Date: 21.07.2022
 ## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery, Takeitboy, Hawaiisa
 ## X-Website: https://github.com/hawaiisa/Atlas
 ## X-Category: Map
