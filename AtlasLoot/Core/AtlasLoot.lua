@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "04";
+local VERSION_BOSSES = "05";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.3";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.0";
@@ -2679,6 +2679,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["High Priest Venoxis"], "ZGVenoxis" },
 		{ BB["High Priestess Mar'li"], "ZGMarli" },
 		{ BB["Bloodlord Mandokir"], "ZGMandokir" },
+		{ AL["Azus the Bloodseeker"], "ZGAzus" },
+		{ AL["Nameless Hermit"], "ZGHermit"},
 		{ BB["Gri'lek"], "ZGGrilek" },
 		{ BB["Hazza'rah"], "ZGHazzarah" },
 		{ BB["Renataki"], "ZGRenataki" },

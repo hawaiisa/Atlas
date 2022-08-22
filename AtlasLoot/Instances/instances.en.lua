@@ -1593,7 +1593,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19925, "INV_Jewelry_Ring_44", "=q3=Band of Jin", 	"=ds=#s13#", "6.99%" },
 		{ 19930, "INV_ZulGurubTrinket", "=q3=Mar'li's Eye", 	"=ds=#s14#", "12.09%" },
 	};
-		ZGMandokir = {
+	ZGMandokir = {
 		{ 19721, "INV_Shoulder_19", "=q4=Primal Hakkari Shawl", "=q16=#c4#=ds=, =q14=#c2#=ds=, =q10=#c3#", "6.52%" },
 		{ 19724, "INV_Chest_Chain_12", "=q4=Primal Hakkari Aegis", "=q14=#c2#=ds=, =q12=#c6#=ds=, =q9=#c5#", "12.07%" },
 		{ 19723, "INV_Shirt_07", "=q4=Primal Hakkari Kossack", "=q17=#c9#=ds=, =q10=#c3#=ds=, =q11=#c8#", "12.94%" },
@@ -1624,26 +1624,32 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19863, "INV_Jewelry_Ring_47", "=q3=Primalist's Seal", "=ds=#s13#", "12.32%" },
 		{ 19893, "INV_Jewelry_Ring_46", "=q3=Zanzil's Seal", "=ds=#s13#", "13.11%" },
 	};
-		ZGGrilek = {
+	ZGAzus = {
+		{ 0, "INV_Misc_Questionmark", "=q3=No loot reported", "=ds=Notify Thirinena of new or missing loot", },
+	};
+	ZGHermit = {
+		{ 0, "INV_Misc_Questionmark", "=q3=No loot reported", "=ds=Notify Thirinena of new or missing loot", },
+	};
+	ZGGrilek = {
 		{ 19961, "INV_Mace_04", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "43.90%" },
 		{ 19962, "INV_Axe_24", "=q3=Gri'lek's Carver", "=ds=#h2#, #w1#", "41.99%" },
 		{ 0, "", "", "" },
 		{ 19939, "INV_Potion_26", "=q2=Gri'lek's Blood", "=ds=#m3#", "100%" },
 	};
-		ZGHazzarah = {
+	ZGHazzarah = {
 		{ 19967, "INV_Wand_05", "=q3=Thoughtblighter", "=ds=#w12#", "45.49%" },
 		{ 19968, "INV_Sword_01", "=q3=Fiery Retributer", "=ds=#h3#, #w10#", "38.37%" },
 		{ 0, "", "", "" },
 		{ 19942, "INV_Misc_Bandage_16", "=q2=Hazza'rah's Dream Thread", "=ds=#m3#", "100%" },
 	};
-		ZGRenataki = {
+	ZGRenataki = {
 		{ 19964, "INV_Sword_37", "=q3=Renataki's Soul Conduit", "=ds=#h3#, #w10#", "40.06%" },
 		{ 19963, "INV_Spear_03", "=q3=Pitchfork of Madness", "=ds=#w7#", "45.51%" },
 		{ 0, "", "", "" },
 		{ 19940, "INV_Misc_MonsterFang_01", "=q2=Renataki's Tooth", "=ds=#m3#", "100%" },
 	};
 
-		ZGWushoolay = {
+	ZGWushoolay = {
 		{ 19993, "INV_Waepon_Bow_ZulGrub_D_02", "=q3=Hoodoo Hunting Bow", "=ds=#w2#", "40.96%" },
 		{ 19965, "INV_Sword_37", "=q3=Wushoolay's Poker", "=ds=#h3#, #w4#", "45.21%" },
 		{ 0, "", "", "" },
