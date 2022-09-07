@@ -1089,6 +1089,8 @@ AtlasMaps = {
 		{ GREY.."11) "..BB["Hakkar"], NPC, 14834 };
 		{ GREN.."1') "..AL["Muddy Churning Waters"], OBJECT, 180369 };
 		{ GREN.."2') "..AL["Jinxed Hoodoo Pile"], OBJECT, 180228 };
+		{ GREY..AL["Nameless Hermit"], NPC, 26022 };
+		{ GREY..AL["Azus the Bloodseeker"], NPC, 26023 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Random Boss Loot"] };

@@ -517,6 +517,9 @@ AL:RegisterTranslations("enUS", function() return {
 	["Muddy Churning Waters"] = true;
 	["Jinxed Hoodoo Pile"] = true;
 	["ZG Enchants"] = true;		
+	--Vanilla+
+	["Nameless Hermit"] = true;
+	["Azus the Bloodseeker"] = true;
 	
 	--************************************************
 	-- Instance Entrance Maps

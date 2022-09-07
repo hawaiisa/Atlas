@@ -853,6 +853,8 @@ AtlasLootBossButtons = {
 		"ZGHakkar";
 		"ZGMuddyChurningWaters";
 		"ZGJinxedHoodooPile";
+		"ZGHermit";
+		"ZGAzus";
 		"";
 		"ZGTrash1";
 		"ZGShared";
@@ -1628,7 +1630,21 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "INV_Misc_Questionmark", "=q3=No loot reported", "=ds=Notify Thirinena of new or missing loot", },
 	};
 	ZGHermit = {
-		{ 0, "INV_Misc_Questionmark", "=q3=No loot reported", "=ds=Notify Thirinena of new or missing loot", },
+		{ 26198,  "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#" },
+		{ 26200,  "INV_Offhand_Stratholme_A_02", "=q3=Friendly Hand", "=ds=#w12#" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 19722, "INV_Banner_01", "=q4=Primal Hakkari Tabard", ""},
+		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", ""}
 	};
 	ZGGrilek = {
 		{ 19961, "INV_Mace_04", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "43.90%" },
