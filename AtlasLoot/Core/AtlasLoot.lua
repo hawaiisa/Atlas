@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "06";
+local VERSION_BOSSES = "07";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.4";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.3";
@@ -522,6 +522,8 @@ function AtlasLoot_OnLoad()
 	SLASH_ATLASLOOT1 = "/atlasloot";
 	SLASH_ATLASLOOT2 = "/al";
 	SlashCmdList["ATLASLOOT"] = AtlasLoot_SlashCommand;
+	SLASH_NEWITEM1="/newitem";
+	SlashCmdList["NEWITEM"]=AtlasLoot_StringGen;
 end
 
 --[[
@@ -3607,4 +3609,140 @@ function AtlasLoot_GetChatLink(id)
 	local _, _, _, d = GetItemQualityColor(c);
 	local e = string.sub(d, 2)
 	return "\124"..e.."\124H"..b.."\124h["..a.."]\124h\124r"
+end
+
+function AtlasLoot_ItemTableSub(text, alttext)
+    if text == "Miscellaneous" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_NECK"] = "#s2#",
+            ["INVTYPE%_BODY"] = "#s6#",
+            ["INVTYPE%_TABARD"] = "#s7#",
+            ["INVTYPE%_FINGER"] = "#s13#",
+            ["INVTYPE%_TRINKET"] = "#s14#",
+            ["INVTYPE%_HOLDABLE"] = "#s15#",
+        }
+    elseif text == "Daggers" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w4#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w4#",
+        }
+    elseif text == "Fist Weapons" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w13#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w13#",
+        }
+    elseif text == "One-Handed Swords" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w10#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w10#",
+        }
+    elseif text == "One-Handed Maces" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w6#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w6#",
+        }
+    elseif text == "One-Handed Axes" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w1#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w1#",
+        }
+    elseif text == "Cloth" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_HEAD"] = "#s1#, #a1#",
+            ["INVTYPE%_SHOULDER"] = "#s3#, #a1#",
+            ["INVTYPE%_CLOAK"] = "#s4#",
+            ["INVTYPE%_ROBE"] = "#s5#, #a1#",
+            ["INVTYPE%_WRIST"] = "#s8#, #a1#",
+            ["INVTYPE%_HAND"] = "#s9#, #a1#",
+            ["INVTYPE%_WAIST"] = "#s10#, #a1#",
+            ["INVTYPE%_LEGS"] = "#s11#, #a1#",
+            ["INVTYPE%_FEET"] = "#s12#, #a1#",
+        }
+    elseif text == "Leather" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_HEAD"] = "#s1#, #a2#",
+            ["INVTYPE%_SHOULDER"] = "#s3#, #a2#",
+            ["INVTYPE%_ROBE"] = "#s5#, #a2#",
+            ["INVTYPE%_WRIST"] = "#s8#, #a2#",
+            ["INVTYPE%_HAND"] = "#s9#, #a2#",
+            ["INVTYPE%_WAIST"] = "#s10#, #a2#",
+            ["INVTYPE%_LEGS"] = "#s11#, #a2#",
+            ["INVTYPE%_FEET"] = "#s12#, #a2#",
+        }
+    elseif text == "Mail" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_HEAD"] = "#s1#, #a3#",
+            ["INVTYPE%_SHOULDER"] = "#s3#, #a3#",
+            ["INVTYPE%_ROBE"] = "#s5#, #a3#",
+            ["INVTYPE%_WRIST"] = "#s8#, #a3#",
+            ["INVTYPE%_HAND"] = "#s9#, #a3#",
+            ["INVTYPE%_WAIST"] = "#s10#, #a3#",
+            ["INVTYPE%_LEGS"] = "#s11#, #a3#",
+            ["INVTYPE%_FEET"] = "#s12#, #a3#",
+        }
+    elseif text == "Plate" then
+        text = alttext
+        ClassSubPatterns = {
+            ["INVTYPE%_HEAD"] = "#s1#, #a4#",
+            ["INVTYPE%_SHOULDER"] = "#s3#, #a4#",
+            ["INVTYPE%_ROBE"] = "#s5#, #a4#",
+            ["INVTYPE%_WRIST"] = "#s8#, #a4#",
+            ["INVTYPE%_HAND"] = "#s9#, #a4#",
+            ["INVTYPE%_WAIST"] = "#s10#, #a4#",
+            ["INVTYPE%_LEGS"] = "#s11#, #a4#",
+            ["INVTYPE%_FEET"] = "#s12#, #a4#",
+        }
+    else
+        ClassSubPatterns = {
+            ["One%-Handed"] = "#h1#, ",
+            ["Two%-Handed"] = "#h2#, ",
+            ["Axes"] = "#w1#",
+            ["Bows"] = "#w2#",
+            ["Crossbows"] = "#w3#",
+            ["Guns"] = "#w5#",
+            ["Maces"] = "#w6#",
+            ["Polearms"] = "#w7#",
+            ["Shields"] = "#w8#",
+            ["Staves"] = "#w9#",
+            ["Swords"] = "#w10#",
+            ["Thrown"] = "#w11#",
+            ["Wands"] = "#w12#",
+            ["Fist Weapons"] = "#w13#",
+            ["Fishing Poles"] = "#w14#",
+            ["Idols"] = "#s16#",
+            ["Totems"] = "#s16#",
+            ["Librams"] = "#s16#",
+        }
+    end
+    for k, v in ClassSubPatterns do
+        text = gsub(text, k, v)
+    end
+    ClassSubPatterns = nil
+    return text
+end
+
+function AtlasLoot_StringGen(msg)
+    if not strfind(msg, "item") then
+        DEFAULT_CHAT_FRAME:AddMessage("/newitem usage: /newitem [ItemLink];[ItemLink];[ItemLink]...")
+    else
+        local ItemLinks = {}
+        for items in string.gmatch(msg, "[^%;]+") do
+            tinsert(ItemLinks, items)
+        end
+        for i, v in ipairs(ItemLinks) do
+            local _,_,itemID=string.find(v,"item:(%d+):%d+:%d+:%d+")
+            local ItemInfo = {GetItemInfo(itemID)}
+            DEFAULT_CHAT_FRAME:AddMessage("{ "..itemID..", ".."\""..(ItemInfo[9] and gsub(ItemInfo[9], "Interface\\Icons\\", "") or "").."\", ".."\"=q"..(ItemInfo[3] and ItemInfo[3] or "").."="..(ItemInfo[1] and ItemInfo[1] or "").."\", \""..(ItemInfo[6] and AtlasLoot_ItemTableSub(ItemInfo[6], ItemInfo[8]) or "").."\" },")
+
+        end
+    end
 end
