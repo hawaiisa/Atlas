@@ -3637,18 +3637,21 @@ function AtlasLoot_ItemTableSub(text, alttext)
     elseif text == "One-Handed Swords" then
         text = alttext
         ClassSubPatterns = {
+            ["INVTYPE%_WEAPON"] = "#w10#, #h1#",
             ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w10#",
             ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w10#",
         }
     elseif text == "One-Handed Maces" then
         text = alttext
         ClassSubPatterns = {
+            ["INVTYPE%_WEAPON"] = "#w6#, #h1#",
             ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w6#",
             ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w6#",
         }
     elseif text == "One-Handed Axes" then
         text = alttext
         ClassSubPatterns = {
+            ["INVTYPE%_WEAPON"] = "#w1#, #h1#",
             ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w1#",
             ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w1#",
         }
