@@ -1644,7 +1644,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", ""},
+		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "" },
+		{ 26196, "INV_Helmet_30", "=q4=Old Calico Hood", "#s1#, #a1#" },
+		{ 26197, "INV_Belt_28", "=q4=Ancient Golden Crown", "#s1#, #a3#" },
 		{ 26198,  "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#" },
 		{ 26200,  "INV_Offhand_Stratholme_A_02", "=q3=Friendly Hand", "=ds=#w12#" },
 	};
