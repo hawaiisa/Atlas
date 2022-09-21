@@ -1647,9 +1647,10 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "" },
 		{ 26196, "INV_Helmet_30", "=q4=Old Calico Hood", "#s1#, #a1#" },
 		{ 26197, "INV_Belt_28", "=q4=Ancient Golden Crown", "#s1#, #a3#" },
-		{ 26198,  "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#" },
+		{ 26198, "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#" },
 		{ 26199, "INV_Gauntlets_18", "=q3=Glove of Cure", "#s9#, #a1#" },
-		{ 26200,  "INV_Offhand_Stratholme_A_02", "=q3=Friendly Hand", "=ds=#w12#" },
+		{ 26200, "INV_Offhand_Stratholme_A_02", "=q3=Friendly Hand", "=ds=#w12#" },
+		{ 26201, "INV_Misc_Bone_01", "=q3=Jinxed Bone Splinter", "#s15#" },
 	};
 	ZGGrilek = {
 		{ 19961, "INV_Mace_04", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "43.90%" },
