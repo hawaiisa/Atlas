@@ -22,4 +22,4 @@ wowfolder\
 ## How can I contribute?
 If you find errors in loot tables and/or recipes or discover a missing item from a loot table, feel free to contact me via the V+ Discord, submitting an issue, or make a pull request.
 
-If you discover a new item you can run the `/newitem` command in the chat window: `/newitem [ItemLink];[Itemlink2];[Itemlink3]:[...]`, separating additional item links with a semicolon. Send me the output message and where it dropped and I'll be able to quickly add it to the loot table.
+If you discover a new item you can run the `/newitem` command in the chat window: `/newitem [ItemLink];[Itemlink2];[Itemlink3];[...]`, separating additional item links with a semicolon. Send me the output message and where it dropped and I'll be able to quickly add it to the loot table.
