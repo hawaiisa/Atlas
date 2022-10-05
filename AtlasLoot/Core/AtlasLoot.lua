@@ -3615,115 +3615,116 @@ function AtlasLoot_ItemTableSub(text, alttext)
     if text == "Miscellaneous" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_NECK"] = "#s2#",
-            ["INVTYPE%_BODY"] = "#s6#",
-            ["INVTYPE%_TABARD"] = "#s7#",
-            ["INVTYPE%_FINGER"] = "#s13#",
-            ["INVTYPE%_TRINKET"] = "#s14#",
-            ["INVTYPE%_HOLDABLE"] = "#s15#",
+            ["INVTYPE%_NECK"] = "=ds=#s2#",
+            ["INVTYPE%_BODY"] = "=ds=#s6#",
+            ["INVTYPE%_TABARD"] = "=ds=#s7#",
+            ["INVTYPE%_FINGER"] = "=ds=#s13#",
+            ["INVTYPE%_TRINKET"] = "=ds=#s14#",
+            ["INVTYPE%_HOLDABLE"] = "=ds=#s15#",
         }
     elseif text == "Daggers" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w4#",
-            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w4#",
+			["INVTYPE%_WEAPON"] = "=ds=#h1#, #w4#",
+            ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w4#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w4#",
         }
     elseif text == "Fist Weapons" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w13#",
-            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w13#",
+            ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w13#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w13#",
         }
     elseif text == "One-Handed Swords" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPON"] = "#w10#, #h1#",
-            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w10#",
-            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w10#",
+            ["INVTYPE%_WEAPON"] = "=ds=#w10#, #h1#",
+            ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w10#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w10#",
         }
     elseif text == "One-Handed Maces" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPON"] = "#w6#, #h1#",
-            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w6#",
-            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w6#",
+            ["INVTYPE%_WEAPON"] = "=ds=#w6#, #h1#",
+            ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w6#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w6#",
         }
     elseif text == "One-Handed Axes" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPON"] = "#w1#, #h1#",
-            ["INVTYPE%_WEAPONMAINHAND"] = "#h3#, #w1#",
-            ["INVTYPE%_WEAPONOFFHAND"] = "#h4#, #w1#",
+            ["INVTYPE%_WEAPON"] = "=ds=#w1#, #h1#",
+            ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w1#",
+            ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w1#",
         }
     elseif text == "Cloth" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_HEAD"] = "#s1#, #a1#",
-            ["INVTYPE%_SHOULDER"] = "#s3#, #a1#",
-            ["INVTYPE%_CLOAK"] = "#s4#",
-            ["INVTYPE%_ROBE"] = "#s5#, #a1#",
-            ["INVTYPE%_WRIST"] = "#s8#, #a1#",
-            ["INVTYPE%_HAND"] = "#s9#, #a1#",
-            ["INVTYPE%_WAIST"] = "#s10#, #a1#",
-            ["INVTYPE%_LEGS"] = "#s11#, #a1#",
-            ["INVTYPE%_FEET"] = "#s12#, #a1#",
+            ["INVTYPE%_HEAD"] = "=ds=#s1#, #a1#",
+            ["INVTYPE%_SHOULDER"] = "=ds=#s3#, #a1#",
+            ["INVTYPE%_CLOAK"] = "=ds=#s4#",
+            ["INVTYPE%_ROBE"] = "=ds=#s5#, #a1#",
+            ["INVTYPE%_WRIST"] = "=ds=#s8#, #a1#",
+            ["INVTYPE%_HAND"] = "=ds=#s9#, #a1#",
+            ["INVTYPE%_WAIST"] = "=ds=#s10#, #a1#",
+            ["INVTYPE%_LEGS"] = "=ds=#s11#, #a1#",
+            ["INVTYPE%_FEET"] = "=ds=#s12#, #a1#",
         }
     elseif text == "Leather" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_HEAD"] = "#s1#, #a2#",
-            ["INVTYPE%_SHOULDER"] = "#s3#, #a2#",
-            ["INVTYPE%_ROBE"] = "#s5#, #a2#",
-            ["INVTYPE%_WRIST"] = "#s8#, #a2#",
-            ["INVTYPE%_HAND"] = "#s9#, #a2#",
-            ["INVTYPE%_WAIST"] = "#s10#, #a2#",
-            ["INVTYPE%_LEGS"] = "#s11#, #a2#",
-            ["INVTYPE%_FEET"] = "#s12#, #a2#",
+            ["INVTYPE%_HEAD"] = "=ds=#s1#, #a2#",
+            ["INVTYPE%_SHOULDER"] = "=ds=#s3#, #a2#",
+            ["INVTYPE%_ROBE"] = "=ds=#s5#, #a2#",
+            ["INVTYPE%_WRIST"] = "=ds=#s8#, #a2#",
+            ["INVTYPE%_HAND"] = "=ds=#s9#, #a2#",
+            ["INVTYPE%_WAIST"] = "=ds=#s10#, #a2#",
+            ["INVTYPE%_LEGS"] = "=ds=#s11#, #a2#",
+            ["INVTYPE%_FEET"] = "=ds=#s12#, #a2#",
         }
     elseif text == "Mail" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_HEAD"] = "#s1#, #a3#",
-            ["INVTYPE%_SHOULDER"] = "#s3#, #a3#",
-            ["INVTYPE%_ROBE"] = "#s5#, #a3#",
-            ["INVTYPE%_WRIST"] = "#s8#, #a3#",
-            ["INVTYPE%_HAND"] = "#s9#, #a3#",
-            ["INVTYPE%_WAIST"] = "#s10#, #a3#",
-            ["INVTYPE%_LEGS"] = "#s11#, #a3#",
-            ["INVTYPE%_FEET"] = "#s12#, #a3#",
+            ["INVTYPE%_HEAD"] = "=ds=#s1#, #a3#",
+            ["INVTYPE%_SHOULDER"] = "=ds=#s3#, #a3#",
+            ["INVTYPE%_ROBE"] = "=ds=#s5#, #a3#",
+            ["INVTYPE%_WRIST"] = "=ds=#s8#, #a3#",
+            ["INVTYPE%_HAND"] = "=ds=#s9#, #a3#",
+            ["INVTYPE%_WAIST"] = "=ds=#s10#, #a3#",
+            ["INVTYPE%_LEGS"] = "=ds=#s11#, #a3#",
+            ["INVTYPE%_FEET"] = "=ds=#s12#, #a3#",
         }
     elseif text == "Plate" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_HEAD"] = "#s1#, #a4#",
-            ["INVTYPE%_SHOULDER"] = "#s3#, #a4#",
-            ["INVTYPE%_ROBE"] = "#s5#, #a4#",
-            ["INVTYPE%_WRIST"] = "#s8#, #a4#",
-            ["INVTYPE%_HAND"] = "#s9#, #a4#",
-            ["INVTYPE%_WAIST"] = "#s10#, #a4#",
-            ["INVTYPE%_LEGS"] = "#s11#, #a4#",
-            ["INVTYPE%_FEET"] = "#s12#, #a4#",
+            ["INVTYPE%_HEAD"] = "=ds=#s1#, #a4#",
+            ["INVTYPE%_SHOULDER"] = "=ds=#s3#, #a4#",
+            ["INVTYPE%_ROBE"] = "=ds=#s5#, #a4#",
+            ["INVTYPE%_WRIST"] = "=ds=#s8#, #a4#",
+            ["INVTYPE%_HAND"] = "=ds=#s9#, #a4#",
+            ["INVTYPE%_WAIST"] = "=ds=#s10#, #a4#",
+            ["INVTYPE%_LEGS"] = "=ds=#s11#, #a4#",
+            ["INVTYPE%_FEET"] = "=ds=#s12#, #a4#",
         }
     else
         ClassSubPatterns = {
-            ["One%-Handed"] = "#h1#, ",
-            ["Two%-Handed"] = "#h2#, ",
-            ["Axes"] = "#w1#",
-            ["Bows"] = "#w2#",
-            ["Crossbows"] = "#w3#",
-            ["Guns"] = "#w5#",
-            ["Maces"] = "#w6#",
-            ["Polearms"] = "#w7#",
-            ["Shields"] = "#w8#",
-            ["Staves"] = "#w9#",
-            ["Swords"] = "#w10#",
-            ["Thrown"] = "#w11#",
-            ["Wands"] = "#w12#",
-            ["Fist Weapons"] = "#w13#",
-            ["Fishing Poles"] = "#w14#",
-            ["Idols"] = "#s16#",
-            ["Totems"] = "#s16#",
-            ["Librams"] = "#s16#",
+            ["One%-Handed"] = "=ds=#h1#, ",
+            ["Two%-Handed"] = "=ds=#h2#, ",
+            ["Axes"] = "=ds=#w1#",
+            ["Bows"] = "=ds=#w2#",
+            ["Crossbows"] = "=ds=#w3#",
+            ["Guns"] = "=ds=#w5#",
+            ["Maces"] = "=ds=#w6#",
+            ["Polearms"] = "=ds=#w7#",
+            ["Shields"] = "=ds=#w8#",
+            ["Staves"] = "=ds=#w9#",
+            ["Swords"] = "=ds=#w10#",
+            ["Thrown"] = "=ds=#w11#",
+            ["Wands"] = "=ds=#w12#",
+            ["Fist Weapons"] = "=ds=#w13#",
+            ["Fishing Poles"] = "=ds=#w14#",
+            ["Idols"] = "=ds=#s16#",
+            ["Totems"] = "=ds=#s16#",
+            ["Librams"] = "=ds=#s16#",
         }
     end
     for k, v in ClassSubPatterns do
