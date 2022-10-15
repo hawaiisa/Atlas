@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "10";
+local VERSION_BOSSES = "11";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.4";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.3";
@@ -3638,21 +3638,21 @@ function AtlasLoot_ItemTableSub(text, alttext)
     elseif text == "One-Handed Swords" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPON"] = "=ds=#w10#, #h1#",
+            ["INVTYPE%_WEAPON"] = "=ds=#h1#, #w10#",
             ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w10#",
             ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w10#",
         }
     elseif text == "One-Handed Maces" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPON"] = "=ds=#w6#, #h1#",
+            ["INVTYPE%_WEAPON"] = "=ds=#h1#, #w6#",
             ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w6#",
             ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w6#",
         }
     elseif text == "One-Handed Axes" then
         text = alttext
         ClassSubPatterns = {
-            ["INVTYPE%_WEAPON"] = "=ds=#w1#, #h1#",
+            ["INVTYPE%_WEAPON"] = "=ds=#h1#, #w1#",
             ["INVTYPE%_WEAPONMAINHAND"] = "=ds=#h3#, #w1#",
             ["INVTYPE%_WEAPONOFFHAND"] = "=ds=#h4#, #w1#",
         }

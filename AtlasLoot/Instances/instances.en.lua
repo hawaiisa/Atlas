@@ -4658,7 +4658,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26034, "INV_Jewelry_Ring_02", "=q3=Barrage Ring", "=ds=#s13#", "" },
+		{ 26034, "INV_Jewelry_Ring_39", "=q3=Barrage Ring", "=ds=#s13#", "" },
 	};
 	STRATArchivistGalford = {
 		{ 13386, "INV_Misc_Cape_19", "=q3=Archivist Cape", "=ds=#s4# =q2=#e23#", "18.45%" },
@@ -4692,7 +4692,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 13369, "INV_Boots_05", "=q3=Fire Striders", "=ds=#s12#, #a1#", "14.84%" },
 		{ 13360, "INV_Weapon_ShortBlade_15", "=q3=Gift of the Elven Magi", "=ds=#h1#, #w4#", "13.66%" },
 		{ 18717, "INV_Hammer_06", "=q3=Hammer of the Grand Crusader", "=ds=#h2#, #w6#", "11.91%" },
-		{ 13348, "INV_Sword_14", "=q3=Demonshear", "=ds=#h2#, #w10#", "13.94%" },
+		{ 13348, "INV_Sword_28", "=q3=Demonshear", "=ds=#h2#, #w10#", "13.94%" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
@@ -5249,7 +5249,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26036, "inv_chest_chain_15", "=q3=Bone Golem's Ribcage", "=ds=#s5#, #a4#", "" },	
+		{ 26036, "inv_chest_chain_05", "=q3=Bone Golem Ribcage", "=ds=#s5#, #a4#", "" },	
 	};
 	SCHOLODeathKnight = {
 		{ 18760, "INV_Jewelry_Ring_09", "=q3=Necromantic Band", "=ds=#s13#", "24.75%" },
