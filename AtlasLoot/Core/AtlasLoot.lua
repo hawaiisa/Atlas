@@ -3739,29 +3739,33 @@ function AtlasLoot_ItemTableSub(text, alttext)
 end
 
 function AtlasLoot_StringGen(msg)
-    if msg == "" then
-        DEFAULT_CHAT_FRAME:AddMessage("/newitem usage: /newitem [ItemLink or ID];[ItemLink or ID];[ItemLink or ID]...")
-        return
-    end
-
-    local string_gfind = string.gmatch or string.gfind
-    for argument in string_gfind (msg, "[^%;]+") do
-        if not strfind(argument, "item") and not tonumber(argument) then
-            DEFAULT_CHAT_FRAME:AddMessage("/newitem: not an item link or item id: " .. argument)
-            return
-        end
-    end
-
-    local ItemLinks = {}
-    for items in string_gfind(msg, "[^%;]+") do
-        tinsert(ItemLinks, items)
-    end
-    for i, v in ipairs(ItemLinks) do
-	local itemID = v
-	if tonumber(v) == nil then
-            local _,_,itemID=string.find(v,"item:(%d+):%d+:%d+:%d+")
+	if msg == "" then
+		DEFAULT_CHAT_FRAME:AddMessage("/newitem usage: /newitem [ItemLink or ID];[ItemLink or ID];[ItemLink or ID]...")
+		return
 	end
-	local ItemInfo = {GetItemInfo(itemID)}
-	DEFAULT_CHAT_FRAME:AddMessage("{ "..itemID..", ".."\""..(ItemInfo[9] and gsub(ItemInfo[9], "Interface\\Icons\\", "") or "").."\", ".."\"=q"..(ItemInfo[3] and ItemInfo[3] or "").."="..(ItemInfo[1] and ItemInfo[1] or "").."\", \""..(ItemInfo[6] and AtlasLoot_ItemTableSub(ItemInfo[6], ItemInfo[8]) or "").."\" },")
-    end
+
+	local string_gfind = string.gmatch or string.gfind
+	for argument in string_gfind (msg, "[^%;]+") do
+		if not strfind(argument, "item") and not tonumber(argument) then
+			DEFAULT_CHAT_FRAME:AddMessage("/newitem: not an item link or item id: " .. argument)
+			return
+		end
+	end
+
+	local ItemLinks = {}
+	for items in string_gfind(msg, "[^%;]+") do
+		tinsert(ItemLinks, items)
+	end
+
+	AtlasLootNewItemResults = {}
+	for i, v in ipairs(ItemLinks) do
+		local itemID = v
+		if tonumber(v) == nil then
+			local _,_,itemID = string.find(v,"item:(%d+):%d+:%d+:%d+")
+		end
+		local ItemInfo = {GetItemInfo(itemID)}
+		local newLine = "{ "..itemID..", ".."\""..(ItemInfo[9] and gsub(ItemInfo[9], "Interface\\Icons\\", "") or "").."\", ".."\"=q"..(ItemInfo[3] and ItemInfo[3] or "").."="..(ItemInfo[1] and ItemInfo[1] or "").."\", \""..(ItemInfo[6] and AtlasLoot_ItemTableSub(ItemInfo[6], ItemInfo[8]) or "").."\" },"
+		tinsert(AtlasLootNewItemResults, newLine)
+		DEFAULT_CHAT_FRAME:AddMessage(newLine)
+	end
 end
