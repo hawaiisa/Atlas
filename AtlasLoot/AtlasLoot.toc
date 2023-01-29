@@ -11,6 +11,7 @@
 ## X-Category: Map
 ## X-OptionsFrame: AtlasLootOptionsFrame
 ## SavedVariablesPerCharacter: AtlasLootCharDB
+## SavedVariables: AtlasLootNewItemResults
 ## OptionalDeps: Alphamap, AtlasLoader, LootLink, ItemSync, DewdropLib, Ace2, EquipCompare, EQCompare
 
 Libs\AceLibrary\AceLibrary.lua
