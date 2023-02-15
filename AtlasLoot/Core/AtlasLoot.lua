@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "13";
+local VERSION_BOSSES = "14";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.4";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.3";
@@ -202,6 +202,7 @@ AtlasLoot_MenuList = {
 	"TAILORINGMENU",
 	"CRAFTSET",
 	"COOKINGMENU",
+	"DONATIONS",
 };
 
 --entrance maps to instance maps NOT NEEDED FOR ATLAS 1.12
@@ -1196,6 +1197,8 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 		AtlasLoot_TailoringMenu();
 	elseif(dataID=="COOKINGMENU") then
 		AtlasLoot_CookingMenu();
+	elseif(dataID=="DONATIONS") then
+		AtlasLoot_Donations();
 	else
 		--Iterate through each item object and set its properties
 		for i = 1, 30, 1 do
@@ -2429,6 +2432,15 @@ AtlasLoot_DewDropDown = {
 			[13] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
 		},
 	},
+	[8] = { 
+		[AL["V+ Donations"]] = {
+			[1] = { { AL["General"], "VPlusDonations1", "Table" }, },
+			[2] = { { AL["Pets"], "VPlusDonations2", "Table" }, },
+			[3] = { { AL["Mounts"], "VPlusDonations3", "Table" }, },
+			[4] = { { AL["Tabards"], "VPlusDonations4", "Table" }, },
+			[5] = { { AL["Skins"], "VPlusDonations5", "Table" }, },
+		},
+	},
 };
 
 --This table defines all the subtables needed for the full menu
@@ -3070,6 +3082,13 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["TailoringJourneyman1"][1], "TailoringJourneyman1" },
 		{ AtlasLoot_TableNames["TailoringExpert1"][1], "TailoringExpert1" },
 		{ AtlasLoot_TableNames["TailoringArtisan1"][1], "TailoringArtisan1" },
+	},
+	["Donations"] = {
+		{ AL["General"], "VPlusDonations1" },
+		{ AL["Pets"], "VPlusDonations2" },
+		{ AL["Mounts"], "VPlusDonations3" },
+		{ AL["Tabards"], "VPlusDonations4" },
+		{ AL["Skins"], "VPlusDonations5" },
 	},
 };
 

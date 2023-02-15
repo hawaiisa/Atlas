@@ -1680,4 +1680,45 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "CRAFTINGMENU";
 		Back_Title = AL["Crafting"];
 	};
+	["VPlusDonations1"] = {
+		Title = AL["General"];
+		Back_Page = "DONATIONS";
+		Back_Title = AL["V+ Donations"];
+		Next_Page = "VPlusDonations2";
+		Next_Title = AL["Pets"];
+	};
+	["VPlusDonations2"] = {
+		Title = AL["Pets"];
+		Back_Page = "DONATIONS";
+		Back_Title = AL["V+ Donations"];
+		Prev_Page = "VPlusDonations1";
+		Prev_Title = AL["General"];
+		Next_Page = "VPlusDonations3";
+		Next_Title = AL["Mounts"];
+	};
+	["VPlusDonations3"] = {
+		Title = AL["Mounts"];
+		Back_Page = "DONATIONS";
+		Back_Title = AL["V+ Donations"];
+		Prev_Page = "VPlusDonations2";
+		Prev_Title = AL["Pets"];
+		Next_Page = "VPlusDonations4";
+		Next_Title = AL["Tabards"];
+	};
+	["VPlusDonations4"] = {
+		Title = AL["Tabards"];
+		Back_Page = "DONATIONS";
+		Back_Title = AL["V+ Donations"];
+		Prev_Page = "VPlusDonations3";
+		Prev_Title = AL["Mounts"];
+		Next_Page = "VPlusDonations5";
+		Next_Title = AL["Skins"];
+	};
+	["VPlusDonations5"] = {
+		Title = AL["Skins"];
+		Back_Page = "DONATIONS";
+		Back_Title = AL["V+ Donations"];
+		Prev_Page = "VPlusDonations4";
+		Prev_Title = AL["Tabards"];
+	};
 };

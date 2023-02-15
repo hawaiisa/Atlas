@@ -11,6 +11,7 @@
 	<Script file="AtlasLoot.lua"/>
 	<Script file="WishList.lua"/>
 	<Script file="Search.lua"/>
+	<Script file="Donations.lua"/>
 
 	<Button name="AtlasLootDefaultFrameButtonTemplate" inherits="OptionsButtonTemplate" virtual="true">
 		<Size>
@@ -2244,6 +2245,30 @@
 					<OnClick>
 						AtlasLoot:ShowSearchResult();
 					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="VPlusDonations" inherits="UIPanelButtonTemplate2">
+				<Size>
+					<AbsDimension x="80" y="32"/>
+				</Size>
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="AtlasLootLastResultButton" relativePoint="RIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						AtlasLoot_QuickLooks:Hide();
+						AtlasLootQuickLooksButton:Hide();
+						AtlasLoot_Donations();
+					</OnClick>
+					<OnShow>
+						local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
+						this:SetText(AL["V+ Donations"]);
+						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+					</OnShow>
 				</Scripts>
 			</Button>
 		</Frames>

@@ -540,4 +540,12 @@ AL:RegisterTranslations("enUS", function() return {
 	["Lady Hederine"] = true;
 	["Nameless Hermit"] = true;
 	["Tier set hand-ins"] = true;
+	["Donation Tabards"] = true;
+	["V+ Donations"] = true;
+	["General"] = true;
+	["Pets"] = true;
+	["Mounts"] = true;
+	["Tabards"] = true;
+	["Skins"] = true;
+	["36 Slot bag"] = true;
 	} end)	

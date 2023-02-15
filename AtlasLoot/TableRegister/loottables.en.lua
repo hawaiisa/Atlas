@@ -806,6 +806,13 @@ AtlasLoot_TableNames = {
 	--- Other ---
 	-------------
 	
+	--V+ Donations
+	["VPlusDonations1"] = { AL["General"], "VPlusDonations"},
+	["VPlusDonations2"] = { AL["Pets"], "VPlusDonations"},
+	["VPlusDonations3"] = { AL["Mounts"], "VPlusDonations"},
+	["VPlusDonations4"] = { AL["Tabards"], "VPlusDonations"},
+	["VPlusDonations5"] = { AL["Skins"], "VPlusDonations"},
+
 	--Menus, the entry does nothing, but makes the generalised loot table code less complex
 	["PVPMENU"] = { "dummy", "dummy" },
 	["PVPSET"] = { "dummy", "dummy" },
@@ -839,6 +846,7 @@ AtlasLoot_TableNames = {
 	["COOKINGMENU"] = { "dummy", "dummy" },
 	["FIRSTAIDMENU"] = { "dummy", "dummy" },
 	["WishList"] = { AL["WishList"], "AtlasLootCharDB" },
+	["DONATIONS"] = { "dummy", "dummy" },
 	--If all else fails!
 	["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" },
 };
