@@ -1458,7 +1458,13 @@ AtlasLoot_TableNamesBoss = {
 	------------------------
 	--- Misc Collections ---
 	------------------------
-	
+	[AL["V+ Donations"]] = {
+		["VPlusDonations1"] = { AL["General"], "VPlusDonations"},
+		["VPlusDonations2"] = { AL["Pets"], "VPlusDonations"},
+		["VPlusDonations3"] = { AL["Mounts"], "VPlusDonations"},
+		["VPlusDonations4"] = { AL["Tabards"], "VPlusDonations"},
+		["VPlusDonations5"] = { AL["Skins"], "VPlusDonations"},
+	},
 	
 	--------------------
 	--- World Bosses ---

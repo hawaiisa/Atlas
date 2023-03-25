@@ -250,7 +250,7 @@ function AtlasLoot_CategorizeWishList(wlTable)
 			end
 			-- Build category tables
 			if not categories[subheadings[dataID]] then categories[subheadings[dataID]] = {} end
-			table.insert(categories[subheadings[dataID]], v);
+			table.insert(categories[subheadings[dataID]], v);			
 		end
 	end
 

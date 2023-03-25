@@ -71,7 +71,7 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 21673, "INV_Misc_MonsterClaw_03", "=q4=Silithid Claw", "=ds=#h3#, #w13#" },
 		{ 21688, "INV_Boots_Plate_01", "=q4=Boots of the Fallen Hero", "=ds=#s12#, #a4# =q7=Vem" },
 		{ 21501, "INV_Gauntlets_24", "=q4=Toughened Silithid Hide Gloves", "=ds=#s9#, #a2#", "12.91%" },
-		{ 0, "", "", "", "" },
+		{ 21479, "INV_Gauntlets_31", "=q4=Gauntlets of the Immovable", "=ds=#s9#, #a4#" },
 		{ 0, "", "", "", "" },
 		{ 0, "", "", "", "" },
 		{ 0, "", "", "", "" },

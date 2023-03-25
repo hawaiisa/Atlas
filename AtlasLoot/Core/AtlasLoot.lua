@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "15";
+local VERSION_BOSSES = "16";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.4";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.3";
@@ -2434,11 +2434,11 @@ AtlasLoot_DewDropDown = {
 	},
 	[8] = { 
 		[AL["V+ Donations"]] = {
-			[1] = { { AL["General"], "VPlusDonations1", "Table" }, },
-			[2] = { { AL["Pets"], "VPlusDonations2", "Table" }, },
-			[3] = { { AL["Mounts"], "VPlusDonations3", "Table" }, },
-			[4] = { { AL["Tabards"], "VPlusDonations4", "Table" }, },
-			[5] = { { AL["Skins"], "VPlusDonations5", "Table" }, },
+			[1] = { { AL["General"], "VPlusDonations1", "Table"}, },
+			[2] = { { AL["Pets"], "VPlusDonations2", "Table"}, },
+			[3] = { { AL["Mounts"], "VPlusDonations3", "Table"}, },
+			[4] = { { AL["Tabards"], "VPlusDonations4", "Table"}, },
+			[5] = { { AL["Skins"], "VPlusDonations5", "Table"}, },
 		},
 	},
 };
@@ -3083,12 +3083,12 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["TailoringExpert1"][1], "TailoringExpert1" },
 		{ AtlasLoot_TableNames["TailoringArtisan1"][1], "TailoringArtisan1" },
 	},
-	["Donations"] = {
-		{ AL["General"], "VPlusDonations1" },
-		{ AL["Pets"], "VPlusDonations2" },
-		{ AL["Mounts"], "VPlusDonations3" },
-		{ AL["Tabards"], "VPlusDonations4" },
-		{ AL["Skins"], "VPlusDonations5" },
+	["VPlusDonations"] = {
+		{ AtlasLoot_TableNames["VPlusDonations1"][1], "VPlusDonations1" },
+		{ AtlasLoot_TableNames["VPlusDonations2"][1], "VPlusDonations2" },
+		{ AtlasLoot_TableNames["VPlusDonations3"][1], "VPlusDonations3" },
+		{ AtlasLoot_TableNames["VPlusDonations4"][1], "VPlusDonations4" },
+		{ AtlasLoot_TableNames["VPlusDonations5"][1], "VPlusDonations5" },
 	},
 };
 
@@ -3778,9 +3778,10 @@ function AtlasLoot_StringGen(msg)
 
 	AtlasLootNewItemResults = {}
 	for i, v in ipairs(ItemLinks) do
-		local itemID = v
 		if tonumber(v) == nil then
-			local _,_,itemID = string.find(v,"item:(%d+):%d+:%d+:%d+")
+			_,_,itemID = strfind(v,"item:(%d+):(%d+):(%d+):(%d+)")
+		else
+			itemID = v
 		end
 		local ItemInfo = {GetItemInfo(itemID)}
 		local newLine = "{ "..itemID..", ".."\""..(ItemInfo[9] and gsub(ItemInfo[9], "Interface\\Icons\\", "") or "").."\", ".."\"=q"..(ItemInfo[3] and ItemInfo[3] or "").."="..(ItemInfo[1] and ItemInfo[1] or "").."\", \""..(ItemInfo[6] and AtlasLoot_ItemTableSub(ItemInfo[6], ItemInfo[8]) or "").."\" },"
