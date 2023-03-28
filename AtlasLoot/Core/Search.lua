@@ -14,6 +14,37 @@ function AtlasLoot:ShowSearchResult()
 	AtlasLoot_ShowItemsFrame("SearchResult", "SearchResultPage"..currentPage, string.format((AL["Search Result: %s"]), AtlasLootCharDB.LastSearchedText or ""), pFrame);
 end
 
+function AtlasLoot:VPlusItems()
+	local search = function(dataSource)
+		for dataID, data in pairs(AtlasLoot_Data[dataSource]) do
+			for _, v in ipairs(data) do
+				if v[16] then
+					local itemName = GetItemInfo(v[1]);
+					if not itemName then itemName = gsub(v[3], "=q%d=", "") end
+					local found;
+					found = string.lower(itemName);
+					if found then
+						local _, _, quality = string.find(v[3], "=q(%d)=");
+						if quality then itemName = "=q"..quality.."="..itemName end
+						table.insert(AtlasLootCharDB["SearchResult"], { v[1], v[2], itemName, v[4], dataID.."|"..dataSource });
+					end	
+				end
+			end
+		end
+	end
+	
+	AtlasLootCharDB["SearchResult"] = {};
+	for dataSource in pairs(AtlasLoot_Data) do search(dataSource) end
+	
+	if getn(AtlasLootCharDB["SearchResult"]) == 0 then
+		DEFAULT_CHAT_FRAME:AddMessage(RED.."AtlasLoot"..": "..WHITE.."No V+ Items found.");
+	else
+		currentPage = 1;
+		SearchResult = AtlasLoot_CategorizeWishList(AtlasLootCharDB["SearchResult"]);
+		AtlasLootCharDB.LastSearchedText = "V+ Items"
+		AtlasLoot_ShowItemsFrame("SearchResult", "SearchResultPage1", string.format((AL["Search Result: %s"]), AtlasLootCharDB.LastSearchedText or ""), pFrame);
+	end
+end
 function AtlasLoot:Search(Text)
 	if not Text then return end
 	Text = strtrim(Text);

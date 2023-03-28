@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "16";
+local VERSION_BOSSES = "17";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.4";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.3";
@@ -1095,7 +1095,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 	local wlPage, wlPageMax = 1, 1;
 	local isItem, isEnchant, isSpell;
 	local spellName, spellIcon;
-	if dataID == "SearchResult" and dataID == "WishList" then
+	if dataID == "SearchResult" or dataID == "WishList" then
 		AtlasLoot_IsLootTableAvailable(dataID);
 	end
 	--If the data source has not been passed, throw up a debugging statement
@@ -1885,7 +1885,7 @@ function AtlasLoot_IsLootTableAvailable(dataID)
 		return true;
 	else
 		if not AtlasLoot_TableNames[dataID] then
-			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..WHITE..dataID..AL[" not listed in loot table registry, please report this message to the  https://github.com/hawaiisa/Atlas"]);
+			DEFAULT_CHAT_FRAME:AddMessage(RED..AL["AtlasLoot Error!"].." "..WHITE..dataID..AL["Not In Loot Table Registry"]);
 			return false;
 		end
 

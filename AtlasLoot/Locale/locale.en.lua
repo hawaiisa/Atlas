@@ -91,7 +91,7 @@ AL:RegisterTranslations("enUS", function() return {
 	[" added to the WishList."] = true;
 	[" already in the WishList!"] = true;
 	[" deleted from the WishList."] = true;
-	[" not listed in loot table registry, please report this message to the https://github.com/hawaiisa/Atlas"] = true;
+	["Not In Loot Table Registry"] = " not listed in loot table registry, please report this message to Thirinena via the V+ Discord or https://github.com/hawaiisa/Atlas";
 	["Options"] = true;
 	["Collections"] = true;
 	["Factions"] = true;
@@ -542,6 +542,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Tier set hand-ins"] = true;
 	["Donation Tabards"] = true;
 	["V+ Donations"] = true;
+	["V+ Items"] = true;
 	["General"] = true;
 	["Pets"] = true;
 	["Mounts"] = true;

@@ -846,7 +846,8 @@ AtlasLoot_TableNames = {
 	["COOKINGMENU"] = { "dummy", "dummy" },
 	["FIRSTAIDMENU"] = { "dummy", "dummy" },
 	["WishList"] = { AL["WishList"], "AtlasLootCharDB" },
-	["DONATIONS"] = { "dummy", "dummy" },
+	["SearchResult"] = { "Search Result", "AtlasLootCharDB" },
+	["DONATIONS"] = { AL["V+ Donations"], "AtlasLootCharDB" },
 	--If all else fails!
 	["EmptyInstance"] = { "AtlasLoot", "AtlasLootFallback" },
 };

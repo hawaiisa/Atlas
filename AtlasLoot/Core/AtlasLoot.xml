@@ -494,6 +494,28 @@
 					</OnShow>
 				</Scripts>
 			</Button>
+			<Button name="VPlusItemsButton" inherits="UIPanelButtonTemplate2" parent="AtlasLootDefaultFrame">
+				<Size>
+					<AbsDimension x="120" y="32"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOP" relativeTo="AtlasLootDefaultFrameLastResultButton" relativePoint="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
+						this:SetText(AL["V+ Items"]);
+						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+					</OnShow>
+					<OnClick>
+						AtlasLoot:VPlusItems();
+					</OnClick>
+				</Scripts>
+			</Button>
 		</Frames>
 		<Layers>
 			<Layer level="ARTWORK">
@@ -2247,7 +2269,7 @@
 					</OnClick>
 				</Scripts>
 			</Button>
-			<Button name="VPlusDonations" inherits="UIPanelButtonTemplate2">
+			<Button name="AtlasVPlusItems" inherits="UIPanelButtonTemplate2">
 				<Size>
 					<AbsDimension x="80" y="32"/>
 				</Size>
@@ -2259,16 +2281,38 @@
 					</Anchor>
 				</Anchors>
 				<Scripts>
+					<OnShow>
+						local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
+						this:SetText(AL["V+ Items"]);
+						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
+					</OnShow>
 					<OnClick>
-						AtlasLoot_QuickLooks:Hide();
-						AtlasLootQuickLooksButton:Hide();
-						AtlasLoot_Donations();
+						AtlasLoot:VPlusItems();
 					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="VPlusDonations" inherits="UIPanelButtonTemplate2" parent="AtlasLootSearchBox">
+				<Size>
+					<AbsDimension x="80" y="32"/>
+				</Size>
+				<Anchors>
+					<Anchor point="RIGHT" relativePoint="LEFT">
+						<Offset>
+							<AbsDimension x="-10" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
 					<OnShow>
 						local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
 						this:SetText(AL["V+ Donations"]);
 						this:SetFrameLevel( (this:GetParent()):GetFrameLevel() + 1 );
 					</OnShow>
+					<OnClick>
+						AtlasLoot_QuickLooks:Hide();
+						AtlasLootQuickLooksButton:Hide();
+						AtlasLoot_Donations();
+					</OnClick>
 				</Scripts>
 			</Button>
 		</Frames>
