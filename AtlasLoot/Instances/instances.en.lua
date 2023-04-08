@@ -5506,7 +5506,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18702, "INV_Belt_28", "=q3=Belt of the Ordained", "=ds=#s10#, #a4#", "0.01%" },
 		{ 18697, "INV_Boots_Fabric_01", "=q3=Coldstone Slippers", "=ds=#s12#, #a1#", "0.01%" },
 		{ 18701, "INV_Jewelry_Ring_24", "=q3=Innervating Band", "=ds=#s13#", "0.01%" },
-		{ 0, "", "", "" },
+		{ 23198, "INV_Relics_IdolofFerocity", "=q3=Idol of Brutality", "=ds=#s16#, #e16# =q13=#c1#" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 12843,"INV_Jewelry_Talisman_12","=q2=Corruptor's Scourgestone","=ds=#m27#" },
