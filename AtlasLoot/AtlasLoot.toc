@@ -32,7 +32,7 @@ Locale\Locale.xml
 Bossnames\BossNames.xml
 Sets\Sets.xml
 Crafting\Crafting.xml
-Donations\Donations.xml
+VPlus\VPlus.xml
 PvP\PvP.xml
 WorldEvents\WorldEvents.xml
 Factions\Factions.xml

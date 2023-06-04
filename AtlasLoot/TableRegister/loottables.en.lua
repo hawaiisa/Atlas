@@ -807,11 +807,14 @@ AtlasLoot_TableNames = {
 	-------------
 	
 	--V+ Donations
-	["VPlusDonations1"] = { AL["General"], "VPlusDonations"},
-	["VPlusDonations2"] = { AL["Pets"], "VPlusDonations"},
-	["VPlusDonations3"] = { AL["Mounts"], "VPlusDonations"},
-	["VPlusDonations4"] = { AL["Tabards"], "VPlusDonations"},
-	["VPlusDonations5"] = { AL["Skins"], "VPlusDonations"},
+	["VPlusDonations1"] = { AL["General"], "VPlusDonations" },
+	["VPlusDonations2"] = { AL["Pets"], "VPlusDonations" },
+	["VPlusDonations3"] = { AL["Mounts"], "VPlusDonations" },
+	["VPlusDonations4"] = { AL["Tabards"], "VPlusDonations" },
+	["VPlusDonations5"] = { AL["Skins"], "VPlusDonations" },
+	--Miscellaneous
+	["WinterspringJuju"] = { AL["Winterspring Juju"], "AtlasLootItems" },
+	["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "AtlasLootItems" },
 
 	--Menus, the entry does nothing, but makes the generalised loot table code less complex
 	["PVPMENU"] = { "dummy", "dummy" },
@@ -1460,11 +1463,15 @@ AtlasLoot_TableNamesBoss = {
 	--- Misc Collections ---
 	------------------------
 	[AL["V+ Donations"]] = {
-		["VPlusDonations1"] = { AL["General"], "VPlusDonations"},
-		["VPlusDonations2"] = { AL["Pets"], "VPlusDonations"},
-		["VPlusDonations3"] = { AL["Mounts"], "VPlusDonations"},
-		["VPlusDonations4"] = { AL["Tabards"], "VPlusDonations"},
-		["VPlusDonations5"] = { AL["Skins"], "VPlusDonations"},
+		["VPlusDonations1"] = { AL["General"], "VPlusDonations" },
+		["VPlusDonations2"] = { AL["Pets"], "VPlusDonations" },
+		["VPlusDonations3"] = { AL["Mounts"], "VPlusDonations" },
+		["VPlusDonations4"] = { AL["Tabards"], "VPlusDonations" },
+		["VPlusDonations5"] = { AL["Skins"], "VPlusDonations" },
+	},
+	[AL["Miscellaneous"]] = {
+		["WinterspringJuju"] = { AL["Winterspring Juju"], "Miscellaneous" },
+		["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "Miscellaneous" },
 	},
 	
 	--------------------

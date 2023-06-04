@@ -549,4 +549,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Tabards"] = true;
 	["Skins"] = true;
 	["36 Slot bag"] = true;
+	["Miscellaneous"] = true;
+	["Winterspring Juju"] = true;
+	["Un\'Goro Power Crystals"] = true;
 	} end)	

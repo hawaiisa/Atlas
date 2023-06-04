@@ -644,6 +644,11 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#cremulos#", "Interface\\Icons\\INV_Jewelry_Necklace_14");
     text = gsub(text, "#ccenarius#", "Interface\\Icons\\INV_Jewelry_Necklace_12");
     text = gsub(text, "#zandalar#", "Interface\\Icons\\INV_Misc_Coin_08");
+    text = gsub(text, "#bluecrystal#", "Interface\\Icons\\INV_Misc_Gem_Sapphire_03");
+    text = gsub(text, "#redcrystal#", "Interface\\Icons\\INV_Misc_Gem_Ruby_03");
+    text = gsub(text, "#greencrystal#", "Interface\\Icons\\INV_Misc_Gem_Emerald_02");
+    text = gsub(text, "#yellowcrystal#", "Interface\\Icons\\INV_Misc_Gem_Topaz_02");
+    
     --Vanilla Plus specific
     text = gsub(text, "#dragonbreath#", "Interface\\Icons\\INV_Misc_Orb_05");
     text = gsub(text, "#topaz#", "Interface\\Icons\\INV_Misc_Gem_Variety_01");
@@ -654,7 +659,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#arcanite#", "Interface\\Icons\\INV_Misc_StoneTablet_05");
     text = gsub(text, "#mooncloth#", "Interface\\Icons\\INV_Fabric_MoonRag_01");
     text = gsub(text, "#vplus#", "Interface\\Addons\\AtlasLoot\\Images\\vplus");
-	
+    
     --Ranks
     text = gsub(text, "#rank1#", AL["Rank 1"]);
     text = gsub(text, "#rank2#", AL["Rank 2"]);

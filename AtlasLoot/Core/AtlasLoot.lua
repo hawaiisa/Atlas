@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "18";
+local VERSION_BOSSES = "19";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.4";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.3";
@@ -2432,13 +2432,19 @@ AtlasLoot_DewDropDown = {
 			[13] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
 		},
 	},
-	[8] = { 
+	[8] = {
+		[AL["Miscellaneous"]] = {
+			[1] = { { AL["Winterspring Juju"], "WinterspringJuju", "Table" }, },
+			[2] = { { AL["Un\'Goro Power Crystals"], "UnGoroCrystals", "Table" }, },
+		},
+	},
+	[9] = { 
 		[AL["V+ Donations"]] = {
-			[1] = { { AL["General"], "VPlusDonations1", "Table"}, },
-			[2] = { { AL["Pets"], "VPlusDonations2", "Table"}, },
-			[3] = { { AL["Mounts"], "VPlusDonations3", "Table"}, },
-			[4] = { { AL["Tabards"], "VPlusDonations4", "Table"}, },
-			[5] = { { AL["Skins"], "VPlusDonations5", "Table"}, },
+			[1] = { { AL["General"], "VPlusDonations1", "Table" }, },
+			[2] = { { AL["Pets"], "VPlusDonations2", "Table" }, },
+			[3] = { { AL["Mounts"], "VPlusDonations3", "Table" }, },
+			[4] = { { AL["Tabards"], "VPlusDonations4", "Table" }, },
+			[5] = { { AL["Skins"], "VPlusDonations5", "Table" }, },
 		},
 	},
 };
@@ -3089,6 +3095,10 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["VPlusDonations3"][1], "VPlusDonations3" },
 		{ AtlasLoot_TableNames["VPlusDonations4"][1], "VPlusDonations4" },
 		{ AtlasLoot_TableNames["VPlusDonations5"][1], "VPlusDonations5" },
+	},
+	["Miscellaneous"] = {
+		{ AtlasLoot_TableNames["WinterspringJuju"][1], "WinterspringJuju" },
+		{ AtlasLoot_TableNames["UnGoroCrystals"][1], "UnGoroCrystals" },
 	},
 };
 
