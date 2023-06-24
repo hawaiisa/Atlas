@@ -531,7 +531,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Honored Rewards"] = true;
 	["Revered Rewards"] = true;
 	["Exalted Rewards"] = true;
-	["Group wishlist items by instance"] = true;
+	["Group wishlist and search items by instance"] = true;
 	--VanillaPlus
 	["Azshara Crater"] = true;
 	["Azus the Bloodseeker"] = true;

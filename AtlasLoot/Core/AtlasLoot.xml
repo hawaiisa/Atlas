@@ -1481,7 +1481,7 @@
 				<Scripts>
 					<OnLoad>
 						local AL = AceLibrary("AceLocale-2.2"):new("AtlasLoot");
-						getglobal(this:GetName().."Text"):SetText(AL["Group wishlist items by instance"]);
+						getglobal(this:GetName().."Text"):SetText(AL["Group wishlist and search items by instance"]);
 					</OnLoad>
 					<OnClick>
 						AtlasLootOptions_WishlistInstanced();
