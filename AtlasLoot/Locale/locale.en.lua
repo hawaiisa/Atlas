@@ -539,7 +539,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Operation Rattlesnake"] = true;
 	["Lady Hederine"] = true;
 	["Nameless Hermit"] = true;
-	["Tier set hand-ins"] = true;
+	["Tier set hand-in"] = true;
 	["Donation Tabards"] = true;
 	["V+ Donations"] = true;
 	["V+ Items"] = true;
