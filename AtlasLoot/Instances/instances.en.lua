@@ -2982,7 +2982,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 26000, "INV_Misc_Orb_05", "=q3=Liquid Ruby Focusing Lens", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
