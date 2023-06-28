@@ -1662,6 +1662,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26192, "INV_Axe_09", "=q4=Relic Cleaver", "=ds=#h2#, #w10#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26196, "INV_Helmet_30", "=q4=Old Calico Hood", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26197, "INV_Belt_28", "=q4=Ancient Golden Crown", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26198, "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", true },
@@ -4581,7 +4582,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 15730,"INV_Scroll_03","=q3=Pattern: Red Dragonscale Breastplate","=ds=#p9# #p7# (300)", "3.58%" },
 		{ 15047,"INV_Chest_Chain_06","=q3=Red Dragonscale Breastplate","=ds=#s5#, #a3#" },
 		{ 0, "", "", "" },
-		{ 13519,"INV_Scroll_06","=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)", "1.72%" },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 16690,"INV_Chest_Cloth_11","=q3=Devout Robe", "=ds=#s5#, #a1# (T0, =q9=#c5#=ds=)" },
 		{ 16688,"INV_Chest_Cloth_25","=q3=Magister's Robes", "=ds=#s5#, #a1# (T0, =q10=#c3#=ds=)" },
 		{ 16700,"INV_Chest_Cloth_49","=q3=Dreadmist Robe", "=ds=#s5#, #a1# (T0, =q11=#c8#=ds=)" },
@@ -4596,7 +4597,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 13516,"INV_Scroll_06","=q2=Recipe: Flask of Indomitable Might", "=ds=#p1# (300)", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	UBRSTrash = {
 		{ 24102, "INV_Misc_Book_14", "=q3=Manual of Eviscerate IX", "=ds=#e20# =q12=#c6# =q7=#x60#", "0.94%" },
