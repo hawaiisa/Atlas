@@ -366,7 +366,7 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 		{ 18398, "INV_Jewelry_Ring_10", "=q3=Tidal Loop", "=q1=#m4# =ds=#s13#" },
 		{ 17333, "INV_Potion_76", "=q1=Aqual Quintessence", "=ds=#m20#" },
 		{ 0, "", "", "" },
-		{ 0, "Spell_Frost_FrostArmor", "=q6=#r4#", "" },
+		{ 0, "Spell_Frost_FrostArmor", "=q6=#r5#", "" },
 		{ 22754, "INV_Potion_83", "=q1=Eternal Quintessence", "=ds=#m20#" },
 	};
 	Bloodsail1 = {

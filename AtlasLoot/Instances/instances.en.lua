@@ -4338,6 +4338,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "Trade_Engineering", "New Items", ""},
 		{ 26071, "INV_Jewelry_Ring_31", "=q3=Silvermoon Circle", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26072, "INV_Misc_Note_01", "=q3=Formula: Enchant 2H Weapon - Spellblasting", "=ds=#p4# (300)", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	DMWShendralarProvisioner =		{ 
 		{ 18487, "INV_Scroll_03", "=q1=Pattern: Mooncloth Robe", "=ds=#p8# (300)" },
