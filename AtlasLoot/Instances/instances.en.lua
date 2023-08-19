@@ -1645,6 +1645,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26193, "INV_Shoulder_11", "=q4=Bloodseeker Shoulders", "=ds=#s3#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26194, "INV_Misc_MonsterClaw_03", "=q4=Golden Ceremonial Bloodletter", "=ds=#h3#, #w13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26195, "INV_Misc_MonsterClaw_03", "=q4=Golden Ceremonial Bloodletter", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26202, "INV_Helmet_08", "=q4=Helm of Sacrifice", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26203, "INV_Jewelry_Talisman_04", "=q4=Mark of Thirst", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26207, "INV_Weapon_Crossbow_05", "=q4=Azus\' Arrow Launcher", "=ds=#w3#", "", "", "", "", "", "", "", "", "", "", "", true },
