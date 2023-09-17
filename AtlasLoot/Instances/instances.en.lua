@@ -1518,7 +1518,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 17068, "INV_Axe_09", "=q4=Deathbringer", "=ds=#h1#, #w1#", "4.31%" },
 		{ 17075, "INV_Sword_18", "=q4=Vis'kag the Bloodletter", "=ds=#h1#, #w10#", "4.00%" },
 		{ 0, "", "", "" },
-		{ 17966,"INV_Misc_Bag_22","=q2=Onyxia Hide Backpack","=ds=#m12#", "100%"},
+		{ 17966,"INV_Misc_Bag_22","=q2=Onyxia Hide Backpack","=ds=#m39#", "100%"},
 		{ 17962,"INV_Misc_Bag_10_Blue","=q2=Blue Sack of Gems","=ds=#m23# =q2=#e25#", "20.50%" },
 		{ 0, "", "", "" },
 		{ 15410, "INV_Misc_MonsterScales_07","=q3=Scale of Onyxia", "=ds=#e12# =q5=#p16# (315)" },
@@ -1758,7 +1758,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19913, "INV_Boots_Plate_06", "=q3=Bloodsoaked Greaves", "=ds=#s12#, #a4#", "13.29%" },
 		{ 19912, "INV_Jewelry_Ring_39", "=q3=Overlord's Onyx Band", "=ds=#s13#", "13.95%" },
 		{ 19922, "INV_Misc_Bone_DwarfSkull_01", "=q3=Arlokk's Hoodoo Stick", "=ds=#s15#", "13.66%" },
-		{ 19914, "INV_Misc_Bag_14", "=q3=Panther Hide Sack", "=ds=#m12#", "14.03%" },
+		{ 19914, "INV_Misc_Bag_14", "=q3=Panther Hide Sack", "=ds=#m39#", "14.03%" },
 	};
 	ZGJindo = {
 		{ 19721, "INV_Shoulder_19", "=q4=Primal Hakkari Shawl", "=q16=#c4#=ds=, =q14=#c2#=ds=, =q10=#c3#", "7.30%" },
@@ -5139,7 +5139,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26025, "INV_boots_01", "=q3=Old Foundry Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 18987, "INV_Letter_17", "=q1=Blackhand's Command", "=ds=#m2#", "100%" },
 		{ 0, "", "", "" },
 		{ 16684, "INV_Gauntlets_17", "=q3=Magister's Gloves", "=ds=#s9#, #a1# (T0, =q10=#c3#=ds=)" },
 		{ 16692, "INV_Gauntlets_14", "=q3=Devout Gloves", "=ds=#s9#, #a1# (T0, =q9=#c5#=ds=)" },
@@ -5147,7 +5147,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16712, "INV_Gauntlets_24", "=q3=Shadowcraft Gloves", "=ds=#s9#, #a2# (T0, =q12=#c6#=ds=)" },
 		{ 16717, "INV_Gauntlets_17", "=q3=Wildheart Gloves", "=ds=#s9#, #a2# (T0, =q13=#c1#=ds=)" },
 		{ 16676, "INV_Gauntlets_10", "=q3=Beaststalker's Gloves", "=ds=#s9#, #a3# (T0, =q14=#c2#=ds=)" },
-		{ 16672,"INV_Gauntlets_11","=q3=Gauntlets of Elements", "=ds=#s9#, #a3# (T0, =q15=#c7#=ds=)" },
+		{ 16672, "INV_Gauntlets_11", "=q3=Gauntlets of Elements", "=ds=#s9#, #a3# (T0, =q15=#c7#=ds=)" },
 		{ 16737, "INV_Gauntlets_26", "=q3=Gauntlets of Valor", "=ds=#s9#, #a4# (T0, =q17=#c9#=ds=)" },
 		{ 16724, "INV_Gauntlets_19", "=q3=Lightforge Gauntlets", "=ds=#s9#, #a4# (T0, =q16=#c4#=ds=)" },
 	};
@@ -5900,8 +5900,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	BRMScarshieldQuartermaster = {
 		{ 13254, "INV_Shield_12", "=q3=Astral Guard", "=ds=#w8#", "1.03%" },
 		{ 13248, "INV_Weapon_Rifle_06", "=q3=Burstshot Harquebus", "=ds=#w5#", "4.17%" },
-		{ 0, "", "", "" },
-		{ 18987, "INV_Letter_17", "=q1=Blackhand's Command", "=ds=#m2#", "100%" },
 	};
 	DMMarisaduPaige = {
 		{ 3019, "INV_Chest_Cloth_38", "=q2=Noble's Robe", "=ds=#s5#, #a1#", "22.4%" },

@@ -1583,6 +1583,7 @@ AtlasMaps = {
 		Continent = BZ["Kalimdor"];
 		{ ORNG..AL["Reputation"]..": "..AL["Operation Rattlesnake"].." ("..BF["Horde"]..")", FACTION, 0 };
 		{ ORNG..AL["Reputation"]..": "..AL["Firebird Corps"].." ("..BF["Alliance"]..")", FACTION, 0 };
+		{ GREN..INDENT..AL["AC Item Shop"] };
 		{ GREN..INDENT..AL["Friendly Reputation Rewards"] };
 		{ GREN..INDENT..AL["Honored Reputation Rewards"] };
 		{ GREN..INDENT..AL["Revered Reputation Rewards"] };

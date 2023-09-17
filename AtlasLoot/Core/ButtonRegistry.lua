@@ -316,10 +316,16 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "AVRepMenu";
 		Prev_Page = "AVRepRevered";
 	};
+	["AZCItemShop"] = {
+		Title = AL["AC Item Shop"];
+		Back_Page = "AZCRepMenu";
+		Next_Page = "AZCRepFriendly";
+	};
 	["AZCRepFriendly"] = {
 		Title = AL["Friendly Reputation Rewards"];
 		Back_Page = "AZCRepMenu";
 		Next_Page = "AZCRepHonored";
+		Prev_Page = "AZCItemShop";
 	};
 	["AZCRepHonored"] = {
 		Title = AL["Honored Reputation Rewards"];

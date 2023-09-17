@@ -316,9 +316,9 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 	Zandalar2 = {
 		{ 0, "", "", "" },
 		{ 0, "INV_Misc_Coin_08", "=q6=#r4#", "" },
-		{ 20080, "INV_Potion_29", "=q2=Sheen of Zanza", "=ds=#e1#", "", "3", "#zandalar#" },
-		{ 20079, "INV_Potion_30", "=q2=Spirit of Zanza", "=ds=#e1#", "", "3", "#zandalar#" },
-		{ 20081, "INV_Potion_31", "=q2=Swiftness of Zanza", "=ds=#e1#", "", "3", "#zandalar#" },
+		{ 20080, "INV_Potion_29", "=q2=Sheen of Zanza", "=ds=#e1#", "", "1", "#zandalar#" },
+		{ 20079, "INV_Potion_30", "=q2=Spirit of Zanza", "=ds=#e1#", "", "1", "#zandalar#" },
+		{ 20081, "INV_Potion_31", "=q2=Swiftness of Zanza", "=ds=#e1#", "", "1", "#zandalar#" },
 		{ 19764, "INV_Scroll_03", "=q1=Pattern: Bloodvine Vest", "=ds=#p8# (300)" },
 		{ 19769, "INV_Scroll_03", "=q1=Pattern: Primal Batskin Jerkin", "=ds=#p7# (300)" },
 		{ 19772, "INV_Scroll_03", "=q1=Pattern: Blood Tiger Breastplate", "=ds=#p7# (300)" },

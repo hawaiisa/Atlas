@@ -149,11 +149,11 @@ AtlasLootBattlegrounds = {
 	AzsharaCrater = {
 		"";
 		"";
+		"AZCItemShop";
 		"AZCRepFriendly";
 		"AZCRepHonored";
 		"AZCRepRevered";
 		"AZCRepExalted";
-		"";
 		"";
 		"";
 		"";
@@ -290,6 +290,35 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 19324, "INV_Sword_29", "=q4=The Lobotomizer", "=ds=#h1#, #w4#" },
 		{ 19323, "INV_Hammer_13", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#" },
 	};
+	AZCItemShop = {
+		{ 0, "", "", "" },
+		{ 34000, "INV_Enchant_DustVision", "=q1=Azsharite Powder", "=ds=#ACItem#", "", "", "", "3", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34001, "INV_Misc Bomb_03", "=q1=Azsharite Bomb", "=ds=#ACItem#", "", "", "", "5", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34002, "INV_Shield_08", "=q1=Azsharite Land Mine", "=ds=#ACItem#", "", "", "", "15", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34003, "INV_Misc_Bag_09_Red", "=q1=Crater Survival Kit", "=ds=#ACItem#", "", "", "", "40", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34004, "INV_Weapon_Rifle_05", "=q1=Auto-sniping Rifle", "=ds=#ACItem#", "", "", "", "50", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34005, "INV_Misc_Gem_Sapphire_01", "=q1=Azsharite Heart", "=ds=#ACItem#", "", "", "", "70", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34006, "Ability_Rogue_Sprint", "=q1=Azsharite Boots of Travel", "=ds=#s12#, #a1#, #ACItem#", "", "", "", "50", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34010, "INV_Misc_Food_28", "=q1=Ultra-Safe Torpor Pills", "=ds=#ACItem#", "", "", "", "20", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34011, "injector_red", "=q1=Advanced Adrenaline Injector", "=ds=#ACItem#", "", "", "", "40", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34012, "INV_Potion_63", "=q1=Major Thick Blood Potion", "=ds=#ACItem#", "", "", "", "20", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34013, "INV_Potion_27", "=q1=Major Vampiric Potion", "=ds=#ACItem#", "", "", "", "30", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 34014, "INV_Potion_96", "=q1=Major Elixir of Life", "=ds=#ACItem#", "", "", "", "70", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34015, "INV_Misc_Flute_01", "=q1=Timberweb Blowgun", "=ds=#ACItem#", "", "", "", "80", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34016, "INV_Misc_StoneTablet_04", "=q1=Tablet of the Dark Blessing", "=ds=#ACItem#", "", "", "", "100", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34020, "INV_Chest_Chain_08", "=q1=Best Shirt Ever", "=ds=#s6#, #ACItem#", "", "", "", "45", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34021, "INV_Misc_ArmorKit 27", "=q1=Langrage Scraps", "=ds=#ACItem#", "", "", "", "5", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34023, "executioneer_axe", "=q1=Executioner's Greataxe", "=ds=#ACItem#", "", "", "", "35", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34024, "Spell_Nature_Storm_Hammer", "=q1=Azsharite Storm Bolt", "=ds=#ACItem#", "", "", "", "50", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34025, "INV_Shield_02", "=q1=Brotherhood's Great Protector", "=ds=#ACItem#", "", "", "", "120", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34026, "chained_hook_01", "=q1=Bloody Hook", "=ds=#ACItem#", "", "", "", "60", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34027, "INV_Throwing Knife_01", "=q1=Sharpest Dimension Slicer", "=ds=#ACItem#", "", "", "", "80", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34048, "Spell_Shadow_CorpseExplode", "=q1=Once Lost Ring of the Deadly Chaos", "=ds=#s13#, #ACItem#", "", "", "", "", "", "", "", "", "", "", "", true },
+	},
 	AZCRepFriendly = {
 		{ 0, "INV_BannerPVP_02", "=q8=#m7#", "=q7=#b7#" },
 		{ 0, "", "", "" },

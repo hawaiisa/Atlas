@@ -719,6 +719,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Azshara Crater"] = true;
 	["Operation Rattlesnake"] = true;
 	["Firebird Corps"] = true;
+	["AC Item Shop"]= true;
 	
 	--Warsong Gulch
 	["Warsong Outriders"] = true;

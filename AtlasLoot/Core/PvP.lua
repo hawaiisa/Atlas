@@ -215,30 +215,36 @@ function AtlasLootAZCRepMenu()
 	getglobal("AtlasLootItemsFrame_NEXT"):Hide();
 	getglobal("AtlasLootItemsFrame_PREV"):Hide();
 	getglobal("AtlasLootServerQueryButton"):Hide();
-	--Friendly
-	AtlasLootMenuItem_2_Name:SetText(AL["Friendly Reputation Rewards"]);
+	--Item Shop
+	AtlasLootMenuItem_2_Name:SetText(AL["AC Item Shop"]);
 	AtlasLootMenuItem_2_Extra:SetText("");
-	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
-	AtlasLootMenuItem_2.lootpage="AZCRepFriendly";
+	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\inv_azsharite_coin");
+	AtlasLootMenuItem_2.lootpage="AZCItemShop";
 	AtlasLootMenuItem_2:Show();
-	--Honored
-	AtlasLootMenuItem_3_Name:SetText(AL["Honored Reputation Rewards"]);
+	--Friendly
+	AtlasLootMenuItem_3_Name:SetText(AL["Friendly Reputation Rewards"]);
 	AtlasLootMenuItem_3_Extra:SetText("");
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
-	AtlasLootMenuItem_3.lootpage="AZCRepHonored";
+	AtlasLootMenuItem_3.lootpage="AZCRepFriendly";
 	AtlasLootMenuItem_3:Show();
-	--Revered
-	AtlasLootMenuItem_4_Name:SetText(AL["Revered Reputation Rewards"]);
+	--Honored
+	AtlasLootMenuItem_4_Name:SetText(AL["Honored Reputation Rewards"]);
 	AtlasLootMenuItem_4_Extra:SetText("");
 	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
-	AtlasLootMenuItem_4.lootpage="AZCRepRevered";
+	AtlasLootMenuItem_4.lootpage="AZCRepHonored";
 	AtlasLootMenuItem_4:Show();
-	--Exalted
-	AtlasLootMenuItem_5_Name:SetText(AL["Exalted Reputation Rewards"]);
+	--Revered
+	AtlasLootMenuItem_5_Name:SetText(AL["Revered Reputation Rewards"]);
 	AtlasLootMenuItem_5_Extra:SetText("");
 	AtlasLootMenuItem_5_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
-	AtlasLootMenuItem_5.lootpage="AZCRepExalted";
+	AtlasLootMenuItem_5.lootpage="AZCRepRevered";
 	AtlasLootMenuItem_5:Show();
+	--Exalted
+	AtlasLootMenuItem_6_Name:SetText(AL["Exalted Reputation Rewards"]);
+	AtlasLootMenuItem_6_Extra:SetText("");
+	AtlasLootMenuItem_6_Icon:SetTexture("Interface\\Icons\\INV_Misc_Gem_Crystal_02");
+	AtlasLootMenuItem_6.lootpage="AZCRepExalted";
+	AtlasLootMenuItem_6:Show();
 	for i = 1, 30, 1 do
 		getglobal("AtlasLootMenuItem_"..i.."_Extra"):Show();
 	end

@@ -190,6 +190,7 @@ function AtlasLoot_FixText(text)
     --Vanilla Plus specific
 	text = gsub(text, "#m37#", AL["Tier set hand-in"]);
     text = gsub(text, "#m38#", AL["36 Slot bag"]);
+    text = gsub(text, "#m39#", AL["20 Slot bag"]);
 	
 	-- Random names
     text = gsub(text, "#x1#", BB["Lord Cobrahn"]);
@@ -659,6 +660,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#arcanite#", "Interface\\Icons\\INV_Misc_StoneTablet_05");
     text = gsub(text, "#mooncloth#", "Interface\\Icons\\INV_Fabric_MoonRag_01");
     text = gsub(text, "#vplus#", "Interface\\Addons\\AtlasLoot\\Images\\vplus");
+    text = gsub(text, "#ACCoin#", "Interface\\Icons\\inv_azsharite_coin");
+    text = gsub(text, "#ACItem#", AL["AC Item"]);
     
     --Ranks
     text = gsub(text, "#rank1#", AL["Rank 1"]);

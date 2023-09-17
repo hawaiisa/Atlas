@@ -552,4 +552,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Miscellaneous"] = true;
 	["Winterspring Juju"] = true;
 	["Un\'Goro Power Crystals"] = true;
+	["20 Slot bag"] = true;
+	["AC Item Shop"] = true;
+	["AC Item"] = true;
 	} end)	
