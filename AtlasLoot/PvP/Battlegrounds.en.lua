@@ -149,7 +149,7 @@ AtlasLootBattlegrounds = {
 	AzsharaCrater = {
 		"";
 		"";
-		"AZCItemShop";
+		"AZCItemShop1";
 		"AZCRepFriendly";
 		"AZCRepHonored";
 		"AZCRepRevered";
@@ -290,7 +290,7 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 19324, "INV_Sword_29", "=q4=The Lobotomizer", "=ds=#h1#, #w4#" },
 		{ 19323, "INV_Hammer_13", "=q4=The Unstoppable Force", "=ds=#h2#, #w6#" },
 	};
-	AZCItemShop = {
+	AZCItemShop1 = {
 		{ 0, "", "", "" },
 		{ 34000, "INV_Enchant_DustVision", "=q1=Azsharite Powder", "=ds=#ACItem#", "", "", "", "3", "#ACCoin#", "", "", "", "", "", "", true },
 		{ 34001, "INV_Misc Bomb_03", "=q1=Azsharite Bomb", "=ds=#ACItem#", "", "", "", "5", "#ACCoin#", "", "", "", "", "", "", true },
@@ -305,7 +305,7 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 34013, "INV_Potion_27", "=q1=Major Vampiric Potion", "=ds=#ACItem#", "", "", "", "30", "#ACCoin#", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 34048, "Spell_Shadow_CorpseExplode", "=q1=Once Lost Ring of the Deadly Chaos", "=ds=#s13#, #ACItem#, drops off of players", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
 		{ 34014, "INV_Potion_96", "=q1=Major Elixir of Life", "=ds=#ACItem#", "", "", "", "70", "#ACCoin#", "", "", "", "", "", "", true },
 		{ 34015, "INV_Misc_Flute_01", "=q1=Timberweb Blowgun", "=ds=#ACItem#", "", "", "", "80", "#ACCoin#", "", "", "", "", "", "", true },
@@ -317,7 +317,27 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 34025, "INV_Shield_02", "=q1=Brotherhood's Great Protector", "=ds=#ACItem#", "", "", "", "120", "#ACCoin#", "", "", "", "", "", "", true },
 		{ 34026, "chained_hook_01", "=q1=Bloody Hook", "=ds=#ACItem#", "", "", "", "60", "#ACCoin#", "", "", "", "", "", "", true },
 		{ 34027, "INV_Throwing Knife_01", "=q1=Sharpest Dimension Slicer", "=ds=#ACItem#", "", "", "", "80", "#ACCoin#", "", "", "", "", "", "", true },
-		{ 34048, "Spell_Shadow_CorpseExplode", "=q1=Once Lost Ring of the Deadly Chaos", "=ds=#s13#, #ACItem#", "", "", "", "", "", "", "", "", "", "", "", true },
+	},
+	AZCItemShop2 = {
+		{ 0, "", "", "" },
+		{ 34040, "Spell_Shadow_EvilEye", "=q1=Sentry Totem", "=ds=#ACItem#", "", "", "", "50", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34041, "Spell_Nature_GuardianWard", "=q1=Serpent Totem", "=ds=#ACItem#", "", "", "", "50", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34042, "Spell_Fire_FrostResistanceTotem", "=q1=Mana Detonation Totem", "=ds=#ACItem#", "", "", "", "80", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34043, "spell_nature_invisibilitytotem", "=q1=Totem of Lightness", "=ds=#ACItem#", "", "", "", "100", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 34044, "Flaming_Arrows", "=q1=Totem of Power", "=ds=#ACItem#", "", "", "", "80", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34045, "Spell_Nature_NullWard", "=q1=Healing Totem", "=ds=#ACItem#", "", "", "", "120", "#ACCoin#", "", "", "", "", "", "", true },
+		{ 34046, "spell_nature_agitatingtotem", "=q1=Stasis Totem", "=ds=#ACItem#", "", "", "", "150", "#ACCoin#", "", "", "", "", "", "", true },
 	},
 	AZCRepFriendly = {
 		{ 0, "INV_BannerPVP_02", "=q8=#m7#", "=q7=#b7#" },

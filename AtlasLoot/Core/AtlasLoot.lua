@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "28";
+local VERSION_BOSSES = "29";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.5";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.4";
@@ -3017,7 +3017,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Friendly Reputation Rewards"], "AVRepFriendly" },
 	},
 	["AZCRewards"] = {
-		{ AL["AC Item Shop"], "AZCItemShop"},
+		{ AL["AC Item Shop"], "AZCItemShop1"},
 		{ AL["Exalted Reputation Rewards"], "AZCRepExalted" },
 		{ AL["Revered Reputation Rewards"], "AZCRepRevered" },
 		{ AL["Honored Reputation Rewards"], "AZCRepHonored" },
