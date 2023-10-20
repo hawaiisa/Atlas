@@ -219,7 +219,7 @@ function AtlasLootAZCRepMenu()
 	AtlasLootMenuItem_2_Name:SetText(AL["AC Item Shop"]);
 	AtlasLootMenuItem_2_Extra:SetText("");
 	AtlasLootMenuItem_2_Icon:SetTexture("Interface\\Icons\\inv_azsharite_coin");
-	AtlasLootMenuItem_2.lootpage="AZCItemShop1";
+	AtlasLootMenuItem_2.lootpage="AZCItemShop";
 	AtlasLootMenuItem_2:Show();
 	--Friendly
 	AtlasLootMenuItem_3_Name:SetText(AL["Friendly Reputation Rewards"]);
