@@ -816,6 +816,7 @@ AtlasLoot_TableNames = {
 	--Miscellaneous
 	["WinterspringJuju"] = { AL["Winterspring Juju"], "AtlasLootItems" },
 	["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "AtlasLootItems" },
+	["BSLibrams1"] = { AL["Librams"], "AtlasLootItems" },
 
 	--Menus, the entry does nothing, but makes the generalised loot table code less complex
 	["PVPMENU"] = { "dummy", "dummy" },

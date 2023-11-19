@@ -649,6 +649,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#redcrystal#", "Interface\\Icons\\INV_Misc_Gem_Ruby_03");
     text = gsub(text, "#greencrystal#", "Interface\\Icons\\INV_Misc_Gem_Emerald_02");
     text = gsub(text, "#yellowcrystal#", "Interface\\Icons\\INV_Misc_Gem_Topaz_02");
+    text = gsub(text, "#blackdiamond#", "Interface\\Icons\\INV_Misc_Gem_01");
     
     --Vanilla Plus specific
     text = gsub(text, "#dragonbreath#", "Interface\\Icons\\INV_Misc_Orb_05");

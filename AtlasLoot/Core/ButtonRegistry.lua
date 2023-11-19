@@ -1692,6 +1692,16 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "CRAFTINGMENU";
 		Back_Title = AL["Crafting"];
 	};
+	["BSLibrams1"] = {
+		Title = AL["Librams"];
+		Next_Page = "BSLibrams2";
+		Next_Title = AL["Librams"]..": Materials";
+	};
+	["BSLibrams2"] = {
+		Title = AL["Librams"]..": Materials";
+		Prev_Page = "BSLibrams1";
+		Prev_Title = AL["Librams"];
+	};
 	["VPlusDonations1"] = {
 		Title = AL["General"];
 		Back_Page = "DONATIONS";

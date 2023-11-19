@@ -555,4 +555,5 @@ AL:RegisterTranslations("enUS", function() return {
 	["20 Slot bag"] = true;
 	["AC Item Shop"] = true;
 	["AC Item"] = true;
+	["Librams"] = true;
 	} end)	
