@@ -76,10 +76,10 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "31";
+local VERSION_BOSSES = "32";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "2.1.5";
-ATLASLOOT_PREVIEW_ATLAS = "2.1.4";
+ATLASLOOT_CURRENT_ATLAS = "2.1.6";
+ATLASLOOT_PREVIEW_ATLAS = "2.1.5";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];
@@ -2437,6 +2437,7 @@ AtlasLoot_DewDropDown = {
 			[1] = { { AL["Winterspring Juju"], "WinterspringJuju", "Table" }, },
 			[2] = { { AL["Un\'Goro Power Crystals"], "UnGoroCrystals", "Table" }, },
 			[3] = { { AL["Librams"], "BSLibrams1", "Table" }, },
+			[4] = { { AL["King Mosh"], "UnGoroKingMosh", "Table" }, },
 		},
 	},
 	[9] = { 
@@ -2516,6 +2517,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Trash Mobs"], "UBRSTrash" },
 	},
 	["BlackwingLair"] = {
+		{ AL["Elementium Decapitator Mk III"], "BWLDecapitator" },
 		{ BB["Razorgore the Untamed"], "BWLRazorgore" },
 		{ BB["Vaelastrasz the Corrupt"], "BWLVaelastrasz" },
 		{ BB["Broodlord Lashlayer"], "BWLLashlayer" },
@@ -3102,6 +3104,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AtlasLoot_TableNames["WinterspringJuju"][1], "WinterspringJuju" },
 		{ AtlasLoot_TableNames["UnGoroCrystals"][1], "UnGoroCrystals" },
 		{ AtlasLoot_TableNames["BSLibrams1"][1], "BSLibrams1" },
+		{ AtlasLoot_TableNames["UnGoroKingMosh"][1], "UnGoroKingMosh" },
 	},
 };
 

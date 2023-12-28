@@ -624,7 +624,7 @@ AtlasMaps = {
 		{ GREY.."9) "..BB["Nefarian"], NPC, 11583 };
 		{ GREN.."1') "..AL["Alchemy Lab"] };
 		{ GREN.."2') "..AL["Draconic for Dummies"], OBJECT, 180666 };
-		{ "" };
+		{ GREY..INDENT..AL["Elementium Decapitator Mk III"], NPC, 10000000 };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Tier 2 Sets"] };
 		{ "" };

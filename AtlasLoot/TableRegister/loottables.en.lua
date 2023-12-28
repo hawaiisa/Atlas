@@ -97,6 +97,7 @@ AtlasLoot_TableNames = {
 	["UBRSDrakkisath"] = { BB["General Drakkisath"], "AtlasLootItems" },
 	["UBRSTrash"] = { AL["Trash Mobs"].." ("..BZ["Upper Blackrock Spire"]..")", "AtlasLootItems" },
 	--Blackwing Lair
+	["BWLDecapitator"] = { AL["Elementium Decapitator Mk III"], "AtlasLootItems" },
 	["BWLRazorgore"] = { BB["Razorgore the Untamed"], "AtlasLootItems" },
 	["BWLVaelastrasz"] = { BB["Vaelastrasz the Corrupt"], "AtlasLootItems" },
 	["BWLLashlayer"] = { BB["Broodlord Lashlayer"], "AtlasLootItems" },
@@ -816,6 +817,7 @@ AtlasLoot_TableNames = {
 	--Miscellaneous
 	["WinterspringJuju"] = { AL["Winterspring Juju"], "AtlasLootItems" },
 	["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "AtlasLootItems" },
+	["UnGoroKingMosh"] = { AL["King Mosh"], "AtlasLootItems" },
 	["BSLibrams1"] = { AL["Librams"], "AtlasLootItems" },
 
 	--Menus, the entry does nothing, but makes the generalised loot table code less complex
@@ -945,6 +947,7 @@ AtlasLoot_TableNamesBoss = {
 		["UBRSTrash"] = { AL["Trash Mobs"].." ("..BZ["Upper Blackrock Spire"]..")", "AtlasLootItems" },
 	},
 	[BZ["Blackwing Lair"]] = {
+		["BWLDecapitator"] = { AL["Elementium Decapitator Mk III"], "AtlasLootItems" },
 		["BWLRazorgore"] = { BB["Razorgore the Untamed"], "AtlasLootItems" },
 		["BWLVaelastrasz"] = { BB["Vaelastrasz the Corrupt"], "AtlasLootItems" },
 		["BWLLashlayer"] = { BB["Broodlord Lashlayer"], "AtlasLootItems" },
@@ -1474,6 +1477,8 @@ AtlasLoot_TableNamesBoss = {
 	[AL["Miscellaneous"]] = {
 		["WinterspringJuju"] = { AL["Winterspring Juju"], "Miscellaneous" },
 		["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "Miscellaneous" },
+		["UnGoroKingMosh"] = { AL["King Mosh"], "Miscellaneous" },
+		["BSLibrams1"] = { AL["Librams"], "Miscellaneous" },
 	},
 	
 	--------------------

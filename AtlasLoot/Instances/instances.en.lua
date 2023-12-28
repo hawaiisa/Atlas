@@ -194,7 +194,7 @@ AtlasLootBossButtons = {
 		"BWLNefarian";
 		"";
 		"";
-		"";
+		"BWLDecapitator";
 		"BWLTrashMobs";
 		"T2SET";
 	};
@@ -902,6 +902,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "INV_Box_01", "=q6=#j1#", "" },
 		{ 22057, "INV_Misc_EngGizmos_23", "=q1=Brazier of Invocation", "=ds=#m16#" },
 		{ 21986, "INV_BRD_Banner", "=q1=Banner of Provocation", "=ds=#m16#" },
+	};
+	BWLDecapitator = {
+		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#" },
 	};
 	BWLRazorgore = {
 		{ 16926, "INV_Bracer_09", "=q4=Bindings of Transcendence", "=ds=#s8#, #a1# =q9=#c5#", "20.37%" },
@@ -4067,7 +4070,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18458, "INV_Bracer_03", "=q2=Modest Armguards", "=ds=#s8#, #a3#", "7.12%" },
 		{ 18459, "INV_Bracer_19", "=q2=Gallant's Wristguards", "=ds=#s8#, #a4#", "6.09%" },
 		{ 18451, "INV_Belt_16", "=q2=Hyena Hide Belt", "=ds=#s10#, #a2#", "6.61%" },
-		{ 18462, "INV_Gauntlets_13", "=q2=Jagged Bone Fist", "=ds=#h3#, #w13#", "7.54%" },
+		{ 18462, "INV_Gauntlets_13", "=q2=Jagged Bone Fist", "=ds=#h4#, #w13#", "7.54%" },
 		{ 18463, "INV_Sword_04", "=q2=Ogre Pocket Knife", "=ds=#h1#, #w10#", "7.38%" },
 		{ 18464, "INV_Jewelry_Ring_06", "=q2=Gordok Nose Ring", "=ds=#s13#", "6.52%" },
 		{ 18460, "INV_Weapon_Rifle_07", "=q2=Unsophisticated Hand Cannon", "=ds=#w5#", "5.86%" },
@@ -4104,7 +4107,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18458, "INV_Bracer_03", "=q2=Modest Armguards", "=ds=#s8#, #a3#", "7.12%" },
 		{ 18459, "INV_Bracer_19", "=q2=Gallant's Wristguards", "=ds=#s8#, #a4#", "6.09%" },
 		{ 18451, "INV_Belt_16", "=q2=Hyena Hide Belt", "=ds=#s10#, #a2#", "6.61%" },
-		{ 18462, "INV_Gauntlets_13", "=q2=Jagged Bone Fist", "=ds=#h3#, #w13#", "7.54%" },
+		{ 18462, "INV_Gauntlets_13", "=q2=Jagged Bone Fist", "=ds=#h4#, #w13#", "7.54%" },
 		{ 18463, "INV_Sword_04", "=q2=Ogre Pocket Knife", "=ds=#h1#, #w10#", "7.38%" },
 		{ 18464, "INV_Jewelry_Ring_06", "=q2=Gordok Nose Ring", "=ds=#s13#", "6.52%" },
 		{ 18460, "INV_Weapon_Rifle_07", "=q2=Unsophisticated Hand Cannon", "=ds=#w5#", "5.86%" },
@@ -4158,7 +4161,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18458, "INV_Bracer_03", "=q2=Modest Armguards", "=ds=#s8#, #a3#", "7.12%" },
 		{ 18459, "INV_Bracer_19", "=q2=Gallant's Wristguards", "=ds=#s8#, #a4#", "6.09%" },
 		{ 18451, "INV_Belt_16", "=q2=Hyena Hide Belt", "=ds=#s10#, #a2#", "6.61%" },
-		{ 18462, "INV_Gauntlets_13", "=q2=Jagged Bone Fist", "=ds=#h3#, #w13#", "7.54%" },
+		{ 18462, "INV_Gauntlets_13", "=q2=Jagged Bone Fist", "=ds=#h4#, #w13#", "7.54%" },
 		{ 18463, "INV_Sword_04", "=q2=Ogre Pocket Knife", "=ds=#h1#, #w10#", "7.38%" },
 		{ 18464, "INV_Jewelry_Ring_06", "=q2=Gordok Nose Ring", "=ds=#s13#", "6.52%" },
 		{ 18460, "INV_Weapon_Rifle_07", "=q2=Unsophisticated Hand Cannon", "=ds=#w5#", "5.86%" },
@@ -6026,6 +6029,11 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 11565, "INV_Misc_Gem_Amethyst_01", "=q1=Crystal Yield", "", "", 10, "#redcrystal#", 10, "#bluecrystal#" },
 	},
+	UnGoroKingMosh = {
+		{ 0, "", "", "" },
+		{ 20003, "INV_Misc_MonsterClaw_02", "=q3=Devilsaur Claws", "=ds=#h3#, #w13#" },
+		{ 26013, "INV_Misc_Organ_01", "=q2=King's Heart", "#m25#" },
+	};
 	BSLibrams1 = {
 		{ 0, "Trade_Engraving", "Talk to Mathredis Firestar", "Burning Steppes" },
 		{ 0, "", "", "" },

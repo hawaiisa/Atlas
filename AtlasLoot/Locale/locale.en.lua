@@ -535,8 +535,10 @@ AL:RegisterTranslations("enUS", function() return {
 	--VanillaPlus
 	["Azshara Crater"] = true;
 	["Azus the Bloodseeker"] = true;
+	["Elementium Decapitator Mk III"] = true;
 	["Firebird Corps"] = true;
 	["Operation Rattlesnake"] = true;
+	["King Mosh"] = true;
 	["Lady Hederine"] = true;
 	["Nameless Hermit"] = true;
 	["Tier set hand-in"] = true;

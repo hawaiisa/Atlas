@@ -518,9 +518,9 @@ AL:RegisterTranslations("enUS", function() return {
 	["Jinxed Hoodoo Pile"] = true;
 	["ZG Enchants"] = true;		
 	--Vanilla+
-	["Nameless Hermit"] = true;
 	["Azus the Bloodseeker"] = true;
-	
+	["Elementium Decapitator Mk III"] = true;
+	["Nameless Hermit"] = true;
 	--************************************************
 	-- Instance Entrance Maps
 	--************************************************
