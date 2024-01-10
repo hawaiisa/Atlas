@@ -423,7 +423,7 @@ AtlasLoot_Data["AtlasLootCrafting"] = {
 		{ "e20014", "Spell_Holy_GreaterHeal", "=ds=Enchant Cloak - Greater Resistance", "=ds=#sr# =so1=265 =so2=285 =so3=305 =so4=325" },
 		{ "e20017", "Spell_Holy_GreaterHeal", "=ds=Enchant Shield - Greater Stamina", "=ds=#sr# =so1=265 =so2=285 =so3=305 =so4=325" },
 		{ "e13898", "Spell_Holy_GreaterHeal", "=ds=Enchant Weapon - Fiery Weapon", "=ds=#sr# =so1=265 =so2=285 =so3=305 =so4=325" },
-		{ "e15596", "INV_Misc_Gem_Bloodstone_01", "=q3=Smoking Heart of the Mountain", "=ds=#sr# =so1=265 =so2=285 =so3=305 =so4=325" },
+		{ "e15596", "INV_Misc_Gem_Bloodstone_01", "=q3=Smoking Heart of the Mountain", "=ds=#sr# =so1=290 =so2=310 =so3=330 =so4=350" },
 		{ "e20009", "Spell_Holy_GreaterHeal", "=ds=Enchant Bracer - Superior Spirit", "=ds=#sr# =so1=270 =so2=290 =so3=310 =so4=330" },
 		{ "e20012", "Spell_Holy_GreaterHeal", "=ds=Enchant Gloves - Greater Agility", "=ds=#sr# =so1=270 =so2=290 =so3=310 =so4=330" },
 		{ "e25128", "INV_Potion_104", "=q1=Wizard Oil", "=ds=#sr# =so1=275 =so2=285 =so3=295 =so4=305" },
