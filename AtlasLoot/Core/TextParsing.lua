@@ -191,6 +191,7 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#m37#", AL["Tier set hand-in"]);
     text = gsub(text, "#m38#", AL["36 Slot bag"]);
     text = gsub(text, "#m39#", AL["20 Slot bag"]);
+    text = gsub(text, "#m40#", AL["10 Combines to Old Heavy Folio"]);
 	
 	-- Random names
     text = gsub(text, "#x1#", BB["Lord Cobrahn"]);

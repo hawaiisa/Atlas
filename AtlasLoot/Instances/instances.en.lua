@@ -904,7 +904,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 21986, "INV_BRD_Banner", "=q1=Banner of Provocation", "=ds=#m16#" },
 	};
 	BWLDecapitator = {
-		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#" },
+		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26213, "INV_Misc_Gear_01", "=q4=Hypergear", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	BWLRazorgore = {
 		{ 16926, "INV_Bracer_09", "=q4=Bindings of Transcendence", "=ds=#s8#, #a1# =q9=#c5#", "20.37%" },
@@ -4058,6 +4059,12 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 18255, "INV_Misc_Food_55", "=q1=Runn Tum Tuber", "=ds=#e2#", "0.24%" },
 		{ 18297, "INV_Enchant_ShardGlimmeringSmall", "=q1=Thornling Seed", "=ds=#e15# =q7=#cb14#", "87.81%" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 34400, "INV_Misc_Note_06", "=q2=Old Shabby Parchment Page", "=ds=#m40#" },
+		{ 34401, "INV_Misc_Book_10", "=q3=Old Heavy Folio", "#e20#" },
 	};
 	DMNGuardMoldar = {
 		{ 18494, "INV_Shoulder_15", "=q3=Denwatcher's Shoulders", "=ds=#s3#, #a3#", "4.62%" },
@@ -4244,6 +4251,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18332,"INV_Misc_Book_02","=q2=Libram of Rapidity","=ds=#e20#", "3.34%" },
 		{ 0, "", "", "" },
 		{ 18640, "INV_Ammo_Bullet_02", "=q1=Happy Fun Rock", "=ds=#m20#", "1.95%" },
+		{ 0, "", "", "" },
+		{ 34400, "INV_Misc_Note_06", "=q2=Old Shabby Parchment Page", "=ds=#m40#" },
+		{ 34401, "INV_Misc_Book_10", "=q3=Old Heavy Folio", "#e20#" },
 	};
 	DMNTRIBUTERUN = {
 		{ 18538, "INV_Axe_10", "=q4=Treant's Bane", "=ds=#h2#, #w1#", "0.52%" },
@@ -4389,6 +4399,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18333,"INV_Misc_Book_04","=q2=Libram of Focus","=ds=#e20#", "2.87%" },
 		{ 18334,"INV_Misc_Book_11","=q2=Libram of Protection","=ds=#e20#", "3.16%" },
 		{ 18332,"INV_Misc_Book_02","=q2=Libram of Rapidity","=ds=#e20#", "3.34%" },
+		{ 0, "", "", "" },
+		{ 34400, "INV_Misc_Note_06", "=q2=Old Shabby Parchment Page", "=ds=#m40#" },
+		{ 34401, "INV_Misc_Book_10", "=q3=Old Heavy Folio", "#e20#" },
 	};
 	DMBooks = {
 		{ 18401,"INV_Misc_Book_11","=q4=Foror's Compendium of Dragon Slaying","=ds=#e20# =q17=#c9#=ds=, =q16=#c4#" },

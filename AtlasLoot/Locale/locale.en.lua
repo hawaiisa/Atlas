@@ -558,4 +558,5 @@ AL:RegisterTranslations("enUS", function() return {
 	["AC Item Shop"] = true;
 	["AC Item"] = true;
 	["Librams"] = true;
+	["10 Combines to Old Heavy Folio"] = true;
 	} end)	
