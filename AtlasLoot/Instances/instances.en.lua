@@ -906,6 +906,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	BWLDecapitator = {
 		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26213, "INV_Misc_Gear_01", "=q4=Hypergear", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26215, "INV_Shield_08", "=q4=Gobunix Equilibrium Core", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	BWLRazorgore = {
 		{ 16926, "INV_Bracer_09", "=q4=Bindings of Transcendence", "=ds=#s8#, #a1# =q9=#c5#", "20.37%" },
@@ -978,6 +979,10 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19374, "INV_Bracer_07", "=q4=Bracers of Arcane Accuracy", "=ds=#s8#, #a1#", "15.03%" },
 		{ 19350, "INV_Weapon_Bow_09", "=q4=Heartstriker", "=ds=#w2#", "8.45%" },
 		{ 19351, "INV_Sword_49", "=q4=Maladath, Runed Blade of the Black Flight", "=ds=#h1#, #w10#", "9.62%" },
+		{ 0, "", "", "" },
+		{ 0, "Trade_Engineering", "New Items", "", "" },
+		{ 26108, "INV_Sword_49", "=q4=Amir Andilar, Glaive of the Brood Guard", "=ds=#w7#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26217, "INV_Jewelry_Ring_AhnQiraj_03", "=q4=Lashlayer's Signet", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	BWLFiremaw = {
 		{ 16920, "INV_Gauntlets_14", "=q4=Handguards of Transcendence", "=ds=#s9#, #a1# =q9=#c5#", "6.01%" },

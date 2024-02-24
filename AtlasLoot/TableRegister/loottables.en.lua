@@ -1680,6 +1680,7 @@ AtlasLoot_TableNamesBoss = {
 		["ABRepExalted"] = { BZ["Arathi Basin"].." 60 "..AL["Exalted Rewards"], "AtlasLootBGItems" },
 		--Azshara Crater
 		["AZCItemShop1"] = { AL["Azshara Crater"].." 55-60 "..AL["AC Item Shop"], "AtlasLootBGItems" },
+		["AZCItemShop2"] = { AL["Azshara Crater"].." 55-60 "..AL["AC Item Shop"], "AtlasLootBGItems" },
 		["AZCRepFriendly"] = { AL["Azshara Crater"].." 55-60 "..AL["Friendly Rewards"], "AtlasLootBGItems" },
 		["AZCRepHonored"] = { AL["Azshara Crater"].." 55-60 "..AL["Honored Rewards"], "AtlasLootBGItems" },
 		["AZCRepRevered"] = { AL["Azshara Crater"].." 55-60 "..AL["Revered Rewards"], "AtlasLootBGItems" },

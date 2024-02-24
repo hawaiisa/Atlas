@@ -256,6 +256,10 @@ function AtlasLoot_CategorizeWishList(wlTable)
 
 	-- Sort and flatten categories
 	for k, v in pairs(categories) do
+		if GetLootTableParent(strsplit("|", categories[k][1][5])) == nil then
+			DEFAULT_CHAT_FRAME:AddMessage("|cffff0000" .. categories[k][1][5] .. AL["Parent not found"]);
+			k, v = next(categories, k);
+		end
 		-- Add a empty line between categories when in a same column
 		if table.getn(result) > 1 and (table.getn(result) - math.floor(table.getn(result)/15)*15) > 0 then table.insert(result, { 0, "", "", "" }) end
 		-- If a subheading is on the last row of a column, push it to next column

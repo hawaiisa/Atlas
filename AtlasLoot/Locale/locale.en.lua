@@ -92,6 +92,7 @@ AL:RegisterTranslations("enUS", function() return {
 	[" already in the WishList!"] = true;
 	[" deleted from the WishList."] = true;
 	["Not In Loot Table Registry"] = " not listed in loot table registry, please report this message to Thirinena via the V+ Discord or https://github.com/hawaiisa/Atlas";
+	["Parent not found"] = " - Parent not found. Please report this message to Thiri via the V+ Discord or https://github.com/hawaiisa/Atlas";
 	["Options"] = true;
 	["Collections"] = true;
 	["Factions"] = true;
