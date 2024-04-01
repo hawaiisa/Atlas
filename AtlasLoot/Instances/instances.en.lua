@@ -1506,7 +1506,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 34332, "INV_Misc_MC_PlateHelm", "=q4=Melted Helmet", "=ds=#s1#, =q17=#c9# =q16=#c4# =q15=#c7#", },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 26243, "INV_Wand_06", "=q4=Stave of Errant Vision", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
