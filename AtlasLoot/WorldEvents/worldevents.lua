@@ -136,6 +136,25 @@ AtlasLoot_Data["AtlasLootWorldEvents"] = {
 		{ 18706, "INV_Misc_ArmorKit_14", "=q2=Arena Master", "=ds=#m2#, =ds=#s14#", "100%" },
 		{ 19024, "INV_Misc_ArmorKit_04", "=q3=Arena Grand Master", "=q1=#m4# =ds=#s14#" },
 	};
+	EggHunt = {
+		{ 0, "INV_Egg_03", "=q6=", "" },
+		{ 7808, "INV_Misc_Food_29", "=q1=Chocolate Square", "=ds=#e2#" },
+		{ 83012, "INV_Misc_Food_02", "=q2=Spirit Bean", "=ds=#e2#" },
+		{ 83013, "INV_Misc_Coin_13", "=q3=Rune of Thumping", "=ds=#e2#" },
+		{ 0,"","","" },
+		{ 83008, "INV_Egg_21", "=q1=Huevo Podrido", "=ds=#m2#" },
+		{ 83001, "INV_Egg_20", "=q3=Jade Egg", "=ds=#s14#" },
+		{ 83003, "INV_Egg_19", "=q3=Onyx Egg", "=ds=#s14#" },
+		{ 83004, "INV_Egg_18", "=q3=Ruby Egg", "=ds=#s14#" },
+		{ 83005, "INV_Egg_15", "=q3=Azure Egg", "=ds=#s14#" },
+		{ 83006, "INV_Egg_16", "=q3=Blue Mottled Egg", "=ds=#s14#" },
+		{ 83007, "INV_Egg_22", "=q3=Pink Speckled Egg", "=ds=#s14#" },
+		{ 0,"","","" },
+		{ 0,"","","" },
+		{ 0,"","","" },
+		{ 0,"","","" },
+		{ 83002, "INV_Egg_17", "=q3=Golden Egg", "=ds=#s14#" },
+	};
 	FishingExtravaganza = {
 		{ 0, "INV_Box_01", "=q6=#j7#", "=q1=#j6#" },
 		{ 19970, "INV_Fishingpole_01", "=q3=Arcanite Fishing Pole", "=ds=#w14#" },
@@ -293,16 +312,6 @@ AtlasLoot_Data["AtlasLootWorldEvents"] = {
 		{ 17303, "INV_Holiday_Christmas_Wrapping_03", "=q1=Blue Ribboned Wrapping Paper", "=ds=#m20#" },
 		{ 17304, "INV_Holiday_Christmas_Wrapping_01", "=q1=Green Ribboned Wrapping Paper", "=ds=#m20#" },
 		{ 17307, "INV_Holiday_Christmas_Wrapping_02", "=q1=Purple Ribboned Wrapping Paper", "=ds=#m20#" },
-	};
-	Noblegarden = {
-		{ 0, "INV_Egg_03", "=q6=#cb9#", "" }, 
-		{ 19028, "INV_Chest_Cloth_04", "=q1=Elegant Dress", "=ds=#s5#" },
-		{ 6833, "INV_Shirt_08", "=q1=White Tuxedo Shirt", "=ds=#s6#" },
-		{ 6835, "INV_Pants_01", "=q1=Black Tuxedo Pants", "=ds=#s11#" },
-		{ 0,"","","" },
-		{ 7807, "INV_Misc_Food_27", "=q1=Candy Bar", "=ds=#e2#" },
-		{ 7808, "INV_Misc_Food_29", "=q1=Chocolate Square", "=ds=#e2#" },
-		{ 7806, "INV_Misc_Food_26", "=q1=Lollipop", "=ds=#e2#" },
 	};
 	HarvestFestival = {
 		{ 19697, "INV_Misc_Horn_03", "=q1=Bounty of the Harvest", "=q1=#m4# =ds=#m20#" },

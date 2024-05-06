@@ -1093,8 +1093,8 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "WORLDEVENTMENU";
 		Back_Title = AL["World Events"];
 	};
-	["Noblegarden"] = {
-		Title = AL["Noblegarden"];
+	["EggHunt"] = {
+		Title = AL["Egg Hunt"];
 		Back_Page = "WORLDEVENTMENU";
 		Back_Title = AL["World Events"];
 	};

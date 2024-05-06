@@ -69,11 +69,11 @@ function AtlasLootWorldEventMenu()
 	AtlasLootMenuItem_21_Icon:SetTexture("Interface\\Icons\\INV_SummerFest_FireFlower");
 	AtlasLootMenuItem_21.lootpage="MidsummerFestival";
 	AtlasLootMenuItem_21:Show();
-	--Noblegarden
-	AtlasLootMenuItem_7_Name:SetText(AL["Noblegarden"]);
+	--Egg Hunt
+	AtlasLootMenuItem_7_Name:SetText(AL["Egg Hunt"]);
 	AtlasLootMenuItem_7_Extra:SetText(ORANGE..AL["Various Locations"]);
 	AtlasLootMenuItem_7_Icon:SetTexture("Interface\\Icons\\INV_Egg_03");
-	AtlasLootMenuItem_7.lootpage="Noblegarden";
+	AtlasLootMenuItem_7.lootpage="EggHunt";
 	AtlasLootMenuItem_7:Show();
 	--Gurubashi Arena Booty Run
 	AtlasLootMenuItem_4_Name:SetText(AL["Gurubashi Arena Booty Run"]);

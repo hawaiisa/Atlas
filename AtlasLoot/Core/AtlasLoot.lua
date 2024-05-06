@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "03";
-local VERSION_BOSSES = "36";
+local VERSION_BOSSES = "37";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.6";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.5";
@@ -2399,7 +2399,7 @@ AtlasLoot_DewDropDown = {
 				{ AL["Midsummer Fire Festival"], "MidsummerFestival", "Table" },
 			},
 			[11] = {
-				{ AL["Noblegarden"], "Noblegarden", "Table" },
+				{ AL["Egg Hunt"], "EggHunt", "Table" },
 			},
 			[12] = {
 				{ AL["Scourge Invasion"], "ScourgeInvasionEvent1", "Table" },
