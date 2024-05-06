@@ -102,6 +102,7 @@ AtlasLoot_TableNames = {
 	["BWLVaelastrasz"] = { BB["Vaelastrasz the Corrupt"], "AtlasLootItems" },
 	["BWLLashlayer"] = { BB["Broodlord Lashlayer"], "AtlasLootItems" },
 	["BWLFiremaw"] = { BB["Firemaw"], "AtlasLootItems" },
+	["BWLKrixix"] = { AL["Master Elemental Shaper Krixix"], "AtlasLootItems" },
 	["BWLEbonroc"] = { BB["Ebonroc"], "AtlasLootItems" },
 	["BWLFlamegor"] = { BB["Flamegor"], "AtlasLootItems" },
 	["BWLChromaggus"] = { BB["Chromaggus"], "AtlasLootItems" },
@@ -819,6 +820,7 @@ AtlasLoot_TableNames = {
 	["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "AtlasLootItems" },
 	["UnGoroKingMosh"] = { AL["King Mosh"], "AtlasLootItems" },
 	["BSLibrams1"] = { AL["Librams"], "AtlasLootItems" },
+	["BSLibrams2"] = { AL["Librams"]..": Materials", "AtlasLootItems" },
 
 	--Menus, the entry does nothing, but makes the generalised loot table code less complex
 	["PVPMENU"] = { "dummy", "dummy" },
@@ -952,6 +954,7 @@ AtlasLoot_TableNamesBoss = {
 		["BWLVaelastrasz"] = { BB["Vaelastrasz the Corrupt"], "AtlasLootItems" },
 		["BWLLashlayer"] = { BB["Broodlord Lashlayer"], "AtlasLootItems" },
 		["BWLFiremaw"] = { BB["Firemaw"], "AtlasLootItems" },
+		["BWLKrixix"] = { AL["Master Elemental Shaper Krixix"], "AtlasLootItems" },
 		["BWLEbonroc"] = { BB["Ebonroc"], "AtlasLootItems" },
 		["BWLFlamegor"] = { BB["Flamegor"], "AtlasLootItems" },
 		["BWLChromaggus"] = { BB["Chromaggus"], "AtlasLootItems" },
@@ -1479,6 +1482,7 @@ AtlasLoot_TableNamesBoss = {
 		["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "Miscellaneous" },
 		["UnGoroKingMosh"] = { AL["King Mosh"], "Miscellaneous" },
 		["BSLibrams1"] = { AL["Librams"], "Miscellaneous" },
+		["BSLibrams2"] = { AL["Librams"]..": Materials", "Miscellaneous" },
 	},
 	
 	--------------------

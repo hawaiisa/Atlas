@@ -537,6 +537,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Azshara Crater"] = true;
 	["Azus the Bloodseeker"] = true;
 	["Egg Hunt"] = true;
+	["Master Elemental Shaper Krixix"] = true;
 	["Elementium Decapitator Mk III"] = true;
 	["Firebird Corps"] = true;
 	["Operation Rattlesnake"] = true;

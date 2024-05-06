@@ -187,7 +187,7 @@ AtlasLootBossButtons = {
 		"BWLVaelastrasz";
 		"BWLLashlayer";
 		"BWLFiremaw";
-		"";
+		"BWLKrixix";
 		"BWLEbonroc";
 		"BWLFlamegor";
 		"BWLChromaggus";
@@ -1015,6 +1015,12 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19397, "INV_Jewelry_Ring_43", "=q4=Ring of Blackrock", "=ds=#s13#", "5.98%" },
 		{ 19395, "INV_Misc_Gem_Topaz_02", "=q4=Rejuvenating Gem", "=ds=#s14#", "5.30%" },
 	};
+	BWLKrixix ={
+		{ 26227, "INV_Helmet_47", "=q4=Auto-Aim Goggles SMark 2", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26228, "INV_Helmet_47", "=q4=Combat Parser Interface V150r", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26229, "INV_Misc_Orb_04", "=q4=Orb of Chaotic Elements", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26240, "INV_Relics_IdolofFerocity", "=q4=Idol of Wilderness", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
+	},
 	BWLEbonroc = {
 		{ 16920, "INV_Gauntlets_14", "=q4=Handguards of Transcendence", "=ds=#s9#, #a1# =q9=#c5#", "6.59%" },
 		{ 16913, "INV_Gauntlets_14", "=q4=Netherwind Gloves", "=ds=#s9#, #a1# =q10=#c3#", "6.44%" },

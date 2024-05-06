@@ -2522,6 +2522,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Vaelastrasz the Corrupt"], "BWLVaelastrasz" },
 		{ BB["Broodlord Lashlayer"], "BWLLashlayer" },
 		{ BB["Firemaw"], "BWLFiremaw" },
+		{ AL["Master Elemental Shaper Krixix"], "BWLKrixix" },
 		{ BB["Ebonroc"], "BWLEbonroc" },
 		{ BB["Flamegor"], "BWLFlamegor" },
 		{ BB["Chromaggus"], "BWLChromaggus" },
