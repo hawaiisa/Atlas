@@ -1016,9 +1016,11 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19395, "INV_Misc_Gem_Topaz_02", "=q4=Rejuvenating Gem", "=ds=#s14#", "5.30%" },
 	};
 	BWLKrixix ={
+		{ 26221, "INV_Misc_Book_08", "=q4=Guide: Elementium Smelting", "=ds=#p2#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26227, "INV_Helmet_47", "=q4=Auto-Aim Goggles SMark 2", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26228, "INV_Helmet_47", "=q4=Combat Parser Interface V150r", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26229, "INV_Misc_Orb_04", "=q4=Orb of Chaotic Elements", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26238, "INV_Relics_IdolofHealth", "=q4=Idol of Health", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26240, "INV_Relics_IdolofFerocity", "=q4=Idol of Wilderness", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
 	},
 	BWLEbonroc = {
@@ -1186,7 +1188,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 17077, "INV_Staff_13", "=q4=Crimson Shocker", "=ds=#w12#", "1.60%" },
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "2.23%" },
-		{ 16665, "INV_Misc_Book_11", "=q2=Tome of Tranquilizing Shot", "=ds=#e20# =q14=#c2#", "100%" },
 	};
 	MCMagmadar = {
 		{ 34352, "inv_gauntlets_08", "=q4=Hot Claws", "=ds=#s9#/#s12#, =q9=#c5# =q10=#c3# =q11=#c8#" },
@@ -5025,6 +5026,16 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 16683, "INV_Jewelry_Ring_23", "=q3=Magister's Bindings", "=ds=#s8#, #a1# (T0, =q10=#c3#=ds=)" },
+		{ 16697, "INV_Belt_31", "=q3=Devout Bracers", "=ds=#s8#, #a1# (T0, =q9=#c5#=ds=)" },
+		{ 16703, "INV_Bracer_13", "=q3=Dreadmist Bracers", "=ds=#s8#, #a1# (T0, =q11=#c8#=ds=)" },
+		{ 16710, "INV_Bracer_07", "=q3=Shadowcraft Bracers", "=ds=#s8#, #a2# (T0, =q12=#c6#=ds=)" },
+		{ 16714,"INV_Bracer_09","=q3=Wildheart Bracers","=ds=#s8#, #a2# (T0, =q13=#c1#=ds=)" },
+		{ 16681,"INV_Bracer_17","=q3=Beaststalker's Bindings","=ds=#s8#, #a3# (T0, =q14=#c2#=ds=)" },
+		{ 16671, "INV_Bracer_02", "=q3=Bindings of Elements", "=ds=#s8#, #a3# (T0, =q15=#c7#=ds=)" },
+		{ 16735, "INV_Bracer_18", "=q3=Bracers of Valor", "=ds=#s8#, #a4# (T0, =q17=#c9#=ds=)" },
+		{ 16722, "INV_Bracer_14", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# (T0, =q16=#c4#=ds=)" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
 		{ 26045, "Spell_nature_bloodlust", "=q3=Talisman of Bloodlust", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
