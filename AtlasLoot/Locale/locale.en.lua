@@ -536,6 +536,7 @@ AL:RegisterTranslations("enUS", function() return {
 	--VanillaPlus
 	["Azshara Crater"] = true;
 	["Azus the Bloodseeker"] = true;
+	["Crimson Ring"] = true;
 	["Egg Hunt"] = true;
 	["Master Elemental Shaper Krixix"] = true;
 	["Elementium Decapitator Mk III"] = true;

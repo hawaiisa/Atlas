@@ -28,6 +28,12 @@ function AtlasLootPvPMenu()
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Jewelry_Amulet_07");
 	AtlasLootMenuItem_3.lootpage="ABRepMenu";
 	AtlasLootMenuItem_3:Show();
+	-- Crimson Ring Rewards
+	AtlasLootMenuItem_4_Name:SetText(AL["Crimson Ring"]);
+	AtlasLootMenuItem_4_Extra:SetText("");
+	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_Jewelry_Necklace_38");
+	AtlasLootMenuItem_4.lootpage="CrimsonRing1";
+	AtlasLootMenuItem_4:Show();
 	--PvP Mounts
 	AtlasLootMenuItem_6_Name:SetText(AL["PvP Mounts"]);
 	AtlasLootMenuItem_6_Extra:SetText("");

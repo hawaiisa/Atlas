@@ -350,6 +350,20 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "AZCRepMenu";
 		Prev_Page = "AZCRepRevered";
 	};
+	["CrimsonRing1"] = {
+		Title = AL["Crimson Ring"];
+		Next_Page = "CrimsonRing2";
+		Next_Title = AtlasLoot_TableNames["CrimsonRing1"][1];
+		Back_Page = "PVPMENU";
+		Back_Title = AL["PvP Rewards"];
+	};
+	["CrimsonRing2"] = {
+		Title = AtlasLoot_TableNames["CrimsonRing2"][1];
+		Prev_Page = "CrimsonRing1";
+		Prev_Title = AL["Crimson Ring"];
+		Back_Page = "PVPMENU";
+		Back_Title = AL["PvP Rewards"];
+	};
 	["PvP60Accessories1"] = {
 		Title = AL["PvP Trinkets"];
 		Next_Page = "PvP60Accessories2";
