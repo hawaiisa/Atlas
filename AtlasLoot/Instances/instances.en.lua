@@ -921,6 +921,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26213, "INV_Misc_Gear_01", "=q4=Hypergear", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26214, "INV_Helmet_47", "=q4=Technician\'s X-Ray Spectacles", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26215, "INV_Shield_08", "=q4=Gobunix Equilibrium Core", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	BWLRazorgore = {
