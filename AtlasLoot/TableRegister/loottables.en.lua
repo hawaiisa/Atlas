@@ -822,6 +822,7 @@ AtlasLoot_TableNames = {
 	["WinterspringJuju"] = { AL["Winterspring Juju"], "AtlasLootItems" },
 	["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "AtlasLootItems" },
 	["UnGoroKingMosh"] = { AL["King Mosh"], "AtlasLootItems" },
+	["BLTeremus"] = { AL["Teremus the Devourer"], "AtlasLootItems" },
 	["BSLibrams1"] = { AL["Librams"], "AtlasLootItems" },
 	["BSLibrams2"] = { AL["Librams"]..": Materials", "AtlasLootItems" },
 
@@ -1483,7 +1484,6 @@ AtlasLoot_TableNamesBoss = {
 	[AL["Miscellaneous"]] = {
 		["WinterspringJuju"] = { AL["Winterspring Juju"], "Miscellaneous" },
 		["UnGoroCrystals"] = { AL["Un\'Goro Power Crystals"], "Miscellaneous" },
-		["UnGoroKingMosh"] = { AL["King Mosh"], "Miscellaneous" },
 		["BSLibrams1"] = { AL["Librams"], "Miscellaneous" },
 		["BSLibrams2"] = { AL["Librams"]..": Materials", "Miscellaneous" },
 	},
@@ -1506,6 +1506,15 @@ AtlasLoot_TableNamesBoss = {
 		["DTrash"] = { AL["Trash Mobs"].." ("..AL["Emerald Dragons"]..")", "AtlasLootWBItems" },
 	},
 	
+	------------------
+	--- Minibosses ---
+	------------------
+
+	[AL["Minibosses"]] = {
+		["UnGoroKingMosh"] = { AL["King Mosh"], "Minibosses" },
+		["BLTeremus"] = { AL["Teremus the Devourer"], "Minibosses" },
+	},
+
 	--------------
 	--- Events ---
 	--------------

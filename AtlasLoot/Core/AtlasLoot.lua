@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "04";
-local VERSION_BOSSES = "04";
+local VERSION_BOSSES = "05";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.6";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.5";
@@ -2276,6 +2276,12 @@ AtlasLoot_DewDropDown = {
 		{ AL["World Bosses"], "WorldBosses", "Submenu" },
 	},
 	[3] = {
+		[AL["Minibosses"]] = {
+			[1] = { { AL["King Mosh"], "UnGoroKingMosh", "Table" }, },
+			[2] = { { AL["Teremus the Devourer"], "BLTeremus", "Table" }, },
+		},
+	},
+	[4] = {
 		[AL["PvP Rewards"]] = {
 			[1] = {
 				{ AL["PvP Armor Sets"], "PvPArmorSets", "Submenu" },
@@ -2306,7 +2312,7 @@ AtlasLoot_DewDropDown = {
 			},
 		},
 	},
-	[4] = {
+	[5] = {
 		[AL["Sets/Collections"]] = {
 			[1] = {
 				{ AL["Pre 60 Sets"], "Pre60Sets", "Submenu" },
@@ -2366,10 +2372,10 @@ AtlasLoot_DewDropDown = {
 			},
 		},
 	},
-	[5] = {
+	[6] = {
 		{ AL["Reputation Factions"], "Factions", "Submenu" },
 	},
-	[6] = {
+	[7] = {
 		[AL["World Events"]] = {
 			[1] = {
 				{ AL["Abyssal Council"], "AbyssalCouncil1", "Submenu" },
@@ -2412,7 +2418,7 @@ AtlasLoot_DewDropDown = {
 			},
 		},
 	},
-	[7] = {
+	[8] = {
 		[AL["Crafting"]] = {
 			[1] = { { BS["Alchemy"], "Alchemy", "Submenu" }, },
 			[2] = { { (BS["Blacksmithing"]), "Blacksmithing", "Submenu" }, },
@@ -2435,15 +2441,14 @@ AtlasLoot_DewDropDown = {
 			[13] = { { AL["Crafted Epic Weapons"], "CraftedWeapons1", "Table" }, },
 		},
 	},
-	[8] = {
+	[9] = {
 		[AL["Miscellaneous"]] = {
 			[1] = { { AL["Winterspring Juju"], "WinterspringJuju", "Table" }, },
 			[2] = { { AL["Un\'Goro Power Crystals"], "UnGoroCrystals", "Table" }, },
 			[3] = { { AL["Librams"], "BSLibrams1", "Table" }, },
-			[4] = { { AL["King Mosh"], "UnGoroKingMosh", "Table" }, },
 		},
 	},
-	[9] = { 
+	[10] = { 
 		[AL["V+ Donations"]] = {
 			[1] = { { AL["General"], "VPlusDonations1", "Table" }, },
 			[2] = { { AL["Pets"], "VPlusDonations2", "Table" }, },
