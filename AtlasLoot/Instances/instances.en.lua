@@ -6103,7 +6103,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 20003, "INV_Misc_MonsterClaw_02", "=q3=Devilsaur Claws", "=ds=#h3#, #w13#", },
 		{ 20005, "INV_Weapon_ShortBlade_16Claw", "=q3=Devilsaur Claws", "=ds=#h4#, #w13#", },
 		{ 26013, "INV_Misc_Organ_01", "=q2=King's Heart", "=ds=#m25#", },
-		{ 83075, "INV_Misc_Organ_04", "=q4=Everlasting Liver", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 81041, "INV_Misc_Organ_04", "=q4=Everlasting Liver", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
