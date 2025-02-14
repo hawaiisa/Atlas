@@ -6134,6 +6134,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	BLTeremus = {
 		{ 0, "", "", "" },
 		{ 83073, "INV_Shield_24Red", "=q3=Blazing Scale", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 83074, "INV_Gauntlets_31", "=q3=City Guard Gauntlets", "=ds=#s9#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 83075, "INV_Misc_MonsterScales_07Devour", "=q3=Blood Scarred Scale", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true }
 	},
 	BSLibrams1 = {
