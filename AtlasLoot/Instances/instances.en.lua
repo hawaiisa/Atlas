@@ -6105,7 +6105,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 20005, "INV_Weapon_ShortBlade_16Claw", "=q3=Devilsaur Claws", "=ds=#h4#, #w13#", },
 		{ 26013, "INV_Misc_Organ_01", "=q2=King's Heart", "=ds=#m25#", },
 		{ 81041, "INV_Misc_Organ_04", "=q4=Everlasting Liver", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 0, "", "", "" },
+		{ 83061, "INV_Weapon_ShortBlade_11", "=q4=Royal Incisor", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -6129,7 +6129,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 83167, "INV_Misc_Note_03", "=q3=Pattern: Vital Devilsaur Hide", "=ds=#m4#, #p7#", "", "", "", "", "", "", "", "", "", "", "", true },
 	};
 	BLTeremus = {
 		{ 0, "", "", "" },
