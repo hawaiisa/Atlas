@@ -119,7 +119,25 @@ AtlasLoot_ButtonRegistry = {
 		Back_Title = AL["Factions"];
 	};
 	["Shendralar1"] = {
-		Title = BF["Shen\'dralar"];
+		Title = BF["Shen\'dralar"]..": "..AL["Token Hand-Ins"];
+		Next_Page = "Shendralar2";
+		Next_Title = BF["Shen\'dralar"]..": "..BF["Friendly"].."/"..BF["Honored"];
+		Back_Page = "REPMENU";
+		Back_Title = AL["Factions"];
+	};
+	["Shendralar2"] = {
+		Title = BF["Shen\'dralar"]..": "..BF["Friendly"].."/"..BF["Honored"];
+		Prev_Page = "Shendralar1";
+		Prev_Title = BF["Shen\'dralar"]..": "..AL["Token Hand-Ins"];
+		Next_Page = "Shendralar3";
+		Next_Title = BF["Shen\'dralar"]..": "..BF["Revered"].."/"..BF["Exalted"];
+		Back_Page = "REPMENU";
+		Back_Title = AL["Factions"];
+	};
+	["Shendralar3"] = {
+		Title = BF["Shen\'dralar"]..": "..BF["Revered"].."/"..BF["Exalted"];
+		Prev_Page = "Shendralar2";
+		Prev_Title = BF["Shen\'dralar"]..": "..BF["Friendly"].."/"..BF["Honored"];
 		Back_Page = "REPMENU";
 		Back_Title = AL["Factions"];
 	};

@@ -113,8 +113,8 @@ AL:RegisterTranslations("esES", function() return {
 	["Unique"] = "Único";
 	["Right Half"] = "Parte derecha";
 	["Left Half"] = "Parte izquierda";
-	["vendor"] = "vendedor";
-	["pickpocketed"] = "robado";
+	["Vendor"] = "vendedor";
+	["Pickpocketed"] = "robado";
 	["Slot"] = "Casilla";
 	["28 Slot Bag"] = "Bolsa de 28 casillas";
 	["24 Slot Bag"] = "Bolsa de 24 casillas";

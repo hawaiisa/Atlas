@@ -76,10 +76,10 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "04";
-local VERSION_BOSSES = "08";
+local VERSION_BOSSES = "09";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "2.1.6";
-ATLASLOOT_PREVIEW_ATLAS = "2.1.5";
+ATLASLOOT_CURRENT_ATLAS = "2.1.7";
+ATLASLOOT_PREVIEW_ATLAS = "2.1.6";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];
@@ -2525,9 +2525,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Trash Mobs"], "UBRSTrash" },
 	},
 	["BlackwingLair"] = {
-		{ AL["Elementium Decapitator Mk III"], "BWLDecapitator" },
 		{ BB["Razorgore the Untamed"], "BWLRazorgore" },
-		{ BB["Vaelastrasz the Corrupt"], "BWLVaelastrasz" },
+		{ AL["Elementium Decapitator Mk III"], "BWLDecapitator" },
 		{ BB["Broodlord Lashlayer"], "BWLLashlayer" },
 		{ BB["Firemaw"], "BWLFiremaw" },
 		{ AL["Master Elemental Shaper Krixix"], "BWLKrixix" },
@@ -2535,6 +2534,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Flamegor"], "BWLFlamegor" },
 		{ BB["Chromaggus"], "BWLChromaggus" },
 		{ BB["Nefarian"], "BWLNefarian" },
+		{ BB["Vaelastrasz the Corrupt"], "BWLVaelastrasz" },
 		{ AL["Trash Mobs"], "BWLTrashMobs" },
 	},
 	["Deadmines"] = {
@@ -2711,8 +2711,6 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["High Priest Venoxis"], "ZGVenoxis" },
 		{ BB["High Priestess Mar'li"], "ZGMarli" },
 		{ BB["Bloodlord Mandokir"], "ZGMandokir" },
-		{ AL["Azus the Bloodseeker"], "ZGAzus" },
-		{ AL["Nameless Hermit"], "ZGHermit"},
 		{ BB["Gri'lek"], "ZGGrilek" },
 		{ BB["Hazza'rah"], "ZGHazzarah" },
 		{ BB["Renataki"], "ZGRenataki" },
@@ -2722,6 +2720,8 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["High Priestess Arlokk"], "ZGArlokk" },
 		{ BB["Jin'do the Hexxer"], "ZGJindo" },
 		{ BB["Hakkar"], "ZGHakkar" },
+		{ AL["Azus the Bloodseeker"], "ZGAzus" },
+		{ AL["Nameless Hermit"], "ZGHermit"},
 		{ AL["Random Boss Loot"], "ZGShared" },
 		{ AL["Trash Mobs"], "ZGTrash1" },
 		{ AL["ZG Enchants"], "ZGEnchants" },
