@@ -135,8 +135,8 @@ AL:RegisterTranslations("enUS", function() return {
 	["Unique"] = true;
 	["Right Half"] = true;
 	["Left Half"] = true;
-	["vendor"] = true;
-	["pickpocketed"] = true;
+	["Vendor"] = true;
+	["Pickpocketed"] = true;
 	["Slot"] = true;
 	["28 Slot Bag"] = true;
 	["24 Slot Bag"] = true;
@@ -561,6 +561,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Tabards"] = true;
 	["Teremus the Devourer"] = true;
 	["Tier set hand-in"] = true;
+	["Turn-in"] = true;
 	["Un\'Goro Power Crystals"] = true;
 	["V+ Donations"] = true;
 	["V+ Items"] = true;

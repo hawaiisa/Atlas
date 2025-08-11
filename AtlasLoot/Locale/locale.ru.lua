@@ -121,8 +121,8 @@ AL:RegisterTranslations("ruRU", function() return {
     ["Unique"] = "Уникальный";
     ["Right Half"] = "Правая половина";
     ["Left Half"] = "Левая половина";
-	["vendor"] = "торговец";
-	["pickpocketed"] = "крадется";
+	["Vendor"] = "торговец";
+	["Pickpocketed"] = "крадется";
 	["Slot"] = "ячеек";
 	["28 Slot Bag"] = "Сумка 28 ячеек";
 	["24 Slot Bag"] = "Сумка 24 ячейки";

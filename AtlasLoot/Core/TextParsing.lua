@@ -178,8 +178,8 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m25#", AL["Consumable"]);
     text = gsub(text, "#m26#", AL["Reagent"]);
 	text = gsub(text, "#m27#", AL["Binds when picked up"]);
-	text = gsub(text, "#m28#", AL["pickpocketed"]);
-	text = gsub(text, "#m29#", AL["vendor"]);
+	text = gsub(text, "#m28#", AL["Pickpocketed"]);
+	text = gsub(text, "#m29#", AL["Vendor"]);
 	text = gsub(text, "#m30#", AL["Lunar Festival Fireworks Pack"]);
 	text = gsub(text, "#m31#", AL["Lucky Red Envelope"]);
 	text = gsub(text, "#m32#", AL["Gently Shaken Gift"]);
@@ -192,6 +192,7 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m38#", AL["36 Slot bag"]);
     text = gsub(text, "#m39#", AL["20 Slot bag"]);
     text = gsub(text, "#m40#", AL["10 Combines to Old Heavy Folio"]);
+    text = gsub(text, "#m41#", AL["Turn-in"]);
 	
 	-- Random names
     text = gsub(text, "#x1#", BB["Lord Cobrahn"]);

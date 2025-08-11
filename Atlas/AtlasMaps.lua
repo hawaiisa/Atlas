@@ -614,7 +614,7 @@ AtlasMaps = {
 		{ BLUE.."B) "..AL["Connection"] };
 		{ BLUE.."C) "..AL["Connection"] };
 		{ GREY.."1) "..BB["Razorgore the Untamed"], NPC, 12435 };
-		{ GREY.."2) "..BB["Vaelastrasz the Corrupt"], NPC, 13020 };
+		{ GREY.."2) "..AL["Elementium Decapitator Mk III"], NPC, 10000000 };
 		{ GREY.."3) "..BB["Broodlord Lashlayer"], NPC, 12017 };
 		{ GREY.."4) "..BB["Firemaw"], NPC, 11983 };
 		{ GREY.."5) "..AL["Master Elemental Shaper Krixix"], NPC, 14401 };
@@ -622,11 +622,12 @@ AtlasMaps = {
 		{ GREY.."7) "..BB["Flamegor"], NPC, 11981 };
 		{ GREY.."8) "..BB["Chromaggus"], NPC, 14020 };
 		{ GREY.."9) "..BB["Nefarian"], NPC, 11583 };
+		{ GREY..INDENT..BB["Vaelastrasz the Corrupt"], NPC, 13020 };
 		{ GREN.."1') "..AL["Alchemy Lab"] };
 		{ GREN.."2') "..AL["Draconic for Dummies"], OBJECT, 180666 };
-		{ GREY..INDENT..AL["Elementium Decapitator Mk III"], NPC, 10000000 };
+		
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..INDENT..AL["Tier 2 Sets"] };
+		{ GREY..INDENT..AL["Tier 1 Sets"] };
 		{ "" };
 		{ "" };
 		{ "" };
@@ -692,7 +693,6 @@ AtlasMaps = {
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Random Boss Loot"] };
 		{ GREY..INDENT..AL["Tier 1 Sets"] };
-		{ GREY..INDENT..AL["Tier 2 Sets"] };
 		{ "" };
 		{ "" };
 		{ "" };
@@ -1087,10 +1087,10 @@ AtlasMaps = {
 		{ GREY.."9) "..BB["High Priestess Arlokk"].." ("..AL["Panther"]..")", NPC, 14515 };
 		{ GREY.."10) "..BB["Jin'do the Hexxer"].." ("..AL["Optional"]..")", NPC, 11380 };
 		{ GREY.."11) "..BB["Hakkar"], NPC, 14834 };
+		{ GREY.."12) "..AL["Azus the Bloodseeker"], NPC, 26023 };
+		{ GREY.."13) "..AL["Nameless Hermit"], NPC, 26022 };
 		{ GREN.."1') "..AL["Muddy Churning Waters"], OBJECT, 180369 };
 		{ GREN.."2') "..AL["Jinxed Hoodoo Pile"], OBJECT, 180228 };
-		{ GREY..AL["Nameless Hermit"], NPC, 26022 };
-		{ GREY..AL["Azus the Bloodseeker"], NPC, 26023 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Random Boss Loot"] };
