@@ -651,6 +651,8 @@ AtlasLoot_TableNames = {
 	["MagramClan1"] = { BF["Magram Clan Centaur"], "AtlasLootRepItems" },
 	--Shen'dralar
 	["Shendralar1"] = { BF["Shen\'dralar"], "AtlasLootRepItems" },
+	["Shendralar2"] = { BF["Shen\'dralar"], "AtlasLootRepItems" },
+	["Shendralar3"] = { BF["Shen\'dralar"], "AtlasLootRepItems" },
 	--Stormpike Guard
 	["Stormpike1"] = { BF["Stormpike Guard"], "AtlasLootRepItems" },
 	--Thorium Brotherhood
