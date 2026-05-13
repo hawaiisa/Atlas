@@ -1033,6 +1033,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26227, "INV_Helmet_47", "=q4=Auto-Aim Goggles SMark 2", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26228, "INV_Helmet_47", "=q4=Combat Parser Interface V150r", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26229, "INV_Misc_Orb_04", "=q4=Orb of Chaotic Elements", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26230, "INV_Boots_05", "=q4=Ebony Flame Boots", "=ds=#s12#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26238, "INV_Relics_IdolofHealth", "=q4=Idol of Health", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26240, "INV_Relics_IdolofFerocity", "=q4=Idol of Wilderness", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
 		{ 26241, "inv_ring_o2", "=q4=Ring of Master", "=ds=#s13#, #e23#", "", "", "", "", "", "", "", "", "", "", "", true },
