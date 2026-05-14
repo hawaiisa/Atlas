@@ -944,11 +944,11 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26213, "INV_Misc_Gear_01", "=q4=Hypergear", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26214, "INV_Helmet_47", "=q4=Technician\'s X-Ray Spectacles", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26215, "INV_Shield_08", "=q4=Gobunix Equilibrium Core", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26216, "INV_Misc_Cape_02", "=q4=Oilrag Cape", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26213, "INV_Misc_Gear_01", "=q4=Hypergear", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26214, "INV_Helmet_47", "=q4=Technician\'s X-Ray Spectacles", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26215, "INV_Shield_08", "=q4=Gobunix Equilibrium Core", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26216, "INV_Misc_Cape_02", "=q4=Oilrag Cape", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BWLLashlayer = {
 		{ 34352, "inv_gauntlets_08", "=q4=Hot Claws", "=ds=#s9#/#s12#, =q9=#c5# =q10=#c3# =q11=#c8#" },
@@ -976,8 +976,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19351, "INV_Sword_49", "=q4=Maladath, Runed Blade of the Black Flight", "=ds=#h1#, #w10#", "9.62%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26108, "INV_Sword_49", "=q4=Amir Andilar, Glaive of the Brood Guard", "=ds=#w7#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26217, "INV_Jewelry_Ring_AhnQiraj_03", "=q4=Lashlayer's Signet", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26108, "INV_Sword_49", "=q4=Amir Andilar, Glaive of the Brood Guard", "=ds=#w7#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26217, "INV_Jewelry_Ring_AhnQiraj_03", "=q4=Lashlayer's Signet", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BWLFiremaw = {
 		{ 34352, "inv_gauntlets_08", "=q4=Hot Claws", "=ds=#s9#/#s12#, =q9=#c5# =q10=#c3# =q11=#c8#" },
@@ -1026,17 +1026,17 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 26221, "INV_Misc_Book_08", "=q4=Guide: Elementium Smelting", "=ds=#p2#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26222, "INV_Misc_EngGizmos_05", "=q4=Elementium Echo Modulator", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26223, "INV_Misc_EngGizmos_01", "=q4=Reactive Auto-Recaster", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26224, "INV_Misc_EngGizmos_13", "=q4=Personal Harm Prevention Field Emitter", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26227, "INV_Helmet_47", "=q4=Auto-Aim Goggles SMark 2", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26228, "INV_Helmet_47", "=q4=Combat Parser Interface V150r", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26229, "INV_Misc_Orb_04", "=q4=Orb of Chaotic Elements", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26230, "INV_Boots_05", "=q4=Ebony Flame Boots", "=ds=#s12#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26238, "INV_Relics_IdolofHealth", "=q4=Idol of Health", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26240, "INV_Relics_IdolofFerocity", "=q4=Idol of Wilderness", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26241, "inv_ring_o2", "=q4=Ring of Master", "=ds=#s13#, #e23#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26221, "INV_Misc_Book_08", "=q4=Guide: Elementium Smelting", "=ds=#p2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26222, "INV_Misc_EngGizmos_05", "=q4=Elementium Echo Modulator", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26223, "INV_Misc_EngGizmos_01", "=q4=Reactive Auto-Recaster", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26224, "INV_Misc_EngGizmos_13", "=q4=Personal Harm Prevention Field Emitter", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26227, "INV_Helmet_47", "=q4=Auto-Aim Goggles SMark 2", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26228, "INV_Helmet_47", "=q4=Combat Parser Interface V150r", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26229, "INV_Misc_Orb_04", "=q4=Orb of Chaotic Elements", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26230, "INV_Boots_05", "=q4=Ebony Flame Boots", "=ds=#s12#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26238, "INV_Relics_IdolofHealth", "=q4=Idol of Health", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26240, "INV_Relics_IdolofFerocity", "=q4=Idol of Wilderness", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26241, "inv_ring_o2", "=q4=Ring of Master", "=ds=#s13#, #e23#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	},
 	BWLEbonroc = {
 		{ 34348, "INV_Misc_MC_Clothhelm", "=q4=Burnt Hood", "=ds=#s1#, =q9=#c5# =q10=#c3# =q11=#c8#", },
@@ -1105,7 +1105,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 34331, "INV_Misc_MC_PlatePants", "=q4=Melted Legplates", "=ds=#s11#, =q17=#c9# =q16=#c4# =q15=#c7#" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26218, "INV_Ore_Arcanite_01", "=q4=Chronomirage", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26218, "INV_Ore_Arcanite_01", "=q4=Chronomirage", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -1288,7 +1288,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "3.79%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26058, "INV_Helmet_41", "=q4=Mask of Whispered Secrets", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26058, "INV_Helmet_41", "=q4=Mask of Whispered Secrets", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 
 	};
 	MCGarr = {
@@ -1319,7 +1319,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19142, "INV_Misc_Book_09", "=q4=Fire Runed Grimoire", "=ds=#s15#", "3.69%" },
 		{ 17066, "INV_Shield_10", "=q4=Drillborer Disk", "=ds=#w8#", "11.85%" },
 		{ 17071, "INV_Weapon_ShortBlade_18", "=q4=Gutgore Ripper", "=ds=#h1#, #w4#", "11.21%" },
-		{ 17105, "INV_Hammer_05", "=q4=Aurastone Hammer", "=ds=#h1#, #w6#", "12.67%" },
+		{ 17105, "INV_Hammer_05", "=q4=Aurastone Hammer", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "M" },
 		{ 18832, "INV_Sword_15", "=q4=Brutality Blade", "=ds=#h1#, #w10#", "13.27%" },
 		{ 18822, "INV_Sword_28", "=q4=Obsidian Edged Blade", "=ds=#h2#, #w10#", "4.09%" },
 	};
@@ -1351,7 +1351,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18878, "INV_Weapon_ShortBlade_07", "=q4=Sorcerous Dagger", "=ds=#h3#, #w4#", "2.27%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26061,"INV_Jewelry_Ring_31","=q4=Signet of Unlimited Power","=ds=#s13#, #m8#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26061,"INV_Jewelry_Ring_31","=q4=Signet of Unlimited Power","=ds=#s13#, #m8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	MCGeddon = {
 		{ 34349, "INV_Misc_MC_ClothShoulder", "=q4=Burnt Shoulderpads", "=ds=#s3#, =q9=#c5# =q10=#c3# =q11=#c8#" },
@@ -1359,8 +1359,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 34333, "INV_Misc_MC_PlateShoulder", "=q4=Melted Pauldrons", "=ds=#s3#, =q17=#c9# =q16=#c4# =q15=#c7#" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26060,"INV_Jewelry_Necklace_AhnQiraj_01","=q4=Everhot Choker","=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26059,"INV_Misc_Gem_Bloodstone_02","=q4=Ashes of Destruction","=ds=#s14#, #m8#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26060,"INV_Jewelry_Necklace_AhnQiraj_01","=q4=Everhot Choker","=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26059,"INV_Misc_Gem_Bloodstone_02","=q4=Ashes of Destruction","=ds=#s14#, #m8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -1475,9 +1475,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 34330, "INV_Misc_MC_PlateChest", "=q4=Melted Breastplate", "=ds=#s5#, =q17=#c9# =q16=#c4# =q15=#c7#" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 17982, "INV_Jewelry_Ring_25", "=q4=Ragnaros Core", "=ds=#s13#, #e23#", "100%", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26105, "INV_Weapon_Hand_14", "=q4=Claw of Molten Fury", "=ds=#w13#, #h3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26106, "INV_Weapon_Hand_14", "=q4=Fist of Molten Fury", "=ds=#w13#, #h4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 17982, "INV_Jewelry_Ring_25", "=q4=Ragnaros Core", "=ds=#s13#, #e23#", "100%", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26105, "INV_Weapon_Hand_14", "=q4=Claw of Molten Fury", "=ds=#w13#, #h3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26106, "INV_Weapon_Hand_14", "=q4=Fist of Molten Fury", "=ds=#w13#, #h4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -1508,12 +1508,12 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 17012,"INV_Ammo_FireTar","=q1=Core Leather","=ds=#m26#" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26065, "INV_Shield_07", "=q4=Dark Iron Nugget", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26064, "INV_Axe_04", "=q4=Scabrite Axe", "=ds=#h1#, #w1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26066, "INV_Weapon_ShortBlade_08", "=q4=Obsidian Shard", "=ds=#h3#, #w4#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26057, "INV_Chest_Chain_07", "=q4=Flamewaker Hauberk", "=ds=#s5#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26062, "INV_Helmet_47", "=q4=Narain's Scrying Goggles", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26063, "INV_Belt_13", "=q4=Surtr's Belt", "=ds=#s10#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true }
+		{ 26065, "INV_Shield_07", "=q4=Dark Iron Nugget", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26064, "INV_Axe_04", "=q4=Scabrite Axe", "=ds=#h1#, #w1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26066, "INV_Weapon_ShortBlade_08", "=q4=Obsidian Shard", "=ds=#h3#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26057, "INV_Chest_Chain_07", "=q4=Flamewaker Hauberk", "=ds=#s5#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26062, "INV_Helmet_47", "=q4=Narain's Scrying Goggles", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26063, "INV_Belt_13", "=q4=Surtr's Belt", "=ds=#s10#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" }
 
 	};
 	MCRANDOMBOSSDROPS = {
@@ -1553,7 +1553,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26243, "INV_Wand_06", "=q4=Stave of Errant Vision", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26243, "INV_Wand_06", "=q4=Stave of Errant Vision", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -1697,14 +1697,14 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26193, "INV_Shoulder_11", "=q4=Bloodseeker Shoulders", "=ds=#s3#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26194, "INV_Misc_MonsterClaw_03", "=q4=Golden Ceremonial Bloodletter", "=ds=#h3#, #w13#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26195, "INV_Misc_MonsterClaw_03", "=q4=Golden Ceremonial Bloodletter", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26202, "INV_Helmet_08", "=q4=Helm of Sacrifice", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26203, "INV_Jewelry_Talisman_04", "=q4=Mark of Thirst", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26207, "INV_Weapon_Crossbow_05", "=q4=Azus\' Arrow Launcher", "=ds=#w3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26208, "INV_Potion_49", "=q4=Berserker\'s Blood Sample", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26193, "INV_Shoulder_11", "=q4=Bloodseeker Shoulders", "=ds=#s3#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26194, "INV_Misc_MonsterClaw_03", "=q4=Golden Ceremonial Bloodletter", "=ds=#h3#, #w13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26195, "INV_Misc_MonsterClaw_03", "=q4=Golden Ceremonial Bloodletter", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26202, "INV_Helmet_08", "=q4=Helm of Sacrifice", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26203, "INV_Jewelry_Talisman_04", "=q4=Mark of Thirst", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26207, "INV_Weapon_Crossbow_05", "=q4=Azus\' Arrow Launcher", "=ds=#w3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26208, "INV_Potion_49", "=q4=Berserker\'s Blood Sample", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	ZGHermit = {
 		{ 19721, "INV_Shoulder_19", "=q4=Primal Hakkari Shawl", "=q16=#c4#=ds=, =q14=#c2#=ds=, =q10=#c3#", },
@@ -1721,15 +1721,15 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26192, "INV_Axe_09", "=q4=Relic Cleaver", "=ds=#h2#, #w10#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26196, "INV_Helmet_30", "=q4=Old Calico Hood", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26197, "INV_Belt_28", "=q4=Ancient Golden Crown", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26198, "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26199, "INV_Gauntlets_18", "=q3=Glove of Cure", "=ds=#s9#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26200, "INV_Offhand_Stratholme_A_02", "=q3=Friendly Hand", "=ds=#w12#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26201, "INV_Misc_Bone_01", "=q3=Jinxed Bone Splinter", "=ds=#s15#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26206, "INV_Sword_38", "=q3=Ancient Bone Dagger", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26191, "INV_Jewelry_Talisman_11", "=q4=Primordial Hakkari Bijou", "", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26192, "INV_Axe_09", "=q4=Relic Cleaver", "=ds=#h2#, #w10#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26196, "INV_Helmet_30", "=q4=Old Calico Hood", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26197, "INV_Belt_28", "=q4=Ancient Golden Crown", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26198, "INV_Staff_02", "=q3=Staff of the Swampwalker", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26199, "INV_Gauntlets_18", "=q3=Glove of Cure", "=ds=#s9#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26200, "INV_Offhand_Stratholme_A_02", "=q3=Friendly Hand", "=ds=#w12#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26201, "INV_Misc_Bone_01", "=q3=Jinxed Bone Splinter", "=ds=#s15#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26206, "INV_Sword_38", "=q3=Ancient Bone Dagger", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	ZGGrilek = {
 		{ 19961, "INV_Mace_04", "=q3=Gri'lek's Grinder", "=ds=#h1#, #w6#", "43.90%" },
@@ -2561,7 +2561,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26012, "INV_misc_cape_07", "=q3=Grubbis Pelt", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26012, "INV_misc_cape_07", "=q3=Grubbis Pelt", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	GnElectrocutioner6000 = {
 		{ 9447, "INV_Misc_Gear_04", "=q3=Electrocutioner Lagnut", "=ds=#s13#", "28.44%" },
@@ -2588,7 +2588,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 7742,"INV_Scroll_03","=q1=Schematic: Gnomish Cloaking Device","=ds=#p5# (200)", "0.23%" },
 		{ 4397,"INV_Gizmo_01","=q1=Gnomish Cloaking Device","=ds=#s14#" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26010, "INV_helmet_49", "=q3=E.G.H.E.A.D. Mk IV Assault Helmet", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26010, "INV_helmet_49", "=q3=E.G.H.E.A.D. Mk IV Assault Helmet", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	GnDIAmbassador = {
 		{ 9455, "INV_Bracer_09", "=q3=Emissary Cuffs", "=ds=#s8#, #a2# =q2=#e23#", "33.96%" },
@@ -2612,7 +2612,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26011, "inv_battery_02", "=q3=Reserve Power Core", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26011, "inv_battery_02", "=q3=Reserve Power Core", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	GnTrash = {
 		{ 9508, "INV_Shirt_14", "=q3=Mechbuilder's Overalls", "=ds=#s5#, #a1#", "0.02%" },
@@ -2822,7 +2822,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26024, "INV_Gauntlets_11", "=q3=Smite's Jaw Breaking Tool", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26024, "INV_Gauntlets_11", "=q3=Smite's Jaw Breaking Tool", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMCookie = {
 		{ 5198, "INV_Staff_02", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "30.90%" },
@@ -2867,7 +2867,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STDreamscythe = {
 		{ 12465, "INV_Misc_Cape_05", "=q3=Nightfall Drape", "=ds=#s4#", "4.48%" },
@@ -2904,7 +2904,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STJammalan = {
 		{ 10806, "INV_Chest_Cloth_38", "=q3=Vestments of the Atal'ai Prophet", "=ds=#s5#, #a1#", "24.13%" },
@@ -2951,7 +2951,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STTrash = {
 		{ 10630, "INV_Crown_01", "=q3=Soulcatcher Halo", "=ds=#s1#, #a1#", "0.01%" },
@@ -3043,9 +3043,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26000, "INV_Misc_Orb_05", "=q3=Liquid Ruby Focusing Lens", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26000, "INV_Misc_Orb_05", "=q3=Liquid Ruby Focusing Lens", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	MaraRotgrip = {
 		{ 17732, "INV_Shoulder_05", "=q3=Rotgrip Mantle", "=ds=#s3#, #a1#", "25.73%" },
@@ -3064,7 +3064,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26003, "INV_misc_cape_07", "=q3=Rough Skin Cloak", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26003, "INV_misc_cape_07", "=q3=Rough Skin Cloak", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	MaraPrincessTheradras = {
 		{ 17780, "INV_Sword_09", "=q4=Blade of Eternal Darkness", "=ds=#h3#, #w4#", "0.20%" },
@@ -3081,7 +3081,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	ZFAntusul = {
 		{ 9640, "INV_Gauntlets_26", "=q3=Vice Grips", "=ds=#s9#, #a4#", "31.30%" },
@@ -3100,7 +3100,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26001, "inv_shield_16", "=q3=Totemic Shield", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26001, "inv_shield_16", "=q3=Totemic Shield", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	ZFThekatheMartyr = {
 		{ 10660, "INV_Misc_Rune_04", "=q1=First Mosh'aru Tablet", "=ds=#m3#", "100%" },
@@ -3148,7 +3148,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26002, "inv_misc_bone_08", "=q3=Gahz'rilla Tooth", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26002, "inv_misc_bone_08", "=q3=Gahz'rilla Tooth", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	ZFChiefUkorzSandscalp = {
 		{ 9479, "Ability_Mount_WhiteDireWolf", "=q3=Embrace of the Lycan", "=ds=#s1#, #a2#", "8.97%" },
@@ -3167,7 +3167,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26016, "inv_helmet_31", "=q3=Nomad's Hood", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26016, "inv_helmet_31", "=q3=Nomad's Hood", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	ZFZerillis = {
 		{ 12470, "INV_Bracer_04", "=q3=Sandstalker Ankleguards", "=ds=#s12#, #a2#", "15.55%" },
@@ -3222,8 +3222,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26008, "inv_pants_14", "=q3=Abomination Skin Pants", "=ds=#s11#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26009, "inv_misc_bone_07", "=q3=Tartek's Broket Tooth", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26008, "inv_pants_14", "=q3=Abomination Skin Pants", "=ds=#s11#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26009, "inv_misc_bone_07", "=q3=Tartek's Broket Tooth", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	RFDRagglesnout = {
 		{ 10768, "INV_Belt_11", "=q3=Boar Champion's Belt", "=ds=#s10#, #a3#", "31.40%" },
@@ -3327,7 +3327,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26015, "inv_weapon_shortblade_15", "=q3=Broken Speartip", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26015, "inv_weapon_shortblade_15", "=q3=Broken Speartip", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	UldArchaedas = {
 		{ 11118, "INV_Stone_15", "=q3=Archaedic Stone", "=ds=#s13# =q2=#e23#", "51.99%" },
@@ -3346,10 +3346,10 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26004, "inv_hammer_17", "=q3=Hammer of Creation", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 9417, "inv_misc_stonetablet_05", "=q3=Archaedic Shard", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26014, "inv_misc_gem_sapphire_01", "=q3=Archaedas Stone Heart", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26005, "inv_zulgurubtrinket", "=q3=Still Eye of the Watcher", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26004, "inv_hammer_17", "=q3=Hammer of Creation", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 9417, "inv_misc_stonetablet_05", "=q3=Archaedic Shard", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26014, "inv_misc_gem_sapphire_01", "=q3=Archaedas Stone Heart", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26005, "inv_zulgurubtrinket", "=q3=Still Eye of the Watcher", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	UldTrash = {
 		{ 9431, "INV_Helmet_28", "=q3=Papal Fez", "=ds=#s1#, #a1#", "0.01%" },
@@ -3627,7 +3627,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BRDAnubshiah = {
 		{ 11678, "INV_Chest_Plate08", "=q3=Carapace of Anub'shiah", "=ds=#s5#, #a4#", "15.78%" },
@@ -3689,7 +3689,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BRDForgewright = {
 		{ 11000, "INV_Misc_Key_08", "=q1=Shadowforge Key", "=q1=#m4# =ds=#e14#" },
@@ -3760,7 +3760,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BRDBaelGar = {
 		{ 11807, "INV_Belt_11", "=q3=Sash of the Burning Heart", "=ds=#s10#, #a1#", "13.59%" },
@@ -3777,7 +3777,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50020, "INV_Misc_Gem_Stone_01", "=q2=Livingstone", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BRDGeneralAngerforge = {
 		{ 11820, "INV_Chest_Plate04", "=q3=Royal Decorated Armor", "=ds=#s5#, #a3#", "18.55%" },
@@ -3862,7 +3862,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BRDPanzor = {
 		{ 22245, "INV_Boots_Cloth_05", "=q3=Soot Encrusted Footwear", "=ds=#s12#,#a1#", "22.06%" },
@@ -3907,7 +3907,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 11932, "INV_Staff_30", "=q3=Guiding Stave of Wisdom", "=ds=#w9#", "15.01%" },
 		{ 0, "", "", "" },
 		{ 12033, "INV_Misc_Bag_17", "=q1=Thaurissan Family Jewels", "=ds=#m23#. #p13# (275)", "2.87%" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BRDPrincess = {
 		{ 12557, "INV_Shoulder_25", "=q3=Ebonsteel Spaulders", "=ds=#s3#, #a4#", "12.11%" },
@@ -4046,7 +4046,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 18308, "INV_Helmet_51", "=q2=Clever Hat", "=ds=#s1#, #a2#", "23.73%" },
 		{ 18306, "INV_Gauntlets_22", "=q2=Gloves of Shadowy Mist", "=ds=#s9#, #a1#", "21.40%" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMELethtendris = {
 		{ 18325, "INV_Helmet_31", "=q3=Felhide Cap", "=ds=#s1#, #a2#", "24.67%" },
@@ -4054,7 +4054,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 18301, "INV_Wand_06", "=q2=Lethtendris's Wand", "=ds=#w12#", "25.57%" },
 		{ 18302, "INV_Jewelry_Ring_20", "=q2=Band of Vigor", "=ds=#s13#", "29.30%" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMEPimgib = {
 		{ 18354, "INV_Jewelry_Amulet_05", "=q3=Pimgib's Collar", "=ds=#s14# =q11=#c8#", "18.68%" },
@@ -4084,7 +4084,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMEShard = {
 		{ 18501, "INV_Enchant_ShardRadientSmall", "=q1=Felvine Shard", "=ds=#m8#" },
@@ -4233,8 +4233,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18502, "INV_Weapon_Halberd_09", "=q3=Monstrous Glaive", "=ds=#w7#", "21.47%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26068, "INV_Misc_Cape_01", "=q3=Mantle of the Enforcer", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26067, "INV_Belt_12", "=q3=Gordok Execution Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26068, "INV_Misc_Cape_01", "=q3=Mantle of the Enforcer", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26067, "INV_Belt_12", "=q3=Gordok Execution Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMNKingGordok = {
 		{ 18526, "INV_Crown_01", "=q3=Crown of the Ogre King", "=ds=#s1#, #a1#", "17.17%" },
@@ -4250,8 +4250,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 19258, "INV_Misc_Ticket_Tarot_Warlord_01", "=q3=Ace of Warlords", "=ds=#e19#", "1.84%" },
 		{ 0, "", "", "" },
 		{ 18780, "INV_Misc_Note_06", "=q3=Top Half of Advanced Armorsmithing: Volume I", "=ds=#m8#", "6.00%" },
@@ -4264,7 +4264,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18485, "INV_Shield_13", "=q3=Observer's Shield", "=ds=#w8#", "22.96%" },
 		{ 18484, "INV_Weapon_ShortBlade_04", "=q3=Cho'Rush's Blade", "=ds=#h1#, #w10#", "22.46%" },
 		{ 0, "", "", "" },
-		{ 26069, "INV_Misc_Note_01", "=q3=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (300)", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26069, "INV_Misc_Note_01", "=q3=Formula: Enchant 2H Weapon - Savagery", "=ds=#p4# (300)", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMTome = {
 		{ 18401,"INV_Misc_Book_11","=q4=Foror's Compendium of Dragon Slaying","=ds=#e20# =q17=#c9#=ds=, =q16=#c4#", "0.01%" },
@@ -4341,7 +4341,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18353, "INV_Staff_08", "=q2=Stoneflower Staff", "=ds=#w9#", "23.46%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26070, "INV_Misc_Herb_10", "=q3=Ironbark Tea Leaf", "=ds=#s14#, #m8#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26070, "INV_Misc_Herb_10", "=q3=Ironbark Tea Leaf", "=ds=#s14#, #m8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMWIllyannaRavenoak = {
 		{ 18383, "INV_Gauntlets_09", "=q3=Force Imbued Gauntlets", "=ds=#s9#, #a4#", "20.11%" },
@@ -4400,10 +4400,10 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "Trade_Engineering", "New Items", ""},
-		{ 26071, "INV_Jewelry_Ring_31", "=q3=Silvermoon Circle", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26072, "INV_Misc_Note_01", "=q3=Formula: Enchant 2H Weapon - Spellblasting", "=ds=#p4# (300)", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26071, "INV_Jewelry_Ring_31", "=q3=Silvermoon Circle", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26072, "INV_Misc_Note_01", "=q3=Formula: Enchant 2H Weapon - Spellblasting", "=ds=#p4# (300)", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	DMWShendralarProvisioner =		{ 
 		{ 18487, "INV_Scroll_03", "=q1=Pattern: Mooncloth Robe", "=ds=#p8# (300)" },
@@ -4497,7 +4497,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26044, "INV_Misc_Orb_05", "=q3=Burning Amulet", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26044, "INV_Misc_Orb_05", "=q3=Burning Amulet", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	UBRSRunewatcher = {
 		{ 12604,"INV_Crown_02","=q3=Starfire Tiara", "=ds=#s1#, #a1#", "28.64%" },
@@ -4519,11 +4519,11 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26026, "inv_crown_01", "=q3=Flame Wreath", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26026, "inv_crown_01", "=q3=Flame Wreath", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	UBRSFlame = {
 		{ 13371, "INV_Misc_Orb_05", "=q2=Father Flame", "=ds=#s15#", "100%" },
@@ -4564,7 +4564,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 12939,"INV_Sword_40","=q3=Dal'Rend's Tribal Guardian","=ds=#h4#, #w10#", "7.61%" },
 		{ 12583,"INV_Weapon_Halberd_04","=q3=Blackhand Doomsaw","=ds=#w7# ", "7.44%" },
 		{ 0, "", "", "" },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 16689, "INV_Shoulder_23", "=q3=Magister's Mantle", "=ds=#s3#, #a1# (T0, =q10=#c3#=ds=)" },
 		{ 16695, "INV_Shoulder_02", "=q3=Devout Mantle", "=ds=#s3#, #a1# (T0, =q9=#c5#=ds=)" },
 		{ 16701, "INV_Misc_Bone_TaurenSkull_01", "=q3=Dreadmist Mantle", "=ds=#s3#, #a1# (T0, =q11=#c8#=ds=)" },
@@ -4576,7 +4576,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16729,"INV_Shoulder_10","=q3=Lightforge Spaulders", "=ds=#s3#, #a4# (T0, =q16=#c4#=ds=)" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26049, "INV_Gauntlets_26", "=q3=Horde Grips", "=ds=#s9#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26049, "INV_Gauntlets_26", "=q3=Horde Grips", "=ds=#s9#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 
 	};
 	UBRSGyth = {
@@ -4598,7 +4598,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26043, "inv_misc_cape_20", "=q3=Dragon Wing Tabard", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26043, "inv_misc_cape_20", "=q3=Dragon Wing Tabard", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	UBRSBeast = {
 		{ 12731, "INV_Misc_MonsterScales_15", "=q4=Pristine Hide of the Beast", "=ds=#m20#", "0.77%" },
@@ -4627,7 +4627,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16732, "INV_Pants_04", "=q3=Legplates of Valor", "=ds=#s11#, #a4# (T0, =q17=#c9#=ds=)", "5.74%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26046, "INV_Boots_05", "=q3=Tristam Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26046, "INV_Boots_05", "=q3=Tristam Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	UBRSValthalak = {
 		{ 0, "INV_Misc_Bag_09", "=q6=#j2#", "=q5=#x100#" },
@@ -4655,7 +4655,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 15730,"INV_Scroll_03","=q3=Pattern: Red Dragonscale Breastplate","=ds=#p9# #p7# (300)", "3.58%" },
 		{ 15047,"INV_Chest_Chain_06","=q3=Red Dragonscale Breastplate","=ds=#s5#, #a3#" },
 		{ 0, "", "", "" },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 16690,"INV_Chest_Cloth_11","=q3=Devout Robe", "=ds=#s5#, #a1# (T0, =q9=#c5#=ds=)" },
 		{ 16688,"INV_Chest_Cloth_25","=q3=Magister's Robes", "=ds=#s5#, #a1# (T0, =q10=#c3#=ds=)" },
 		{ 16700,"INV_Chest_Cloth_49","=q3=Dreadmist Robe", "=ds=#s5#, #a1# (T0, =q11=#c8#=ds=)" },
@@ -4667,7 +4667,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16730,"INV_Chest_Plate03","=q3=Breastplate of Valor", "=ds=#s5#, #a4# (T0, =q17=#c9#=ds=)" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 13516,"INV_Scroll_06","=q2=Recipe: Flask of Indomitable Might", "=ds=#p1# (300)", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 13516,"INV_Scroll_06","=q2=Recipe: Flask of Indomitable Might", "=ds=#p1# (300)", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 	};
@@ -4709,7 +4709,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATAtiesh = {
 		{ 22736, "INV_Sword_61", "=q5=Andonisus, Reaper of Souls", "=ds=#h3#, #w10#", "100%" },
@@ -4731,7 +4731,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26031, "Spell_Nature_ResistNature", "=q3=Lucky Irontree Leaf", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26031, "Spell_Nature_ResistNature", "=q3=Lucky Irontree Leaf", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATTheUnforgiven = {
 		{ 13404, "INV_Misc_Bandana_01", "=q3=Mask of the Unforgiven", "=ds=#s1#, #a2#", "14.96%" },
@@ -4750,7 +4750,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26038, "inv_misc_cape_20", "=q3=Elusive Drape", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26038, "inv_misc_cape_20", "=q3=Elusive Drape", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATTimmytheCruel = {
 		{ 13400, "INV_Bracer_17", "=q3=Vambraces of the Sadist", "=ds=#s8#, #a4#", "14.02%" },
@@ -4771,7 +4771,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26047, "inv_misc_bandage_06", "=q3=Hangman's Noose", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26047, "inv_misc_bandage_06", "=q3=Hangman's Noose", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATMalorsStrongbox = {
 		{ 0, "INV_Box_01", "=q6=#cb5#", "" },
@@ -4809,9 +4809,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 12839, "INV_Scroll_03", "=q3=Plans: Heartseeker", "=ds=#p2# (300)", "4.98%" },
 		{ 12783, "INV_Sword_17", "=q3=Heartseeker", "=ds=#h1#, #w4#" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26034, "INV_Jewelry_Ring_39", "=q3=Barrage Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26034, "INV_Jewelry_Ring_39", "=q3=Barrage Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATArchivistGalford = {
 		{ 13386, "INV_Misc_Cape_19", "=q3=Archivist Cape", "=ds=#s4# =q2=#e23#", "18.45%" },
@@ -4830,7 +4830,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26027, "Ability_eyeoftheowl", "=q3=Ladybird of Luck", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26027, "Ability_eyeoftheowl", "=q3=Ladybird of Luck", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATBalnazzar = {
 		{ 13353, "INV_Misc_Book_06", "=q4=Book of the Dead", "=ds=#s15#", "1.37%" },
@@ -4847,9 +4847,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 18717, "INV_Hammer_06", "=q3=Hammer of the Grand Crusader", "=ds=#h2#, #w6#", "11.91%" },
 		{ 13348, "INV_Sword_28", "=q3=Demonshear", "=ds=#h2#, #w10#", "13.94%" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26048, "inv_misc_cape_19", "=q3=Wings of Malevolence", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26048, "inv_misc_cape_19", "=q3=Wings of Malevolence", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -4895,7 +4895,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26033, "INV_Jewelry_Ring_16", "=q3=Horror Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26033, "INV_Jewelry_Ring_16", "=q3=Horror Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATBlackGuardSwordsmith = {
 		{ 18783, "INV_Misc_Note_04", "=q3=Bottom Half of Advanced Armorsmithing: Volume III", "=ds=#m8#", "23.5%" },
@@ -4926,7 +4926,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26042, "INV_Crown_01", "=q3=Chitinous Husk Coif", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26042, "INV_Crown_01", "=q3=Chitinous Husk Coif", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATMalekithePallid = {
 		{ 18734, "INV_Misc_Cape_11", "=q3=Pale Moon Cloak", "=ds=#s4#", "13.42%" },
@@ -4945,7 +4945,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26029, "inv_jewelry_talisman_06", "=q3=Amulet of the Undertaker", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26029, "inv_jewelry_talisman_06", "=q3=Amulet of the Undertaker", "=ds=#s2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATMagistrateBarthilas = {
 		{ 18727, "INV_Helmet_51", "=q3=Crimson Felt Hat", "=ds=#s1#, #a1#", "13.82%" },
@@ -4974,7 +4974,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26050, "inv_weapon_shortblade_18", "=q3=Ramstein's Splintered Rib", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26050, "inv_weapon_shortblade_18", "=q3=Ramstein's Splintered Rib", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	STRATBaronRivendare = {
 		{ 13335, "Ability_Mount_Undeadhorse", "=q4=Deathcharger's Reins", "=ds=#e7#", "0.10%" },
@@ -4991,7 +4991,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 22408, "INV_Wand_07", "=q3=Ritssyn's Wand of Bad Mojo", "=ds=#w12#", "3.39%" },
 		{ 13349, "INV_Mace_07", "=q3=Scepter of the Unholy", "=ds=#h3#, #w6#", "9.30%" },
 		{ 13368, "INV_Weapon_ShortBlade_12", "=q3=Bonescraper", "=ds=#h1#, #w4#", "4.32%" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -5077,7 +5077,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16722, "INV_Bracer_14", "=q3=Lightforge Bracers", "=ds=#s8#, #a4# (T0, =q16=#c4#=ds=)" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26045, "Spell_nature_bloodlust", "=q3=Talisman of Bloodlust", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26045, "Spell_nature_bloodlust", "=q3=Talisman of Bloodlust", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	LBRSSpirestoneBattleLord = {
 		{ 13284, "INV_Boots_01", "=q3=Swiftdart Battleboots", "=ds=#s12#, #a3#", "48.68%" },
@@ -5137,8 +5137,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 12335, "INV_Misc_Gem_Opal_01", "=q3=Gemstone of Smolderthorn", "=ds=#m8#", "21.43%" },
 		{ 19258, "INV_Misc_Ticket_Tarot_Warlord_01", "=q3=Ace of Warlords", "=ds=#e19#", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26041, "inv_shoulder_23","=q3=Wild Shoulderguards","=ds=#s3#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26041, "inv_shoulder_23","=q3=Wild Shoulderguards","=ds=#s3#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 16684, "INV_Gauntlets_17", "=q3=Magister's Gloves", "=ds=#s9#, #a1# (T0, =q10=#c3#=ds=)" },
 		{ 16692, "INV_Gauntlets_14", "=q3=Devout Gloves", "=ds=#s9#, #a1# (T0, =q9=#c5#=ds=)" },
@@ -5177,9 +5177,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26039, "inv_misc_monsterspidercarapace_01", "=q3=Bite of the Spider", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26052, "inv_helmet_11", "=q3=Crown of the Brood Mother", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 26053, "spell_shadow_lifedrain", "=q3=Blood of the Brood Mother", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26039, "inv_misc_monsterspidercarapace_01", "=q3=Bite of the Spider", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26052, "inv_helmet_11", "=q3=Crown of the Brood Mother", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26053, "spell_shadow_lifedrain", "=q3=Blood of the Brood Mother", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	LBRSCrystalFang = {
 		{ 13185, "INV_Shoulder_02", "=q3=Sunderseer Mantle", "=ds=#s3#, #a1#", "28.10%" },
@@ -5213,8 +5213,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16734, "INV_Boots_Plate_03", "=q3=Boots of Valor", "=ds=#s12#, #a4# (T0, =q17=#c9#=ds=)" },
 		{ 16725, "INV_Boots_Plate_03", "=q3=Lightforge Boots", "=ds=#s12#, #a4# (T0, =q16=#c4#=ds=)" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26025, "INV_boots_01", "=q3=Old Foundry Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26025, "INV_boots_01", "=q3=Old Foundry Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 18987, "INV_Letter_17", "=q1=Blackhand's Command", "=ds=#m2#", "100%" },
 		{ 0, "", "", "" },
@@ -5247,7 +5247,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 19227, "INV_Misc_Ticket_Tarot_Beasts_01", "=q3=Ace of Beasts", "=ds=#e19#" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26037, "Ability_Mount_WhiteDireWolf", "=q3=Mask of the Predator", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26037, "Ability_Mount_WhiteDireWolf", "=q3=Mask of the Predator", "=ds=#s1#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	LBRSHalycon = {
 		{ 13212, "INV_Belt_14", "=q3=Halycon's Spiked Collar", "=ds=#s2#", "18.23%" },
@@ -5308,9 +5308,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16731, "INV_Helmet_02", "=q3=Helm of Valor", "=ds=#s1#, #a4# (T0, =q17=#c9#=ds=)" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26040, "inv_helmet_20", "=q3=Blackrock Warhelm", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26040, "inv_helmet_20", "=q3=Blackrock Warhelm", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 13519,"INV_Scroll_06","=q2=Recipe: Flask of the Titans", "=ds=#p1# (300)", "8%" },
-		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50022, "INV_Misc_Gem_Variety_01", "=q4=Chromatic Topaz", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	LBRSGrimaxe = {
 		{ 12637, "INV_Gauntlets_26", "=q3=Backusarian Gauntlets", "=ds=#s9#, #a4#", "26.44%" },
@@ -5370,9 +5370,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26051, "inv_misc_cape_20", "=q3=Petrified Stone Cloak", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26051, "inv_misc_cape_20", "=q3=Petrified Stone Cloak", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	SCHOLOJandiceBarov = {
 		{ 14548, "INV_Shoulder_11", "=q3=Royal Cap Spaulders", "=ds=#s3#, #a3#", "10.06%" },
@@ -5391,7 +5391,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26032, "inv_jewelry_ring_29", "=q3=Elusive Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", true },		
+		{ 26032, "inv_jewelry_ring_29", "=q3=Elusive Ring", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },		
 	};
 	SCHOLOLordBlackwood = {
 		{ 23132, "INV_Sword_05", "=q3=Lord Blackwood's Blade", "=ds=#h1#, #w10#", "12.83%" };
@@ -5415,7 +5415,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26036, "inv_chest_chain_05", "=q3=Bone Golem Ribcage", "=ds=#s5#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },	
+		{ 26036, "inv_chest_chain_05", "=q3=Bone Golem Ribcage", "=ds=#s5#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },	
 	};
 	SCHOLODeathKnight = {
 		{ 18760, "INV_Jewelry_Ring_09", "=q3=Necromantic Band", "=ds=#s13#", "24.75%" },
@@ -5448,7 +5448,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 13521, "INV_Scroll_06", "=q2=Recipe: Flask of Supreme Power", "=ds=#p1# (300)", "2.92%" },
 		{ 0, "", "", "" },
 		{ 0, "Trade_Engineering", "New Items", "", "" },
-		{ 26030, "inv_misc_cape_08", "=q3=Sadist's Cloak", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 26030, "inv_misc_cape_08", "=q3=Sadist's Cloak", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	SCHOLOKormok = {
 		{ 0, "INV_Misc_Bag_09", "=q6=#j2#", "=q5=#x104#" },
@@ -5649,7 +5649,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 16736, "INV_Belt_34", "=q3=Belt of Valor", "=ds=#s10#, #a4# (T0, =q17=#c9#=ds=)" },
 		{ 16723, "INV_Belt_11", "=q3=Lightforge Belt", "=ds=#s10#, #a4# (T0, =q16=#c4#=ds=)" },
 		{ 0, "", "", "" },
-		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 50021, "INV_Misc_Orb_05", "Dragonbreath", "=ds=#m37#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 13944, "INV_Chest_Chain_17","=q3=Tombstone Breastplate", "=ds=#s5#, #a2#", "8.96%" },
 		{ 13951, "INV_Bracer_18", "=q3=Vigorsteel Vambraces", "=ds=#s8#, #a4#", "10.38%" },
 		{ 13950, "INV_Belt_09", "=q3=Detention Strap", "=ds=#s10#, #a3#", "0.24%" },
@@ -6110,8 +6110,8 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 20003, "INV_Misc_MonsterClaw_02", "=q3=Devilsaur Claws", "=ds=#h3#, #w13#", },
 		{ 20005, "INV_Weapon_ShortBlade_16Claw", "=q3=Devilsaur Claws", "=ds=#h4#, #w13#", },
 		{ 26013, "INV_Misc_Organ_01", "=q2=King's Heart", "=ds=#m25#", },
-		{ 81041, "INV_Misc_Organ_04", "=q4=Everlasting Liver", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 83061, "INV_Weapon_ShortBlade_11", "=q4=Royal Incisor", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 81041, "INV_Misc_Organ_04", "=q4=Everlasting Liver", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 83061, "INV_Weapon_ShortBlade_11", "=q4=Royal Incisor", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -6120,7 +6120,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 83123, "INV_Misc_Cape_20", "=q4=Vital Devilsaur Hide", "=ds=#s4#, #m4#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 83123, "INV_Misc_Cape_20", "=q4=Vital Devilsaur Hide", "=ds=#s4#, #m4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -6135,13 +6135,26 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 83167, "INV_Misc_Note_03", "=q3=Pattern: Vital Devilsaur Hide", "=ds=#m4#, #p7#", "", "", "", "", "", "", "", "", "", "", "", true },
+		{ 83167, "INV_Misc_Note_03", "=q3=Pattern: Vital Devilsaur Hide", "=ds=#m4#, #p7#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BLTeremus = {
 		{ 0, "", "", "" },
-		{ 83073, "INV_Shield_24Red", "=q3=Blazing Scale", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 83074, "INV_Gauntlets_31", "=q3=City Guard Gauntlets", "=ds=#s9#, #a4#", "", "", "", "", "", "", "", "", "", "", "", true },
-		{ 83075, "INV_Misc_MonsterScales_07Devour", "=q3=Blood Scarred Scale", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", true }
+		{ 83062, "INV_Weapon_ShortBlade_27", "=q4=Runt\'s Claw", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", "N"},
+		{ 83073, "INV_Shield_24", "=q3=Blazing Scale", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 83074, "INV_Gauntlets_31", "=q3=City Guard Gauntlets", "=ds=#s9#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 83075, "INV_Misc_MonsterScales_07", "=q3=Blood Scarred Scale", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 8244, "INV_Ore_Arcanite_02", "=q3=Flawless Draenethyst Sphere", "#m3#" }
 	},
 	BSLibrams1 = {
 		{ 0, "Trade_Engraving", "Talk to Mathredis Firestar", "Burning Steppes" },

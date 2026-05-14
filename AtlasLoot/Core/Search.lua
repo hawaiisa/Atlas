@@ -18,7 +18,7 @@ function AtlasLoot:VPlusItems()
 	local search = function(dataSource)
 		for dataID, data in pairs(AtlasLoot_Data[dataSource]) do
 			for _, v in ipairs(data) do
-				if v[16] then
+				if v[16] == "N" then
 					local itemName = GetItemInfo(v[1]);
 					if not itemName then itemName = gsub(v[3], "=q%d=", "") end
 					local found;
