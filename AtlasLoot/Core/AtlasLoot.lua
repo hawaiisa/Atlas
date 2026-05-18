@@ -75,8 +75,8 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
-local VERSION_MINOR = "04";
-local VERSION_BOSSES = "10";
+local VERSION_MINOR = "05";
+local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.1.7";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.6";
@@ -1269,6 +1269,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				iconFrame  = getglobal("AtlasLootItem_"..i.."_Icon");
 				nameFrame  = getglobal("AtlasLootItem_"..i.."_Name");
 				extraFrame = getglobal("AtlasLootItem_"..i.."_Extra");
+				itemModified = getglobal("AtlasLootItem_"..i.."_ItemModified");
 				pricetext1 = getglobal("AtlasLootItem_"..i.."_PriceText1");
 				pricetext2 = getglobal("AtlasLootItem_"..i.."_PriceText2");
 				pricetext3 = getglobal("AtlasLootItem_"..i.."_PriceText3");
@@ -1308,6 +1309,7 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 				nameFrame:SetText(text);
 				extraFrame:SetText(extra);
 				extraFrame:Show();
+				itemModified:Hide();
 				pricetext1:Hide();
 				pricetext2:Hide();
 				pricetext3:Hide();
@@ -1361,6 +1363,17 @@ function AtlasLoot_ShowItemsFrame(dataID, dataSource, boss, pFrame)
 						extraFrame:Show();
 						pricetext5:Show();
 						priceicon5:Show();
+					end
+				end
+				if dataSource[dataID][i][16] then
+					if dataSource[dataID][i][16]~="" then
+						if dataSource[dataID][i][16] == "N" then --Item is new for V+
+							itemModified:SetTexture("Interface\\AddOns\\AtlasLoot\\Images\\vplus");
+						elseif dataSource[dataID][i][16] == "M" then --Item is modified for V+
+							itemModified:SetTexture("Interface\\Icons\\Trade_Engineering");
+						end
+						extraFrame:Show();
+						itemModified:Show();
 					end
 				end
 				--Set prices for items, up to 5 different currencies can be used in combination
