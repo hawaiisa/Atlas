@@ -7,9 +7,11 @@ AtlasLoot_Data["VPlusDonations"] = {
         { 61434, "Mail_GMIcon", "=q1=Character: Change Faction", "", "", "200", "#vplus#", },
         { 70021, "INV_Misc_Bag_08", "=q4=Superspace Arcane Box", "=ds=#m11#", "", "160", "#vplus#", },
         { 70020, "INV_Misc_Bag_CoreFelclothBag", "=q4=Ogre's Bum Bag", "=ds=#m38#", "", "200", "#vplus#", },
+        { 51715, "INV_Gizmo_01", "=q3=Gnomish Brainwashing Device", "", "", "300", "#vplus#", },
         { 60007, "Ability_Mount_RidingHorse", "=q1=Caravan Mule", "", "", "180", "#vplus#", },
         { 60009, "INV_Gizmo_02", "=q1=Mechanical Auctioneer", "", "", "200", "#vplus#", },
         { 60005, "INV_Egg_05", "=q1=Repair Bot Servo R2", "", "", "200", "#vplus#", },
+        { 60011, "INV_Letter_15", "=q1=Portable Mail Terminal", "", "", "200", "#vplus#", },
     };
     VPlusDonations2 = {
         { 13584, "INV_DiabloStone", "=q1=Diablo Stone", "=ds=#e15#", "", "50", "#vplus#", },
