@@ -508,6 +508,38 @@ function AtlasLootOptions_Fresh()
 	AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 	AtlasLootCharDB.AutoQuery = false;
 	AtlasLootCharDB.PartialMatching = true;
+	AtlasLootCharDB.SearchFilters = {
+		["ArmorClass"] = {
+			["#a1#"] = true, --Cloth
+			["#a2#"] = false, --Leather
+			["#a3#"] = false, --Mail
+			["#a4#"] = false  --Plate
+		},
+		["InventorySlot"] = {
+			["#s1#"] = false, --Head
+			["#s2#"] = false, --Neck
+			["#s3#"] = false, --Shoulder
+			["#s4#"] = false, --Back
+			["#s5#"] = false, --Chest
+			["#s6#"] = false, --Shirt
+			["#s7#"] = false, --Tabard
+			["#s8#"] = false, --Wrist
+			["#s9#"] = false, --Hands
+			["#s10#"] = false, --Waist
+			["#s11#"] = false, --Legs
+			["#s12#"] = false, --Feet
+			["#s13#"] = false, --Ring
+			["#s14#"] = false, --Trinket
+			["#s15#"] = false, --Held In Off-hand
+			["#s16#"] = false  --Relic
+		},
+		["WeaponWielding"] = {
+			["#h1#"] = false, --One-Hand
+			["#h2#"] = false, --Two-Hand
+			["#h3#"] = false, --Main Hand
+			["#h4#"] = false  --Off Hand
+		}
+	}
 end
 
 --[[

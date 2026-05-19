@@ -130,20 +130,61 @@ function AtlasLoot:ShowSearchOptions(button)
 	if dewdrop:IsOpen(button) then
 		dewdrop:Close(1);
 	else
-		local setOptions = function()
-			dewdrop:AddLine(
-				"text", AL["Search options"],
-				"isTitle", true,
-				"notCheckable", true
-			);
-			dewdrop:AddLine(
-				"text", AL["Partial matching"],
-				"checked", AtlasLootCharDB.PartialMatching,
-				"tooltipTitle", AL["Partial matching"],
-				"tooltipText", AL["If checked, AtlasLoot searches item names for a partial match."],
-				"func", function() AtlasLootCharDB.PartialMatching = not AtlasLootCharDB.PartialMatching end
-			);
-		end;
+		function filterStatus(FilterCategory)
+			local count = 0
+			for k, v in pairs(AtlasLootCharDB.SearchFilters[FilterCategory]) do
+				if v == true then
+					count = count + 1
+				end
+			end
+			return count > 0
+		end
+		local setOptions = function(level, value)
+			if level == 1 then
+				dewdrop:AddLine(
+					"text", AL["Search options"],
+					"isTitle", true,
+					"notCheckable", true
+				);
+				dewdrop:AddLine(
+					"text", AL["Partial matching"],
+					"checked", AtlasLootCharDB.PartialMatching,
+					"tooltipTitle", AL["Partial matching"],
+					"tooltipText", AL["If checked, AtlasLoot searches item names for a partial match."],
+					"func", function() AtlasLootCharDB.PartialMatching = not AtlasLootCharDB.PartialMatching end
+				);
+				dewdrop:AddLine(
+					"text", "Search filters",
+					"isTitle", true,
+					"notCheckable", true
+				);
+				for k,v in pairs(AtlasLootCharDB.SearchFilters) do
+					dewdrop:AddLine(
+						"text", k,
+						"checked", filterStatus(k),
+						"hasArrow", true,
+						"toolTipTitle", k,
+						"value", "Filter"..k,
+						"func", setOptions
+					);
+				end
+			elseif level == 2 then
+					for k, v in pairs(AtlasLootCharDB.SearchFilters) do
+						if value and value == "Filter"..k then
+							for y, z in pairs(AtlasLootCharDB.SearchFilters[k]) do
+								--print(y)
+								--print(tostring(AtlasLootCharDB.SearchFilters[k][y]))
+								local filterText = AtlasLoot_FixText(y)
+								dewdrop:AddLine(
+								"text", filterText,
+								"checked", AtlasLootCharDB.SearchFilters[k][y],
+								"func", function() AtlasLootCharDB.SearchFilters[k][y] = not AtlasLootCharDB.SearchFilters[k][y] end
+								);
+							end
+						end
+					end
+				end
+			end;
 		dewdrop:Open(button,
 			'point', function(parent)
 				return "BOTTOMLEFT", "BOTTOMRIGHT";
