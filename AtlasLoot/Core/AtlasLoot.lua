@@ -510,7 +510,7 @@ function AtlasLootOptions_Fresh()
 	AtlasLootCharDB.PartialMatching = true;
 	AtlasLootCharDB.SearchFilters = {
 		["ArmorClass"] = {
-			["#a1#"] = true, --Cloth
+			["#a1#"] = false, --Cloth
 			["#a2#"] = false, --Leather
 			["#a3#"] = false, --Mail
 			["#a4#"] = false  --Plate
@@ -538,6 +538,22 @@ function AtlasLootOptions_Fresh()
 			["#h2#"] = false, --Two-Hand
 			["#h3#"] = false, --Main Hand
 			["#h4#"] = false  --Off Hand
+		},
+		["WeaponType"] = {
+			["#w1#"] = false,  --Axe
+			["#w2#"] = false,  --Bow
+			["#w3#"] = false,  --Crossbow
+			["#w4#"] = false,  --Dagger
+			["#w5#"] = false,  --Gun
+			["#w6#"] = false,  --Mace
+			["#w7#"] = false,  --Polearm
+			["#w8#"] = false,  --Shield
+			["#w9#"] = false,  --Staff
+			["#w10#"] = false, --Sword
+			["#w11#"] = false, --Thrown
+			["#w12#"] = false, --Wand
+			["#w13#"] = false, --Fist Weapon
+			["#w14#"] = false  --Fishing Pole
 		}
 	}
 end
