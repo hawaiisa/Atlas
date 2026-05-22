@@ -944,6 +944,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
+		{ 26211, "INV_Misc_SawBlade_01", "=q4=The Sawblade", "=ds=#h2#,  =ds=#w10#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26212, "INV_Axe_16", "=q4=Sawtooth Talisman", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26213, "INV_Misc_Gear_01", "=q4=Hypergear", "=ds=#s13#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26214, "INV_Helmet_47", "=q4=Technician\'s X-Ray Spectacles", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
