@@ -130,7 +130,7 @@ function AtlasLoot:ShowSearchOptions(button)
 	if dewdrop:IsOpen(button) then
 		dewdrop:Close(1);
 	else
-		function filterStatus(FilterCategory)
+		function FilterStatus(FilterCategory)
 			local count = 0
 			for k, v in pairs(AtlasLootCharDB.SearchFilters[FilterCategory]) do
 				if v == true then
@@ -161,36 +161,42 @@ function AtlasLoot:ShowSearchOptions(button)
 				dewdrop:AddLine(
 					"text", "Clear all filters",
 					"tooltipTitle", "Clear all filters.",
-					"tooltipText", "Click to clear all applied filters to all categories.",
+					"tooltipText", "Click to clear filters from all applied categories.",
 					"func", function() for k,v in pairs(AtlasLootCharDB.SearchFilters) do for y, z in pairs(AtlasLootCharDB.SearchFilters[k]) do AtlasLootCharDB.SearchFilters[k][y] = false end end end
 				);
 				for k,v in pairs(AtlasLootCharDB.SearchFilters) do
+					local splitTable, finalString = {}, ""
+					for word in string.gmatch(k, "%u%U*") do
+						tinsert(splitTable, word)
+					end 
+					finalString = table.concat(splitTable, " ")
+
 					dewdrop:AddLine(
-						"text", k,
-						"checked", filterStatus(k),
+						"text", finalString,
+						"checked", FilterStatus(k),
 						"hasArrow", true,
-						"tooltipTitle", k,
-						"value", "Filter"..k,
+						"value", k,
 						"func", setOptions
 					);
 				end
 			elseif level == 2 then
 				dewdrop:AddLine(
 					"text", "Clear filters",
-					"tooltipTitle", "Clear all applied filters from category.",
-					"tooltipText", "Click to clear all filters from current category.",
+					"tooltipTitle", "Clear all filters from category.",
+					"tooltipText", "Click to clear all applied filters from current category.",
 					"notCheckable", false,
-					"func", function() local parent = gsub(this:GetParent().value, "Filter", "") for k, v in pairs(AtlasLootCharDB.SearchFilters[parent]) do AtlasLootCharDB.SearchFilters[parent][k] = false end end
+					"func", function() local parent = this:GetParent().value for k, v in pairs(AtlasLootCharDB.SearchFilters[parent]) do AtlasLootCharDB.SearchFilters[parent][k] = false end end
 				);
 					for k, v in pairs(AtlasLootCharDB.SearchFilters) do
-						if value and value == "Filter"..k then
+						if value and value == k then
 							for y, z in pairs(AtlasLootCharDB.SearchFilters[k]) do
 								local filterText = AtlasLoot_FixText(y)
 								dewdrop:AddLine(
 								"text", filterText,
 								"checked", AtlasLootCharDB.SearchFilters[k][y],
-								"arg1", y,
-								"func", function() local parent = gsub(this:GetParent().value, "Filter", "") AtlasLootCharDB.SearchFilters[parent][this.arg1] = not AtlasLootCharDB.SearchFilters[parent][this.arg1] end
+								"arg1", k,
+								"arg2", y,
+								"func", function() AtlasLootCharDB.SearchFilters[this.arg1][this.arg2] = not AtlasLootCharDB.SearchFilters[this.arg1][this.arg2] end
 								);
 							end
 						end
