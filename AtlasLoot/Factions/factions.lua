@@ -420,12 +420,12 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "INV_Misc_Note_06", "=q6=#m41#", "" },
-		{ 81010, "INV_Scroll_02", "=q3=Scroll of the Moon", "=ds=#m8# (5)" },
-		{ 81011, "INV_Scroll_02Strength", "=q3=Nightborne Fury Saga", "=ds=#m8# (5)" },
-		{ 81012, "INV_Scroll_01Intellect", "=q3=Highborne Scrolls", "=ds=#m8# (5)" },
-		{ 81013, "INV_Scroll_07Stamina", "=q3=Legacy of Suramar", "=ds=#m8# (5)" },
-		{ 81014, "INV_Scroll_01", "=q3=A Wisp's Tale", "=ds=#m8# (5)" },
-		{ 81015, "INV_Scroll_07", "=q3=Memory of Hyjal", "=ds=#m8# (5)" },
+		{ 81010, "INV_Scroll_02", "=q3=Scroll of the Moon", "=ds=#m8#" },
+		{ 81011, "INV_Scroll_02Strength", "=q3=Nightborne Fury Saga", "=ds=#m8#" },
+		{ 81012, "INV_Scroll_01Intellect", "=q3=Highborne Scrolls", "=ds=#m8#" },
+		{ 81013, "INV_Scroll_07Stamina", "=q3=Legacy of Suramar", "=ds=#m8#" },
+		{ 81014, "INV_Scroll_01", "=q3=A Wisp's Tale", "=ds=#m8#" },
+		{ 81015, "INV_Scroll_07", "=q3=Memory of Hyjal", "=ds=#m8#" },
 		{ 0, "", "", "" },
 		{ 34401, "INV_Misc_Book_10", "=q2=Old Heavy Folio", "=ds=#e22#" },
 
@@ -454,7 +454,7 @@ AtlasLoot_Data["AtlasLootRepItems"] = {
 		{ 26080, "INV_Helmet_41", "=q3=Savvy Hood", "=ds=#s1#, #a2#" },
 		{ 26079, "INV_Misc_Cape_16", "=q3=Shroud of Spellbinder", "=ds=#s4#" },
 		{ 26093, "INV_Scroll_04", "=q1=Scroll of Unlimited Power", "=ds=#m8# (5)" },
-		{ 26092, "INV_Scroll_04blue", "=q1=Scroll of Animate Dead", "=ds=#m8# (5)" },
+		{ 26092, "INV_Scroll_04blue", "=q1=Scroll of Animate Dead", "=ds=#m8#" },
 		{ 26091, "INV_Scroll_04white", "=q1=Scroll of Haste", "=ds=#m8# (5)" },
 	};
 	Shendralar3 = {
