@@ -1036,6 +1036,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26229, "INV_Misc_Orb_04", "=q4=Orb of Chaotic Elements", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26230, "INV_Boots_05", "=q4=Ebony Flame Boots", "=ds=#s12#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26238, "INV_Relics_IdolofHealth", "=q4=Idol of Health", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26239, "INV_Wand_02", "=q4=Star Wrath Idol", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26240, "INV_Relics_IdolofFerocity", "=q4=Idol of Wilderness", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26241, "inv_ring_o2", "=q4=Ring of Master", "=ds=#s13#, #e23#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	},
