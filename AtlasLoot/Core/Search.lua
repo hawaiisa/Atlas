@@ -14,6 +14,57 @@ function AtlasLoot:ShowSearchResult()
 	AtlasLoot_ShowItemsFrame("SearchResult", "SearchResultPage"..currentPage, string.format((AL["Search Result: %s"]), AtlasLootCharDB.LastSearchedText or ""), pFrame);
 end
 
+do
+	AtlasLootSearchFilters = {
+		["ArmorClass"] = {
+			["#a1#"] = false, --Cloth
+			["#a2#"] = false, --Leather
+			["#a3#"] = false, --Mail
+			["#a4#"] = false  --Plate
+		},
+		["InventorySlot"] = {
+			["#s1#"] = false, --Head
+			["#s2#"] = false, --Neck
+			["#s3#"] = false, --Shoulder
+			["#s4#"] = false, --Back
+			["#s5#"] = false, --Chest
+			["#s6#"] = false, --Shirt
+			["#s7#"] = false, --Tabard
+			["#s8#"] = false, --Wrist
+			["#s9#"] = false, --Hands
+			["#s10#"] = false, --Waist
+			["#s11#"] = false, --Legs
+			["#s12#"] = false, --Feet
+			["#s13#"] = false, --Ring
+			["#s14#"] = false, --Trinket
+			["#s15#"] = false, --Held In Off-hand
+			["#s16#"] = false  --Relic
+		},
+		["WeaponWielding"] = {
+			["#h1#"] = false, --One-Hand
+			["#h2#"] = false, --Two-Hand
+			["#h3#"] = false, --Main Hand
+			["#h4#"] = false  --Off Hand
+		},
+		["WeaponType"] = {
+			["#w1#"] = false,  --Axe
+			["#w2#"] = false,  --Bow
+			["#w3#"] = false,  --Crossbow
+			["#w4#"] = false,  --Dagger
+			["#w5#"] = false,  --Gun
+			["#w6#"] = false,  --Mace
+			["#w7#"] = false,  --Polearm
+			["#w8#"] = false,  --Shield
+			["#w9#"] = false,  --Staff
+			["#w10#"] = false, --Sword
+			["#w11#"] = false, --Thrown
+			["#w12#"] = false, --Wand
+			["#w13#"] = false, --Fist Weapon
+			["#w14#"] = false  --Fishing Pole
+		}
+	}
+end
+
 function AtlasLoot:VPlusItems()
 	local search = function(dataSource)
 		for dataID, data in pairs(AtlasLoot_Data[dataSource]) do
@@ -130,20 +181,79 @@ function AtlasLoot:ShowSearchOptions(button)
 	if dewdrop:IsOpen(button) then
 		dewdrop:Close(1);
 	else
-		local setOptions = function()
-			dewdrop:AddLine(
-				"text", AL["Search options"],
-				"isTitle", true,
-				"notCheckable", true
-			);
-			dewdrop:AddLine(
-				"text", AL["Partial matching"],
-				"checked", AtlasLootCharDB.PartialMatching,
-				"tooltipTitle", AL["Partial matching"],
-				"tooltipText", AL["If checked, AtlasLoot searches item names for a partial match."],
-				"func", function() AtlasLootCharDB.PartialMatching = not AtlasLootCharDB.PartialMatching end
-			);
-		end;
+		function FilterStatus(FilterCategory)
+			local count = 0
+			for k, v in pairs(AtlasLootSearchFilters[FilterCategory]) do
+				if v == true then
+					count = count + 1
+				end
+			end
+			return count > 0
+		end
+		local setOptions = function(level, value)
+			if level == 1 then
+				dewdrop:AddLine(
+					"text", AL["Search options"],
+					"isTitle", true,
+					"notCheckable", true
+				);
+				dewdrop:AddLine(
+					"text", AL["Partial matching"],
+					"checked", AtlasLootCharDB.PartialMatching,
+					"tooltipTitle", AL["Partial matching"],
+					"tooltipText", AL["If checked, AtlasLoot searches item names for a partial match."],
+					"func", function() AtlasLootCharDB.PartialMatching = not AtlasLootCharDB.PartialMatching end
+				);
+				dewdrop:AddLine(
+					"text", "Search filters (WIP)",
+					"isTitle", true,
+					"notCheckable", true
+				);
+				dewdrop:AddLine(
+					"text", "Clear all filters",
+					"tooltipTitle", "Clear all filters.",
+					"tooltipText", "Click to clear filters from all applied categories.",
+					"func", function() for k,v in pairs(AtlasLootSearchFilters) do for y, z in pairs(AtlasLootSearchFilters[k]) do AtlasLootSearchFilters[k][y] = false end end end
+				);
+				for k,v in pairs(AtlasLootSearchFilters) do
+					local splitTable, finalString = {}, ""
+					for word in string.gmatch(k, "%u%U*") do
+						tinsert(splitTable, word)
+					end 
+					finalString = table.concat(splitTable, " ")
+
+					dewdrop:AddLine(
+						"text", finalString,
+						"checked", FilterStatus(k),
+						"hasArrow", true,
+						"value", k,
+						"func", setOptions
+					);
+				end
+			elseif level == 2 then
+				dewdrop:AddLine(
+					"text", "Clear filters",
+					"tooltipTitle", "Clear all filters from category.",
+					"tooltipText", "Click to clear all applied filters from current category.",
+					"notCheckable", false,
+					"func", function() local parent = this:GetParent().value for k, v in pairs(AtlasLootSearchFilters[parent]) do AtlasLootSearchFilters[parent][k] = false end end
+				);
+					for k, v in pairs(AtlasLootSearchFilters) do
+						if value and value == k then
+							for y, z in pairs(AtlasLootSearchFilters[k]) do
+								local filterText = AtlasLoot_FixText(y)
+								dewdrop:AddLine(
+								"text", filterText,
+								"checked", AtlasLootSearchFilters[k][y],
+								"arg1", k,
+								"arg2", y,
+								"func", function() AtlasLootSearchFilters[this.arg1][this.arg2] = not AtlasLootSearchFilters[this.arg1][this.arg2] end
+								);
+							end
+						end
+					end
+				end
+			end;
 		dewdrop:Open(button,
 			'point', function(parent)
 				return "BOTTOMLEFT", "BOTTOMRIGHT";

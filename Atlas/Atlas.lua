@@ -75,7 +75,7 @@ Atlas_EntToInstMatches = {
 	["UldamanEnt"] =				{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	["SMEnt"] =						{"ScarletMonastery"};
 };
 
 --instance maps to entrance maps
@@ -95,10 +95,7 @@ Atlas_InstToEntMatches = {
 	["DireMaulEast"] =				{"DireMaulEnt"};
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
-	["SMArmory"] =					{"SMEnt"};
-	["SMLibrary"] =					{"SMEnt"};
-	["SMCathedral"] =				{"SMEnt"};
-	["SMGraveyard"] =				{"SMEnt"};
+	["ScarletMonastery"] =			{"SMEnt"};
 };
 
 --Links maps together that are part of the same instance
@@ -109,11 +106,7 @@ Atlas_SubZoneAssoc = {
 	["DireMaulEnt"] =				"Dire Maul";
 	["BlackrockSpireLower"] =		"Blackrock Spire";
 	["BlackrockSpireUpper"] =		"Blackrock Spire";
-	["BlackrockMountainEnt"] =			"Blackrock Spire";
-	["SMGraveyard"] =				"Scarlet Monastery";
-	["SMLibrary"] =					"Scarlet Monastery";
-	["SMArmory"] =					"Scarlet Monastery";
-	["SMCathedral"] =				"Scarlet Monastery";
+	["BlackrockMountainEnt"] =		"Blackrock Spire";
 	["SMEnt"] =						"Scarlet Monastery";
 };
 
@@ -150,18 +143,6 @@ Atlas_SubZoneData = {
 	["The Furnace"] =				"BlackrockSpireUpper";
 	["Hordemar City"] =				"BlackrockSpireUpper";
 	["Spire Throne"] =				"BlackrockSpireUpper";
-	["Chamber of Atonement"] =		"SMGraveyard";
-	["Forlorn Cloister"] =			"SMGraveyard";
-	["Honor's Tomb"] =				"SMGraveyard";
-	["Huntsman's Cloister"] =		"SMLibrary";
-	["Gallery of Treasures"] =		"SMLibrary";
-	["Athenaeum"] =					"SMLibrary";
-	["Training Grounds"] =			"SMArmory";
-	["Footman's Armory"] =			"SMArmory";
-	["Crusader's Armory"] =			"SMArmory";
-	["Hall of Champions"] =			"SMArmory";
-	["Chapel Gardens"] =			"SMCathedral";
-	["Crusader's Chapel"] =			"SMCathedral";
 	["The Grand Vestibule"] =		"SMEnt";
 };
 

@@ -193,7 +193,9 @@ function AtlasLoot_FixText(text)
     text = gsub(text, "#m39#", AL["20 Slot bag"]);
     text = gsub(text, "#m40#", AL["10 Combines to Old Heavy Folio"]);
     text = gsub(text, "#m41#", AL["Turn-in"]);
-	
+    text = gsub(text, "#m42#", AL["Shiny!"]);
+    text = gsub(text, "#m43#", AL["Crimson State"]);
+	text = gsub(text, "#m44#", AL["Emerald State"]);
 	-- Random names
     text = gsub(text, "#x1#", BB["Lord Cobrahn"]);
     text = gsub(text, "#x2#", BB["Lady Anacondra"]);
@@ -259,7 +261,7 @@ function AtlasLoot_FixText(text)
 	text = gsub(text, "#x62#", AL["Dark Iron Agent"]);
 	text = gsub(text, "#x63#", AL["Molten Destroyer"]);
 	text = gsub(text, "#x64#", AL["Scarlet Trainee"]);
-	text = gsub(text, "#x65#", BB["Scarlet Commander Mograine"]);
+	text = gsub(text, "#x65#", AL["Renault Mograine"]);
 	text = gsub(text, "#x66#", AL["Guardsman"]);
 	text = gsub(text, "#x67#", AL["Plagued Hatchling"]);
 	text = gsub(text, "#x68#", AL["Scholomance Adept"]);

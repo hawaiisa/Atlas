@@ -821,11 +821,6 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "PRE60SET";
 		Back_Title = AL["Pre 60 Sets"];
 	};
-	["SCARLET"] = {
-		Title = BIS["Chain of the Scarlet Crusade"];
-		Back_Page = "PRE60SET";
-		Back_Title = AL["Pre 60 Sets"];
-	};
 	["BLACKROCKD"] = {
 		Title = BIS["The Gladiator"];
 		Back_Page = "PRE60SET";

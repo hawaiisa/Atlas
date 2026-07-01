@@ -75,11 +75,11 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
-local VERSION_MINOR = "05";
-local VERSION_BOSSES = "04";
+local VERSION_MINOR = "06";
+local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "2.1.7";
-ATLASLOOT_PREVIEW_ATLAS = "2.1.6";
+ATLASLOOT_CURRENT_ATLAS = "2.2.0";
+ATLASLOOT_PREVIEW_ATLAS = "2.1.7";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];
@@ -208,7 +208,7 @@ AtlasLoot_MenuList = {
 --entrance maps to instance maps NOT NEEDED FOR ATLAS 1.12
 local EntToInstMatches = {
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockMountainEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
+	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
 	["GnomereganEnt"] =				{"Gnomeregan"};
 	["MaraudonEnt"] =				{"Maraudon"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
@@ -216,7 +216,7 @@ local EntToInstMatches = {
 	["UldamanEnt"] =				{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	["SMEnt"] =						{"ScarletMonastery"};
 };
 
 --instance maps to entrance maps
@@ -236,10 +236,7 @@ local InstToEntMatches = {
 	["DireMaulEast"] =				{"DireMaulEnt"};
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
-	["SMArmory"] =					{"SMEnt"};
-	["SMLibrary"] =					{"SMEnt"};
-	["SMCathedral"] =				{"SMEnt"};
-	["SMGraveyard"] =				{"SMEnt"};
+	["ScarletMonastery"] =			{"SMEnt"};
 };
 
 --[[
@@ -2218,12 +2215,7 @@ AtlasLoot_DewDropDown = {
 				{ BZ["Razorfen Kraul"], "RazorfenKraul", "Submenu" },
 			},
 			[9] = {
-				[BZ["Scarlet Monastery"]] = {
-					{ BZ["Scarlet Monastery"].." "..AL["Graveyard"], "SMGraveyard", "Submenu" },
-					{ BZ["Scarlet Monastery"].." "..AL["Library"], "SMLibrary", "Submenu" },
-					{ BZ["Scarlet Monastery"].." "..AL["Armory"], "SMArmory", "Submenu" },
-					{ BZ["Scarlet Monastery"].." "..AL["Cathedral"], "SMCathedral", "Submenu" },
-				},
+				{ BZ["Scarlet Monastery"], "ScarletMonastery", "Submenu" },
 			},
 			[10] = {
 				{ BZ["Razorfen Downs"], "RazorfenDowns", "Submenu" },
@@ -2603,29 +2595,17 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Kel'Thuzad"], "NAXKelThuzard" },
 		{ AL["Trash Mobs"], "NAXTrash" },
 	},
-	["SMGraveyard"] = {
-		{ BB["Interrogator Vishas"], "SMVishas" },
-		{ BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "SMScorn" },
-		{ BB["Ironspine"].." ("..AL["Rare"]..")", "SMIronspine" },
-		{ BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "SMAzshir" },
-		{ BB["Fallen Champion"].." ("..AL["Rare"]..")", "SMFallenChampion" },
-		{ BB["Bloodmage Thalnos"], "SMBloodmageThalnos" },
-		{ AL["Trash Mobs"], "SMGTrash" },
-	},
-	["SMLibrary"] = {
+	["ScarletMonastery"] = {
 		{ BB["Houndmaster Loksey"], "SMHoundmasterLoksey" },
-		{ BB["Arcanist Doan"], "SMDoan" },
-		{ AL["Trash Mobs"], "SMLTrash" },
-	},
-	["SMArmory"] = {
+		{ AL["Brigitte Abbendis"], "SMBrigitte" },
+		{ AL["Vishas"], "SMVishas" },
 		{ BB["Herod"], "SMHerod" },
-		{ AL["Trash Mobs"], "SMATrash" },
-	},
-	["SMCathedral"] = {
-		{ BB["High Inquisitor Fairbanks"], "SMFairbanks" },
-		{ BB["Scarlet Commander Mograine"], "SMMograine" },
-		{ BB["High Inquisitor Whitemane"], "SMWhitemane" },
-		{ AL["Trash Mobs"], "SMCTrash" },
+		{ AL["Brother Michael"], "SMMichael" },
+		{ AL["Doan"], "SMDoan" },
+		{ AL["Fairbanks"], "SMFairbanks" },
+		{ AL["Renault Mograine"], "SMMograine" },
+		{ AL["Sally Whitemane"], "SMWhitemane" },
+		{ AL["Trash Mobs"], "SMTrash" },
 	},
 	["Scholomance"] = {
 		{ AL["Blood Steward of Kirtonos"], "SCHOLOBlood" },
@@ -3006,7 +2986,6 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Pre60Sets"] = {
 		{ BIS["Bloodmail Regalia"], "ScholoMail" },
 		{ BIS["Cadaverous Garb"], "ScholoLeather" },
-		{ BIS["Chain of the Scarlet Crusade"], "SCARLET" },
 		{ BIS["Dal'Rend's Arms"], "DalRend" },
 		{ BIS["Deathbone Guardian"], "ScholoPlate" },
 		{ BIS["Defias Leather"], "DEADMINES" },
