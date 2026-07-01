@@ -422,7 +422,14 @@ AL:RegisterTranslations("enUS", function() return {
 	["Four Horsemen Chest"] = true;
 	["Plague Wing"] = true;
 	["Frostwyrm Lair"] = true;
-	
+	--Scarlet Monastery
+	["Brigitte Abbendis"] = true;
+	["Brother Michael"] = true;
+	["Doan"] = true;
+	["Fairbanks"] = true;
+	["Renault Mograine"] = true;
+	["Sally Whitemane"] = true;
+	["Vishas"] = true;
 	--SM: Library
 	["Doan's Strongbox"] = true;
 	

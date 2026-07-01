@@ -526,6 +526,22 @@ AtlasLootBossButtons = {
 		"";
 		"SFKTrash";
 	};
+	ScarletMonastery = {
+		"";
+		"";
+		"";
+		"SMHoundmasterLoksey";
+		"SMBrigitte";
+		"SMVishas";
+		"SMHerod";
+		"SMMichael";
+		"SMDoan";
+		"SMFairbanks";
+		"SMMograine";
+		"SMWhitemane";
+		"SMTrash";
+	};
+	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 	SMArmory = {
 		"VanillaKeys";
 		"";
@@ -566,6 +582,7 @@ AtlasLootBossButtons = {
 		"SMLTrash";
 		"SCARLET";
 	};
+	]]
 	Stratholme = {
 		"Argent1";
 		"VanillaKeys";
@@ -3387,6 +3404,12 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 7756, "INV_Gauntlets_07", "=q2=Dog Training Gloves", "=ds=#s9#, #a2#", "53.66%" },
 		{ 3456, "Ability_Hunter_BeastCall", "=q2=Dog Whistle", "=ds=#e15#", "21.33%" },
 	};
+	SMBrigitte = {
+		
+	};
+	SMMichael = {
+
+	};
 	SMDoan = {
 		{ 7714, "INV_Weapon_ShortBlade_07", "=q3=Hypnotic Blade", "=ds=#h3#, #w4#", "39.91%" },
 		{ 7713, "INV_Wand_04", "=q3=Illusionary Rod", "=ds=#w9#", "38.44%" },
@@ -3450,6 +3473,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 23170, "INV_Gauntlets_11", "=q3=The Frozen Clutch", "=ds=#s9#, #a3#", "56.15%" },
 		{ 23168, "INV_Weapon_ShortBlade_07", "=q3=Scorn's Focal Dagger", "=ds=#h1#, #w4#", "16.36%" },
 	};
+	SMTrash = {
+	};
+	
 	SMATrash = {
 		{ 5819, "INV_Helmet_03", "=q3=Sunblaze Coif", "=ds=#s1#, #a3#", "0.01%" },
 		{ 7755, "INV_Shoulder_13", "=q3=Flintrock Shoulders", "=ds=#s3#, #a2#", "0.01%" },

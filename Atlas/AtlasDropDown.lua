@@ -93,10 +93,13 @@ Atlas_DropDownLayouts = {
 			"Naxxramas",
 			"Scholomance",
 			"ShadowfangKeep",
+			"ScarletMonastery",
+			--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 			"SMArmory",
 			"SMCathedral",
 			"SMGraveyard",
 			"SMLibrary",
+			]]
 			"Stratholme",
 			"TheDeadmines",
 			"TheStockade",
@@ -173,10 +176,12 @@ Atlas_DropDownLayouts = {
 			"RazorfenDowns",
 			"RazorfenKraul",
 			"ShadowfangKeep",
+			--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 			"SMArmory",
 			"SMCathedral",
 			"SMGraveyard",
 			"SMLibrary",
+			]]
 			"TheStockade",
 			"TheSunkenTemple",
 			"Uldaman",
@@ -186,6 +191,7 @@ Atlas_DropDownLayouts = {
 		[ATLAS_DDL_PARTYSIZE_10] = {
 			"BlackrockSpireLower",
 			"BlackrockSpireUpper",
+			"ScarletMonastery",
 		},
 		[ATLAS_DDL_PARTYSIZE_20] = {
 			"TheRuinsofAhnQiraj",
@@ -251,10 +257,12 @@ Atlas_DropDownLayouts = {
 			"RazorfenKraul",
 			"Scholomance",
 			"ShadowfangKeep",
+			--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 			"SMArmory",
 			"SMCathedral",
 			"SMGraveyard",
 			"SMLibrary",
+			]]
 			"Stratholme",
 			"TheStockade",
 			"TheSunkenTemple",
@@ -269,6 +277,7 @@ Atlas_DropDownLayouts = {
 			"MoltenCore",
 			"Naxxramas",
 			"OnyxiasLair",
+			"ScarletMonastery",
 			"TheRuinsofAhnQiraj",
 			"TheTempleofAhnQiraj",
 			"ZulGurub",
@@ -326,10 +335,12 @@ Atlas_DropDownLayouts = {
 			"RazorfenKraul",
 			"Scholomance",
 			"ShadowfangKeep",
+			--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 			"SMArmory",
 			"SMCathedral",
 			"SMGraveyard",
 			"SMLibrary",
+			]]
 			"Stratholme",
 			"TheStockade",
 			"TheSunkenTemple",
@@ -344,6 +355,7 @@ Atlas_DropDownLayouts = {
 			"MoltenCore",
 			"Naxxramas",
 			"OnyxiasLair",
+			"ScarletMonastery",
 			"TheRuinsofAhnQiraj",
 			"TheTempleofAhnQiraj",
 			"ZulGurub",
@@ -467,10 +479,12 @@ Atlas_DropDownLayouts = {
 			"TheStockade",
 			"Gnomeregan",
 			"RazorfenKraul",
+			--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 			"SMGraveyard",
 			"SMLibrary",
 			"SMArmory",
 			"SMCathedral",
+			]]
 			"RazorfenDowns",
 			"Uldaman",
 			"Maraudon",
@@ -480,6 +494,7 @@ Atlas_DropDownLayouts = {
 			"DireMaulEast",
 			"DireMaulWest",
 			"DireMaulNorth",
+			"ScarletMonastery",
 			"Scholomance",
 			"Stratholme",
 			"BlackrockSpireLower",

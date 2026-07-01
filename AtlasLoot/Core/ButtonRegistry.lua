@@ -821,11 +821,13 @@ AtlasLoot_ButtonRegistry = {
 		Back_Page = "PRE60SET";
 		Back_Title = AL["Pre 60 Sets"];
 	};
+	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 	["SCARLET"] = {
 		Title = BIS["Chain of the Scarlet Crusade"];
 		Back_Page = "PRE60SET";
 		Back_Title = AL["Pre 60 Sets"];
 	};
+	]]
 	["BLACKROCKD"] = {
 		Title = BIS["The Gladiator"];
 		Back_Page = "PRE60SET";

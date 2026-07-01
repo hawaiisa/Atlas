@@ -541,10 +541,14 @@ AL:RegisterTranslations("enUS", function() return {
 	["AC Item"] = true;
 	["Azshara Crater"] = true;
 	["Azus the Bloodseeker"] = true;
+	["Brother Michael"] = true;
+	["Brigitte Abbendis"] = true;
 	["Crimson Ring"] = true;
+	["Doan"] = true;
 	["Donation Tabards"] = true;
 	["Egg Hunt"] = true;
 	["Elementium Decapitator Mk III"] = true;
+	["Fairbanks"] = true;
 	["Firebird Corps"] = true;
 	["General"] = true;
 	["King Mosh"] = true;
@@ -556,7 +560,9 @@ AL:RegisterTranslations("enUS", function() return {
 	["Mounts"] = true;
 	["Nameless Hermit"] = true;
 	["Operation Rattlesnake"] = true;
+	["Renault Mograine"] = true;
 	["Pets"] = true;
+	["Sally Whitemane"] = true;
 	["Skins"] = true;
 	["Tabards"] = true;
 	["Teremus the Devourer"] = true;
@@ -565,5 +571,6 @@ AL:RegisterTranslations("enUS", function() return {
 	["Un\'Goro Power Crystals"] = true;
 	["V+ Donations"] = true;
 	["V+ Items"] = true;
+	["Vishas"] = true;
 	["Winterspring Juju"] = true;
 	} end)	

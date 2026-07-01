@@ -208,7 +208,7 @@ AtlasLoot_MenuList = {
 --entrance maps to instance maps NOT NEEDED FOR ATLAS 1.12
 local EntToInstMatches = {
 	["BlackfathomDeepsEnt"] =		{"BlackfathomDeeps"};
-	["BlackrockMountainEnt"] =			{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
+	["BlackrockMountainEnt"] =		{"BlackrockSpireLower","BlackrockSpireUpper","BlackwingLair","BlackrockDepths","MoltenCore"};
 	["GnomereganEnt"] =				{"Gnomeregan"};
 	["MaraudonEnt"] =				{"Maraudon"};
 	["TheDeadminesEnt"] =			{"TheDeadmines"};
@@ -216,7 +216,10 @@ local EntToInstMatches = {
 	["UldamanEnt"] =				{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
+	["SMEnt"] =						{"ScarletMonastery"};
+	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
+	]]
 };
 
 --instance maps to entrance maps
@@ -236,10 +239,13 @@ local InstToEntMatches = {
 	["DireMaulEast"] =				{"DireMaulEnt"};
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
+	["ScarletMonastery"] =			{"SMEnt"};
+	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 	["SMArmory"] =					{"SMEnt"};
 	["SMLibrary"] =					{"SMEnt"};
 	["SMCathedral"] =				{"SMEnt"};
 	["SMGraveyard"] =				{"SMEnt"};
+	]]
 };
 
 --[[
@@ -2266,12 +2272,15 @@ AtlasLoot_DewDropDown = {
 				{ BZ["Razorfen Kraul"], "RazorfenKraul", "Submenu" },
 			},
 			[9] = {
-				[BZ["Scarlet Monastery"]] = {
+				{ BZ["Scarlet Monastery"], "ScarletMonastery", "Submenu" },
+				--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
+				[ BZ["Scarlet Monastery"] ] = {
 					{ BZ["Scarlet Monastery"].." "..AL["Graveyard"], "SMGraveyard", "Submenu" },
 					{ BZ["Scarlet Monastery"].." "..AL["Library"], "SMLibrary", "Submenu" },
 					{ BZ["Scarlet Monastery"].." "..AL["Armory"], "SMArmory", "Submenu" },
 					{ BZ["Scarlet Monastery"].." "..AL["Cathedral"], "SMCathedral", "Submenu" },
 				},
+				]]
 			},
 			[10] = {
 				{ BZ["Razorfen Downs"], "RazorfenDowns", "Submenu" },
@@ -2651,6 +2660,24 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Kel'Thuzad"], "NAXKelThuzard" },
 		{ AL["Trash Mobs"], "NAXTrash" },
 	},
+	["ScarletMonastery"] = {
+		{ BB["Houndmaster Loksey"], "SMHoundmasterLoksey" },
+		{ AL["Brigitte Abbendis"], "SMBrigitte" },
+		{ AL["Vishas"], "SMVishas" },
+		{ BB["Herod"], "SMHerod" },
+		{ AL["Brother Michael"], "SMMichael" },
+		{ AL["Doan"], "SMDoan" },
+		{ AL["Fairbanks"], "SMFairbanks" },
+		{ AL["Renault Mograine"], "SMMograine" },
+		{ AL["Sally Whitemane"], "SMWhitemane" },
+		{ AL["Trash Mobs"], "SMTrash" },
+		--{ BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "SMScorn" }, --Removed?
+		--{ BB["Ironspine"].." ("..AL["Rare"]..")", "SMIronspine" }, --Removed?
+		--{ BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "SMAzshir" }, --Removed?
+		--{ BB["Fallen Champion"].." ("..AL["Rare"]..")", "SMFallenChampion" }, ..Removed?
+		--{ BB["Bloodmage Thalnos"], "SMBloodmageThalnos" }, --Removed?
+	},
+	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 	["SMGraveyard"] = {
 		{ BB["Interrogator Vishas"], "SMVishas" },
 		{ BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "SMScorn" },
@@ -2658,7 +2685,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "SMAzshir" },
 		{ BB["Fallen Champion"].." ("..AL["Rare"]..")", "SMFallenChampion" },
 		{ BB["Bloodmage Thalnos"], "SMBloodmageThalnos" },
-		{ AL["Trash Mobs"], "SMGTrash" },
+		{ AL["Trash Mobs"], "SMTrash" },
 	},
 	["SMLibrary"] = {
 		{ BB["Houndmaster Loksey"], "SMHoundmasterLoksey" },
@@ -2675,6 +2702,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["High Inquisitor Whitemane"], "SMWhitemane" },
 		{ AL["Trash Mobs"], "SMCTrash" },
 	},
+	]]
 	["Scholomance"] = {
 		{ AL["Blood Steward of Kirtonos"], "SCHOLOBlood" },
 		{ BB["Kirtonos the Herald"], "SCHOLOKirtonostheHerald" },
@@ -3054,7 +3082,9 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Pre60Sets"] = {
 		{ BIS["Bloodmail Regalia"], "ScholoMail" },
 		{ BIS["Cadaverous Garb"], "ScholoLeather" },
+		--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 		{ BIS["Chain of the Scarlet Crusade"], "SCARLET" },
+		]]
 		{ BIS["Dal'Rend's Arms"], "DalRend" },
 		{ BIS["Deathbone Guardian"], "ScholoPlate" },
 		{ BIS["Defias Leather"], "DEADMINES" },

@@ -741,6 +741,41 @@ AtlasMaps = {
 		{ "" };
 		{ ORNG..AL["Damage: "]..AL["Nature"]..", "..AL["Fire"]..", "..AL["Arcane"]..", "..AL["Shadow"]..", "..AL["Frost"]};
 	};
+	ScarletMonastery = {
+		ZoneName = { BZ["Scarlet Monastery"], 796 };
+		Acronym = "SM";
+		Location = { BZ["Tirisfal Glades"], 85 };
+		LevelRange = "60+";
+		MinLevel = "58";
+		PlayerLimit = "10";
+		Continent = BZ["Eastern Kingdoms"];
+		{ ORNG..AL["Key"]..": "..AL["The Scarlet Key"], ITEM, 7146 };
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ "" };
+		{ GREY.."1) "..BB["Houndmaster Loksey"], NPC, 25225 };
+		{ GREY.."2) "..AL["Brigitte Abbendis"], NPC, 25229 };
+		{ GREY.."3) "..AL["Vishas"], NPC, 25224 };
+		{ GREY.."4) "..BB["Herod"], NPC, 25226 };
+		{ GREY.."5) "..AL["Brother Michael"], NPC, 25221 };
+		{ GREY.."6) "..AL["Doan"], NPC, 25223 };
+		{ GREY.."7) "..AL["Renault Mograine"], NPC, 25227 };
+		{ GREY.."8) "..AL["Sally Whitemane"], NPC, 25228 };
+		{ GREY.."9) "..AL["Fairbanks"], NPC, 25222 };
+		{ GREY..INDENT..AL["Trash Mobs"] };
+		--{ BB["Scorn"].." ("..AL["Scourge Invasion"]..")", NPC,  }; --Removed?
+		--{ BB["Ironspine"].." ("..AL["Rare"]..")", NPC, }; --Removed?
+		--{ BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", NPC,  }; --Removed?
+		--{ BB["Fallen Champion"].." ("..AL["Rare"]..")", NPC,  }; --Removed?
+		--{ BB["Bloodmage Thalnos"], NPC }; --Removed?
+		--{ BLUE.."A) "..AL["Entrance"] };
+		--{ GREY.."1) "..BB["Houndmaster Loksey"], NPC, 3974 };
+		--{ GREY.."2) "..BB["Arcanist Doan"], NPC, 6487 };
+		--{ GREN.."1') "..AL["Doan's Strongbox"], OBJECT, 103821 };
+		--{ "" };
+		--{ GREY..INDENT..AL["Trash Mobs"] };
+		--{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
+	};
+	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
 	SMLibrary = {
 		ZoneName = { BZ["Scarlet Monastery"]..": "..AL["Library"], 796 };
 		Acronym = "SM Lib";
@@ -809,6 +844,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
 	};
+	]]
 	Scholomance = {
 		ZoneName = { BZ["Scholomance"], 2057 };
 		Acronym = "Scholo";
