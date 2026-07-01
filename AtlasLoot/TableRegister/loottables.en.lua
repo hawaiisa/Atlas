@@ -272,29 +272,6 @@ AtlasLoot_TableNames = {
 	["SMMichael"] = { AL["Brother Michael"], "AtlasLootItems" },
 	["SMDoan"] = { AL["Doan"], "AtlasLootItems" },
 	["SMTrash"] = { AL["Trash Mobs"], "AtlasLootItems" },
-	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	--Scarlet Monastery - Armory
-	["SMHerod"] = { BB["Herod"], "AtlasLootItems" },
-	["SMATrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Armory"]..")", "AtlasLootItems" },
-	--Scarlet Monastery - Cathedral
-	["SMFairbanks"] = { BB["High Inquisitor Fairbanks"], "AtlasLootItems" },
-	["SMMograine"] = { BB["Scarlet Commander Mograine"], "AtlasLootItems" },
-	["SMWhitemane"] = { BB["High Inquisitor Whitemane"], "AtlasLootItems" },
-	["SMCTrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Cathedral"]..")", "AtlasLootItems" },
-	--Scarlet Monastery - Graveyard
-	["SMVishas"] = { BB["Interrogator Vishas"], "AtlasLootItems" },
-	["SMScorn"] = { BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "AtlasLootItems" },
-	["SMIronspine"] = { BB["Ironspine"].." ("..AL["Rare"]..")", "AtlasLootItems" },
-	["SMAzshir"] = { BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "AtlasLootItems" },
-	["SMFallenChampion"] = { BB["Fallen Champion"].." ("..AL["Rare"]..")", "AtlasLootItems" },
-	["SMBloodmageThalnos"] = { BB["Bloodmage Thalnos"], "AtlasLootItems" },
-	["SMGTrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Graveyard"]..")", "AtlasLootItems" },
-	--Scarlet Monastery - Library
-	["SMHoundmasterLoksey"] = { BB["Houndmaster Loksey"], "AtlasLootItems" },
-	["SMDoan"] = { BB["Arcanist Doan"], "AtlasLootItems" },
-	["SMDoansBox"] = { AL["Doan's Strongbox"], "AtlasLootItems" },
-	["SMLTrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Library"]..")", "AtlasLootItems" },
-	]]
 	--Scholomance
 	["SCHOLOBlood"] = { AL["Blood Steward of Kirtonos"], "AtlasLootItems" },
 	["SCHOLOKirtonostheHerald"] = { BB["Kirtonos the Herald"], "AtlasLootItems" },
@@ -466,9 +443,6 @@ AtlasLoot_TableNames = {
 	--Vanilla WoW Sets
 	["DEADMINES"] = { AL["Set: "]..BIS["Defias Leather"], "AtlasLootSetItems" },
 	["WAILING"] = { AL["Set: "]..BIS["Embrace of the Viper"], "AtlasLootSetItems" },
-	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SCARLET"] = { AL["Set: "]..BIS["Chain of the Scarlet Crusade"], "AtlasLootSetItems" },
-	]]
 	["BLACKROCKD"] = { AL["Set: "]..BIS["The Gladiator"], "AtlasLootSetItems" },
 	["IRONWEAVE"] = { AL["Set: "]..BIS["Ironweave Battlesuit"], "AtlasLootSetItems" },
 	["ScholoCloth"] = { AL["Set: "]..BIS["Necropile Raiment"], "AtlasLootSetItems" },
@@ -1171,33 +1145,6 @@ AtlasLoot_TableNamesBoss = {
 		["SMFallenChampion"] = { BB["Fallen Champion"].." ("..AL["Rare"]..")", "AtlasLootItems" },
 		["SMBloodmageThalnos"] = { BB["Bloodmage Thalnos"], "AtlasLootItems" },
 	},
-	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	[BZ["Scarlet Monastery"]..AL["Armory"] ] = {
-		["SMHerod"] = { BB["Herod"], "AtlasLootItems" },
-		["SMATrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Armory"]..")", "AtlasLootItems" },
-	},
-	[BZ["Scarlet Monastery"]..AL["Cathedral"] ] = {
-		["SMFairbanks"] = { BB["High Inquisitor Fairbanks"], "AtlasLootItems" },
-		["SMMograine"] = { BB["Scarlet Commander Mograine"], "AtlasLootItems" },
-		["SMWhitemane"] = { BB["High Inquisitor Whitemane"], "AtlasLootItems" },
-		["SMCTrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Cathedral"]..")", "AtlasLootItems" },
-	},
-	[BZ["Scarlet Monastery"]..AL["Graveyard"] ] = {
-		["SMVishas"] = { BB["Interrogator Vishas"], "AtlasLootItems" },
-		["SMScorn"] = { BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "AtlasLootItems" },
-		["SMIronspine"] = { BB["Ironspine"].." ("..AL["Rare"]..")", "AtlasLootItems" },
-		["SMAzshir"] = { BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "AtlasLootItems" },
-		["SMFallenChampion"] = { BB["Fallen Champion"].." ("..AL["Rare"]..")", "AtlasLootItems" },
-		["SMBloodmageThalnos"] = { BB["Bloodmage Thalnos"], "AtlasLootItems" },
-		["SMGTrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Graveyard"]..")", "AtlasLootItems" },
-	},
-	[BZ["Scarlet Monastery"]..AL["Library"] ] = {
-		["SMHoundmasterLoksey"] = { BB["Houndmaster Loksey"], "AtlasLootItems" },
-		["SMDoan"] = { BB["Arcanist Doan"], "AtlasLootItems" },
-		["SMDoansBox"] = { AL["Doan's Strongbox"], "AtlasLootItems" },
-		["SMLTrash"] = { AL["Trash Mobs"].." ("..BZ["Scarlet Monastery"].. " "..AL["Library"]..")", "AtlasLootItems" },
-	},
-	]]
 	[BZ["Scholomance"]] = {
 		["SCHOLOBlood"] = { AL["Blood Steward of Kirtonos"], "AtlasLootItems" },
 		["SCHOLOKirtonostheHerald"] = { BB["Kirtonos the Herald"], "AtlasLootItems" },
@@ -1383,9 +1330,6 @@ AtlasLoot_TableNamesBoss = {
 	[AL["Sets"]] = {
 		["DEADMINES"] = { AL["Set: "]..BIS["Defias Leather"], "AtlasLootSetItems" },
 		["WAILING"] = { AL["Set: "]..BIS["Embrace of the Viper"], "AtlasLootSetItems" },
-		--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-		["SCARLET"] = { AL["Set: "]..BIS["Chain of the Scarlet Crusade"], "AtlasLootSetItems" },
-		]]
 		["BLACKROCKD"] = { AL["Set: "]..BIS["The Gladiator"], "AtlasLootSetItems" },
 		["IRONWEAVE"] = { AL["Set: "]..BIS["Ironweave Battlesuit"], "AtlasLootSetItems" },
 		["ScholoCloth"] = { AL["Set: "]..BIS["Necropile Raiment"], "AtlasLootSetItems" },

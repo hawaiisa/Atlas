@@ -544,9 +544,11 @@ AL:RegisterTranslations("enUS", function() return {
 	["Brother Michael"] = true;
 	["Brigitte Abbendis"] = true;
 	["Crimson Ring"] = true;
+	["Crimson State"] = true;
 	["Doan"] = true;
 	["Donation Tabards"] = true;
 	["Egg Hunt"] = true;
+	["Emerald State"] = true;
 	["Elementium Decapitator Mk III"] = true;
 	["Fairbanks"] = true;
 	["Firebird Corps"] = true;
@@ -563,6 +565,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Renault Mograine"] = true;
 	["Pets"] = true;
 	["Sally Whitemane"] = true;
+	["Shiny!"] = true;
 	["Skins"] = true;
 	["Tabards"] = true;
 	["Teremus the Devourer"] = true;

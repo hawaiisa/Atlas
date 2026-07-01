@@ -75,11 +75,11 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
-local VERSION_MINOR = "05";
-local VERSION_BOSSES = "01";
+local VERSION_MINOR = "06";
+local VERSION_BOSSES = "00";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
-ATLASLOOT_CURRENT_ATLAS = "2.1.7";
-ATLASLOOT_PREVIEW_ATLAS = "2.1.6";
+ATLASLOOT_CURRENT_ATLAS = "2.2.0";
+ATLASLOOT_PREVIEW_ATLAS = "2.1.7";
 
 --Compatibility with old EquipCompare/EQCompare
 ATLASLOOT_OPTIONS_EQUIPCOMPARE = AL["Use EquipCompare"];
@@ -217,9 +217,6 @@ local EntToInstMatches = {
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
 	["SMEnt"] =						{"ScarletMonastery"};
-	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
-	]]
 };
 
 --instance maps to entrance maps
@@ -240,12 +237,6 @@ local InstToEntMatches = {
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
 	["ScarletMonastery"] =			{"SMEnt"};
-	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SMArmory"] =					{"SMEnt"};
-	["SMLibrary"] =					{"SMEnt"};
-	["SMCathedral"] =				{"SMEnt"};
-	["SMGraveyard"] =				{"SMEnt"};
-	]]
 };
 
 --[[
@@ -514,54 +505,6 @@ function AtlasLootOptions_Fresh()
 	AtlasLootCharDB.AtlasLootVersion = VERSION_MAJOR..VERSION_MINOR..VERSION_BOSSES;
 	AtlasLootCharDB.AutoQuery = false;
 	AtlasLootCharDB.PartialMatching = true;
-	AtlasLootCharDB.SearchFilters = {
-		["ArmorClass"] = {
-			["#a1#"] = false, --Cloth
-			["#a2#"] = false, --Leather
-			["#a3#"] = false, --Mail
-			["#a4#"] = false  --Plate
-		},
-		["InventorySlot"] = {
-			["#s1#"] = false, --Head
-			["#s2#"] = false, --Neck
-			["#s3#"] = false, --Shoulder
-			["#s4#"] = false, --Back
-			["#s5#"] = false, --Chest
-			["#s6#"] = false, --Shirt
-			["#s7#"] = false, --Tabard
-			["#s8#"] = false, --Wrist
-			["#s9#"] = false, --Hands
-			["#s10#"] = false, --Waist
-			["#s11#"] = false, --Legs
-			["#s12#"] = false, --Feet
-			["#s13#"] = false, --Ring
-			["#s14#"] = false, --Trinket
-			["#s15#"] = false, --Held In Off-hand
-			["#s16#"] = false  --Relic
-		},
-		["WeaponWielding"] = {
-			["#h1#"] = false, --One-Hand
-			["#h2#"] = false, --Two-Hand
-			["#h3#"] = false, --Main Hand
-			["#h4#"] = false  --Off Hand
-		},
-		["WeaponType"] = {
-			["#w1#"] = false,  --Axe
-			["#w2#"] = false,  --Bow
-			["#w3#"] = false,  --Crossbow
-			["#w4#"] = false,  --Dagger
-			["#w5#"] = false,  --Gun
-			["#w6#"] = false,  --Mace
-			["#w7#"] = false,  --Polearm
-			["#w8#"] = false,  --Shield
-			["#w9#"] = false,  --Staff
-			["#w10#"] = false, --Sword
-			["#w11#"] = false, --Thrown
-			["#w12#"] = false, --Wand
-			["#w13#"] = false, --Fist Weapon
-			["#w14#"] = false  --Fishing Pole
-		}
-	}
 end
 
 --[[
@@ -2273,14 +2216,6 @@ AtlasLoot_DewDropDown = {
 			},
 			[9] = {
 				{ BZ["Scarlet Monastery"], "ScarletMonastery", "Submenu" },
-				--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-				[ BZ["Scarlet Monastery"] ] = {
-					{ BZ["Scarlet Monastery"].." "..AL["Graveyard"], "SMGraveyard", "Submenu" },
-					{ BZ["Scarlet Monastery"].." "..AL["Library"], "SMLibrary", "Submenu" },
-					{ BZ["Scarlet Monastery"].." "..AL["Armory"], "SMArmory", "Submenu" },
-					{ BZ["Scarlet Monastery"].." "..AL["Cathedral"], "SMCathedral", "Submenu" },
-				},
-				]]
 			},
 			[10] = {
 				{ BZ["Razorfen Downs"], "RazorfenDowns", "Submenu" },
@@ -2671,38 +2606,7 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ AL["Renault Mograine"], "SMMograine" },
 		{ AL["Sally Whitemane"], "SMWhitemane" },
 		{ AL["Trash Mobs"], "SMTrash" },
-		--{ BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "SMScorn" }, --Removed?
-		--{ BB["Ironspine"].." ("..AL["Rare"]..")", "SMIronspine" }, --Removed?
-		--{ BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "SMAzshir" }, --Removed?
-		--{ BB["Fallen Champion"].." ("..AL["Rare"]..")", "SMFallenChampion" }, ..Removed?
-		--{ BB["Bloodmage Thalnos"], "SMBloodmageThalnos" }, --Removed?
 	},
-	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SMGraveyard"] = {
-		{ BB["Interrogator Vishas"], "SMVishas" },
-		{ BB["Scorn"].." ("..AL["Scourge Invasion"]..")", "SMScorn" },
-		{ BB["Ironspine"].." ("..AL["Rare"]..")", "SMIronspine" },
-		{ BB["Azshir the Sleepless"].." ("..AL["Rare"]..")", "SMAzshir" },
-		{ BB["Fallen Champion"].." ("..AL["Rare"]..")", "SMFallenChampion" },
-		{ BB["Bloodmage Thalnos"], "SMBloodmageThalnos" },
-		{ AL["Trash Mobs"], "SMTrash" },
-	},
-	["SMLibrary"] = {
-		{ BB["Houndmaster Loksey"], "SMHoundmasterLoksey" },
-		{ BB["Arcanist Doan"], "SMDoan" },
-		{ AL["Trash Mobs"], "SMLTrash" },
-	},
-	["SMArmory"] = {
-		{ BB["Herod"], "SMHerod" },
-		{ AL["Trash Mobs"], "SMATrash" },
-	},
-	["SMCathedral"] = {
-		{ BB["High Inquisitor Fairbanks"], "SMFairbanks" },
-		{ BB["Scarlet Commander Mograine"], "SMMograine" },
-		{ BB["High Inquisitor Whitemane"], "SMWhitemane" },
-		{ AL["Trash Mobs"], "SMCTrash" },
-	},
-	]]
 	["Scholomance"] = {
 		{ AL["Blood Steward of Kirtonos"], "SCHOLOBlood" },
 		{ BB["Kirtonos the Herald"], "SCHOLOKirtonostheHerald" },
@@ -3082,9 +2986,6 @@ AtlasLoot_DewDropDown_SubTables = {
 	["Pre60Sets"] = {
 		{ BIS["Bloodmail Regalia"], "ScholoMail" },
 		{ BIS["Cadaverous Garb"], "ScholoLeather" },
-		--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-		{ BIS["Chain of the Scarlet Crusade"], "SCARLET" },
-		]]
 		{ BIS["Dal'Rend's Arms"], "DalRend" },
 		{ BIS["Deathbone Guardian"], "ScholoPlate" },
 		{ BIS["Defias Leather"], "DEADMINES" },

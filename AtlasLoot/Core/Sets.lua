@@ -183,14 +183,6 @@ function AtlasLootPRE60SetMenu()
 	AtlasLootMenuItem_3_Icon:SetTexture("Interface\\Icons\\INV_Shirt_16");
 	AtlasLootMenuItem_3.lootpage="WAILING";
 	AtlasLootMenuItem_3:Show();
-	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	--Scarlet Monastery - Chain of the Scarlet Crusade
-	AtlasLootMenuItem_4_Name:SetText(BIS["Chain of the Scarlet Crusade"]);
-	AtlasLootMenuItem_4_Extra:SetText(ORANGE..BZ["Scarlet Monastery"]);
-	AtlasLootMenuItem_4_Icon:SetTexture("Interface\\Icons\\INV_Gauntlets_19");
-	AtlasLootMenuItem_4.lootpage="SCARLET";
-	AtlasLootMenuItem_4:Show();
-	]]
 	--Blackrock Depths - The Gladiator
 	AtlasLootMenuItem_5_Name:SetText(BIS["The Gladiator"]);
 	AtlasLootMenuItem_5_Extra:SetText(ORANGE..BZ["Blackrock Depths"]);

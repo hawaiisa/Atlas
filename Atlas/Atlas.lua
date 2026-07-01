@@ -76,9 +76,6 @@ Atlas_EntToInstMatches = {
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
 	["SMEnt"] =						{"ScarletMonastery"};
-	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SMEnt"] =						{"SMArmory","SMLibrary","SMCathedral","SMGraveyard"};
-	]]
 };
 
 --instance maps to entrance maps
@@ -99,12 +96,6 @@ Atlas_InstToEntMatches = {
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
 	["ScarletMonastery"] =			{"SMEnt"};
-	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SMArmory"] =					{"SMEnt"};
-	["SMLibrary"] =					{"SMEnt"};
-	["SMCathedral"] =				{"SMEnt"};
-	["SMGraveyard"] =				{"SMEnt"};
-	]]
 };
 
 --Links maps together that are part of the same instance
@@ -116,12 +107,6 @@ Atlas_SubZoneAssoc = {
 	["BlackrockSpireLower"] =		"Blackrock Spire";
 	["BlackrockSpireUpper"] =		"Blackrock Spire";
 	["BlackrockMountainEnt"] =		"Blackrock Spire";
-	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["SMGraveyard"] =				"Scarlet Monastery";
-	["SMLibrary"] =					"Scarlet Monastery";
-	["SMArmory"] =					"Scarlet Monastery";
-	["SMCathedral"] =				"Scarlet Monastery";
-	]]
 	["SMEnt"] =						"Scarlet Monastery";
 };
 
@@ -158,20 +143,6 @@ Atlas_SubZoneData = {
 	["The Furnace"] =				"BlackrockSpireUpper";
 	["Hordemar City"] =				"BlackrockSpireUpper";
 	["Spire Throne"] =				"BlackrockSpireUpper";
-	--[[  SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	["Chamber of Atonement"] =		"SMGraveyard";
-	["Forlorn Cloister"] =			"SMGraveyard";
-	["Honor's Tomb"] =				"SMGraveyard";
-	["Huntsman's Cloister"] =		"SMLibrary";
-	["Gallery of Treasures"] =		"SMLibrary";
-	["Athenaeum"] =					"SMLibrary";
-	["Training Grounds"] =			"SMArmory";
-	["Footman's Armory"] =			"SMArmory";
-	["Crusader's Armory"] =			"SMArmory";
-	["Hall of Champions"] =			"SMArmory";
-	["Chapel Gardens"] =			"SMCathedral";
-	["Crusader's Chapel"] =			"SMCathedral";
-	]]
 	["The Grand Vestibule"] =		"SMEnt";
 };
 
@@ -527,7 +498,6 @@ function Atlas_Refresh()
 	
 	local zoneID = ATLAS_DROPDOWNS[AtlasOptions.AtlasType][AtlasOptions.AtlasZone];
 	local data = AtlasMaps;
-	DEFAULT_CHAT_FRAME:AddMessage(zoneID);
 	local base = data[zoneID];
 
 	AtlasMap:ClearAllPoints();

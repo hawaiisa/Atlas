@@ -541,48 +541,6 @@ AtlasLootBossButtons = {
 		"SMWhitemane";
 		"SMTrash";
 	};
-	--[[ SM is transformed to a 10 man lvl 60 raid - keeping entries while restructuring
-	SMArmory = {
-		"VanillaKeys";
-		"";
-		"SMHerod";
-		"";
-		"SMATrash";
-		"SCARLET";
-	};
-	SMCathedral = {
-		"VanillaKeys";
-		"";
-		"SMFairbanks";
-		"SMMograine";
-		"SMWhitemane";
-		"";
-		"SMCTrash";
-		"SCARLET";
-	};
-	SMGraveyard = {
-		"";
-		"SMVishas";
-		"";
-		"SMScorn";
-		"SMBloodmageThalnos";
-		"SMIronspine";
-		"SMAzshir";
-		"SMFallenChampion";
-		"";
-		"SMGTrash";
-		"SCARLET";
-	};
-	SMLibrary = {
-		"";
-		"SMHoundmasterLoksey";
-		"SMDoan";
-		"SMDoansBox";
-		"";
-		"SMLTrash";
-		"SCARLET";
-	};
-	]]
 	Stratholme = {
 		"Argent1";
 		"VanillaKeys";
@@ -883,7 +841,7 @@ AtlasLootBossButtons = {
 };
 --------------------------------------------------------------------------------
 -- ItemIDs (default english)
--- { itemID, itemIcon, itemName, itemDescription, itemDropChance, itemValue1, itemValueIcon1, itemValue2, itemValueIcon2, itemValue3, itemValueIcon3, itemValue4, itemValueIcon4, itemValue5, itemValueIcon5, itemIsVPlus }
+-- { itemID, itemIcon, itemName, itemDescription, itemDropChance, itemValue1, itemValueIcon1, itemValue2, itemValueIcon2, itemValue3, itemValueIcon3, itemValue4, itemValueIcon4, itemValue5, itemValueIcon5, vPlusNewOrModified }
 --------------------------------------------------------------------------------
 AtlasLoot_Data["AtlasLootItems"] = {
 	EmptyInstance = {};
@@ -3399,79 +3357,198 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 9391, "INV_Misc_Shovel_02", "=q3=The Shoveler", "=ds=#h2#, #w6# =q17=#c9#", "0.01%" },
 	};
 	SMHoundmasterLoksey = {
-		{ 7710, "INV_Staff_18", "=q3=Loksey's Training Stick", "=ds=#w9#", "13.96%" },
+		{ 26295, "inv_weapon_bow_sm_01", "=q4=Sharshooter\'s Longbow", "=ds=#w2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26305, "INV_Gauntlets_07", "=q4=Dog Training Gloves", "=ds=#s9#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26306, "Ability_Hunter_BeastCall", "=q4=Scarlet Hound Whistle", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26308, "INV_Boots_08", "=q4=Houndmaster Stompers", "=ds=#s12#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26312, "INV_Misc_Bone_09", "=q4=Mark of Bestial Fury", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
-		{ 7756, "INV_Gauntlets_07", "=q2=Dog Training Gloves", "=ds=#s9#, #a2#", "53.66%" },
-		{ 3456, "Ability_Hunter_BeastCall", "=q2=Dog Whistle", "=ds=#e15#", "21.33%" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26421, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		--{ 7710, "INV_Staff_18", "=q3=Loksey's Training Stick", "=ds=#w9#", "13.96%" },
+		--{ 0, "", "", "" },
+		--{ 7756, "INV_Gauntlets_07", "=q2=Dog Training Gloves", "=ds=#s9#, #a2#", "53.66%" },
+		--{ 3456, "Ability_Hunter_BeastCall", "=q2=Dog Whistle", "=ds=#e15#", "21.33%" },
 	};
 	SMBrigitte = {
-		
+		{ 26232, "INV_Scroll_04", "=q4=Scarlet Battle Orders", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26291, "INV_Weapon_Halberd_12", "=q4=Red Vigil", "=ds=#w7#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26298, "INV_Shield_Archery", "=q4=Bullseye Shield", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26322, "INV_Gauntlets_31", "=q4=Equestrian\'s Gloves", "=ds=#s9#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26422, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	SMMichael = {
+		{ 26349, "INV_Helmet_03", "=q4=Sunblaze Coif", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26350, "INV_Mace_01", "=q4=Relic Fight Club", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26356, "INV_Bracer_02", "=q4=Truestrike Bracers", "=ds=#s8#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26425, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 
 	};
 	SMDoan = {
-		{ 7714, "INV_Weapon_ShortBlade_07", "=q3=Hypnotic Blade", "=ds=#h3#, #w4#", "39.91%" },
-		{ 7713, "INV_Wand_04", "=q3=Illusionary Rod", "=ds=#w9#", "38.44%" },
+		{ 26288, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m43#)" },
+		{ 26289, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m44#)" },
 		{ 0, "", "", "" },
-		{ 7712, "INV_Shoulder_05", "=q2=Mantle of Doan", "=ds=#s3#, #a1#", "41.96%" },
-		{ 7711, "INV_Chest_Cloth_25", "=q2=Robe of Doan", "=ds=#s5#, #a1#", "42.86%" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26426, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		--{ 7714, "INV_Weapon_ShortBlade_07", "=q3=Hypnotic Blade", "=ds=#h3#, #w4#", "39.91%" },
+		--{ 7713, "INV_Wand_04", "=q3=Illusionary Rod", "=ds=#w9#", "38.44%" },
+		--{ 0, "", "", "" },
+		--{ 7712, "INV_Shoulder_05", "=q2=Mantle of Doan", "=ds=#s3#, #a1#", "41.96%" },
+		--{ 7711, "INV_Chest_Cloth_25", "=q2=Robe of Doan", "=ds=#s5#, #a1#", "42.86%" },
 	};
 	SMDoansBox = {
-		{ 0, "INV_Box_01", "=q6=#cb1#", "" },
-		{ 7146, "INV_Misc_Key_01", "=q2=The Scarlet Key", "=ds=#e14#" },
+		--{ 0, "INV_Box_01", "=q6=#cb1#", "" },
+		--{ 7146, "INV_Misc_Key_01", "=q2=The Scarlet Key", "=ds=#e14#" },
 	};
 	SMHerod = {
-		{ 7719, "INV_Helmet_25", "=q3=Raging Berserker's Helm", "=ds=#s1#, #a3#", "30.62%" },
-		{ 7718, "INV_Shoulder_01", "=q3=Herod's Shoulder", "=ds=#s3#, #a3#", "30.82%" },
-		{ 10330, "INV_Pants_03", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "12.75%" },
-		{ 7717, "INV_Weapon_Halberd_05", "=q3=Ravager", "=ds=#h2#, #w1#", "12.86%" },
+		{ 26340, "INV_Banner_03", "=q4=Banner of Challenge", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26341, "INV_Pants_06", "=q4=Kilt of Harmony", "=ds=#s11#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26342, "INV_Belt_06", "=q4=Scarlet Belt", "=ds=#s10#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26344, "INV_Boots_02", "=q4=Scarlet Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26349, "INV_Helmet_25", "=q4=Raging Berserker's Helm", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26424, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		--{ 7718, "INV_Shoulder_01", "=q3=Herod's Shoulder", "=ds=#s3#, #a3#", "30.82%" },
+		--{ 10330, "INV_Pants_03", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "12.75%" },
+		--{ 7717, "INV_Weapon_Halberd_05", "=q3=Ravager", "=ds=#h2#, #w1#", "12.86%" },
 	};
 	SMFairbanks = {
-		{ 19507, "INV_Shoulder_27", "=q2=Inquisitor's Shawl", "=ds=#s3#, #a1#", "15.94%" },
-		{ 19508, "INV_Bracer_11", "=q2=Branded Leather Bracers", "=ds=#s8#, #a2#", "16.17%" },
-		{ 19509, "INV_Boots_Chain_02", "=q2=Dusty Mail Boots", "=ds=#s12#, #a3#", "17.24%" },
+		{ 26377, "INV_Misc_Bell_01", "=q4=The Wall\'s Chime", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26427, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		--{ 19507, "INV_Shoulder_27", "=q2=Inquisitor's Shawl", "=ds=#s3#, #a1#", "15.94%" },
+		--{ 19508, "INV_Bracer_11", "=q2=Branded Leather Bracers", "=ds=#s8#, #a2#", "16.17%" },
+		--{ 19509, "INV_Boots_Chain_02", "=q2=Dusty Mail Boots", "=ds=#s12#, #a3#", "17.24%" },
 	};
 	SMMograine = {
-		{ 7724, "INV_Gauntlets_19", "=q3=Gauntlets of Divinity", "=ds=#s9#, #a3#", "17.49%" },
-		{ 10330, "INV_Pants_03", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "12.95%" },
-		{ 7726, "INV_Shield_05", "=q3=Aegis of the Scarlet Commander", "=ds=#w8#", "38.37%" },
-		{ 7723, "INV_Mace_13", "=q3=Mograine's Might", "=ds=#h2#, #w6#", "17.13%" },
+		{ 26302, "inv_shield_lordaeron", "=q4=Aegis of the Scarlet Commander", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26346, "INV_Chest_Chain_07", "=q4=Scarlet Chestpiece", "=ds=#s5#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26428, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		--{ 7724, "INV_Gauntlets_19", "=q3=Gauntlets of Divinity", "=ds=#s9#, #a3#", "17.49%" },
+		--{ 10330, "INV_Pants_03", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "12.95%" },
+		--{ 7723, "INV_Mace_13", "=q3=Mograine's Might", "=ds=#h2#, #w6#", "17.13%" },
 	};
 	SMWhitemane = {
-		{ 7720, "INV_Helmet_12", "=q3=Whitemane's Chapeau", "=ds=#s1#, #a1#", "34.01%" },
-		{ 7722, "INV_Jewelry_Amulet_01", "=q3=Triune Amulet", "=ds=#s2#", "33.23%" },
-		{ 7721, "INV_Hammer_02", "=q3=Hand of Righteousness", "=ds=#h3#, #w6#", "18.32%" },
+		{ 26286, "Spell_Holy_PersuitofJustice", "=q4=Scorching Judgement", "=ds=#h2#, #w10#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26391, "INV_Helmet_12", "=q3=Whitemane's Chapeau", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		--{ 7720, "INV_Helmet_12", "=q3=Whitemane's Chapeau", "=ds=#s1#, #a1#", "34.01%" },
+		--{ 7722, "INV_Jewelry_Amulet_01", "=q3=Triune Amulet", "=ds=#s2#", "33.23%" },
+		--{ 7721, "INV_Hammer_02", "=q3=Hand of Righteousness", "=ds=#h3#, #w6#", "18.32%" },
 	};
 	SMVishas = {
-		{ 7682, "INV_Spear_01", "=q3=Torturing Poker", "=ds=#h1#, #w4#", "5.56%" },
+		{ 26324, "INV_Spear_01", "=q4=Torturing Poker", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26334, "INV_Mace_15", "=q4=Bonegrinder", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26341, "INV_Helmet_48", "=q4=Trophy of the Quel\'dorei", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
-		{ 7683, "INV_Gauntlets_11", "=q1=Bloody Brass Knuckles", "=ds=#h1#, #w13#", "66.1%" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 0, "", "", "" },
+		{ 26423, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		--{ 7682, "INV_Spear_01", "=q3=Torturing Poker", "=ds=#h1#, #w4#", "5.56%" },
+		--{ 0, "", "", "" },
+		--{ 7683, "INV_Gauntlets_11", "=q1=Bloody Brass Knuckles", "=ds=#h1#, #w13#", "66.1%" },
 	};
 	SMIronspine = {
-		{ 7688, "INV_Chest_Plate15", "=q3=Ironspine's Ribcage", "=ds=#s5#, #a3#", "32.91%" },
-		{ 7687, "INV_Hammer_19", "=q3=Ironspine's Fist", "=ds=#h1#, #w6#", "20.34%" },
-		{ 7686, "INV_Jewelry_Ring_04", "=q3=Ironspine's Eye", "=ds=#s13#", "40.08%" },
+		--{ 7688, "INV_Chest_Plate15", "=q3=Ironspine's Ribcage", "=ds=#s5#, #a3#", "32.91%" },
+		--{ 7687, "INV_Hammer_19", "=q3=Ironspine's Fist", "=ds=#h1#, #w6#", "20.34%" },
+		--{ 7686, "INV_Jewelry_Ring_04", "=q3=Ironspine's Eye", "=ds=#s13#", "40.08%" },
 	};
 	SMAzshir = {
-		{ 7709, "INV_Pants_07", "=q3=Blighted Leggings", "=ds=#s11#, #a1#", "31.19%" },
-		{ 7708, "INV_Wand_04", "=q3=Necrotic Wand", "=ds=#w12#", "30.72%" },
-		{ 7731, "INV_Jewelry_Necklace_06", "=q3=Ghostshard Talisman", "=ds=#s2#", "32.71%" },
+		--{ 7709, "INV_Pants_07", "=q3=Blighted Leggings", "=ds=#s11#, #a1#", "31.19%" },
+		--{ 7708, "INV_Wand_04", "=q3=Necrotic Wand", "=ds=#w12#", "30.72%" },
+		--{ 7731, "INV_Jewelry_Necklace_06", "=q3=Ghostshard Talisman", "=ds=#s2#", "32.71%" },
 	};
 	SMFallenChampion = {
-		{ 7691, "INV_Helmet_28", "=q3=Embalmed Shroud", "=ds=#s1#, #a1#", "38.58%" },
-		{ 7690, "INV_Gauntlets_32", "=q3=Ebon Vise", "=ds=#s9#, #a2#", "37.83%" },
-		{ 7689, "INV_Sword_12", "=q3=Morbid Dawn", "=ds=#h2#, #w10#", "19.15%" },
+		--{ 7691, "INV_Helmet_28", "=q3=Embalmed Shroud", "=ds=#s1#, #a1#", "38.58%" },
+		--{ 7690, "INV_Gauntlets_32", "=q3=Ebon Vise", "=ds=#s9#, #a2#", "37.83%" },
+		--{ 7689, "INV_Sword_12", "=q3=Morbid Dawn", "=ds=#h2#, #w10#", "19.15%" },
 	};
 	SMBloodmageThalnos = {
-		{ 7685, "INV_Misc_Orb_02", "=q3=Orb of the Forgotten Seer", "=ds=#s15#", "47.07%" },
-		{ 0, "", "", "" },
-		{ 7684, "INV_Shoulder_05", "=q2=Bloodmage Mantle", "=ds=#s3#, #a1#", "48.46%" },
+		--{ 7685, "INV_Misc_Orb_02", "=q3=Orb of the Forgotten Seer", "=ds=#s15#", "47.07%" },
+		--{ 0, "", "", "" },
+		--{ 7684, "INV_Shoulder_05", "=q2=Bloodmage Mantle", "=ds=#s3#, #a1#", "48.46%" },
 	};
 	SMScorn = {
-		{ 23169, "INV_Jewelry_Necklace_03", "=q3=Scorn's Icy Choker", "=ds=#s2#", "27.49%" },
-		{ 23170, "INV_Gauntlets_11", "=q3=The Frozen Clutch", "=ds=#s9#, #a3#", "56.15%" },
-		{ 23168, "INV_Weapon_ShortBlade_07", "=q3=Scorn's Focal Dagger", "=ds=#h1#, #w4#", "16.36%" },
+		--{ 23169, "INV_Jewelry_Necklace_03", "=q3=Scorn's Icy Choker", "=ds=#s2#", "27.49%" },
+		--{ 23170, "INV_Gauntlets_11", "=q3=The Frozen Clutch", "=ds=#s9#, #a3#", "56.15%" },
+		--{ 23168, "INV_Weapon_ShortBlade_07", "=q3=Scorn's Focal Dagger", "=ds=#h1#, #w4#", "16.36%" },
 	};
 	SMTrash = {
 	};
@@ -6164,7 +6241,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 83167, "INV_Misc_Note_03", "=q3=Pattern: Vital Devilsaur Hide", "=ds=#m4#, #p7#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	BLTeremus = {
-		{ 0, "", "", "" },
+		{ 26430, "INV_Potion_13", "=q2=Tears of Teremus", "=ds=#m25, #m8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 83062, "INV_Weapon_ShortBlade_27", "=q4=Runt\'s Claw", "=ds=#h4#, #w13#", "", "", "", "", "", "", "", "", "", "", "", "N"},
 		{ 83073, "INV_Shield_24", "=q3=Blazing Scale", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 83074, "INV_Gauntlets_31", "=q3=City Guard Gauntlets", "=ds=#s9#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
