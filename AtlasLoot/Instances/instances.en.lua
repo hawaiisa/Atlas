@@ -536,9 +536,9 @@ AtlasLootBossButtons = {
 		"SMHerod";
 		"SMMichael";
 		"SMDoan";
-		"SMFairbanks";
 		"SMMograine";
 		"SMWhitemane";
+		"SMFairbanks";
 		"SMTrash";
 	};
 	Stratholme = {
@@ -3374,10 +3374,6 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 26421, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		--{ 7710, "INV_Staff_18", "=q3=Loksey's Training Stick", "=ds=#w9#", "13.96%" },
-		--{ 0, "", "", "" },
-		--{ 7756, "INV_Gauntlets_07", "=q2=Dog Training Gloves", "=ds=#s9#, #a2#", "53.66%" },
-		--{ 3456, "Ability_Hunter_BeastCall", "=q2=Dog Whistle", "=ds=#e15#", "21.33%" },
 	};
 	SMBrigitte = {
 		{ 26232, "INV_Scroll_04", "=q4=Scarlet Battle Orders", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
@@ -3400,7 +3396,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26349, "INV_Helmet_03", "=q4=Sunblaze Coif", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26350, "INV_Mace_01", "=q4=Relic Fight Club", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26356, "INV_Bracer_02", "=q4=Truestrike Bracers", "=ds=#s8#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		{ 0, "", "", "" },
+		{ 26357, "INV_Pants_06", "=q4=Kilt of Harmony", "=ds=#s11#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -3415,9 +3411,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 
 	};
 	SMDoan = {
-		{ 26288, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m43#)" },
-		{ 26289, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m44#)" },
-		{ 0, "", "", "" },
+		{ 26288, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m43#)", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26289, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m44#)", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26363, "INV_Chest_Cloth_25", "=q4=Robe of Doan", "=ds=#s5#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "M" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -3430,22 +3426,13 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 26426, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		--{ 7714, "INV_Weapon_ShortBlade_07", "=q3=Hypnotic Blade", "=ds=#h3#, #w4#", "39.91%" },
-		--{ 7713, "INV_Wand_04", "=q3=Illusionary Rod", "=ds=#w9#", "38.44%" },
-		--{ 0, "", "", "" },
-		--{ 7712, "INV_Shoulder_05", "=q2=Mantle of Doan", "=ds=#s3#, #a1#", "41.96%" },
-		--{ 7711, "INV_Chest_Cloth_25", "=q2=Robe of Doan", "=ds=#s5#, #a1#", "42.86%" },
-	};
-	SMDoansBox = {
-		--{ 0, "INV_Box_01", "=q6=#cb1#", "" },
-		--{ 7146, "INV_Misc_Key_01", "=q2=The Scarlet Key", "=ds=#e14#" },
 	};
 	SMHerod = {
+		{ 26337, "INV_Helmet_25", "=q4=Raging Berserker's Helm", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "M" },
 		{ 26340, "INV_Banner_03", "=q4=Banner of Challenge", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		{ 26341, "INV_Pants_06", "=q4=Kilt of Harmony", "=ds=#s11#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		{ 26342, "INV_Belt_06", "=q4=Scarlet Belt", "=ds=#s10#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "", "M" },
-		{ 26344, "INV_Boots_02", "=q4=Scarlet Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "", "M" },
-		{ 26349, "INV_Helmet_25", "=q4=Raging Berserker's Helm", "=ds=#s1#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26341, "INV_Bracer_03", "=q4=Scarlet Wristguards", "=ds=#s8#, #s3#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26342, "INV_Belt_06", "=q4=Scarlet Belt", "=ds=#s10#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26344, "INV_Boots_02", "=q4=Scarlet Boots", "=ds=#s12#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "M" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -3454,7 +3441,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
-		{ 0, "", "", "" },
+		{ 23192, "INV_Misc_Cape_18", "=q1=Tabard of the Scarlet Crusade", "=ds=#s7# =q7=#x64#" },
 		{ 26424, "INV_Box_02", "=q4=Reliquary of Light", "=ds=#m42#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		--{ 7718, "INV_Shoulder_01", "=q3=Herod's Shoulder", "=ds=#s3#, #a3#", "30.82%" },
 		--{ 10330, "INV_Pants_03", "=q3=Scarlet Leggings", "=ds=#s11#, #a3#", "12.75%" },
@@ -3510,7 +3497,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	SMVishas = {
 		{ 26324, "INV_Spear_01", "=q4=Torturing Poker", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "M" },
 		{ 26334, "INV_Mace_15", "=q4=Bonegrinder", "=ds=#h1#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		{ 26341, "INV_Helmet_48", "=q4=Trophy of the Quel\'dorei", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
+		{ 26331, "INV_Helmet_48", "=q4=Trophy of the Quel\'dorei", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },

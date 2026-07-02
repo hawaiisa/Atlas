@@ -5,7 +5,7 @@
 ## Notes-esES: Muestra el botín de los jefes
 ## Author: Hawaiisa
 ## Version: 5.06.01
-## X-Date: 2026-07-01
+## X-Date: 2026-07-02
 ## Author: Dan Gilbert, Daviesh, Thandrenn, Asurn, Loather, Rabidmax, Dazerdude, laytya, Lichery, Takeitboy, Hawaiisa, Lokiy
 ## X-Website: https://github.com/hawaiisa/Atlas
 ## X-Category: Map

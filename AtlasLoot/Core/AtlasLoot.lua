@@ -76,7 +76,7 @@ local BIS = AceLibrary("Babble-ItemSet-2.2")
 --Establish version number and compatible version of Atlas
 local VERSION_MAJOR = "5";
 local VERSION_MINOR = "06";
-local VERSION_BOSSES = "00";
+local VERSION_BOSSES = "01";
 ATLASLOOT_VERSION = "|cffFF8400AtlasLoot Enhanced for Vanilla+ v"..VERSION_MAJOR.."."..VERSION_MINOR.."."..VERSION_BOSSES.."|r";
 ATLASLOOT_CURRENT_ATLAS = "2.2.0";
 ATLASLOOT_PREVIEW_ATLAS = "2.1.7";
@@ -2602,9 +2602,9 @@ AtlasLoot_DewDropDown_SubTables = {
 		{ BB["Herod"], "SMHerod" },
 		{ AL["Brother Michael"], "SMMichael" },
 		{ AL["Doan"], "SMDoan" },
-		{ AL["Fairbanks"], "SMFairbanks" },
 		{ AL["Renault Mograine"], "SMMograine" },
 		{ AL["Sally Whitemane"], "SMWhitemane" },
+		{ AL["Fairbanks"], "SMFairbanks" },
 		{ AL["Trash Mobs"], "SMTrash" },
 	},
 	["Scholomance"] = {
