@@ -75,7 +75,6 @@ Atlas_EntToInstMatches = {
 	["UldamanEnt"] =				{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["SMEnt"] =						{"ScarletMonastery"};
 };
 
 --instance maps to entrance maps
@@ -95,7 +94,6 @@ Atlas_InstToEntMatches = {
 	["DireMaulEast"] =				{"DireMaulEnt"};
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
-	["ScarletMonastery"] =			{"SMEnt"};
 };
 
 --Links maps together that are part of the same instance
@@ -107,14 +105,13 @@ Atlas_SubZoneAssoc = {
 	["BlackrockSpireLower"] =		"Blackrock Spire";
 	["BlackrockSpireUpper"] =		"Blackrock Spire";
 	["BlackrockMountainEnt"] =		"Blackrock Spire";
-	["SMEnt"] =						"Scarlet Monastery";
 };
 
 --Default map to auto-select to when no SubZone data is available
 Atlas_AssocDefaults = {
 	["Dire Maul"] =					"DireMaulNorth";
 	["Blackrock Spire"] =			"BlackrockSpireLower";
-	["Scarlet Monastery"] =			"SMEnt";
+	["Scarlet Monastery"] =			"ScarletMonastery";
 };
 
 --Links SubZone values with specific instance maps
@@ -143,7 +140,7 @@ Atlas_SubZoneData = {
 	["The Furnace"] =				"BlackrockSpireUpper";
 	["Hordemar City"] =				"BlackrockSpireUpper";
 	["Spire Throne"] =				"BlackrockSpireUpper";
-	["The Grand Vestibule"] =		"SMEnt";
+	["The Grand Vestibule"] =		"ScarletMonastery";
 };
 
 --Maps to auto-select to from outdoor zones.
@@ -162,7 +159,7 @@ Atlas_OutdoorZoneToAtlas = {
 	["The Barrens"] =				"WailingCavernsEnt";
 	--["The Barrens"] =				"RazorfenKraul";
 	--["The Barrens"] =				"RazorfenDowns";
-	["Tirisfal Glades"]	=			"SMEnt";
+	["Tirisfal Glades"]	=			"ScarletMonastery";
 	["Westfall"] =					"TheDeadminesEnt";
 	["Orgrimmar"] =					"RagefireChasm";
 	["Dustwallow Marsh"] =			"OnyxiasLair";

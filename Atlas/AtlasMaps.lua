@@ -1196,17 +1196,6 @@ AtlasMaps = {
 		{ GREY..INDENT..AL["Elder Mistwalker"].." ("..AL["Lunar Festival"]..")", NPC, 15587 };
 		{ GREY.."3) "..AL["Griniblix the Spectator"], NPC, 14395 };
 	};
-	SMEnt = {
-		ZoneName = { BZ["Scarlet Monastery"].." ("..AL["Entrance"]..")", 796 };
-		Location = { BZ["Tirisfal Glades"], 85 };
-		Acronym = "SM";
-		Continent = BZ["Eastern Kingdoms"];
-		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) "..AL["Graveyard"], ZONE, 796 };
-		{ BLUE.."C) "..AL["Cathedral"], ZONE, 796 };
-		{ BLUE.."D) "..AL["Armory"], ZONE, 796 };
-		{ BLUE.."E) "..AL["Library"], ZONE, 796 };
-	};
 	Azuregos = {
 		ZoneName = { BB["Azuregos"], NPC, 6109 };
 		Location = { BZ["Azshara"], ZONE, 16 };

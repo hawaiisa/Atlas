@@ -216,7 +216,6 @@ local EntToInstMatches = {
 	["UldamanEnt"] =				{"Uldaman"};
 	["WailingCavernsEnt"] =			{"WailingCaverns"};
 	["DireMaulEnt"] =				{"DireMaulEast","DireMaulNorth","DireMaulWest"};
-	["SMEnt"] =						{"ScarletMonastery"};
 };
 
 --instance maps to entrance maps
@@ -236,7 +235,6 @@ local InstToEntMatches = {
 	["DireMaulEast"] =				{"DireMaulEnt"};
 	["DireMaulNorth"] =				{"DireMaulEnt"};
 	["DireMaulWest"] =				{"DireMaulEnt"};
-	["ScarletMonastery"] =			{"SMEnt"};
 };
 
 --[[
