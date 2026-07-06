@@ -3414,7 +3414,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 		{ 26288, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m43#)", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26289, "INV_Misc_Gem_Opal_03", "=q4=Enchanted Prism Halo", "=ds=#s1# (#m44#)", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26363, "INV_Chest_Cloth_25", "=q4=Robe of Doan", "=ds=#s5#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "M" },
-		{ 0, "", "", "" },
+		{ 26368, "INV_Misc_Cape_18", "=q4=Duelist’s Spellmantle", "=ds=#s4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
