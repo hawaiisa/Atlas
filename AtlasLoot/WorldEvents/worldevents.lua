@@ -327,7 +327,7 @@ AtlasLoot_Data["AtlasLootWorldEvents"] = {
 		{ 23123, "INV_Potion_26", "=q2=Blessed Wizard Oil", "=ds=#m27#" },
 		{ 23122, "INV_Stone_SharpeningStone_02", "=q2=Consecrated Sharpening Stone", "=ds=#m27#" },
 		{ 22999, "INV_Shirt_GuildTabard_01", "=q1=Tabard of the Argent Dawn", "=ds=#s7#" },
-		{ 22484, "INV_Stone_02", "=q1=Necrotic Rune", "=ds=#m20#" },
+		{ 22484, "INV_Stone_02", "=q2=Necrotic Rune", "=ds=#m20#" },
 		{ 0,"","","" },
 		{ 0, "INV_Jewelry_Talisman_13", "=q6=#oth_s11#", "=ec1=#a1#" },
 		{ 23085, "INV_Chest_Cloth_04", "=q3=Robe of Undead Cleansing", "=ds=#s5#, #a1#", "" },

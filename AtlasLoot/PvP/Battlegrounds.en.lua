@@ -406,7 +406,7 @@ AtlasLoot_Data["AtlasLootBGItems"] = {
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "INV_BannerPVP_01", "=q6=#m6#", "=q5=#b8#" },
-		{ 26151, "INV_Mace_11", "=ds=Battle Healer's Totem", "=ds=#h1#, #w6#" },
+		{ 26151, "INV_Mace_11", "=q3=Battle Healer's Totem", "=ds=#h1#, #w6#" },
 		{ 26152, "INV_Weapon_ShortBlade_12", "=q3=Battle Mage's Rod", "=ds=#h1#, #w4#" },
 		{ 26153, "INV_Staff_14", "=q3=Stick of the Shapeshifter", "=ds=#h2#, #w9#" },
 		{ 26154, "INV_Weapon_Rifle_03", "=q3=Rattlesnake Storm Bolter", "=ds=#w5#" },

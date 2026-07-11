@@ -207,10 +207,10 @@ AtlasLoot_Data["AtlasLootWBItems"] = {
 		{ 20381, "INV_Misc_MonsterScales_11", "=q2=Dreamscale", "=ds=#e12# =q5=#p16# (315)" },
 	};
 	DTrash	= {
-		{ 21146, "Spell_Shadow_AntiMagicShell", "=q1=Fragment of the Nightmare's Corruption", "=ds=#m3#", "1%" },
-		{ 21147, "Spell_Shadow_AntiMagicShell", "=q1=Fragment of the Nightmare's Corruption", "=ds=#m3#", "1%" },
-		{ 21148, "Spell_Shadow_AntiMagicShell", "=q1=Fragment of the Nightmare's Corruption", "=ds=#m3#", "1%" },
-		{ 21149, "Spell_Shadow_AntiMagicShell", "=q1=Fragment of the Nightmare's Corruption", "=ds=#m3# =q7=#x71#", "100%" },
+		{ 21146, "Spell_Shadow_AntiMagicShell", "=q3=Fragment of the Nightmare's Corruption", "=ds=#m3#", "1%" },
+		{ 21147, "Spell_Shadow_AntiMagicShell", "=q3=Fragment of the Nightmare's Corruption", "=ds=#m3#", "1%" },
+		{ 21148, "Spell_Shadow_AntiMagicShell", "=q3=Fragment of the Nightmare's Corruption", "=ds=#m3#", "1%" },
+		{ 21149, "Spell_Shadow_AntiMagicShell", "=q3=Fragment of the Nightmare's Corruption", "=ds=#m3# =q7=#x71#", "100%" },
 	};
 	AAzuregos = {
 		{ 19132, "INV_Crown_01", "=q4=Crystal Adorned Crown", "=ds=#s1#, #a1#", "13.54%" },
