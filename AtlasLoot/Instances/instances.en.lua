@@ -3446,9 +3446,9 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	};
 	SMFairbanks = {
 		{ 26371, "INV_Brancer_11", "=q4=Branded Leather Bracers", "=ds=#s8#, #a2#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26374, "INV_Hammer_06", "=q4=Hand of Retribution", "=ds=#h3#, #w6#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26377, "INV_Misc_Bell_01", "=q4=The Wall\'s Chime", "=ds=#s14#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26380, "INV_Offhand_Stratholme_A_02", "=q4=Relic of Forbearance", "=ds=#s16#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -3464,7 +3464,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	SMMograine = {
 		{ 26302, "inv_shield_lordaeron", "=q4=Aegis of the Scarlet Commander", "=ds=#w8#", "", "", "", "", "", "", "", "", "", "", "", "M" },
 		{ 26346, "INV_Chest_Chain_07", "=q4=Scarlet Chestpiece", "=ds=#s5#, #a3#", "", "", "", "", "", "", "", "", "", "", "", "N" },
-		{ 0, "", "", "" },
+		{ 26384, "ability_warrior_innerrage", "=q4=Helm of Zeal", "=ds=#s1#, #a4#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
 		{ 0, "", "", "" },
@@ -3481,6 +3481,7 @@ AtlasLoot_Data["AtlasLootItems"] = {
 	SMWhitemane = {
 		{ 26286, "Spell_Holy_PersuitofJustice", "=q4=Scorching Judgement", "=ds=#h2#, #w10#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 		{ 26391, "INV_Helmet_12", "=q4=Whitemane's Chapeau", "=ds=#s1#, #a1#", "", "", "", "", "", "", "", "", "", "", "", "M" },
+		{ 26395, "INV_Staff_29", "=q4=Purge", "=ds=#w9#", "", "", "", "", "", "", "", "", "", "", "", "N" },
 	};
 	SMVishas = {
 		{ 26324, "INV_Spear_01", "=q4=Torturing Poker", "=ds=#h1#, #w4#", "", "", "", "", "", "", "", "", "", "", "", "M" },
